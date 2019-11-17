@@ -1,0 +1,50 @@
+This is BibTeX, Version 0.99d (TeX Live 2017/Debian)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: gait_thesis.aux
+The style file: ieeetr.bst
+Database file #1: buet_msc_thesis.bib
+Warning--empty publisher in davila2007pampa
+Warning--empty journal in bailey1994fitting
+Warning--can't use both author and editor fields in Riethoven2010
+You've used 24 entries,
+            1876 wiz_defined-function locations,
+            637 strings with 7893 characters,
+and the built_in function-call counts, 7338 in all, are:
+= -- 771
+> -- 225
+< -- 0
++ -- 84
+- -- 60
+* -- 496
+:= -- 973
+add.period$ -- 25
+call.type$ -- 24
+change.case$ -- 23
+chr.to.int$ -- 0
+cite$ -- 27
+duplicate$ -- 396
+empty$ -- 700
+format.name$ -- 60
+if$ -- 1825
+int.to.chr$ -- 0
+int.to.str$ -- 24
+missing$ -- 24
+newline$ -- 76
+num.names$ -- 24
+pop$ -- 78
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 304
+stack$ -- 0
+substring$ -- 582
+swap$ -- 185
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 3
+while$ -- 78
+width$ -- 26
+write$ -- 244
+(There were 3 warnings)

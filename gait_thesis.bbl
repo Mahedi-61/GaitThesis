@@ -1,0 +1,117 @@
+\begin{thebibliography}{10}
+
+\bibitem{dinh2012qpms7}
+H.~Dinh, S.~Rajasekaran, and J.~Davila, ``qpms7: A fast algorithm for finding
+  (ℓ, d)-motifs in dna and protein sequences,'' {\em PloS one}, vol.~7,
+  no.~7, p.~e41425, 2012.
+
+\bibitem{duret1997searching}
+L.~Duret and P.~Bucher, ``Searching for regulatory elements in human noncoding
+  sequences,'' {\em Current opinion in structural biology}, vol.~7, no.~3,
+  pp.~399--406, 1997.
+
+\bibitem{pal2016efficient}
+S.~Pal, P.~Xiao, and S.~Rajasekaran, ``Efficient sequential and parallel
+  algorithms for finding edit distance based motifs,'' {\em BMC genomics},
+  vol.~17, no.~4, p.~465, 2016.
+
+\bibitem{rajasekaran20091}
+S.~Rajasekaran, ``1. abstract 2. introduction 3. experimental techniques 4.
+  computational techniques 4.1. statistics based techniques 4.2. discrete
+  algorithmic techniques,'' {\em Frontiers in Bioscience}, vol.~14,
+  pp.~5052--5065, 2009.
+
+\bibitem{frances1997covering}
+M.~Frances and A.~Litman, ``On covering problems of codes,'' {\em Theory of
+  Computing Systems}, vol.~30, no.~2, pp.~113--119, 1997.
+
+\bibitem{nicolae2015qpms9}
+M.~Nicolae and S.~Rajasekaran, ``qpms9: an efficient algorithm for quorum
+  planted motif search,'' {\em Scientific reports}, vol.~5, 2015.
+
+\bibitem{nicolae2014efficient}
+M.~Nicolae and S.~Rajasekaran, ``Efficient sequential and parallel algorithms
+  for planted motif search,'' {\em BMC bioinformatics}, vol.~15, no.~1, p.~34,
+  2014.
+
+\bibitem{davila2007pampa}
+J.~Davila, S.~Balla, and S.~Rajasekaran, ``Pampa: An improved branch and bound
+  algorithm for planted (l, d) motif search,'' in {\em Tech. rep}, 2007.
+
+\bibitem{davila2007fast}
+J.~Davila, S.~Balla, and S.~Rajasekaran, ``Fast and practical algorithms for
+  planted (l, d) motif search,'' {\em IEEE/ACM Transactions on Computational
+  Biology and Bioinformatics (TCBB)}, vol.~4, no.~4, pp.~544--552, 2007.
+
+\bibitem{bandyopadhyay2013pms6mc}
+S.~Bandyopadhyay, S.~Sahni, and S.~Rajasekaran, ``Pms6mc: A multicore algorithm
+  for motif discovery,'' {\em Algorithms}, vol.~6, no.~4, pp.~805--823, 2013.
+
+\bibitem{chin2005voting}
+F.~Y. Chin and H.~C. Leung, ``Voting algorithms for discovering long motifs.,''
+  in {\em APBC}, pp.~261--271, 2005.
+
+\bibitem{pisanti2006risotto}
+N.~Pisanti, A.~M. Carvalho, L.~Marsan, and M.-F. Sagot, ``Risotto: Fast
+  extraction of motifs with mismatches,'' in {\em Latin American Symposium on
+  Theoretical Informatics}, pp.~757--768, Springer, 2006.
+
+\bibitem{bailey1994fitting}
+T.~L. Bailey, C.~Elkan, {\em et~al.}, ``Fitting a mixture model by expectation
+  maximization to discover motifs in bipolymers,'' 1994.
+
+\bibitem{buhler2002finding}
+J.~Buhler and M.~Tompa, ``Finding motifs using random projections,'' {\em
+  Journal of computational biology}, vol.~9, no.~2, pp.~225--242, 2002.
+
+\bibitem{lawrence1993detecting}
+C.~E. Lawrence, S.~F. Altschul, M.~S. Boguski, J.~S. Liu, A.~F. Neuwald, J.~C.
+  Wootton, {\em et~al.}, ``Detecting subtle sequence signals: a gibbs sampling
+  strategy for multiple alignment,'' {\em SCIENCE-NEW YORK THEN WASHINGTON-},
+  vol.~262, pp.~208--208, 1993.
+
+\bibitem{pevzner2000combinatorial}
+P.~A. Pevzner, S.-H. Sze, {\em et~al.}, ``Combinatorial approaches to finding
+  subtle signals in dna sequences.,'' in {\em ISMB}, vol.~8, pp.~269--278,
+  2000.
+
+\bibitem{rocke1998algorithm}
+E.~Rocke and M.~Tompa, ``An algorithm for finding novel gapped motifs in dna
+  sequences,'' in {\em Proceedings of the second annual international
+  conference on Computational molecular biology}, pp.~228--233, ACM, 1998.
+
+\bibitem{keich2002finding}
+U.~Keich and P.~A. Pevzner, ``Finding motifs in the twilight zone,'' in {\em
+  Proceedings of the sixth annual international conference on Computational
+  biology}, pp.~195--204, ACM, 2002.
+
+\bibitem{price2003finding}
+A.~Price, S.~Ramabhadran, and P.~A. Pevzner, ``Finding subtle motifs by
+  branching from sample strings,'' {\em Bioinformatics}, vol.~19, no.~suppl 2,
+  pp.~ii149--ii155, 2003.
+
+\bibitem{hertz1999identifying}
+G.~Z. Hertz and G.~D. Stormo, ``Identifying dna and protein patterns with
+  statistically significant alignments of multiple sequences.,'' {\em
+  Bioinformatics}, vol.~15, no.~7, pp.~563--577, 1999.
+
+\bibitem{jones2004introduction}
+N.~C. Jones and P.~Pevzner, ``An introduction to bioinformatics algorithms,''
+  2004.
+
+\bibitem{Riethoven2010}
+J.-J.~M. Riethoven, {\em Regulatory Regions in DNA: Promoters, Enhancers,
+  Silencers, and Insulators}, pp.~33--42.
+\newblock Totowa, NJ: Humana Press, 2010.
+
+\bibitem{wei2007comparative}
+W.~Wei and X.-D. Yu, ``Comparative analysis of regulatory motif discovery tools
+  for transcription factor binding sites,'' {\em Genomics, proteomics \&
+  bioinformatics}, vol.~5, no.~2, pp.~131--142, 2007.
+
+\bibitem{tanaka2014improved}
+S.~Tanaka, ``Improved exact enumerative algorithms for the planted ($ l $, $ d
+  $)-motif search problem,'' {\em IEEE/ACM Transactions on Computational
+  Biology and Bioinformatics}, vol.~11, no.~2, pp.~361--374, 2014.
+
+\end{thebibliography}
