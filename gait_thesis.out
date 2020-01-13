@@ -6,62 +6,34 @@
 \BOOKMARK [0][-]{section*.2}{List of Algorithms}{}% 6
 \BOOKMARK [0][-]{chapter*.3}{ABSTRACT}{}% 7
 \BOOKMARK [0][-]{chapter.1}{Introduction}{}% 8
-\BOOKMARK [1][-]{section.1.1}{What are Motifs}{chapter.1}% 9
-\BOOKMARK [2][-]{subsection.1.1.1}{Importance of Studying Motifs}{section.1.1}% 10
-\BOOKMARK [2][-]{subsection.1.1.2}{Regulatory Regions and Transcription Factor Binding Sites}{section.1.1}% 11
-\BOOKMARK [1][-]{section.1.2}{The Motif Finding Problem}{chapter.1}% 12
-\BOOKMARK [2][-]{subsection.1.2.1}{Classification of Motif Searching Algorithms}{section.1.2}% 13
-\BOOKMARK [2][-]{subsection.1.2.2}{Combinatorial Approach}{section.1.2}% 14
-\BOOKMARK [2][-]{subsection.1.2.3}{Planted Motif Search \(PMS\)}{section.1.2}% 15
-\BOOKMARK [2][-]{subsection.1.2.4}{Quorum Planted Motif Search \(qPMS\)}{section.1.2}% 16
-\BOOKMARK [2][-]{subsection.1.2.5}{Formal Definitions of qPMS}{section.1.2}% 17
-\BOOKMARK [1][-]{section.1.3}{Literature Review}{chapter.1}% 18
-\BOOKMARK [2][-]{subsection.1.3.1}{Exact PMS Algorithms}{section.1.3}% 19
-\BOOKMARK [2][-]{subsection.1.3.2}{Approximate PMS Algorithms}{section.1.3}% 20
-\BOOKMARK [0][-]{chapter.2}{Preliminaries}{}% 21
-\BOOKMARK [1][-]{section.2.1}{What is Life Made of}{chapter.2}% 22
-\BOOKMARK [2][-]{subsection.2.1.1}{Cells}{section.2.1}% 23
-\BOOKMARK [2][-]{subsection.2.1.2}{Life Cycle of a Cell}{section.2.1}% 24
-\BOOKMARK [2][-]{subsection.2.1.3}{Types of Cells}{section.2.1}% 25
-\BOOKMARK [1][-]{section.2.2}{Genetic Material of Life}{chapter.2}% 26
-\BOOKMARK [2][-]{subsection.2.2.1}{Genes}{section.2.2}% 27
-\BOOKMARK [2][-]{subsection.2.2.2}{DNA}{section.2.2}% 28
-\BOOKMARK [2][-]{subsection.2.2.3}{RNA}{section.2.2}% 29
-\BOOKMARK [2][-]{subsection.2.2.4}{Protein}{section.2.2}% 30
-\BOOKMARK [2][-]{subsection.2.2.5}{Mutation}{section.2.2}% 31
-\BOOKMARK [1][-]{section.2.3}{What Carries Information Between DNA to Proteins}{chapter.2}% 32
-\BOOKMARK [2][-]{subsection.2.3.1}{Central Dogma of Molecular Biology}{section.2.3}% 33
-\BOOKMARK [2][-]{subsection.2.3.2}{DNARNA: Transcription}{section.2.3}% 34
-\BOOKMARK [2][-]{subsection.2.3.3}{RNAProtein: Translation}{section.2.3}% 35
-\BOOKMARK [1][-]{section.2.4}{Motifs in Details}{chapter.2}% 36
-\BOOKMARK [2][-]{subsection.2.4.1}{Sequence Motifs}{section.2.4}% 37
-\BOOKMARK [2][-]{subsection.2.4.2}{Structural Motifs}{section.2.4}% 38
-\BOOKMARK [2][-]{subsection.2.4.3}{Regulatory Motifs in DNA}{section.2.4}% 39
-\BOOKMARK [2][-]{subsection.2.4.4}{Regulatory Regions}{section.2.4}% 40
-\BOOKMARK [2][-]{subsection.2.4.5}{Transcription Factor Binding Sites}{section.2.4}% 41
-\BOOKMARK [1][-]{section.2.5}{To The Motif Finding Problem}{chapter.2}% 42
-\BOOKMARK [2][-]{subsection.2.5.1}{Alignment Matrix}{section.2.5}% 43
-\BOOKMARK [2][-]{subsection.2.5.2}{Profile Matrix}{section.2.5}% 44
-\BOOKMARK [2][-]{subsection.2.5.3}{Consensus String}{section.2.5}% 45
-\BOOKMARK [2][-]{subsection.2.5.4}{Evaluating Motifs}{section.2.5}% 46
-\BOOKMARK [2][-]{subsection.2.5.5}{Defining The Motif Finding Problem}{section.2.5}% 47
-\BOOKMARK [0][-]{chapter.3}{Our Approach}{}% 48
-\BOOKMARK [1][-]{section.3.1}{Notations and Definitions}{chapter.3}% 49
-\BOOKMARK [1][-]{section.3.2}{Previous Works}{chapter.3}% 50
-\BOOKMARK [2][-]{subsection.3.2.1}{qPMSPrune}{section.3.2}% 51
-\BOOKMARK [2][-]{subsection.3.2.2}{qPMS7}{section.3.2}% 52
-\BOOKMARK [2][-]{subsection.3.2.3}{TraverStringRef}{section.3.2}% 53
-\BOOKMARK [2][-]{subsection.3.2.4}{PMS8}{section.3.2}% 54
-\BOOKMARK [1][-]{section.3.3}{Our Proposal qPMS-Sigma}{chapter.3}% 55
-\BOOKMARK [2][-]{subsection.3.3.1}{String Compression}{section.3.3}% 56
-\BOOKMARK [2][-]{subsection.3.3.2}{Motif Finding}{section.3.3}% 57
-\BOOKMARK [2][-]{subsection.3.3.3}{Parallel Implementation of qPMS-Sigma}{section.3.3}% 58
-\BOOKMARK [1][-]{section.3.4}{Space and Runtime Complexity}{chapter.3}% 59
-\BOOKMARK [1][-]{section.3.5}{Experimental Results}{chapter.3}% 60
-\BOOKMARK [0][-]{chapter.4}{Conclusion}{}% 61
-\BOOKMARK [1][-]{section.4.1}{Summary of Our Work}{chapter.4}% 62
-\BOOKMARK [1][-]{section.4.2}{Future Prospects of Our Work}{chapter.4}% 63
-\BOOKMARK [0][-]{section.4.2}{References}{}% 64
-\BOOKMARK [0][-]{section*.53}{Index}{}% 65
-\BOOKMARK [0][-]{appendix.A}{Codes}{}% 66
-\BOOKMARK [1][-]{section.A.1}{Compressed String}{appendix.A}% 67
+\BOOKMARK [1][-]{section.1.1}{What is Gait Recognition}{chapter.1}% 9
+\BOOKMARK [1][-]{section.1.2}{Importance of Gait Recognition}{chapter.1}% 10
+\BOOKMARK [1][-]{section.1.3}{Challenges Gait Recognition}{chapter.1}% 11
+\BOOKMARK [0][-]{chapter.2}{Literature Review}{}% 12
+\BOOKMARK [1][-]{section.2.1}{Gait recognition}{chapter.2}% 13
+\BOOKMARK [1][-]{section.2.2}{Deep learning for gait recognition}{chapter.2}% 14
+\BOOKMARK [1][-]{section.2.3}{Pose-Based gait recognition}{chapter.2}% 15
+\BOOKMARK [0][-]{chapter.3}{Methodology}{}% 16
+\BOOKMARK [1][-]{section.3.1}{Notations and Definitions}{chapter.3}% 17
+\BOOKMARK [1][-]{section.3.2}{Previous Works}{chapter.3}% 18
+\BOOKMARK [2][-]{subsection.3.2.1}{qPMSPrune}{section.3.2}% 19
+\BOOKMARK [2][-]{subsection.3.2.2}{qPMS7}{section.3.2}% 20
+\BOOKMARK [2][-]{subsection.3.2.3}{TraverStringRef}{section.3.2}% 21
+\BOOKMARK [2][-]{subsection.3.2.4}{PMS8}{section.3.2}% 22
+\BOOKMARK [1][-]{section.3.3}{Our Proposal qPMS-Sigma}{chapter.3}% 23
+\BOOKMARK [2][-]{subsection.3.3.1}{String Compression}{section.3.3}% 24
+\BOOKMARK [2][-]{subsection.3.3.2}{Motif Finding}{section.3.3}% 25
+\BOOKMARK [2][-]{subsection.3.3.3}{Parallel Implementation of qPMS-Sigma}{section.3.3}% 26
+\BOOKMARK [1][-]{section.3.4}{Space and Runtime Complexity}{chapter.3}% 27
+\BOOKMARK [1][-]{section.3.5}{Experimental Results}{chapter.3}% 28
+\BOOKMARK [0][-]{chapter.4}{Results \046 Discussion}{}% 29
+\BOOKMARK [1][-]{section.4.1}{A Section}{chapter.4}% 30
+\BOOKMARK [2][-]{subsection.4.1.1}{This is a Subsection}{section.4.1}% 31
+\BOOKMARK [1][-]{section.4.2}{And Another Section}{chapter.4}% 32
+\BOOKMARK [0][-]{chapter.5}{Conclusion}{}% 33
+\BOOKMARK [1][-]{section.5.1}{Summary of Our Work}{chapter.5}% 34
+\BOOKMARK [1][-]{section.5.2}{Future Prospects of Our Work}{chapter.5}% 35
+\BOOKMARK [0][-]{section.5.2}{References}{}% 36
+\BOOKMARK [0][-]{section*.27}{Index}{}% 37
+\BOOKMARK [0][-]{appendix.A}{Codes}{}% 38
+\BOOKMARK [1][-]{section.A.1}{Compressed String}{appendix.A}% 39

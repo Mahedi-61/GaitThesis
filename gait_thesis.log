@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.7.14)  17 NOV 2019 23:02
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.7.14)  12 JAN 2020 20:31
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -728,15 +728,15 @@ e
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
-* h-part:(L,W,R)=(72.41225pt, 452.82565pt, 72.26997pt)
-* v-part:(T,H,B)=(72.26997pt, 700.5069pt, 72.26997pt)
+* h-part:(L,W,R)=(90.3375pt, 416.83289pt, 90.3375pt)
+* v-part:(T,H,B)=(90.3375pt, 664.37186pt, 90.3375pt)
 * \paperwidth=597.50787pt
 * \paperheight=845.04684pt
-* \textwidth=452.82565pt
-* \textheight=700.5069pt
-* \oddsidemargin=0.14226pt
-* \evensidemargin=0.14226pt
-* \topmargin=-37.00002pt
+* \textwidth=416.83289pt
+* \textheight=664.37186pt
+* \oddsidemargin=18.0675pt
+* \evensidemargin=18.0675pt
+* \topmargin=-18.9325pt
 * \headheight=12.0pt
 * \headsep=25.0pt
 * \topskip=12.0pt
@@ -789,7 +789,7 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <17.28> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 16.
  (./parameters/thesistitle.txt)
-<figures/buetlogo.png, id=271, 456.20438pt x 457.10776pt>
+<figures/buetlogo.png, id=158, 456.20438pt x 457.10776pt>
 File: figures/buetlogo.png Graphic file (type png)
 <use figures/buetlogo.png>
 Package pdftex.def Info: figures/buetlogo.png  used on input line 16.
@@ -802,11 +802,6 @@ Package pdftex.def Info: figures/buetlogo.png  used on input line 16.
 
 ]
 (./parameters/thesistitle.txt) (./parameters/thesisdate.txt)
-Overfull \hbox (2.39096pt too wide) in paragraph at lines 16--16
-\OT1/ptm/b/n/12 Surveil-lance Cam-era En-vi-ron-ment''\OT1/ptm/m/n/12 , sub-mit
--ted by Md Ma-hedi Hasan, Roll No.: 1014312019,
- []
-
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 16.
 
@@ -857,34 +852,34 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <12> not available
 (Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1.
  [4
 
-] [5])
+])
 \tf@toc=\write6
 \openout6 = `gait_thesis.toc'.
 
- [6] (./gait_thesis.lof)
+ [5] (./gait_thesis.lof)
 \tf@lof=\write7
 \openout7 = `gait_thesis.lof'.
 
- [7
+ [6
 
 ] (./gait_thesis.lot)
 \tf@lot=\write8
 \openout8 = `gait_thesis.lot'.
 
 
-[8
+[7
 
 ] (./gait_thesis.loa)
 \tf@loa=\write9
 \openout9 = `gait_thesis.loa'.
 
- [9
+ [8
 
 
 ] (./abstract.tex
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 6.
-) [10
+) [9
 
 ]
 (/usr/share/texlive/texmf-dist/tex/latex/fmtcount/fc-english.def
@@ -896,195 +891,77 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.11 
-      [1
+l.7 
+     [1
 
 
 ]
-<figures/sindex.JPG, id=497, 435.87843pt x 264.99pt>
-File: figures/sindex.JPG Graphic file (type jpg)
-<use figures/sindex.JPG>
-Package pdftex.def Info: figures/sindex.JPG  used on input line 21.
-(pdftex.def)             Requested size: 271.69815pt x 165.1776pt.
-LaTeX Font Info:    Try loading font information for OMS+ptm on input line 29.
+LaTeX Font Info:    Try loading font information for OMS+ptm on input line 15.
  (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omsptm.fd
 File: omsptm.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 29.
-
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 15.
+)
+(./literature_review.tex
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[2] [3 <./figures/sindex.JPG>] [4] [5]) (./preliminaries.tex [6]
+[2] [3]
 Chapter 2.
-<figures/cellcycle.png, id=565, 592.46344pt x 355.3275pt>
-File: figures/cellcycle.png Graphic file (type png)
-<use figures/cellcycle.png>
-Package pdftex.def Info: figures/cellcycle.png  used on input line 27.
-(pdftex.def)             Requested size: 362.2619pt x 217.26994pt.
-[7
+
+Overfull \hbox (13.59062pt too wide) in paragraph at lines 6--7
+\OT1/ptm/m/n/12 Gait Recog-ni-tion tech-niques can gen-er-ally be clas-si-fied 
+into two cat-e-gories: 1) appearance-
+ []
+
+[4
 
 ]
-<figures/celltype.jpg, id=570, 366.61969pt x 177.66376pt>
-File: figures/celltype.jpg Graphic file (type jpg)
-<use figures/celltype.jpg>
-Package pdftex.def Info: figures/celltype.jpg  used on input line 43.
-(pdftex.def)             Requested size: 316.97656pt x 153.61467pt.
-Missing character: There is no â in font ptmr7t!
-Missing character: There is no € in font ptmr7t!
-Missing character: There is no ™ in font ptmr7t!
- [8 <./figures/cellcycle.png> <./figures/celltype.jpg>]
-Missing character: There is no â in font ptmr7t!
-Missing character: There is no € in font ptmr7t!
-Missing character: There is no ™ in font ptmr7t!
- [9]
-<figures/dna.jpg, id=580, 401.5pt x 401.5pt>
-File: figures/dna.jpg Graphic file (type jpg)
-<use figures/dna.jpg>
-Package pdftex.def Info: figures/dna.jpg  used on input line 75.
-(pdftex.def)             Requested size: 316.97656pt x 316.99773pt.
-<figures/dna2.jpg, id=581, 473.1276pt x 438.9198pt>
-File: figures/dna2.jpg Graphic file (type jpg)
-<use figures/dna2.jpg>
-Package pdftex.def Info: figures/dna2.jpg  used on input line 85.
-(pdftex.def)             Requested size: 316.97656pt x 294.05464pt.
- [10 <./figures/dna.jpg>]
-<figures/trna.jpeg, id=586, 890.32625pt x 360.34625pt>
-File: figures/trna.jpeg Graphic file (type jpg)
-<use figures/trna.jpeg>
-Package pdftex.def Info: figures/trna.jpeg  used on input line 97.
-(pdftex.def)             Requested size: 407.54031pt x 164.94751pt.
- [11 <./figures/dna2.jpg> <./figures/trna.jpeg>]
-<figures/protein.jpg, id=591, 770.88pt x 472.76625pt>
-File: figures/protein.jpg Graphic file (type jpg)
-<use figures/protein.jpg>
-Package pdftex.def Info: figures/protein.jpg  used on input line 114.
-(pdftex.def)             Requested size: 362.2619pt x 222.1641pt.
- [12 <./figures/protein.jpg>]
-Missing character: There is no â in font ptmr7t!
-Missing character: There is no € in font ptmr7t!
-Missing character: There is no ™ in font ptmr7t!
-Missing character: There is no â in font ptmr7t!
-Missing character: There is no € in font ptmr7t!
-Missing character: There is no ™ in font ptmr7t!
-<figures/dogma.jpg, id=598, 677.53125pt x 164.86594pt>
-File: figures/dogma.jpg Graphic file (type jpg)
-<use figures/dogma.jpg>
-Package pdftex.def Info: figures/dogma.jpg  used on input line 151.
-(pdftex.def)             Requested size: 407.54031pt x 99.17188pt.
+
+LaTeX Warning: Citation `Wu' on page 5 undefined on input line 13.
 
 
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 156.
+LaTeX Warning: Citation `Yu02' on page 5 undefined on input line 13.
 
 
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                \kern 2.00043pt
-(hyperref)                removed on input line 156.
+Overfull \hbox (1.02785pt too wide) in paragraph at lines 13--14
+\OT1/ptm/m/n/12 deep learning-based meth-ods have sig-nif-i-cantly im-proved th
+e per-for-mance of gait recog-
+ []
 
 
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\to' on input line 156.
+LaTeX Warning: Citation `Cao' on page 5 undefined on input line 18.
 
 
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                \kern 2.00043pt
-(hyperref)                removed on input line 156.
+LaTeX Warning: Citation `Feng' on page 5 undefined on input line 20.
 
 
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 156.
-
-[13]
-<figures/transcription.png, id=604, 394.47375pt x 325.215pt>
-File: figures/transcription.png Graphic file (type png)
-<use figures/transcription.png>
-Package pdftex.def Info: figures/transcription.png  used on input line 165.
-(pdftex.def)             Requested size: 362.2619pt x 298.66052pt.
-<figures/splicing.JPG, id=605, 316.18124pt x 158.84344pt>
-File: figures/splicing.JPG Graphic file (type jpg)
-<use figures/splicing.JPG>
-Package pdftex.def Info: figures/splicing.JPG  used on input line 174.
-(pdftex.def)             Requested size: 271.69815pt x 136.50574pt.
+LaTeX Warning: Citation `Liao' on page 5 undefined on input line 20.
 
 
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 179.
+LaTeX Warning: Citation `Feng' on page 5 undefined on input line 20.
 
 
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                \kern 2.00043pt
-(hyperref)                removed on input line 179.
+LaTeX Warning: Citation `Liao' on page 5 undefined on input line 20.
+
+[5]
+
+LaTeX Warning: Citation `Song' on page 6 undefined on input line 22.
 
 
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\to' on input line 179.
+LaTeX Warning: Citation `Du' on page 6 undefined on input line 22.
 
 
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                \kern 2.00043pt
-(hyperref)                removed on input line 179.
+LaTeX Warning: Citation `Song' on page 6 undefined on input line 22.
 
 
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 179.
+LaTeX Warning: Citation `Du' on page 6 undefined on input line 22.
 
-[14 <./figures/dogma.jpg>]
-<figures/codon.jpg, id=614, 1565.85pt x 1748.37808pt>
-File: figures/codon.jpg Graphic file (type jpg)
-<use figures/codon.jpg>
-Package pdftex.def Info: figures/codon.jpg  used on input line 192.
-(pdftex.def)             Requested size: 271.69815pt x 303.3563pt.
- [15 <./figures/transcription.png> <./figures/splicing.JPG>] [16 <./figures/cod
-on.jpg>]
-<figures/rr.png, id=627, 642.4pt x 345.29pt>
-File: figures/rr.png Graphic file (type png)
-<use figures/rr.png>
-Package pdftex.def Info: figures/rr.png  used on input line 259.
-(pdftex.def)             Requested size: 407.54031pt x 219.05649pt.
-Missing character: There is no â in font ptmr7t!
-Missing character: There is no € in font ptmr7t!
-Missing character: There is no ™ in font ptmr7t!
- [17]
-<figures/tfbs.png, id=637, 451.6875pt x 54.9553pt>
-File: figures/tfbs.png Graphic file (type png)
-<use figures/tfbs.png>
-Package pdftex.def Info: figures/tfbs.png  used on input line 284.
-(pdftex.def)             Requested size: 407.54031pt x 49.58676pt.
- [18 <./figures/rr.png> <./figures/tfbs.png>]
-<figures/seq1.JPG, id=646, 648.92438pt x 288.3272pt>
-File: figures/seq1.JPG Graphic file (type jpg)
-<use figures/seq1.JPG>
-Package pdftex.def Info: figures/seq1.JPG  used on input line 315.
-(pdftex.def)             Requested size: 271.69815pt x 120.72263pt.
-<figures/seq2.JPG, id=647, 795.72281pt x 286.06876pt>
-File: figures/seq2.JPG Graphic file (type jpg)
-<use figures/seq2.JPG>
-Package pdftex.def Info: figures/seq2.JPG  used on input line 321.
-(pdftex.def)             Requested size: 339.61923pt x 122.09486pt.
-<figures/seq3.JPG, id=650, 797.22844pt x 294.34969pt>
-File: figures/seq3.JPG Graphic file (type jpg)
-<use figures/seq3.JPG>
-Package pdftex.def Info: figures/seq3.JPG  used on input line 328.
-(pdftex.def)             Requested size: 339.61923pt x 125.39114pt.
- [19 <./figures/seq2.JPG> <./figures/seq3.JPG> <./figures/seq1.JPG>]
-<figures/superpose.JPG, id=661, 958.3303pt x 254.45062pt>
-File: figures/superpose.JPG Graphic file (type jpg)
-<use figures/superpose.JPG>
-Package pdftex.def Info: figures/superpose.JPG  used on input line 352.
-(pdftex.def)             Requested size: 452.82565pt x 120.23244pt.
-<figures/consensus.JPG, id=665, 637.63219pt x 398.23781pt>
-File: figures/consensus.JPG Graphic file (type jpg)
-<use figures/consensus.JPG>
-Package pdftex.def Info: figures/consensus.JPG  used on input line 375.
-(pdftex.def)             Requested size: 316.97656pt x 197.96992pt.
-
-[20 <./figures/superpose.JPG> <./figures/consensus.JPG>]) (./OurWork.tex
-[21]
+) (./methodology.tex [6]
 Chapter 3.
 Missing character: There is no â in font cmr8!
 Missing character: There is no ˆ in font cmr8!
@@ -1092,9 +969,16 @@ Missing character: There is no ’ in font cmr8!
 Missing character: There is no â in font cmr8!
 Missing character: There is no ˆ in font cmr8!
 Missing character: There is no ’ in font cmr8!
-[22
 
-] [23]
+LaTeX Warning: Citation `dinh2012qpms7' on page 7 undefined on input line 79.
+
+
+LaTeX Warning: Citation `nicolae2014efficient' on page 7 undefined on input lin
+e 79.
+
+[7
+
+] [8]
 Underfull \hbox (badness 10000) in paragraph at lines 86--87
 
  []
@@ -1109,51 +993,50 @@ Underfull \hbox (badness 10000) in paragraph at lines 92--95
 
  []
 
-<figures/pmsprunetree.png, id=698, 919.435pt x 371.3875pt>
+<figures/pmsprunetree.png, id=363, 919.435pt x 371.3875pt>
 File: figures/pmsprunetree.png Graphic file (type png)
 <use figures/pmsprunetree.png>
 Package pdftex.def Info: figures/pmsprunetree.png  used on input line 98.
-(pdftex.def)             Requested size: 407.54031pt x 164.61804pt.
+(pdftex.def)             Requested size: 375.14705pt x 151.53316pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 103--104
 
  []
 
-[24 <./figures/pmsprunetree.png>]
-Overfull \hbox (9.07263pt too wide) in paragraph at lines 105--106
-[]\OT1/ptm/m/n/12 The time and space com-plex-i-ties of al-go-rithm qPM-SPrune 
-are given by $\OML/cmm/m/it/12 O\OT1/cmr/m/n/12 ((\OML/cmm/m/it/12 n \OMS/cmsy/
-m/n/12 ^^@ \OML/cmm/m/it/12 q \OT1/cmr/m/n/12 + 1)\OML/cmm/m/it/12 nm[]n[]\OT1/
-cmr/m/n/12 (\OML/cmm/m/it/12 l; d\OT1/cmr/m/n/12 ))$
- []
-
+[9]
 Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on in
 put line 108.
-(./algorithms/qPMSPrune.alg) (./algorithms/qPMSPrune_Tree.alg)
-(./algorithms/FeasibleOccurrences2.alg) [25] (./algorithms/IsMotif.alg)
+ (./algorithms/qPMSPrune.alg) (./algorithms/qPMSPrune_Tree.alg) [10 <./figures/
+pmsprunetree.png>] (./algorithms/FeasibleOccurrences2.alg)
+(./algorithms/IsMotif.alg) [11]
+
+LaTeX Warning: Citation `dinh2012qpms7' on page 12 undefined on input line 146.
+
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 149--153
 
  []
 
-[26]
-<figures/qpms7.png, id=773, 874.26625pt x 395.4775pt>
+[12]
+<figures/qpms7.png, id=441, 874.26625pt x 395.4775pt>
 File: figures/qpms7.png Graphic file (type png)
 <use figures/qpms7.png>
 Package pdftex.def Info: figures/qpms7.png  used on input line 163.
-(pdftex.def)             Requested size: 407.54031pt x 184.35376pt.
- (./algorithms/qPMS7.alg) (./algorithms/qPMS7_Tree.alg) [27 <./figures/qpms7.pn
+(pdftex.def)             Requested size: 375.14705pt x 169.69597pt.
+ (./algorithms/qPMS7.alg) (./algorithms/qPMS7_Tree.alg) [13 <./figures/qpms7.pn
 g>] (./algorithms/FeasibleOccurrences3.alg)
 Underfull \hbox (badness 10000) in paragraph at lines 196--197
 
  []
 
-[28]
+[14]
 Underfull \hbox (badness 10000) in paragraph at lines 218--219
 
  []
 
-[29] (./algorithms/TraverStringRef.alg) (./algorithms/TraverStringRef_Tree.alg)
-[30] [31] [32]
+[15] (./algorithms/TraverStringRef.alg) (./algorithms/TraverStringRef_Tree.alg)
+[16] [17] [18]
 Underfull \hbox (badness 10000) in paragraph at lines 271--272
 
  []
@@ -1168,65 +1051,57 @@ Underfull \hbox (badness 10000) in paragraph at lines 275--276
 
  []
 
-<figures/example.png, id=915, 1063.975pt x 132.495pt>
+[19]
+<figures/example.png, id=590, 1063.975pt x 132.495pt>
 File: figures/example.png Graphic file (type png)
 <use figures/example.png>
 Package pdftex.def Info: figures/example.png  used on input line 281.
-(pdftex.def)             Requested size: 407.54031pt x 50.7489pt.
+(pdftex.def)             Requested size: 375.14705pt x 46.7156pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 301--302
 
  []
 
-[33 <./figures/example.png>]
+
 Underfull \hbox (badness 10000) in paragraph at lines 314--315
 
  []
 
-
-Overfull \hbox (21.86833pt too wide) in paragraph at lines 316--317
-[]\OT1/ptm/m/n/12 The worst case time com-plex-ity is sim-i-lar to Traver-Strin
-gRef $\OML/cmm/m/it/12 O\OT1/cmr/m/n/12 ((\OML/cmm/m/it/12 n \OMS/cmsy/m/n/12 ^
-^@ \OML/cmm/m/it/12 q \OT1/cmr/m/n/12 + 1)[]\OML/cmm/m/it/12 nm[]\OT1/cmr/m/n/1
-2 (\OML/cmm/m/it/12 m \OT1/cmr/m/n/12 + [] \OML/cmm/m/it/12 n\OT1/cmr/m/n/12 )\
-OML/cmm/m/it/12 n[]\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 l; d\OT1/cmr/m/n/12 ))$\OT
-1/ptm/m/n/12 .
- []
-
+[20 <./figures/example.png>]
 Missing character: There is no Ã in font ptmr7t!
 Missing character: There is no — in font ptmr7t!
-[34]
-<figures/chart1.png, id=936, 737.75626pt x 530.98375pt>
+
+Overfull \hbox (9.41486pt too wide) in paragraph at lines 321--323
+[]\OT1/ptm/m/n/12 The test dataset was gen-er-ated in com-pu-ta-tional ex-per-i
+-ment of Al-go-rithm Traver-StringRef
+ []
+
+<figures/chart1.png, id=605, 737.75626pt x 530.98375pt>
 File: figures/chart1.png Graphic file (type png)
 <use figures/chart1.png>
 Package pdftex.def Info: figures/chart1.png  used on input line 368.
-(pdftex.def)             Requested size: 407.54031pt x 293.314pt.
-<figures/chart2.png, id=937, 699.61375pt x 516.93124pt>
+(pdftex.def)             Requested size: 375.14705pt x 270.0041pt.
+<figures/chart2.png, id=606, 699.61375pt x 516.93124pt>
 File: figures/chart2.png Graphic file (type png)
 <use figures/chart2.png>
 Package pdftex.def Info: figures/chart2.png  used on input line 394.
-(pdftex.def)             Requested size: 407.54031pt x 301.12968pt.
-) (./conclusion.tex [35] [36 <./figures/chart1.png> <./figures/chart2.png>]
+(pdftex.def)             Requested size: 375.14705pt x 277.19044pt.
+) (./result_discussion.tex [21] [22 <./figures/chart1.png>] [23 <./figures/char
+t2.png>]
 Chapter 4.
-) (./bibliography.tex [37
+[24
 
-] (./gait_thesis.bbl
-Missing character: There is no â in font ptmr7t!
-Missing character: There is no „ in font ptmr7t!
-Missing character: There is no “ in font ptmr7t!
- [38
+] [25] [26]) (./conclusion.tex [27]
+Chapter 5.
+) (./bibliography.tex (./gait_thesis.bbl [28
 
+] [29] [30
 
-]
-Underfull \hbox (badness 1072) in paragraph at lines 113--116
-\OT1/ptm/m/n/12 prob-lem,'' \OT1/ptm/m/it/12 IEEE/ACM Trans-ac-tions on Com-pu-
-ta-tional Bi-ol-ogy and Bioin-for-mat-ics\OT1/ptm/m/n/12 ,
- []
-
-)) [39]
+])) [31]
 runsystem(makeindex gait_thesis.idx)...executed safely (allowed).
 
- (./gait_thesis.ind) (./codes.tex
+
+(./gait_thesis.ind) (./codes.tex
 (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2015/06/04 1.6 listings language file
 )
@@ -1235,7 +1110,7 @@ File: lstlang1.sty 2015/06/04 1.6 listings language file
 )
 (/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
-) [40
+) [32
 
 
 ]
@@ -1249,63 +1124,64 @@ LaTeX Font Info:    Font shape `OT1/pcr/m/it' in size <12> not available
 (Font)              Font shape `OT1/pcr/m/sl' tried instead on input line 1.
 LaTeX Font Info:    Font shape `OT1/pcr/bx/n' in size <12> not available
 (Font)              Font shape `OT1/pcr/b/n' tried instead on input line 8.
- [41
+ [33
 
-])) [42]
-LaTeX Font Info:    Try loading font information for OT1+phv on input line 55.
+] [34])) [35]
+LaTeX Font Info:    Try loading font information for OT1+phv on input line 57.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1phv.fd
 File: ot1phv.fd 2001/06/04 scalable font definitions for OT1/phv.
 )
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 55.
- [43
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 57.
+ [36
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 55.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 57.
 
 (./gait_thesis.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 55.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 55.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 57.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 57.
 Package rerunfilecheck Info: File `gait_thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 5BBC4D1B0B5255FA50F4E69A4AAC789D;4539.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 55.
+(rerunfilecheck)             Checksum: 71684319C5B8AC15262F2C2F83D667E7;2411.
+
+
+LaTeX Warning: There were undefined references.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 57.
  )
 (\end occurred inside a group at level 1)
 
 ### simple group (level 1) entered at line 151 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 15384 strings out of 494333
- 239523 string characters out of 6168093
- 474811 words of memory out of 5000000
- 18049 multiletter control sequences out of 15000+600000
- 38301 words of font info for 75 fonts, out of 8000000 for 9000
+ 15144 strings out of 494333
+ 235153 string characters out of 6168093
+ 468429 words of memory out of 5000000
+ 17904 multiletter control sequences out of 15000+600000
+ 35797 words of font info for 66 fonts, out of 8000000 for 9000
  309 hyphenation exceptions out of 8191
- 52i,13n,97p,1425b,2015s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 52i,12n,97p,1463b,2075s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</us
-r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/shar
-e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texl
-ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/te
-xmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts
-/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/
-public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
-amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy
-10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb>
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/s
-hare/texlive/texmf-dist/fonts/type1/urw/courier/ucrb8a.pfb></usr/share/texlive/
-texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/share/texlive/texmf-dist/fo
-nts/type1/urw/courier/ucrro8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/ur
-w/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb
-8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/s
-hare/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/te
-xmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/
-type1/urw/times/utmri8a.pfb>
-Output written on gait_thesis.pdf (54 pages, 2016855 bytes).
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/shar
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texli
+ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/ty
+pe1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/ams
+fonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/courier/ucrb8a.pfb><
+/usr/share/texlive/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/share/te
+xlive/texmf-dist/fonts/type1/urw/courier/ucrro8a.pfb></usr/share/texlive/texmf-
+dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/t
+ype1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/
+utmbi8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></u
+sr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texliv
+e/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on gait_thesis.pdf (46 pages, 390183 bytes).
 PDF statistics:
- 1198 PDF objects out of 1200 (max. 8388607)
- 1078 compressed objects within 11 object streams
- 425 named destinations out of 1000 (max. 500000)
- 657 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 877 PDF objects out of 1000 (max. 8388607)
+ 796 compressed objects within 8 object streams
+ 353 named destinations out of 1000 (max. 500000)
+ 343 words of extra memory for PDF output out of 10000 (max. 10000000)
 

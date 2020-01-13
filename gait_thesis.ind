@@ -1,71 +1,23 @@
 \begin{theindex}
 
-  \item Algorithm
-    \subitem MEME, 6
-    \subitem Projection, 6
-    \subitem Winnower, 6
-  \item Alignment Matrix, 19, 20
+  \item Compression, 19
 
   \indexspace
 
-  \item Cell, 7
-    \subitem Eukaryotic, 8
-    \subitem Prokaryotic, 8
-  \item Central Dogma, 13
-  \item Central Dogma of Molecular Biology, 13
-  \item Compression, 33
-  \item Consensus String, 21
+  \item Parallel, 20
+  \item PMS8, 17
 
   \indexspace
 
-  \item DNA, 9
+  \item qPMS7, 12
+  \item qPMSPrune, 9
 
   \indexspace
 
-  \item Gene, 9
-  \item Genome, 9
+  \item space complexity, 20
 
   \indexspace
 
-  \item Motif, 1, 16
-    \subitem Sequence Motif, 16
-    \subitem Structural Motif, 17
-  \item Motif Finding Problem, 18
-  \item Mutation, 12
-
-  \indexspace
-
-  \item Parallel, 34
-  \item Pattern Driven, 5
-  \item Planted Motif Search, 3
-  \item PMS8, 31
-  \item Profile Matrix, 20
-  \item Protein, 12
-
-  \indexspace
-
-  \item qPMS7, 26
-  \item qPMSPrune, 22
-  \item Quorum Planted Motif Search, 4
-
-  \indexspace
-
-  \item Regulatory Motifs, 17
-    \subitem Regulatory Regions, 17
-    \subitem Transcription Factor Binding Sites, 17
-  \item RNA, 10
-
-  \indexspace
-
-  \item Sample Driven, 5
-  \item Scoring Function, 21
-  \item space complexity, 34
-  \item Splicing, 14
-
-  \indexspace
-
-  \item Transcription, 13
-  \item Translation, 15
-  \item TraverStringRef, 29, 34
+  \item TraverStringRef, 15, 20
 
 \end{theindex}

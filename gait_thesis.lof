@@ -1,28 +1,11 @@
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {1.1}{\ignorespaces Starting index of motifs in a DNA sequence .\relax }}{3}{figure.caption.4}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Life cycle of a cell.\relax }}{8}{figure.caption.10}
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Prokaryotic and Eukaryotic cells.\relax }}{8}{figure.caption.11}
-\contentsline {figure}{\numberline {2.3}{\ignorespaces DNA double helix formed by base pairs attached to a sugar-phosphate backbone.\relax }}{10}{figure.caption.12}
-\contentsline {figure}{\numberline {2.4}{\ignorespaces Hydrogen bonds between A-T and C-G.\relax }}{11}{figure.caption.13}
-\contentsline {figure}{\numberline {2.5}{\ignorespaces tRNA linear and comples structure.\relax }}{11}{figure.caption.14}
-\contentsline {figure}{\numberline {2.6}{\ignorespaces Primary protein structure - chain of amino acids.\relax }}{12}{figure.caption.15}
-\contentsline {figure}{\numberline {2.7}{\ignorespaces Central dogma of molecular biology.\relax }}{14}{figure.caption.16}
-\contentsline {figure}{\numberline {2.8}{\ignorespaces Formation of pre-messenger RNA.\relax }}{15}{figure.caption.18}
-\contentsline {figure}{\numberline {2.9}{\ignorespaces RNA splicing: Introns are spliced from the pre-mRNA to give mRNA.\relax }}{15}{figure.caption.20}
-\contentsline {figure}{\numberline {2.10}{\ignorespaces The genetic code, from the perspective of mRNA.\relax }}{16}{figure.caption.21}
-\contentsline {figure}{\numberline {2.11}{\ignorespaces The structure of a eukaryotic protein-coding gene.\relax }}{18}{figure.caption.22}
-\contentsline {figure}{\numberline {2.12}{\ignorespaces Transcription Factor Binding Sites.\relax }}{18}{figure.caption.23}
-\contentsline {figure}{\numberline {2.14}{\ignorespaces The same DNA sequences of \Cref {fig:seq1} with the implanted pattern ATGCAACT.\relax }}{19}{figure.caption.25}
-\contentsline {figure}{\numberline {2.15}{\ignorespaces Same as \Cref {fig:seq2} with the implanted pattern ATGCAACT randomly mutated in two positions.\relax }}{19}{figure.caption.26}
-\contentsline {figure}{\numberline {2.13}{\ignorespaces Seven random sequences.\relax }}{19}{figure.caption.24}
-\contentsline {figure}{\numberline {2.16}{\ignorespaces Superposition of the seven highlighted 8-mers from \Cref {fig:seq2}.\relax }}{20}{figure.caption.27}
-\contentsline {figure}{\numberline {2.17}{\ignorespaces The alignment matrix, profile matrix and consensus string formed from the 8-mers starting at positions $ s = (8, 19, 3, 5, 31, 27, 15) $ in \Cref {fig:seq2}.\relax }}{20}{figure.caption.28}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces $\mathcal {T}_{2}(1010)$ with alphabet $\Sigma =\{0,1\}$\relax }}{24}{figure.caption.33}
-\contentsline {figure}{\numberline {3.2}{\ignorespaces $\mathcal {G}_{2}(1010,1100)$ with alphabet $\Sigma =\{0,1\}$\relax }}{27}{figure.caption.34}
-\contentsline {figure}{\numberline {3.3}{\ignorespaces $l$-mer Compression Example\relax }}{33}{figure.caption.46}
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Run Time Comparison between qPMS-Sigma vs TraverStringRef in the challenging states for q=20\relax }}{36}{figure.caption.49}
-\contentsline {figure}{\numberline {3.5}{\ignorespaces Run Time Comparison between qPMS-Sigma vs TraverStringRef in the challenging states for q=10\relax }}{36}{figure.caption.51}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces $\mathcal {T}_{2}(1010)$ with alphabet $\Sigma =\{0,1\}$\relax }}{10}{figure.caption.6}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces $\mathcal {G}_{2}(1010,1100)$ with alphabet $\Sigma =\{0,1\}$\relax }}{13}{figure.caption.7}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces $l$-mer Compression Example\relax }}{20}{figure.caption.19}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Run Time Comparison between qPMS-Sigma vs TraverStringRef in the challenging states for q=20\relax }}{22}{figure.caption.22}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Run Time Comparison between qPMS-Sigma vs TraverStringRef in the challenging states for q=10\relax }}{23}{figure.caption.24}
+\addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }

@@ -1,87 +1,52 @@
 \contentsline {chapter}{\textbf {\relax \fontsize {12}{14.5}\selectfont \abovedisplayskip 12\p@ plus3\p@ minus7\p@ \abovedisplayshortskip \z@ plus3\p@ \belowdisplayshortskip 6.5\p@ plus3.5\p@ minus3\p@ \belowdisplayskip \abovedisplayskip \let \leftmargin \leftmargini \parsep 5\p@ plus2.5\p@ minus\p@ \topsep 10\p@ plus4\p@ minus6\p@ \itemsep 5\p@ plus2.5\p@ minus\p@ \leftmargin \leftmargini \parsep 5\p@ plus2.5\p@ minus\p@ \topsep 10\p@ plus4\p@ minus6\p@ \itemsep 5\p@ plus2.5\p@ minus\p@ {\emph {CANDIDATE'S DECLARATION}}}}{i}{DTLrowi.1.1}
 \contentsline {chapter}{\textbf {\relax \fontsize {12}{14.5}\selectfont \abovedisplayskip 12\p@ plus3\p@ minus7\p@ \abovedisplayshortskip \z@ plus3\p@ \belowdisplayshortskip 6.5\p@ plus3.5\p@ minus3\p@ \belowdisplayskip \abovedisplayskip \let \leftmargin \leftmargini \parsep 5\p@ plus2.5\p@ minus\p@ \topsep 10\p@ plus4\p@ minus6\p@ \itemsep 5\p@ plus2.5\p@ minus\p@ \leftmargin \leftmargini \parsep 5\p@ plus2.5\p@ minus\p@ \topsep 10\p@ plus4\p@ minus6\p@ \itemsep 5\p@ plus2.5\p@ minus\p@ {\emph {CERTIFICATION}}}}{ii}{DTLrowi.3.1}
 \contentsline {chapter}{\textbf {\relax \fontsize {12}{14.5}\selectfont \abovedisplayskip 12\p@ plus3\p@ minus7\p@ \abovedisplayshortskip \z@ plus3\p@ \belowdisplayshortskip 6.5\p@ plus3.5\p@ minus3\p@ \belowdisplayskip \abovedisplayskip \let \leftmargin \leftmargini \parsep 5\p@ plus2.5\p@ minus\p@ \topsep 10\p@ plus4\p@ minus6\p@ \itemsep 5\p@ plus2.5\p@ minus\p@ \leftmargin \leftmargini \parsep 5\p@ plus2.5\p@ minus\p@ \topsep 10\p@ plus4\p@ minus6\p@ \itemsep 5\p@ plus2.5\p@ minus\p@ {\emph {ACKNOWLEDGEMENT}}}}{iii}{DTLrowi.4.2}
-\contentsline {chapter}{List of Figures}{vii}{section*.1}
-\contentsline {chapter}{List of Tables}{viii}{section*.2}
-\contentsline {chapter}{List of Algorithms}{ix}{section*.2}
-\contentsline {chapter}{\textbf {\relax \fontsize {12}{14.5}\selectfont \abovedisplayskip 12\p@ plus3\p@ minus7\p@ \abovedisplayshortskip \z@ plus3\p@ \belowdisplayshortskip 6.5\p@ plus3.5\p@ minus3\p@ \belowdisplayskip \abovedisplayskip \let \leftmargin \leftmargini \parsep 5\p@ plus2.5\p@ minus\p@ \topsep 10\p@ plus4\p@ minus6\p@ \itemsep 5\p@ plus2.5\p@ minus\p@ \leftmargin \leftmargini \parsep 5\p@ plus2.5\p@ minus\p@ \topsep 10\p@ plus4\p@ minus6\p@ \itemsep 5\p@ plus2.5\p@ minus\p@ {\emph {ABSTRACT}}}}{x}{chapter*.3}
+\contentsline {chapter}{List of Figures}{vi}{section*.1}
+\contentsline {chapter}{List of Tables}{vii}{section*.2}
+\contentsline {chapter}{List of Algorithms}{viii}{section*.2}
+\contentsline {chapter}{\textbf {\relax \fontsize {12}{14.5}\selectfont \abovedisplayskip 12\p@ plus3\p@ minus7\p@ \abovedisplayshortskip \z@ plus3\p@ \belowdisplayshortskip 6.5\p@ plus3.5\p@ minus3\p@ \belowdisplayskip \abovedisplayskip \let \leftmargin \leftmargini \parsep 5\p@ plus2.5\p@ minus\p@ \topsep 10\p@ plus4\p@ minus6\p@ \itemsep 5\p@ plus2.5\p@ minus\p@ \leftmargin \leftmargini \parsep 5\p@ plus2.5\p@ minus\p@ \topsep 10\p@ plus4\p@ minus6\p@ \itemsep 5\p@ plus2.5\p@ minus\p@ {\emph {ABSTRACT}}}}{ix}{chapter*.3}
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}
-\contentsline {section}{\numberline {1.1}What are Motifs}{1}{section.1.1}
-\contentsline {subsection}{\numberline {1.1.1}Importance of Studying Motifs}{1}{subsection.1.1.1}
-\contentsline {subsection}{\numberline {1.1.2}Regulatory Regions and Transcription Factor Binding Sites}{2}{subsection.1.1.2}
-\contentsline {section}{\numberline {1.2}The Motif Finding Problem}{2}{section.1.2}
-\contentsline {subsection}{\numberline {1.2.1}Classification of Motif Searching Algorithms}{2}{subsection.1.2.1}
-\contentsline {subsection}{\numberline {1.2.2}Combinatorial Approach}{3}{subsection.1.2.2}
-\contentsline {subsection}{\numberline {1.2.3}Planted Motif Search (PMS)}{3}{subsection.1.2.3}
-\contentsline {subsection}{\numberline {1.2.4}Quorum Planted Motif Search (qPMS)}{4}{subsection.1.2.4}
-\contentsline {subsection}{\numberline {1.2.5}Formal Definitions of qPMS}{4}{subsection.1.2.5}
-\contentsline {section}{\numberline {1.3}Literature Review}{4}{section.1.3}
-\contentsline {subsection}{\numberline {1.3.1}Exact PMS Algorithms}{5}{subsection.1.3.1}
-\contentsline {subsubsection}{Sample Driven Approach}{5}{section*.5}
-\contentsline {subsubsection}{Pattern Driven Approach}{5}{section*.6}
-\contentsline {subsection}{\numberline {1.3.2}Approximate PMS Algorithms}{5}{subsection.1.3.2}
-\contentsline {subsubsection}{Algorithm MEME}{6}{section*.7}
-\contentsline {subsubsection}{Algorithm Projection}{6}{section*.8}
-\contentsline {subsubsection}{Algorithm Winnower, SP-STAR, and cWinnower}{6}{section*.9}
-\contentsline {chapter}{\numberline {2}Preliminaries}{7}{chapter.2}
-\contentsline {section}{\numberline {2.1}What is Life Made of}{7}{section.2.1}
-\contentsline {subsection}{\numberline {2.1.1}Cells}{7}{subsection.2.1.1}
-\contentsline {subsection}{\numberline {2.1.2}Life Cycle of a Cell}{8}{subsection.2.1.2}
-\contentsline {subsection}{\numberline {2.1.3}Types of Cells}{8}{subsection.2.1.3}
-\contentsline {section}{\numberline {2.2}Genetic Material of Life}{9}{section.2.2}
-\contentsline {subsection}{\numberline {2.2.1}Genes}{9}{subsection.2.2.1}
-\contentsline {subsection}{\numberline {2.2.2}DNA}{9}{subsection.2.2.2}
-\contentsline {subsection}{\numberline {2.2.3}RNA}{10}{subsection.2.2.3}
-\contentsline {subsection}{\numberline {2.2.4}Protein}{12}{subsection.2.2.4}
-\contentsline {subsection}{\numberline {2.2.5}Mutation}{12}{subsection.2.2.5}
-\contentsline {section}{\numberline {2.3}What Carries Information Between DNA to Proteins}{13}{section.2.3}
-\contentsline {subsection}{\numberline {2.3.1}Central Dogma of Molecular Biology}{13}{subsection.2.3.1}
-\contentsline {subsection}{\numberline {2.3.2}DNA$\tmspace +\thinmuskip {.1667em}\to \tmspace +\thinmuskip {.1667em}$RNA: Transcription}{13}{subsection.2.3.2}
-\contentsline {subsubsection}{Formation of pre-messenger RNA}{14}{section*.17}
-\contentsline {subsubsection}{Splicing}{14}{section*.19}
-\contentsline {subsection}{\numberline {2.3.3}RNA$\tmspace +\thinmuskip {.1667em}\to \tmspace +\thinmuskip {.1667em}$Protein: Translation}{15}{subsection.2.3.3}
-\contentsline {section}{\numberline {2.4}Motifs in Details}{16}{section.2.4}
-\contentsline {subsection}{\numberline {2.4.1}Sequence Motifs}{16}{subsection.2.4.1}
-\contentsline {subsection}{\numberline {2.4.2}Structural Motifs}{17}{subsection.2.4.2}
-\contentsline {subsection}{\numberline {2.4.3}Regulatory Motifs in DNA}{17}{subsection.2.4.3}
-\contentsline {subsection}{\numberline {2.4.4}Regulatory Regions}{17}{subsection.2.4.4}
-\contentsline {subsection}{\numberline {2.4.5}Transcription Factor Binding Sites}{17}{subsection.2.4.5}
-\contentsline {section}{\numberline {2.5}To The Motif Finding Problem}{18}{section.2.5}
-\contentsline {subsection}{\numberline {2.5.1}Alignment Matrix}{19}{subsection.2.5.1}
-\contentsline {subsection}{\numberline {2.5.2}Profile Matrix}{20}{subsection.2.5.2}
-\contentsline {subsection}{\numberline {2.5.3}Consensus String}{21}{subsection.2.5.3}
-\contentsline {subsection}{\numberline {2.5.4}Evaluating Motifs}{21}{subsection.2.5.4}
-\contentsline {subsubsection}{Scoring Function}{21}{section*.29}
-\contentsline {subsection}{\numberline {2.5.5}Defining The Motif Finding Problem}{21}{subsection.2.5.5}
-\contentsline {chapter}{\numberline {3}Our Approach}{22}{chapter.3}
-\contentsline {section}{\numberline {3.1}Notations and Definitions}{22}{section.3.1}
-\contentsline {section}{\numberline {3.2}Previous Works}{22}{section.3.2}
-\contentsline {subsection}{\numberline {3.2.1}qPMSPrune}{22}{subsection.3.2.1}
-\contentsline {subsubsection}{Key Steps of qPMSPruneI}{24}{section*.32}
-\contentsline {subsection}{\numberline {3.2.2}qPMS7}{26}{subsection.3.2.2}
-\contentsline {subsection}{\numberline {3.2.3}TraverStringRef}{29}{subsection.3.2.3}
-\contentsline {subsubsection}{Feasibility Check without Precomputed Table}{29}{section*.35}
-\contentsline {subsubsection}{Elimination of unnecessary Combinations}{29}{section*.36}
-\contentsline {subsubsection}{String Reordering}{29}{section*.37}
-\contentsline {subsubsection}{Position Reordering}{29}{section*.38}
-\contentsline {subsection}{\numberline {3.2.4}PMS8}{31}{subsection.3.2.4}
-\contentsline {subsubsection}{Sort rows by size}{32}{section*.39}
-\contentsline {subsubsection}{Compress $l$-mers}{32}{section*.40}
-\contentsline {subsubsection}{Preprocess distances for pairs of $l$-mers}{32}{section*.41}
-\contentsline {subsubsection}{Cache locality}{32}{section*.42}
-\contentsline {subsubsection}{Find motifs for a subset of strings}{32}{section*.43}
-\contentsline {subsubsection}{Memory and Runtime}{32}{section*.44}
-\contentsline {subsubsection}{Parallel implementation}{33}{section*.45}
-\contentsline {section}{\numberline {3.3}Our Proposal qPMS-Sigma}{33}{section.3.3}
-\contentsline {subsection}{\numberline {3.3.1}String Compression}{33}{subsection.3.3.1}
-\contentsline {subsection}{\numberline {3.3.2}Motif Finding}{34}{subsection.3.3.2}
-\contentsline {subsection}{\numberline {3.3.3}Parallel Implementation of qPMS-Sigma}{34}{subsection.3.3.3}
-\contentsline {section}{\numberline {3.4}Space and Runtime Complexity}{34}{section.3.4}
-\contentsline {section}{\numberline {3.5}Experimental Results}{34}{section.3.5}
-\contentsline {chapter}{\numberline {4}Conclusion}{37}{chapter.4}
-\contentsline {section}{\numberline {4.1}Summary of Our Work}{37}{section.4.1}
-\contentsline {section}{\numberline {4.2}Future Prospects of Our Work}{37}{section.4.2}
-\contentsline {chapter}{References}{38}{section.4.2}
-\contentsline {chapter}{Index}{40}{section*.53}
-\contentsline {chapter}{\numberline {A}Codes}{41}{appendix.A}
-\contentsline {section}{\numberline {A.1}Compressed String}{41}{section.A.1}
+\contentsline {section}{\numberline {1.1}What is Gait Recognition}{3}{section.1.1}
+\contentsline {section}{\numberline {1.2}Importance of Gait Recognition}{3}{section.1.2}
+\contentsline {section}{\numberline {1.3}Challenges Gait Recognition}{3}{section.1.3}
+\contentsline {chapter}{\numberline {2}Literature Review}{4}{chapter.2}
+\contentsline {section}{\numberline {2.1}Gait recognition}{4}{section.2.1}
+\contentsline {section}{\numberline {2.2}Deep learning for gait recognition}{5}{section.2.2}
+\contentsline {section}{\numberline {2.3}Pose-Based gait recognition}{5}{section.2.3}
+\contentsline {chapter}{\numberline {3}Methodology}{7}{chapter.3}
+\contentsline {section}{\numberline {3.1}Notations and Definitions}{7}{section.3.1}
+\contentsline {section}{\numberline {3.2}Previous Works}{7}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}qPMSPrune}{9}{subsection.3.2.1}
+\contentsline {subsubsection}{Key Steps of qPMSPruneI}{9}{section*.5}
+\contentsline {subsection}{\numberline {3.2.2}qPMS7}{12}{subsection.3.2.2}
+\contentsline {subsection}{\numberline {3.2.3}TraverStringRef}{15}{subsection.3.2.3}
+\contentsline {subsubsection}{Feasibility Check without Precomputed Table}{15}{section*.8}
+\contentsline {subsubsection}{Elimination of unnecessary Combinations}{15}{section*.9}
+\contentsline {subsubsection}{String Reordering}{15}{section*.10}
+\contentsline {subsubsection}{Position Reordering}{16}{section*.11}
+\contentsline {subsection}{\numberline {3.2.4}PMS8}{17}{subsection.3.2.4}
+\contentsline {subsubsection}{Sort rows by size}{18}{section*.12}
+\contentsline {subsubsection}{Compress $l$-mers}{18}{section*.13}
+\contentsline {subsubsection}{Preprocess distances for pairs of $l$-mers}{18}{section*.14}
+\contentsline {subsubsection}{Cache locality}{18}{section*.15}
+\contentsline {subsubsection}{Find motifs for a subset of strings}{18}{section*.16}
+\contentsline {subsubsection}{Memory and Runtime}{18}{section*.17}
+\contentsline {subsubsection}{Parallel implementation}{19}{section*.18}
+\contentsline {section}{\numberline {3.3}Our Proposal qPMS-Sigma}{19}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}String Compression}{19}{subsection.3.3.1}
+\contentsline {subsection}{\numberline {3.3.2}Motif Finding}{20}{subsection.3.3.2}
+\contentsline {subsection}{\numberline {3.3.3}Parallel Implementation of qPMS-Sigma}{20}{subsection.3.3.3}
+\contentsline {section}{\numberline {3.4}Space and Runtime Complexity}{20}{section.3.4}
+\contentsline {section}{\numberline {3.5}Experimental Results}{21}{section.3.5}
+\contentsline {chapter}{\numberline {4}Results \& Discussion}{24}{chapter.4}
+\contentsline {section}{\numberline {4.1}A Section}{24}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}This is a Subsection}{24}{subsection.4.1.1}
+\contentsline {subsubsection}{This is a Subsubsection}{24}{section*.25}
+\contentsline {section}{\numberline {4.2}And Another Section}{24}{section.4.2}
+\contentsline {chapter}{\numberline {5}Conclusion}{28}{chapter.5}
+\contentsline {section}{\numberline {5.1}Summary of Our Work}{28}{section.5.1}
+\contentsline {section}{\numberline {5.2}Future Prospects of Our Work}{28}{section.5.2}
+\contentsline {chapter}{References}{29}{section.5.2}
+\contentsline {chapter}{Index}{32}{section*.27}
+\contentsline {chapter}{\numberline {A}Codes}{33}{appendix.A}
+\contentsline {section}{\numberline {A.1}Compressed String}{33}{section.A.1}
