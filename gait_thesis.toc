@@ -2,51 +2,53 @@
 \contentsline {chapter}{\textbf {\relax \fontsize {12}{14.5}\selectfont \abovedisplayskip 12\p@ plus3\p@ minus7\p@ \abovedisplayshortskip \z@ plus3\p@ \belowdisplayshortskip 6.5\p@ plus3.5\p@ minus3\p@ \belowdisplayskip \abovedisplayskip \let \leftmargin \leftmargini \parsep 5\p@ plus2.5\p@ minus\p@ \topsep 10\p@ plus4\p@ minus6\p@ \itemsep 5\p@ plus2.5\p@ minus\p@ \leftmargin \leftmargini \parsep 5\p@ plus2.5\p@ minus\p@ \topsep 10\p@ plus4\p@ minus6\p@ \itemsep 5\p@ plus2.5\p@ minus\p@ {\emph {CERTIFICATION}}}}{ii}{DTLrowi.3.1}
 \contentsline {chapter}{\textbf {\relax \fontsize {12}{14.5}\selectfont \abovedisplayskip 12\p@ plus3\p@ minus7\p@ \abovedisplayshortskip \z@ plus3\p@ \belowdisplayshortskip 6.5\p@ plus3.5\p@ minus3\p@ \belowdisplayskip \abovedisplayskip \let \leftmargin \leftmargini \parsep 5\p@ plus2.5\p@ minus\p@ \topsep 10\p@ plus4\p@ minus6\p@ \itemsep 5\p@ plus2.5\p@ minus\p@ \leftmargin \leftmargini \parsep 5\p@ plus2.5\p@ minus\p@ \topsep 10\p@ plus4\p@ minus6\p@ \itemsep 5\p@ plus2.5\p@ minus\p@ {\emph {ACKNOWLEDGEMENT}}}}{iii}{DTLrowi.4.2}
 \contentsline {chapter}{List of Figures}{vi}{section*.1}
-\contentsline {chapter}{List of Tables}{vii}{section*.2}
-\contentsline {chapter}{List of Algorithms}{viii}{section*.2}
-\contentsline {chapter}{\textbf {\relax \fontsize {12}{14.5}\selectfont \abovedisplayskip 12\p@ plus3\p@ minus7\p@ \abovedisplayshortskip \z@ plus3\p@ \belowdisplayshortskip 6.5\p@ plus3.5\p@ minus3\p@ \belowdisplayskip \abovedisplayskip \let \leftmargin \leftmargini \parsep 5\p@ plus2.5\p@ minus\p@ \topsep 10\p@ plus4\p@ minus6\p@ \itemsep 5\p@ plus2.5\p@ minus\p@ \leftmargin \leftmargini \parsep 5\p@ plus2.5\p@ minus\p@ \topsep 10\p@ plus4\p@ minus6\p@ \itemsep 5\p@ plus2.5\p@ minus\p@ {\emph {ABSTRACT}}}}{ix}{chapter*.3}
+\contentsline {chapter}{List of Tables}{viii}{section*.2}
+\contentsline {chapter}{List of Algorithms}{x}{section*.2}
+\contentsline {chapter}{\textbf {\relax \fontsize {12}{14.5}\selectfont \abovedisplayskip 12\p@ plus3\p@ minus7\p@ \abovedisplayshortskip \z@ plus3\p@ \belowdisplayshortskip 6.5\p@ plus3.5\p@ minus3\p@ \belowdisplayskip \abovedisplayskip \let \leftmargin \leftmargini \parsep 5\p@ plus2.5\p@ minus\p@ \topsep 10\p@ plus4\p@ minus6\p@ \itemsep 5\p@ plus2.5\p@ minus\p@ \leftmargin \leftmargini \parsep 5\p@ plus2.5\p@ minus\p@ \topsep 10\p@ plus4\p@ minus6\p@ \itemsep 5\p@ plus2.5\p@ minus\p@ {\emph {ABSTRACT}}}}{xi}{chapter*.3}
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}
-\contentsline {section}{\numberline {1.1}What is Gait Recognition}{3}{section.1.1}
-\contentsline {section}{\numberline {1.2}Importance of Gait Recognition}{3}{section.1.2}
-\contentsline {section}{\numberline {1.3}Challenges Gait Recognition}{3}{section.1.3}
-\contentsline {chapter}{\numberline {2}Literature Review}{4}{chapter.2}
-\contentsline {section}{\numberline {2.1}Gait recognition}{4}{section.2.1}
-\contentsline {section}{\numberline {2.2}Deep learning for gait recognition}{5}{section.2.2}
-\contentsline {section}{\numberline {2.3}Pose-Based gait recognition}{5}{section.2.3}
-\contentsline {chapter}{\numberline {3}Methodology}{7}{chapter.3}
-\contentsline {section}{\numberline {3.1}Notations and Definitions}{7}{section.3.1}
-\contentsline {section}{\numberline {3.2}Previous Works}{7}{section.3.2}
-\contentsline {subsection}{\numberline {3.2.1}qPMSPrune}{9}{subsection.3.2.1}
-\contentsline {subsubsection}{Key Steps of qPMSPruneI}{9}{section*.5}
-\contentsline {subsection}{\numberline {3.2.2}qPMS7}{12}{subsection.3.2.2}
-\contentsline {subsection}{\numberline {3.2.3}TraverStringRef}{15}{subsection.3.2.3}
-\contentsline {subsubsection}{Feasibility Check without Precomputed Table}{15}{section*.8}
-\contentsline {subsubsection}{Elimination of unnecessary Combinations}{15}{section*.9}
-\contentsline {subsubsection}{String Reordering}{15}{section*.10}
-\contentsline {subsubsection}{Position Reordering}{16}{section*.11}
-\contentsline {subsection}{\numberline {3.2.4}PMS8}{17}{subsection.3.2.4}
-\contentsline {subsubsection}{Sort rows by size}{18}{section*.12}
-\contentsline {subsubsection}{Compress $l$-mers}{18}{section*.13}
-\contentsline {subsubsection}{Preprocess distances for pairs of $l$-mers}{18}{section*.14}
-\contentsline {subsubsection}{Cache locality}{18}{section*.15}
-\contentsline {subsubsection}{Find motifs for a subset of strings}{18}{section*.16}
-\contentsline {subsubsection}{Memory and Runtime}{18}{section*.17}
-\contentsline {subsubsection}{Parallel implementation}{19}{section*.18}
-\contentsline {section}{\numberline {3.3}Our Proposal qPMS-Sigma}{19}{section.3.3}
-\contentsline {subsection}{\numberline {3.3.1}String Compression}{19}{subsection.3.3.1}
-\contentsline {subsection}{\numberline {3.3.2}Motif Finding}{20}{subsection.3.3.2}
-\contentsline {subsection}{\numberline {3.3.3}Parallel Implementation of qPMS-Sigma}{20}{subsection.3.3.3}
-\contentsline {section}{\numberline {3.4}Space and Runtime Complexity}{20}{section.3.4}
-\contentsline {section}{\numberline {3.5}Experimental Results}{21}{section.3.5}
-\contentsline {chapter}{\numberline {4}Results \& Discussion}{24}{chapter.4}
-\contentsline {section}{\numberline {4.1}A Section}{24}{section.4.1}
-\contentsline {subsection}{\numberline {4.1.1}This is a Subsection}{24}{subsection.4.1.1}
-\contentsline {subsubsection}{This is a Subsubsection}{24}{section*.25}
-\contentsline {section}{\numberline {4.2}And Another Section}{24}{section.4.2}
-\contentsline {chapter}{\numberline {5}Conclusion}{28}{chapter.5}
-\contentsline {section}{\numberline {5.1}Summary of Our Work}{28}{section.5.1}
-\contentsline {section}{\numberline {5.2}Future Prospects of Our Work}{28}{section.5.2}
-\contentsline {chapter}{References}{29}{section.5.2}
-\contentsline {chapter}{Index}{32}{section*.27}
-\contentsline {chapter}{\numberline {A}Codes}{33}{appendix.A}
-\contentsline {section}{\numberline {A.1}Compressed String}{33}{section.A.1}
+\contentsline {section}{\numberline {1.1}What is Gait Recognition}{4}{section.1.1}
+\contentsline {section}{\numberline {1.2}Importance of Gait Recognition}{4}{section.1.2}
+\contentsline {section}{\numberline {1.3}Challenges Gait Recognition}{4}{section.1.3}
+\contentsline {chapter}{\numberline {2}Literature Review}{5}{chapter.2}
+\contentsline {section}{\numberline {2.1}Appearance-based Methods}{5}{section.2.1}
+\contentsline {section}{\numberline {2.2}Model-based Methods}{6}{section.2.2}
+\contentsline {section}{\numberline {2.3}Deep Learning for Gait Recognition}{6}{section.2.3}
+\contentsline {section}{\numberline {2.4}Pose-based Gait Recognition}{7}{section.2.4}
+\contentsline {chapter}{\numberline {3}Methodology}{8}{chapter.3}
+\contentsline {section}{\numberline {3.1}Overview}{8}{section.3.1}
+\contentsline {section}{\numberline {3.2}Forming Spatio-Temporal Features}{8}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}2D Body Joints Feature}{8}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.2}Joints Angular Trajectory}{10}{subsection.3.2.2}
+\contentsline {subsection}{\numberline {3.2.3}Temporal Displacement}{12}{subsection.3.2.3}
+\contentsline {subsection}{\numberline {3.2.4}Body Part Length Features}{13}{subsection.3.2.4}
+\contentsline {subsection}{\numberline {3.2.5}Fusion of Features}{13}{subsection.3.2.5}
+\contentsline {section}{\numberline {3.3}Feature Preprocessing}{13}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}Data Augmentation}{15}{subsection.3.3.1}
+\contentsline {subsection}{\numberline {3.3.2}Network Architecture}{15}{subsection.3.3.2}
+\contentsline {subsection}{\numberline {3.3.3}Training}{16}{subsection.3.3.3}
+\contentsline {subsection}{\numberline {3.3.4}Loss functions}{17}{subsection.3.3.4}
+\contentsline {subsection}{\numberline {3.3.5}Post-processing}{17}{subsection.3.3.5}
+\contentsline {section}{\numberline {3.4}Multi-View gait recognition}{19}{section.3.4}
+\contentsline {subsection}{\numberline {3.4.1}Preprocessing}{19}{subsection.3.4.1}
+\contentsline {subsection}{\numberline {3.4.2}Network architecture}{20}{subsection.3.4.2}
+\contentsline {subsection}{\numberline {3.4.3}Training}{21}{subsection.3.4.3}
+\contentsline {chapter}{\numberline {4}Results \& Discussion}{22}{chapter.4}
+\contentsline {section}{\numberline {4.1}Dataset}{22}{section.4.1}
+\contentsline {section}{\numberline {4.2}Single-view Gait Recognition}{23}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Experimental Evaluation on CASIA-A dataset}{23}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}Experimental Evaluation on CASIA-B Dataset}{24}{subsection.4.2.2}
+\contentsline {subsubsection}{Experimental Setup}{24}{section*.17}
+\contentsline {subsubsection}{Results on Single-View Gait Recognition of CASIA B Dataset without View Variation}{25}{section*.19}
+\contentsline {subsubsection}{Comparison on Single-View Gait Recognition of CASIA B Dataset with State-of-the-art Methods without View Variation}{26}{section*.21}
+\contentsline {subsubsection}{Results on Single-View Gait Recognition of CASIA B Dataset with View Variation}{26}{section*.24}
+\contentsline {subsubsection}{Comparison on Single-View Gait Recognition of CASIA B Dataset with State-of-the-art Methods with View Variation}{27}{section*.26}
+\contentsline {section}{\numberline {4.3}Cross-View Gait Recognition}{28}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}Comparison with the State-of-the-art Methods of CASIA B Dataset on Cross-View Gait Recognition}{29}{subsection.4.3.1}
+\contentsline {section}{\numberline {4.4}Multi-View Gait Recognition}{29}{section.4.4}
+\contentsline {subsection}{\numberline {4.4.1}Comparison with the state-of-the-art methods on multi-view gait recognition}{30}{subsection.4.4.1}
+\contentsline {chapter}{\numberline {5}Conclusion}{32}{chapter.5}
+\contentsline {section}{\numberline {5.1}Summary of Our Work}{32}{section.5.1}
+\contentsline {section}{\numberline {5.2}Future Prospects of Our Work}{32}{section.5.2}
+\contentsline {chapter}{References}{33}{section.5.2}
+\contentsline {chapter}{\numberline {A}Codes}{36}{appendix.A}
+\contentsline {section}{\numberline {A.1}Compressed String}{36}{section.A.1}

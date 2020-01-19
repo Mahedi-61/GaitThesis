@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.7.14)  12 JAN 2020 20:31
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.7.14)  19 JAN 2020 21:32
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -89,6 +89,17 @@ Package: amsthm 2017/10/31 v2.20.4
 \thm@headsep=\skip47
 \dth@everypar=\toks23
 )
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\@emptytoks=\toks24
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2017/09/02 v2.17a AMS math features
 \@mathmargin=\skip48
@@ -99,7 +110,7 @@ Package: amstext 2000/06/29 v2.01 AMS text
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks24
+\@emptytoks=\toks25
 \ex@=\dimen105
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
@@ -129,21 +140,21 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
 \dotsspace@=\muskip10
 \c@parentequation=\count101
 \dspbrk@lvl=\count102
-\tag@help=\toks25
+\tag@help=\toks26
 \row@=\count103
 \column@=\count104
 \maxfields@=\count105
-\andhelp@=\toks26
+\andhelp@=\toks27
 \eqnshift@=\dimen108
 \alignsep@=\dimen109
 \tagshift@=\dimen110
 \tagwidth@=\dimen111
 \totwidth@=\dimen112
 \lineht@=\dimen113
-\@envbody=\toks27
+\@envbody=\toks28
 \multlinegap=\skip49
 \multlinetaggap=\skip50
-\mathdisplay@stack=\toks28
+\mathdisplay@stack=\toks29
 LaTeX Info: Redefining \[ on input line 2817.
 LaTeX Info: Redefining \] on input line 2818.
 )
@@ -171,7 +182,7 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 \Gm@layoutheight=\dimen119
 \Gm@layouthoffset=\dimen120
 \Gm@layoutvoffset=\dimen121
-\Gm@dimlist=\toks29
+\Gm@dimlist=\toks30
 )
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/times.sty
 Package: times 2005/04/12 PSNFSS-v9.2a (SPQR) 
@@ -188,7 +199,7 @@ Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 (/usr/share/texlive/texmf-dist/tex/latex/listings/listings.sty
 \lst@mode=\count109
 \lst@gtempboxa=\box30
-\lst@token=\toks30
+\lst@token=\toks31
 \lst@length=\count110
 \lst@currlwidth=\dimen122
 \lst@column=\count111
@@ -210,6 +221,13 @@ File: listings.cfg 2015/06/04 1.6 listings configuration
 ))
 Package: listings 2015/06/04 1.6 (Carsten Heinz)
 
+(/usr/share/texlive/texmf-dist/tex/latex/multirow/multirow.sty
+Package: multirow 2016/11/25 v2.2 Span multiple rows of a table
+\multirow@colwidth=\skip51
+\multirow@cntb=\count117
+\multirow@dima=\skip52
+\bigstrutjot=\dimen126
+)
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2018/02/06 v6.86b Hypertext links for LaTeX
 
@@ -262,14 +280,14 @@ Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
 (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
 Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
 )
-\@linkdim=\dimen126
-\Hy@linkcounter=\count117
-\Hy@pagecounter=\count118
+\@linkdim=\dimen127
+\Hy@linkcounter=\count118
+\Hy@pagecounter=\count119
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2018/02/06 v6.86b Hyperref: PDFDocEncoding definition (HO)
 )
-\Hy@SavedSpaceFactor=\count119
+\Hy@SavedSpaceFactor=\count120
 
 (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/hyperref.cfg
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
@@ -283,12 +301,12 @@ Package hyperref Info: Plain pages OFF on input line 4524.
 Package hyperref Info: Backreferencing OFF on input line 4529.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4762.
-\c@Hy@tempcnt=\count120
+\c@Hy@tempcnt=\count121
 LaTeX Info: Redefining \url on input line 5115.
-\XeTeXLinkMargin=\dimen127
-\Fld@menulength=\count121
-\Field@Width=\dimen128
-\Fld@charsize=\dimen129
+\XeTeXLinkMargin=\dimen128
+\Fld@menulength=\count122
+\Field@Width=\dimen129
+\Fld@charsize=\dimen130
 Package hyperref Info: Hyper figures OFF on input line 6369.
 Package hyperref Info: Link nesting OFF on input line 6374.
 Package hyperref Info: Hyper index ON on input line 6377.
@@ -298,23 +316,23 @@ Package hyperref Info: Link coloring with OCG OFF on input line 6394.
 Package hyperref Info: PDF/A mode OFF on input line 6399.
 LaTeX Info: Redefining \ref on input line 6439.
 LaTeX Info: Redefining \pageref on input line 6443.
-\Hy@abspage=\count122
-\c@Item=\count123
-\c@Hfootnote=\count124
+\Hy@abspage=\count123
+\c@Item=\count124
+\c@Hfootnote=\count125
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
 File: hpdftex.def 2018/02/06 v6.86b Hyperref driver for pdfTeX
-\Fld@listcount=\count125
-\c@bookmark@seq@number=\count126
+\Fld@listcount=\count126
+\c@bookmark@seq@number=\count127
 
 (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
 Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 82.
 )
-\Hy@SectionHShift=\skip51
+\Hy@SectionHShift=\skip53
 )
 (/usr/share/texlive/texmf-dist/tex/latex/textcase/textcase.sty
 Package: textcase 2004/10/07 v0.07 Text only upper/lower case changing (DPC)
@@ -341,15 +359,15 @@ Package: caption 2016/02/21 v3.3-144 Customizing captions (AR)
 (/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
 Package: caption3 2016/05/22 v1.7-166 caption3 kernel (AR)
 Package caption3 Info: TeX engine: e-TeX on input line 67.
-\captionmargin=\dimen130
-\captionmargin@=\dimen131
-\captionwidth=\dimen132
-\caption@tempdima=\dimen133
-\caption@indent=\dimen134
-\caption@parindent=\dimen135
-\caption@hangindent=\dimen136
+\captionmargin=\dimen131
+\captionmargin@=\dimen132
+\captionwidth=\dimen133
+\caption@tempdima=\dimen134
+\caption@indent=\dimen135
+\caption@parindent=\dimen136
+\caption@hangindent=\dimen137
 )
-\c@ContinuedFloat=\count127
+\c@ContinuedFloat=\count128
 Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
 Package caption Info: listings package is loaded.
@@ -368,10 +386,10 @@ Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
 
 (/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkeyval.tex
 (/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkvutils.tex
-\XKV@toks=\toks31
-\XKV@tempa@toks=\toks32
+\XKV@toks=\toks32
+\XKV@tempa@toks=\toks33
 )
-\XKV@depth=\count128
+\XKV@depth=\count129
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/xfor/xfor.sty
@@ -379,11 +397,11 @@ Package: xfor 2009/02/05 v1.05 (NLCT)
 )
 (/usr/share/texlive/texmf-dist/tex/latex/substr/substr.sty
 Package: substr 2009/10/20 v1.2 Handle substrings
-\c@su@anzahl=\count129
+\c@su@anzahl=\count130
 )
 (/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty
 Package: etoolbox 2018/02/11 v2.5e e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count130
+\etb@tempcnta=\count131
 )
 (/usr/share/texlive/texmf-dist/tex/latex/datatool/datatool-base.sty
 Package: datatool-base 2017/11/12 v2.29 (NLCT)
@@ -397,19 +415,19 @@ Package: fp 1995/04/02
 `Fixed Point Package', Version 0.8, April 2, 1995 (C) Michael Mehlich
 (/usr/share/texlive/texmf-dist/tex/latex/fp/defpattern.sty
 Package: defpattern 1994/10/12
-\actioncount=\count131
+\actioncount=\count132
 )
 (/usr/share/texlive/texmf-dist/tex/latex/fp/fp-basic.sty
 Package: fp-basic 1996/05/13
-\FP@xs=\count132
-\FP@xia=\count133
-\FP@xib=\count134
-\FP@xfa=\count135
-\FP@xfb=\count136
-\FP@rega=\count137
-\FP@regb=\count138
-\FP@regs=\count139
-\FP@times=\count140
+\FP@xs=\count133
+\FP@xia=\count134
+\FP@xib=\count135
+\FP@xfa=\count136
+\FP@xfb=\count137
+\FP@rega=\count138
+\FP@regb=\count139
+\FP@regs=\count140
+\FP@times=\count141
 )
 (/usr/share/texlive/texmf-dist/tex/latex/fp/fp-addons.sty
 Package: fp-addons 1995/03/15
@@ -428,7 +446,7 @@ Package: fp-pas 1994/08/29
 )
 (/usr/share/texlive/texmf-dist/tex/latex/fp/fp-random.sty
 Package: fp-random 1995/02/23
-\FPseed=\count141
+\FPseed=\count142
 )
 (/usr/share/texlive/texmf-dist/tex/latex/fp/fp-eqn.sty
 Package: fp-eqn 1995/04/03
@@ -439,60 +457,60 @@ Package: fp-upn 1996/10/21
 (/usr/share/texlive/texmf-dist/tex/latex/fp/fp-eval.sty
 Package: fp-eval 1995/04/03
 )))
-\@dtl@toks=\toks33
-\@dtl@tmpcount=\count142
-\dtl@tmplength=\skip52
-\dtl@sortresult=\count143
-\@dtl@numgrpsepcount=\count144
-\@dtl@datatype=\count145
-\dtl@codeA=\count146
-\dtl@codeB=\count147
-\@dtl@foreach@level=\count148
+\@dtl@toks=\toks34
+\@dtl@tmpcount=\count143
+\dtl@tmplength=\skip54
+\dtl@sortresult=\count144
+\@dtl@numgrpsepcount=\count145
+\@dtl@datatype=\count146
+\dtl@codeA=\count147
+\dtl@codeB=\count148
+\@dtl@foreach@level=\count149
 )
-\dtlcolumnnum=\count149
-\dtlrownum=\count150
-\@dtl@before=\toks34
-\@dtl@after=\toks35
-\@dtl@colhead=\toks36
-\dtlcurrentrow=\toks37
-\dtlbeforerow=\toks38
-\dtlafterrow=\toks39
-\dtlforeachlevel=\count151
-\c@DTLrowi=\count152
-\c@DTLrowii=\count153
-\c@DTLrowiii=\count154
-\c@DTLrow=\count155
-\dtl@rowi=\count156
-\dtl@rowii=\count157
-\dtl@rowiii=\count158
-\@dtl@curi=\toks40
-\@dtl@previ=\toks41
-\@dtl@nexti=\toks42
-\@dtl@curii=\toks43
-\@dtl@previi=\toks44
-\@dtl@nextii=\toks45
-\@dtl@curiii=\toks46
-\@dtl@previii=\toks47
-\@dtl@nextiii=\toks48
-\@dtl@elements=\count159
-\@dtl@list=\toks49
-\@dtl@rowa=\toks50
-\@dtl@rowb=\toks51
-\@dtl@toksA=\toks52
-\@dtl@toksB=\toks53
+\dtlcolumnnum=\count150
+\dtlrownum=\count151
+\@dtl@before=\toks35
+\@dtl@after=\toks36
+\@dtl@colhead=\toks37
+\dtlcurrentrow=\toks38
+\dtlbeforerow=\toks39
+\dtlafterrow=\toks40
+\dtlforeachlevel=\count152
+\c@DTLrowi=\count153
+\c@DTLrowii=\count154
+\c@DTLrowiii=\count155
+\c@DTLrow=\count156
+\dtl@rowi=\count157
+\dtl@rowii=\count158
+\dtl@rowiii=\count159
+\@dtl@curi=\toks41
+\@dtl@previ=\toks42
+\@dtl@nexti=\toks43
+\@dtl@curii=\toks44
+\@dtl@previi=\toks45
+\@dtl@nextii=\toks46
+\@dtl@curiii=\toks47
+\@dtl@previii=\toks48
+\@dtl@nextiii=\toks49
+\@dtl@elements=\count160
+\@dtl@list=\toks50
+\@dtl@rowa=\toks51
+\@dtl@rowb=\toks52
+\@dtl@toksA=\toks53
+\@dtl@toksB=\toks54
 \@dtl@write=\write3
 \@dtl@read=\read1
-\dtl@entrycr=\count160
-\dtl@omitlines=\count161
+\dtl@entrycr=\count161
+\dtl@omitlines=\count162
 )
-\dtldb@ThesisStudents=\toks54
-\dtlkeys@ThesisStudents=\toks55
-\dtlrows@ThesisStudents=\count162
-\dtlcols@ThesisStudents=\count163
-\dtldb@Supervisor=\toks56
-\dtlkeys@Supervisor=\toks57
-\dtlrows@Supervisor=\count164
-\dtlcols@Supervisor=\count165
+\dtldb@ThesisStudents=\toks55
+\dtlkeys@ThesisStudents=\toks56
+\dtlrows@ThesisStudents=\count163
+\dtlcols@ThesisStudents=\count164
+\dtldb@Supervisor=\toks57
+\dtlkeys@Supervisor=\toks58
+\dtlrows@Supervisor=\count165
+\dtlcols@Supervisor=\count166
 
 (/usr/share/texlive/texmf-dist/tex/latex/tocbibind/tocbibind.sty
 Package: tocbibind 2010/10/13 v1.5k extra ToC listings
@@ -504,55 +522,55 @@ Package tocbibind Note: Using chapter style headings, unless overridden.
 ) (/usr/share/texlive/texmf-dist/tex/latex/tocloft/tocloft.sty
 Package: tocloft 2017/08/31 v2.3i parameterised ToC, etc., typesetting
 Package tocloft Info: The document has chapter divisions on input line 51.
-\cftparskip=\skip53
-\cftbeforetoctitleskip=\skip54
-\cftaftertoctitleskip=\skip55
-\cftbeforepartskip=\skip56
-\cftpartnumwidth=\skip57
-\cftpartindent=\skip58
-\cftbeforechapskip=\skip59
-\cftchapindent=\skip60
-\cftchapnumwidth=\skip61
-\cftbeforesecskip=\skip62
-\cftsecindent=\skip63
-\cftsecnumwidth=\skip64
-\cftbeforesubsecskip=\skip65
-\cftsubsecindent=\skip66
-\cftsubsecnumwidth=\skip67
-\cftbeforesubsubsecskip=\skip68
-\cftsubsubsecindent=\skip69
-\cftsubsubsecnumwidth=\skip70
-\cftbeforeparaskip=\skip71
-\cftparaindent=\skip72
-\cftparanumwidth=\skip73
-\cftbeforesubparaskip=\skip74
-\cftsubparaindent=\skip75
-\cftsubparanumwidth=\skip76
-\cftbeforeloftitleskip=\skip77
-\cftafterloftitleskip=\skip78
-\cftbeforefigskip=\skip79
-\cftfigindent=\skip80
-\cftfignumwidth=\skip81
-\c@lofdepth=\count166
-\c@lotdepth=\count167
-\cftbeforelottitleskip=\skip82
-\cftafterlottitleskip=\skip83
-\cftbeforetabskip=\skip84
-\cfttabindent=\skip85
-\cfttabnumwidth=\skip86
+\cftparskip=\skip55
+\cftbeforetoctitleskip=\skip56
+\cftaftertoctitleskip=\skip57
+\cftbeforepartskip=\skip58
+\cftpartnumwidth=\skip59
+\cftpartindent=\skip60
+\cftbeforechapskip=\skip61
+\cftchapindent=\skip62
+\cftchapnumwidth=\skip63
+\cftbeforesecskip=\skip64
+\cftsecindent=\skip65
+\cftsecnumwidth=\skip66
+\cftbeforesubsecskip=\skip67
+\cftsubsecindent=\skip68
+\cftsubsecnumwidth=\skip69
+\cftbeforesubsubsecskip=\skip70
+\cftsubsubsecindent=\skip71
+\cftsubsubsecnumwidth=\skip72
+\cftbeforeparaskip=\skip73
+\cftparaindent=\skip74
+\cftparanumwidth=\skip75
+\cftbeforesubparaskip=\skip76
+\cftsubparaindent=\skip77
+\cftsubparanumwidth=\skip78
+\cftbeforeloftitleskip=\skip79
+\cftafterloftitleskip=\skip80
+\cftbeforefigskip=\skip81
+\cftfigindent=\skip82
+\cftfignumwidth=\skip83
+\c@lofdepth=\count167
+\c@lotdepth=\count168
+\cftbeforelottitleskip=\skip84
+\cftafterlottitleskip=\skip85
+\cftbeforetabskip=\skip86
+\cfttabindent=\skip87
+\cfttabnumwidth=\skip88
 )
 (/usr/share/texlive/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
 Package: fancyhdr 2017/06/30 v3.9a Extensive control of page headers and footer
 s
-\f@nch@headwidth=\skip87
-\f@nch@O@elh=\skip88
-\f@nch@O@erh=\skip89
-\f@nch@O@olh=\skip90
-\f@nch@O@orh=\skip91
-\f@nch@O@elf=\skip92
-\f@nch@O@erf=\skip93
-\f@nch@O@olf=\skip94
-\f@nch@O@orf=\skip95
+\f@nch@headwidth=\skip89
+\f@nch@O@elh=\skip90
+\f@nch@O@erh=\skip91
+\f@nch@O@olh=\skip92
+\f@nch@O@orh=\skip93
+\f@nch@O@elf=\skip94
+\f@nch@O@erf=\skip95
+\f@nch@O@olf=\skip96
+\f@nch@O@orf=\skip97
 )
 (/usr/share/texlive/texmf-dist/tex/latex/imakeidx/imakeidx.sty
 Package: imakeidx 2016/10/15 v1.3e Package for typesetting indices in a synchro
@@ -560,23 +578,23 @@ nous mode
 
 (/usr/share/texlive/texmf-dist/tex/latex/tools/multicol.sty
 Package: multicol 2017/04/11 v1.8q multicolumn formatting (FMi)
-\c@tracingmulticols=\count168
+\c@tracingmulticols=\count169
 \mult@box=\box32
-\multicol@leftmargin=\dimen137
-\c@unbalance=\count169
-\c@collectmore=\count170
-\doublecol@number=\count171
-\multicoltolerance=\count172
-\multicolpretolerance=\count173
-\full@width=\dimen138
-\page@free=\dimen139
-\premulticols=\dimen140
-\postmulticols=\dimen141
-\multicolsep=\skip96
-\multicolbaselineskip=\skip97
+\multicol@leftmargin=\dimen138
+\c@unbalance=\count170
+\c@collectmore=\count171
+\doublecol@number=\count172
+\multicoltolerance=\count173
+\multicolpretolerance=\count174
+\full@width=\dimen139
+\page@free=\dimen140
+\premulticols=\dimen141
+\postmulticols=\dimen142
+\multicolsep=\skip98
+\multicolbaselineskip=\skip99
 \partial@page=\box33
 \last@line=\box34
-\maxbalancingoverflow=\dimen142
+\maxbalancingoverflow=\dimen143
 \mult@rightbox=\box35
 \mult@grightbox=\box36
 \mult@gfirstbox=\box37
@@ -598,23 +616,23 @@ Package: multicol 2017/04/11 v1.8q multicolumn formatting (FMi)
 \@tempa=\box53
 \@tempa=\box54
 \@tempa=\box55
-\c@columnbadness=\count174
-\c@finalcolumnbadness=\count175
-\last@try=\dimen143
-\multicolovershoot=\dimen144
-\multicolundershoot=\dimen145
+\c@columnbadness=\count175
+\c@finalcolumnbadness=\count176
+\last@try=\dimen144
+\multicolovershoot=\dimen145
+\multicolundershoot=\dimen146
 \mult@nat@firstbox=\box56
 \colbreak@box=\box57
-\mc@col@check@num=\count176
+\mc@col@check@num=\count177
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/rcsinfo/rcsinfo.sty
 Package: rcsinfo 2005/02/20 v1.10
-\@rcsInfoDay=\count177
-\@rcsInfoMonth=\count178
-\@rcsInfoYear=\count179
-\@rcsInfoYearTmp=\count180
-\@rcsInfoMonthTmp=\count181
-\@rcsInfoDayTmp=\count182
+\@rcsInfoDay=\count178
+\@rcsInfoMonth=\count179
+\@rcsInfoYear=\count180
+\@rcsInfoYearTmp=\count181
+\@rcsInfoMonthTmp=\count182
+\@rcsInfoDayTmp=\count183
 
 (/usr/share/texlive/texmf-dist/tex/latex/rcsinfo/rcsinfo.cfg))
 (/usr/share/texlive/texmf-dist/tex/latex/datetime/datetime.sty
@@ -628,48 +646,55 @@ Package: fcprefix 2012/09/28
 
 (/usr/share/texlive/texmf-dist/tex/latex/fmtcount/fcnumparser.sty
 Package: fcnumparser 2017/06/15
-\fc@digit@counter=\count183
+\fc@digit@counter=\count184
 ))
-\c@padzeroesN=\count184
-\fc@tmpcatcode=\count185
-\@DT@modctr=\count186
-\@ordinalctr=\count187
-\@orgargctr=\count188
-\@strctr=\count189
-\@tmpstrctr=\count190
-\@DT@loopN=\count191
-\@DT@X=\count192
+\c@padzeroesN=\count185
+\fc@tmpcatcode=\count186
+\@DT@modctr=\count187
+\@ordinalctr=\count188
+\@orgargctr=\count189
+\@strctr=\count190
+\@tmpstrctr=\count191
+\@DT@loopN=\count192
+\@DT@X=\count193
 )
 (/usr/share/texlive/texmf-dist/tex/latex/datetime/datetime-defaults.sty
 Package: datetime-defaults 2013/09/10
 )
-\@day=\count193
-\@month=\count194
-\@year=\count195
-\c@HOUR=\count196
-\c@HOURXII=\count197
-\c@MINUTE=\count198
-\c@TOHOUR=\count199
-\c@TOMINUTE=\count266
-\c@SECOND=\count267
-\currenthour=\count268
-\currentminute=\count269
-\currentsecond=\count270
+\@day=\count194
+\@month=\count195
+\@year=\count196
+\c@HOUR=\count197
+\c@HOURXII=\count198
+\c@MINUTE=\count199
+\c@TOHOUR=\count266
+\c@TOMINUTE=\count267
+\c@SECOND=\count268
+\currenthour=\count269
+\currentminute=\count270
+\currentsecond=\count271
 Package datetime Info: No datetime.cfg file found, using default settings on in
 put line 308.
-\@dtctr=\count271
-\dayofyear=\count272
-\dayofweek=\count273
+\@dtctr=\count272
+\dayofyear=\count273
+\dayofweek=\count274
 LaTeX Info: Redefining \today on input line 736.
-\dt@a=\toks58
-\dt@b=\toks59
+\dt@a=\toks59
+\dt@b=\toks60
 ))
 \gait_thesis@idxfile=\write4
 \openout4 = `gait_thesis.idx'.
 
 
 Writing index file gait_thesis.idx
-(./gait_thesis.aux)
+(./gait_thesis.aux
+
+LaTeX Warning: Label `table:comp_casia_b_with_view' multiply defined.
+
+
+LaTeX Warning: Label `table:comp_casia_b_with_view@cref' multiply defined.
+
+)
 \openout1 = `gait_thesis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 16.
@@ -692,17 +717,17 @@ File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count274
-\scratchdimen=\dimen146
+\scratchcounter=\count275
+\scratchdimen=\dimen147
 \scratchbox=\box58
-\nofMPsegments=\count275
-\nofMParguments=\count276
-\everyMPshowfont=\toks60
-\MPscratchCnt=\count277
-\MPscratchDim=\dimen147
-\MPnumerator=\count278
-\makeMPintoPDFobject=\count279
-\everyMPtoPDFconversion=\toks61
+\nofMPsegments=\count276
+\nofMParguments=\count277
+\everyMPshowfont=\toks61
+\MPscratchCnt=\count278
+\MPscratchDim=\dimen148
+\MPnumerator=\count279
+\makeMPintoPDFobject=\count280
+\everyMPtoPDFconversion=\toks62
 ) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
@@ -728,15 +753,15 @@ e
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
-* h-part:(L,W,R)=(90.3375pt, 416.83289pt, 90.3375pt)
-* v-part:(T,H,B)=(90.3375pt, 664.37186pt, 90.3375pt)
+* h-part:(L,W,R)=(90.3375pt, 434.90039pt, 72.26999pt)
+* v-part:(T,H,B)=(72.26999pt, 700.50687pt, 72.26999pt)
 * \paperwidth=597.50787pt
 * \paperheight=845.04684pt
-* \textwidth=416.83289pt
-* \textheight=664.37186pt
+* \textwidth=434.90039pt
+* \textheight=700.50687pt
 * \oddsidemargin=18.0675pt
 * \evensidemargin=18.0675pt
-* \topmargin=-18.9325pt
+* \topmargin=-37.0pt
 * \headheight=12.0pt
 * \headsep=25.0pt
 * \topskip=12.0pt
@@ -754,7 +779,7 @@ e
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-\c@lstlisting=\count280
+\c@lstlisting=\count281
 \AtBeginShipoutBox=\box59
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/color.sty
 Package: color 2016/07/10 v1.1e Standard LaTeX Color (DPC)
@@ -772,7 +797,7 @@ Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count281
+\c@section@level=\count282
 )
 LaTeX Info: Redefining \ref on input line 16.
 LaTeX Info: Redefining \pageref on input line 16.
@@ -789,7 +814,7 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <17.28> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 16.
  (./parameters/thesistitle.txt)
-<figures/buetlogo.png, id=158, 456.20438pt x 457.10776pt>
+<figures/buetlogo.png, id=198, 456.20438pt x 457.10776pt>
 File: figures/buetlogo.png Graphic file (type png)
 <use figures/buetlogo.png>
 Package pdftex.def Info: figures/buetlogo.png  used on input line 16.
@@ -850,43 +875,55 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <24.88> not available
 (./gait_thesis.toc
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <12> not available
 (Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1.
- [4
+LaTeX Font Info:    Try loading font information for U+msa on input line 1.
+ (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 1.
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+) [4
 
 ])
 \tf@toc=\write6
 \openout6 = `gait_thesis.toc'.
 
- [5] (./gait_thesis.lof)
+ [5]
+(./gait_thesis.lof [6
+
+])
 \tf@lof=\write7
 \openout7 = `gait_thesis.lof'.
 
- [6
+ [7] (./gait_thesis.lot [8
 
-] (./gait_thesis.lot)
+])
 \tf@lot=\write8
 \openout8 = `gait_thesis.lot'.
 
-
-[7
-
-] (./gait_thesis.loa)
+ [9] (./gait_thesis.loa)
 \tf@loa=\write9
 \openout9 = `gait_thesis.loa'.
 
- [8
+
+[10
 
 
 ] (./abstract.tex
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 6.
-) [9
+) [11
 
 ]
 (/usr/share/texlive/texmf-dist/tex/latex/fmtcount/fc-english.def
 File: fc-english.def 2016/01/12
 )
-(./introduction.tex
+(./chapters/introduction.tex
 Chapter 1.
+Missing character: There is no â in font ptmr7t!
+Missing character: There is no € in font ptmr7t!
+Missing character: There is no ™ in font ptmr7t!
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
 <to be read again> 
@@ -896,208 +933,521 @@ l.7
 
 
 ]
-LaTeX Font Info:    Try loading font information for OMS+ptm on input line 15.
- (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omsptm.fd
-File: omsptm.fd 
-)
-LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 15.
-)
-(./literature_review.tex
+Overfull \hbox (14.90324pt too wide) in paragraph at lines 10--11
+\OT1/ptm/m/n/12 achiev-ing out-stand-ing per-for-mance in many com-puter vi-sio
+n tasks like per-son re-identification,
+ []
+
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[2] [3]
+[2]
+LaTeX Font Info:    Try loading font information for OMS+ptm on input line 23.
+ (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omsptm.fd
+File: omsptm.fd 
+)
+LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 23.
+)
+(./chapters/literature_review.tex [3] [4]
 Chapter 2.
+[5
 
-Overfull \hbox (13.59062pt too wide) in paragraph at lines 6--7
-\OT1/ptm/m/n/12 Gait Recog-ni-tion tech-niques can gen-er-ally be clas-si-fied 
-into two cat-e-gories: 1) appearance-
+] [6]
+Overfull \hbox (19.29579pt too wide) in paragraph at lines 31--32
+[]\OT1/ptm/m/n/12 Again, some of the most suc-cess-ful ap-proaches for hu-man a
+c-tion recog-ni-tion em-ploy RNNs [[][]25[][],
  []
 
-[4
+) (./chapters/methodology.tex [7]
+Chapter 3.
+Package epstopdf Info: Source file: <figures/proposed_method.eps>
+(epstopdf)                    date: 2020-01-14 04:57:05
+(epstopdf)                    size: 520014 bytes
+(epstopdf)             Output file: <figures/proposed_method-eps-converted-to.p
+df>
+(epstopdf)                    date: 2020-01-14 04:57:38
+(epstopdf)                    size: 103699 bytes
+(epstopdf)             Command: <repstopdf --outfile=figures/proposed_method-ep
+s-converted-to.pdf figures/proposed_method.eps>
+(epstopdf)             \includegraphics on input line 8.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: /usr/bin/pdflatex (file ./figures/proposed_method-eps-converted
+-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> all
+owed
+<figures/proposed_method-eps-converted-to.pdf, id=557, 294.09875pt x 502.87875p
+t>
+File: figures/proposed_method-eps-converted-to.pdf Graphic file (type pdf)
+<use figures/proposed_method-eps-converted-to.pdf>
+Package pdftex.def Info: figures/proposed_method-eps-converted-to.pdf  used on 
+input line 8.
+(pdftex.def)             Requested size: 327.20668pt x 559.49113pt.
+[8
+
+] [9 <./figures/proposed_method-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <figures/extracted_features.eps>
+(epstopdf)                    date: 2020-01-13 22:01:34
+(epstopdf)                    size: 2573354 bytes
+(epstopdf)             Output file: <figures/extracted_features-eps-converted-t
+o.pdf>
+(epstopdf)                    date: 2020-01-14 07:27:30
+(epstopdf)                    size: 2368782 bytes
+(epstopdf)             Command: <repstopdf --outfile=figures/extracted_features
+-eps-converted-to.pdf figures/extracted_features.eps>
+(epstopdf)             \includegraphics on input line 26.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: /usr/bin/pdflatex (file ./figures/extracted_features-eps-conver
+ted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> 
+allowed
+<figures/extracted_features-eps-converted-to.pdf, id=590, 1423.3175pt x 1707.37
+875pt>
+File: figures/extracted_features-eps-converted-to.pdf Graphic file (type pdf)
+<use figures/extracted_features-eps-converted-to.pdf>
+Package pdftex.def Info: figures/extracted_features-eps-converted-to.pdf  used 
+on input line 26.
+(pdftex.def)             Requested size: 341.43306pt x 409.57086pt.
+Missing character: There is no â in font ptmr7t!
+Missing character: There is no € in font ptmr7t!
+Missing character: There is no ™ in font ptmr7t!
+Missing character: There is no â in font cmr12!
+Missing character: There is no € in font cmr12!
+Missing character: There is no “ in font cmr12!
+Missing character: There is no â in font cmr12!
+Missing character: There is no € in font cmr12!
+Missing character: There is no “ in font cmr12!
+Missing character: There is no â in font cmr12!
+Missing character: There is no € in font cmr12!
+Missing character: There is no “ in font cmr12!
+Missing character: There is no â in font cmr12!
+Missing character: There is no € in font cmr12!
+Missing character: There is no “ in font cmr12!
+[10] [11 <./figures/extracted_features-eps-converted-to.pdf>] [12]
+Package epstopdf Info: Source file: <figures/pose_estimation.eps>
+(epstopdf)                    date: 2020-01-13 22:05:15
+(epstopdf)                    size: 328578 bytes
+(epstopdf)             Output file: <figures/pose_estimation-eps-converted-to.p
+df>
+(epstopdf)                    date: 2020-01-14 07:09:56
+(epstopdf)                    size: 65167 bytes
+(epstopdf)             Command: <repstopdf --outfile=figures/pose_estimation-ep
+s-converted-to.pdf figures/pose_estimation.eps>
+(epstopdf)             \includegraphics on input line 123.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: /usr/bin/pdflatex (file ./figures/pose_estimation-eps-converted
+-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> all
+owed
+<figures/pose_estimation-eps-converted-to.pdf, id=630, 665.48625pt x 248.93pt>
+File: figures/pose_estimation-eps-converted-to.pdf Graphic file (type pdf)
+<use figures/pose_estimation-eps-converted-to.pdf>
+Package pdftex.def Info: figures/pose_estimation-eps-converted-to.pdf  used on 
+input line 123.
+(pdftex.def)             Requested size: 355.65944pt x 133.03758pt.
+
+Package caption Warning: \label without proper reference on input line 121.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `fig:pose_estimation' on page 13 undefined on input li
+ne 129.
+
+[13 <./figures/pose_estimation-eps-converted-to.pdf>] [14]
+Package epstopdf Info: Source file: <figures/rnn_network.eps>
+(epstopdf)                    date: 2020-01-13 22:00:39
+(epstopdf)                    size: 379737 bytes
+(epstopdf)             Output file: <figures/rnn_network-eps-converted-to.pdf>
+(epstopdf)                    date: 2020-01-14 04:44:53
+(epstopdf)                    size: 164229 bytes
+(epstopdf)             Command: <repstopdf --outfile=figures/rnn_network-eps-co
+nverted-to.pdf figures/rnn_network.eps>
+(epstopdf)             \includegraphics on input line 168.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: /usr/bin/pdflatex (file ./figures/rnn_network-eps-converted-to.
+pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+
+<figures/rnn_network-eps-converted-to.pdf, id=655, 351.3125pt x 195.73125pt>
+File: figures/rnn_network-eps-converted-to.pdf Graphic file (type pdf)
+<use figures/rnn_network-eps-converted-to.pdf>
+Package pdftex.def Info: figures/rnn_network-eps-converted-to.pdf  used on inpu
+t line 168.
+(pdftex.def)             Requested size: 327.20668pt x 182.31488pt.
+[15] [16 <./figures/rnn_network-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <figures/output_prediction.eps>
+(epstopdf)                    date: 2020-01-13 21:57:28
+(epstopdf)                    size: 71707 bytes
+(epstopdf)             Output file: <figures/output_prediction-eps-converted-to
+.pdf>
+(epstopdf)                    date: 2020-01-14 12:42:43
+(epstopdf)                    size: 26218 bytes
+(epstopdf)             Command: <repstopdf --outfile=figures/output_prediction-
+eps-converted-to.pdf figures/output_prediction.eps>
+(epstopdf)             \includegraphics on input line 222.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: /usr/bin/pdflatex (file ./figures/output_prediction-eps-convert
+ed-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> a
+llowed
+<figures/output_prediction-eps-converted-to.pdf, id=687, 348.30125pt x 263.9862
+5pt>
+File: figures/output_prediction-eps-converted-to.pdf Graphic file (type pdf)
+<use figures/output_prediction-eps-converted-to.pdf>
+Package pdftex.def Info: figures/output_prediction-eps-converted-to.pdf  used o
+n input line 222.
+(pdftex.def)             Requested size: 298.75394pt x 226.4437pt.
+[17]
+
+LaTeX Warning: Reference `equ:equ_2' on page 18 undefined on input line 240.
+
+[18 <./figures/output_prediction-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <figures/multi_view_gait_recognition.eps>
+(epstopdf)                    date: 2018-12-30 23:43:11
+(epstopdf)                    size: 480159 bytes
+(epstopdf)             Output file: <figures/multi_view_gait_recognition-eps-co
+nverted-to.pdf>
+(epstopdf)                    date: 2020-01-14 12:42:43
+(epstopdf)                    size: 255601 bytes
+(epstopdf)             Command: <repstopdf --outfile=figures/multi_view_gait_re
+cognition-eps-converted-to.pdf figures/multi_view_gait_recognition.eps>
+(epstopdf)             \includegraphics on input line 255.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: /usr/bin/pdflatex (file ./figures/multi_view_gait_recognition-e
+ps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most versi
+on <1.5> allowed
+<figures/multi_view_gait_recognition-eps-converted-to.pdf, id=706, 526.96875pt 
+x 188.705pt>
+File: figures/multi_view_gait_recognition-eps-converted-to.pdf Graphic file (ty
+pe pdf)
+<use figures/multi_view_gait_recognition-eps-converted-to.pdf>
+Package pdftex.def Info: figures/multi_view_gait_recognition-eps-converted-to.p
+df  used on input line 255.
+(pdftex.def)             Requested size: 369.88582pt x 132.46115pt.
+[19 <./figures/multi_view_gait_recognition-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <figures/3D_CNN.eps>
+(epstopdf)                    date: 2018-12-26 19:01:54
+(epstopdf)                    size: 45837 bytes
+(epstopdf)             Output file: <figures/3D_CNN-eps-converted-to.pdf>
+(epstopdf)                    date: 2020-01-16 00:30:57
+(epstopdf)                    size: 19093 bytes
+(epstopdf)             Command: <repstopdf --outfile=figures/3D_CNN-eps-convert
+ed-to.pdf figures/3D_CNN.eps>
+(epstopdf)             \includegraphics on input line 276.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: /usr/bin/pdflatex (file ./figures/3D_CNN-eps-converted-to.pdf):
+ PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<figures/3D_CNN-eps-converted-to.pdf, id=731, 465.74pt x 32.12pt>
+File: figures/3D_CNN-eps-converted-to.pdf Graphic file (type pdf)
+<use figures/3D_CNN-eps-converted-to.pdf>
+Package pdftex.def Info: figures/3D_CNN-eps-converted-to.pdf  used on input lin
+e 276.
+(pdftex.def)             Requested size: 398.33858pt x 27.47267pt.
+[20 <./figures/3D_CNN-eps-converted-to.pdf>]) (./chapters/result_discussion.tex
+[21]
+Chapter 4.
+
+LaTeX Warning: Citation `Hofmann_14' on page 22 undefined on input line 6.
+
+
+LaTeX Warning: Citation `Noriko_18' on page 22 undefined on input line 6.
+
+
+LaTeX Warning: Citation `Sarkar_05' on page 22 undefined on input line 6.
+
+[22
 
 ]
+Package epstopdf Info: Source file: <figures/casia_dataset.eps>
+(epstopdf)                    date: 2019-01-13 10:56:10
+(epstopdf)                    size: 1812315 bytes
+(epstopdf)             Output file: <figures/casia_dataset-eps-converted-to.pdf
+>
+(epstopdf)                    date: 2020-01-19 10:34:53
+(epstopdf)                    size: 268202 bytes
+(epstopdf)             Command: <repstopdf --outfile=figures/casia_dataset-eps-
+converted-to.pdf figures/casia_dataset.eps>
+(epstopdf)             \includegraphics on input line 15.
+Package epstopdf Info: Output file is already uptodate.
 
-LaTeX Warning: Citation `Wu' on page 5 undefined on input line 13.
+
+pdfTeX warning: /usr/bin/pdflatex (file ./figures/casia_dataset-eps-converted-t
+o.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allow
+ed
+<figures/casia_dataset-eps-converted-to.pdf, id=759, 904.37875pt x 733.74126pt>
+
+File: figures/casia_dataset-eps-converted-to.pdf Graphic file (type pdf)
+<use figures/casia_dataset-eps-converted-to.pdf>
+Package pdftex.def Info: figures/casia_dataset-eps-converted-to.pdf  used on in
+put line 15.
+(pdftex.def)             Requested size: 312.9803pt x 253.92473pt.
+
+LaTeX Warning: Citation `Wang_03' on page 23 undefined on input line 26.
 
 
-LaTeX Warning: Citation `Yu02' on page 5 undefined on input line 13.
+LaTeX Warning: Citation `Goffredo_08' on page 23 undefined on input line 26.
 
 
-Overfull \hbox (1.02785pt too wide) in paragraph at lines 13--14
-\OT1/ptm/m/n/12 deep learning-based meth-ods have sig-nif-i-cantly im-proved th
-e per-for-mance of gait recog-
+LaTeX Warning: Citation `Liu_16' on page 23 undefined on input line 26.
+
+
+LaTeX Warning: Citation `Lima_19' on page 23 undefined on input line 26.
+
+
+LaTeX Warning: Citation `Kusakunniran_09' on page 23 undefined on input line 26
+.
+
+[23 <./figures/casia_dataset-eps-converted-to.pdf>]
+
+LaTeX Warning: Citation `Wang_03' on page 24 undefined on input line 37.
+
+
+LaTeX Warning: Citation `Goffredo' on page 24 undefined on input line 40.
+
+
+LaTeX Warning: Citation `Liu02' on page 24 undefined on input line 43.
+
+
+LaTeX Warning: Citation `Lima_19' on page 24 undefined on input line 46.
+
+
+LaTeX Warning: Citation `Kusakunniran_09' on page 24 undefined on input line 49
+.
+
+Package epstopdf Info: Source file: <figures/casia_a_result.eps>
+(epstopdf)                    date: 2020-01-13 22:05:43
+(epstopdf)                    size: 107818 bytes
+(epstopdf)             Output file: <figures/casia_a_result-eps-converted-to.pd
+f>
+(epstopdf)                    date: 2020-01-19 10:33:58
+(epstopdf)                    size: 32044 bytes
+(epstopdf)             Command: <repstopdf --outfile=figures/casia_a_result-eps
+-converted-to.pdf figures/casia_a_result.eps>
+(epstopdf)             \includegraphics on input line 59.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: /usr/bin/pdflatex (file ./figures/casia_a_result-eps-converted-
+to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allo
+wed
+<figures/casia_a_result-eps-converted-to.pdf, id=774, 482.80376pt x 315.1775pt>
+
+File: figures/casia_a_result-eps-converted-to.pdf Graphic file (type pdf)
+<use figures/casia_a_result-eps-converted-to.pdf>
+Package pdftex.def Info: figures/casia_a_result-eps-converted-to.pdf  used on i
+nput line 59.
+(pdftex.def)             Requested size: 341.43306pt x 222.89749pt.
+[24]
+Overfull \vbox (15.29997pt too high) detected at line 92
  []
 
 
-LaTeX Warning: Citation `Cao' on page 5 undefined on input line 18.
+Underfull \hbox (badness 10000) in alignment at lines 81--94
+[][][][][][][][]
+ []
 
-
-LaTeX Warning: Citation `Feng' on page 5 undefined on input line 20.
-
-
-LaTeX Warning: Citation `Liao' on page 5 undefined on input line 20.
-
-
-LaTeX Warning: Citation `Feng' on page 5 undefined on input line 20.
-
-
-LaTeX Warning: Citation `Liao' on page 5 undefined on input line 20.
-
-[5]
-
-LaTeX Warning: Citation `Song' on page 6 undefined on input line 22.
-
-
-LaTeX Warning: Citation `Du' on page 6 undefined on input line 22.
-
-
-LaTeX Warning: Citation `Song' on page 6 undefined on input line 22.
-
-
-LaTeX Warning: Citation `Du' on page 6 undefined on input line 22.
-
-) (./methodology.tex [6]
-Chapter 3.
-Missing character: There is no â in font cmr8!
-Missing character: There is no ˆ in font cmr8!
-Missing character: There is no ’ in font cmr8!
-Missing character: There is no â in font cmr8!
-Missing character: There is no ˆ in font cmr8!
-Missing character: There is no ’ in font cmr8!
-
-LaTeX Warning: Citation `dinh2012qpms7' on page 7 undefined on input line 79.
-
-
-LaTeX Warning: Citation `nicolae2014efficient' on page 7 undefined on input lin
-e 79.
-
-[7
-
-] [8]
-Underfull \hbox (badness 10000) in paragraph at lines 86--87
-
+[25 <./figures/casia_a_result-eps-converted-to.pdf>]
+Overfull \hbox (94.11913pt too wide) in alignment at lines 103--113
+[] [] [] [] [] [] [] [] [] [] [] [] []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 88--89
+LaTeX Warning: Citation `Yu_17_spae' on page 26 undefined on input line 119.
 
+
+LaTeX Warning: Citation `Yu_17_spae' on page 26 undefined on input line 133.
+
+
+Overfull \hbox (61.11409pt too wide) in alignment at lines 125--144
+[] [] [] [] []
+ []
+
+Package epstopdf Info: Source file: <figures/comp_casia_b_without_view.eps>
+(epstopdf)                    date: 2020-01-13 22:15:50
+(epstopdf)                    size: 94043 bytes
+(epstopdf)             Output file: <figures/comp_casia_b_without_view-eps-conv
+erted-to.pdf>
+(epstopdf)                    date: 2020-01-19 10:37:55
+(epstopdf)                    size: 29617 bytes
+(epstopdf)             Command: <repstopdf --outfile=figures/comp_casia_b_witho
+ut_view-eps-converted-to.pdf figures/comp_casia_b_without_view.eps>
+(epstopdf)             \includegraphics on input line 149.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: /usr/bin/pdflatex (file ./figures/comp_casia_b_without_view-eps
+-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version
+ <1.5> allowed
+<figures/comp_casia_b_without_view-eps-converted-to.pdf, id=806, 484.81125pt x 
+319.1925pt>
+File: figures/comp_casia_b_without_view-eps-converted-to.pdf Graphic file (type
+ pdf)
+<use figures/comp_casia_b_without_view-eps-converted-to.pdf>
+Package pdftex.def Info: figures/comp_casia_b_without_view-eps-converted-to.pdf
+  used on input line 149.
+(pdftex.def)             Requested size: 327.20668pt x 215.44077pt.
+[26]
+Overfull \hbox (100.11913pt too wide) in alignment at lines 164--174
+[][][][][][][][][][][][][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 92--95
+LaTeX Warning: Citation `Yu_17_space' on page 27 undefined on input line 180.
 
+Missing character: There is no â in font ptmr7t!
+Missing character: There is no € in font ptmr7t!
+Missing character: There is no ™ in font ptmr7t!
+[27 <./figures/comp_casia_b_without_view-eps-converted-to.pdf>]
+
+LaTeX Warning: Citation `Yu_17_space' on page 28 undefined on input line 194.
+
+
+Underfull \hbox (badness 10000) in alignment at lines 188--206
+[][][][]
  []
 
-<figures/pmsprunetree.png, id=363, 919.435pt x 371.3875pt>
-File: figures/pmsprunetree.png Graphic file (type png)
-<use figures/pmsprunetree.png>
-Package pdftex.def Info: figures/pmsprunetree.png  used on input line 98.
-(pdftex.def)             Requested size: 375.14705pt x 151.53316pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 103--104
-
- []
-
-[9]
-Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on in
-put line 108.
- (./algorithms/qPMSPrune.alg) (./algorithms/qPMSPrune_Tree.alg) [10 <./figures/
-pmsprunetree.png>] (./algorithms/FeasibleOccurrences2.alg)
-(./algorithms/IsMotif.alg) [11]
-
-LaTeX Warning: Citation `dinh2012qpms7' on page 12 undefined on input line 146.
+Package epstopdf Info: Source file: <figures/comp_casia_b_with_view.eps>
+(epstopdf)                    date: 2020-01-14 02:57:41
+(epstopdf)                    size: 84451 bytes
+(epstopdf)             Output file: <figures/comp_casia_b_with_view-eps-convert
+ed-to.pdf>
+(epstopdf)                    date: 2020-01-19 10:37:55
+(epstopdf)                    size: 30021 bytes
+(epstopdf)             Command: <repstopdf --outfile=figures/comp_casia_b_with_
+view-eps-converted-to.pdf figures/comp_casia_b_with_view.eps>
+(epstopdf)             \includegraphics on input line 211.
+Package epstopdf Info: Output file is already uptodate.
 
 
+pdfTeX warning: /usr/bin/pdflatex (file ./figures/comp_casia_b_with_view-eps-co
+nverted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1
+.5> allowed
+<figures/comp_casia_b_with_view-eps-converted-to.pdf, id=835, 464.73625pt x 276
+.03125pt>
+File: figures/comp_casia_b_with_view-eps-converted-to.pdf Graphic file (type pd
+f)
+<use figures/comp_casia_b_with_view-eps-converted-to.pdf>
+Package pdftex.def Info: figures/comp_casia_b_with_view-eps-converted-to.pdf  u
+sed on input line 211.
+(pdftex.def)             Requested size: 327.20668pt x 194.34933pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 149--153
-
- []
-
-[12]
-<figures/qpms7.png, id=441, 874.26625pt x 395.4775pt>
-File: figures/qpms7.png Graphic file (type png)
-<use figures/qpms7.png>
-Package pdftex.def Info: figures/qpms7.png  used on input line 163.
-(pdftex.def)             Requested size: 375.14705pt x 169.69597pt.
- (./algorithms/qPMS7.alg) (./algorithms/qPMS7_Tree.alg) [13 <./figures/qpms7.pn
-g>] (./algorithms/FeasibleOccurrences3.alg)
-Underfull \hbox (badness 10000) in paragraph at lines 196--197
-
- []
-
-[14]
-Underfull \hbox (badness 10000) in paragraph at lines 218--219
-
- []
-
-[15] (./algorithms/TraverStringRef.alg) (./algorithms/TraverStringRef_Tree.alg)
-[16] [17] [18]
-Underfull \hbox (badness 10000) in paragraph at lines 271--272
-
+Overfull \hbox (14.1149pt too wide) in paragraph at lines 225--225
+[]\OT1/ptm/b/n/14.4 Comparison with the State-of-the-art Meth-ods of CA-SIA B D
+ataset
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 273--274
+LaTeX Warning: Citation `Kusakunniran_14' on page 28 undefined on input line 22
+6.
 
+
+LaTeX Warning: Citation `Kusakunniran_10' on page 28 undefined on input line 22
+6.
+
+[28 <./figures/comp_casia_b_with_view-eps-converted-to.pdf>]
+
+LaTeX Warning: Citation `table:comp_casia_b_cross_view' on page 29 undefined on
+ input line 228.
+
+
+Overfull \hbox (316.83363pt too wide) in alignment at lines 234--251
+[][][][][][][][][][][][][][][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 275--276
+LaTeX Warning: Citation `Dupuis_13' on page 29 undefined on input line 276.
 
+
+LaTeX Warning: Citation `Choudhury_15' on page 29 undefined on input line 278.
+
+
+LaTeX Warning: Citation `Isaac_17' on page 29 undefined on input line 280.
+
+
+LaTeX Warning: Citation `Dupuis_13' on page 29 undefined on input line 287.
+
+
+LaTeX Warning: Citation `Choudhury_15' on page 29 undefined on input line 289.
+
+
+LaTeX Warning: Citation `Isaac_17' on page 29 undefined on input line 291.
+
+
+LaTeX Warning: Citation `Dupuis_13' on page 29 undefined on input line 297.
+
+
+LaTeX Warning: Citation `Choudhury_15' on page 29 undefined on input line 299.
+
+
+LaTeX Warning: Citation `Isaac_17' on page 29 undefined on input line 301.
+
+
+Overfull \hbox (8.1816pt too wide) in alignment at lines 271--304
+[][][][][][][][][][][][][][][][][][]
  []
 
-[19]
-<figures/example.png, id=590, 1063.975pt x 132.495pt>
-File: figures/example.png Graphic file (type png)
-<use figures/example.png>
-Package pdftex.def Info: figures/example.png  used on input line 281.
-(pdftex.def)             Requested size: 375.14705pt x 46.7156pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 301--302
-
+[29]
+Underfull \hbox (badness 10000) in alignment at lines 316--320
+[][][][][][][][][][][][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 314--315
+LaTeX Warning: Citation `Dupuis_13' on page 30 undefined on input line 323.
 
- []
 
-[20 <./figures/example.png>]
-Missing character: There is no Ã in font ptmr7t!
-Missing character: There is no — in font ptmr7t!
+LaTeX Warning: Citation `Isaac_17' on page 30 undefined on input line 323.
 
-Overfull \hbox (9.41486pt too wide) in paragraph at lines 321--323
-[]\OT1/ptm/m/n/12 The test dataset was gen-er-ated in com-pu-ta-tional ex-per-i
--ment of Al-go-rithm Traver-StringRef
- []
 
-<figures/chart1.png, id=605, 737.75626pt x 530.98375pt>
-File: figures/chart1.png Graphic file (type png)
-<use figures/chart1.png>
-Package pdftex.def Info: figures/chart1.png  used on input line 368.
-(pdftex.def)             Requested size: 375.14705pt x 270.0041pt.
-<figures/chart2.png, id=606, 699.61375pt x 516.93124pt>
-File: figures/chart2.png Graphic file (type png)
-<use figures/chart2.png>
-Package pdftex.def Info: figures/chart2.png  used on input line 394.
-(pdftex.def)             Requested size: 375.14705pt x 277.19044pt.
-) (./result_discussion.tex [21] [22 <./figures/chart1.png>] [23 <./figures/char
-t2.png>]
-Chapter 4.
-[24
+LaTeX Warning: Citation `Choudhury_15' on page 30 undefined on input line 323.
 
-] [25] [26]) (./conclusion.tex [27]
+Package epstopdf Info: Source file: <figures/comp_casia_b_multi_view.eps>
+(epstopdf)                    date: 2019-01-14 01:11:38
+(epstopdf)                    size: 130475 bytes
+(epstopdf)             Output file: <figures/comp_casia_b_multi_view-eps-conver
+ted-to.pdf>
+(epstopdf)                    date: 2020-01-19 10:37:56
+(epstopdf)                    size: 32032 bytes
+(epstopdf)             Command: <repstopdf --outfile=figures/comp_casia_b_multi
+_view-eps-converted-to.pdf figures/comp_casia_b_multi_view.eps>
+(epstopdf)             \includegraphics on input line 327.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: /usr/bin/pdflatex (file ./figures/comp_casia_b_multi_view-eps-c
+onverted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <
+1.5> allowed
+<figures/comp_casia_b_multi_view-eps-converted-to.pdf, id=859, 471.7625pt x 347
+.2975pt>
+File: figures/comp_casia_b_multi_view-eps-converted-to.pdf Graphic file (type p
+df)
+<use figures/comp_casia_b_multi_view-eps-converted-to.pdf>
+Package pdftex.def Info: figures/comp_casia_b_multi_view-eps-converted-to.pdf  
+used on input line 327.
+(pdftex.def)             Requested size: 341.43306pt x 251.35764pt.
+) (./chapters/conclusion.tex [30] [31 <./figures/comp_casia_b_multi_view-eps-co
+nverted-to.pdf>]
 Chapter 5.
-) (./bibliography.tex (./gait_thesis.bbl [28
+) (./bibliography.tex [32
 
-] [29] [30
+] (./gait_thesis.bbl [33
 
-])) [31]
+
+] [34]
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ± in font ptmr7t!
+)) [35]
 runsystem(makeindex gait_thesis.idx)...executed safely (allowed).
 
 
@@ -1110,10 +1460,7 @@ File: lstlang1.sty 2015/06/04 1.6 listings language file
 )
 (/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
-) [32
-
-
-]
+)
 Appendix A.
 LaTeX Font Info:    Try loading font information for OT1+pcr on input line 18.
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1pcr.fd
@@ -1124,16 +1471,17 @@ LaTeX Font Info:    Font shape `OT1/pcr/m/it' in size <12> not available
 (Font)              Font shape `OT1/pcr/m/sl' tried instead on input line 1.
 LaTeX Font Info:    Font shape `OT1/pcr/bx/n' in size <12> not available
 (Font)              Font shape `OT1/pcr/b/n' tried instead on input line 8.
- [33
+ [36
 
-] [34])) [35]
+
+])) [37]
 LaTeX Font Info:    Try loading font information for OT1+phv on input line 57.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1phv.fd
 File: ot1phv.fd 2001/06/04 scalable font definitions for OT1/phv.
 )
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 57.
- [36
+ [38
 
 ]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 57.
@@ -1142,46 +1490,49 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 57.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 57.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 57.
 Package rerunfilecheck Info: File `gait_thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 71684319C5B8AC15262F2C2F83D667E7;2411.
+(rerunfilecheck)             Checksum: A56BAA029342637A954F5716FD7524C9;3372.
 
 
 LaTeX Warning: There were undefined references.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 57.
- )
-(\end occurred inside a group at level 1)
 
-### simple group (level 1) entered at line 151 ({)
-### bottom level 
+LaTeX Warning: There were multiply-defined labels.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 57.
+ ) 
 Here is how much of TeX's memory you used:
- 15144 strings out of 494333
- 235153 string characters out of 6168093
- 468429 words of memory out of 5000000
- 17904 multiletter control sequences out of 15000+600000
- 35797 words of font info for 66 fonts, out of 8000000 for 9000
+ 15409 strings out of 494333
+ 240533 string characters out of 6168093
+ 496701 words of memory out of 5000000
+ 18276 multiletter control sequences out of 15000+600000
+ 42724 words of font info for 90 fonts, out of 8000000 for 9000
  309 hyphenation exceptions out of 8191
- 52i,12n,97p,1463b,2075s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</us
-r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/shar
-e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texli
-ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/
-fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/ty
-pe1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
-ic/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/ams
-fonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/c
-m/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/courier/ucrb8a.pfb><
-/usr/share/texlive/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/share/te
-xlive/texmf-dist/fonts/type1/urw/courier/ucrro8a.pfb></usr/share/texlive/texmf-
-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/t
-ype1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/
-utmbi8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></u
-sr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texliv
-e/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on gait_thesis.pdf (46 pages, 390183 bytes).
+ 52i,23n,97p,1241b,1799s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
+e/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmmib10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
+nts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/
+cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pf
+b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/
+share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/
+texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive
+/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/share/texlive/
+texmf-dist/fonts/type1/urw/courier/ucrb8a.pfb></usr/share/texlive/texmf-dist/fo
+nts/type1/urw/courier/ucrr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw
+/courier/ucrro8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uh
+vr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/
+share/texlive/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texlive/
+texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/font
+s/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/tim
+es/utmri8a.pfb>
+Output written on gait_thesis.pdf (50 pages, 3708293 bytes).
 PDF statistics:
- 877 PDF objects out of 1000 (max. 8388607)
- 796 compressed objects within 8 object streams
- 353 named destinations out of 1000 (max. 500000)
- 343 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1097 PDF objects out of 1200 (max. 8388607)
+ 946 compressed objects within 10 object streams
+ 235 named destinations out of 1000 (max. 500000)
+ 458 words of extra memory for PDF output out of 10000 (max. 10000000)
 

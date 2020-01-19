@@ -1,9 +1,0 @@
-\contentsline {algorithm}{\numberline {1}{\ignorespaces qPMSPrune\relax }}{10}{algorithm.1}
-\contentsline {algorithm}{\numberline {2}{\ignorespaces qPMSPrune\_Tree($k,x_{k},p_{k},\mathcal {T}$)\relax }}{11}{algorithm.2}
-\contentsline {algorithm}{\numberline {3}{\ignorespaces FeasibleOccurrences2($k,x_{k},\mathcal {Q}$)\relax }}{11}{algorithm.3}
-\contentsline {algorithm}{\numberline {4}{\ignorespaces IsMotif($x,q',\mathcal {T}$)\relax }}{12}{algorithm.4}
-\contentsline {algorithm}{\numberline {5}{\ignorespaces qPMS7\relax }}{13}{algorithm.5}
-\contentsline {algorithm}{\numberline {6}{\ignorespaces qPMS7\_Tree($k,x_{0},r,x_k,p_k,\mathcal {T}$)\relax }}{14}{algorithm.6}
-\contentsline {algorithm}{\numberline {7}{\ignorespaces FeasibleOccurrences3($x_0,r,x_k,p_k,\mathcal {Q}$)\relax }}{14}{algorithm.7}
-\contentsline {algorithm}{\numberline {8}{\ignorespaces TraverStringRef\relax }}{16}{algorithm.8}
-\contentsline {algorithm}{\numberline {9}{\ignorespaces TraverStringRef\_Tree($k,x_0,r,x_k,p_k,\mathcal {T},J$)\relax }}{17}{algorithm.9}
