@@ -1,0 +1,8 @@
+% Name, Role, Designation, Status, Address
+Dr. Hossen Asiful Mustafa, Chairman, Assistant Professor, (Supervisor), "IICT, BUET, Dhaka", 
+Dr. Md. Saiful Islam, Member, Director and Professor, (Ex-officio), "IICT, BUET, Dhaka",
+Dr. Md. Liakot Ali, Member, Professor, , "IICT, BUET, Dhaka",
+Name of the Supervisor, Member, Designation, ,Address,
+Name of the Supervisor, Member, Designation, (External), Address,
+
+

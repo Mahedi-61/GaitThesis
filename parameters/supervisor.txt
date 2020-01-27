@@ -1,3 +1,4 @@
 % Supervisor Name, Supervisor Designation
-Name of the Supervisor, chairman, Designation, Address, 
-N-2, Member, D-2, A-2
+Dr. Hossen Asiful Mustafa, Assistant Professor 
+
+

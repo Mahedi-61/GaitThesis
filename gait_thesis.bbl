@@ -28,13 +28,14 @@ Z.~Cao, G.~Hidalgo~Martinez, T.~Simon, S.-E. Wei, and Y.~Sheikh, ``Openpose:
 
 \bibitem{Schuster_97}
 M.~Schuster and K.~K. Paliwal, ``Bidirectional recurrent neural networks,''
-  \emph{IEEE Trans. on Signal Proces.}, vol.~45, no.~11, pp. 2673--2681, 1997.
+  \emph{IEEE Trans. on Signal Proces.}, vol.~45, no.~11, pp. 2673 -- 2681,
+  1997.
 
 \bibitem{Ioffe_15}
 S.~Ioffe and C.~Szegedy, ``Batch normalization: Accelerating deep network
   training by reducing internal covariate shift,'' in \emph{Int. Conf. on
   Machine Learning}.\hskip 1em plus 0.5em minus 0.4em\relax Lille, France,
-  2015, pp. 448--456.
+  2015, pp. 448 -- 456.
 
 \bibitem{Redmon_18}
 J.~Redmon and A.~Farhadi, ``Yolov3: An incremental improvement,'' \emph{arXiv
@@ -54,7 +55,7 @@ S.~Yu, D.~Tan, and T.~Tan, ``A framework for evaluating the effect of view
 
 \bibitem{Rida_19}
 I.~Rida, N.~Almaadeed, and S.~Almaadeed, ``Robust gait recognition: a
-  comprehensive survey,'' \emph{IET Biometrics}, vol.~8, no.~1, pp. 14--28,
+  comprehensive survey,'' \emph{IET Biometrics}, vol.~8, no.~1, pp. 14 -- 28,
   January 2019.
 
 \bibitem{Han_06}
@@ -192,5 +193,82 @@ A.~Karpathy, G.~Toderici, S.~Shetty, T.~Leung, R.~Sukthankar, and L.~Fei-Fei,
   ``Large-scale video classification with convolutional neural networks,'' in
   \emph{IEEE Conf. on Computer Vision and Pattern Recognition}.\hskip 1em plus
   0.5em minus 0.4em\relax Columbus, USA, 2014, pp. 1725 -- 1732.
+
+\bibitem{Hofmann_14}
+M.~Hofmann, J.~Geiger, S.~Bachmann, B.~Schuller, and G.~Rigoll, ``The tum gait
+  from audio, image and depth (gaid) database: Multimodal recognition of
+  subjects and traits,'' \emph{Journal of Visual Com. and Image
+  Representation}, vol.~25, no.~1, pp. 195--206, January 2014.
+
+\bibitem{Noriko_18}
+T.~Noriko, Y.~Makihara, D.~Muramatsu, T.~Echigo, and Y.~Yagi, ``Multi-view
+  large population gait dataset and its performance evaluation for cross-view
+  gait recognition,'' \emph{IPSJ Trans. on Computer Vision and Applications},
+  vol.~10, no.~1, p.~4, February 2018.
+
+\bibitem{Sarkar_05}
+S.~Sarkar, P.~J. Phillips, Z.~Liu, I.~R. Vega, P.~Grother, and K.~Bowyer, ``The
+  humanid gait challenge problem: Data sets, performance, and analysis,''
+  \emph{IEEE Trans. on Pattern Anal. Mach. Intell.}, vol.~27, no.~2, pp.
+  162--177, February 2005.
+
+\bibitem{Wang_03}
+L.~Wang, T.~Tieniu, W.~Hu, and H.~Ning, ``Automatic gait recognition based on
+  statistical shape analysis,'' \emph{IEEE Trans. on Image Process.}, vol.~12,
+  no.~9, pp. 1120 -- 1131, September 2003.
+
+\bibitem{Goffredo_08}
+M.~Goffredo, J.~N. Carter, and M.~S. Nixon, ``Front-view gait recognition,'' in
+  \emph{Biometrics: Theory, Applications and Systems}.\hskip 1em plus 0.5em
+  minus 0.4em\relax Arlington, VA, USA, 2008, pp. 1 -- 6.
+
+\bibitem{Liu_16}
+D.~Liu, M.~Ye, X.~Li, F.~Zhang, and L.~Lin, ``Memory-based gait recognition,''
+  in \emph{British Machine Vision Conf.}\hskip 1em plus 0.5em minus 0.4em\relax
+  BMVA Press, 2016, pp. 82.1 -- 82.12.
+
+\bibitem{Lima_19}
+V.~C. de~Lima and W.~R. Schwartz, ``Gait recognition using pose estimation and
+  signal processing,'' in \emph{Iberoamerican Congress on Pattern
+  Recognition}.\hskip 1em plus 0.5em minus 0.4em\relax BMVA Press, 2019, pp.
+  719 -- 728.
+
+\bibitem{Kusakunniran_09}
+W.~Kusakunniran, Q.~Wu, H.~Li, and J.~Zhang, ``Automatic gait recognition using
+  weighted binary pattern on video,'' in \emph{Sixth IEEE International
+  Conference on Advanced Video and Signal Based Surveillance}.\hskip 1em plus
+  0.5em minus 0.4em\relax Genova, Italy, 2009, pp. 49 -- 54.
+
+\bibitem{Yu_17_spae}
+S.~Yu, H.~Chen, Q.~Wang, L.~Shen, and Y.~Huang, ``Invariant feature extraction
+  for gait recognition using only one uniform model,'' \emph{Neurocomputing},
+  vol. 239, no.~C, pp. 81 -- 93, May 2017.
+
+\bibitem{Kusakunniran_14}
+W.~Kusakunniran, Q.~Wu, J.~Zhang, H.~Li, and L.~Wang, ``Recognizing gaits
+  across views through correlated motion co-clustering,'' \emph{IEEE Trans. on
+  Image Process.}, vol.~23, no.~2, pp. 696 -- 709, February 2014.
+
+\bibitem{Kusakunniran_10}
+W.~Kusakunniran, Q.~Wu, J.~Zhang, and H.~Li, ``Support vector regression for
+  multi-view gait recognition based on local motion feature selection,'' in
+  \emph{IEEE Computer Society Conf. on Computer Vision and Pattern
+  Recognition}.\hskip 1em plus 0.5em minus 0.4em\relax San Francisco, CA, USA,
+  2010, pp. 974 -- 981.
+
+\bibitem{Dupuis_13}
+Y.~Dupuis, S.~Xavier, and V.~Pascal, ``Feature subset selection applied to
+  model-free gait recognition,'' \emph{Image and Vision Computing}, vol.~31,
+  no.~8, pp. 580 -- 591, 2013.
+
+\bibitem{Isaac_17}
+E.~R. Isaac, S.~Elias, S.~Rajagopalan, and K.~S. Easwarakumar, ``View-invariant
+  gait recognition through genetic template segmentation,'' \emph{IEEE Signal
+  Process. Letters}, vol.~24, no.~8, pp. 1188 -- 1192, June 2017.
+
+\bibitem{Choudhury_15}
+S.~D. Choudhury and T.~Tjahjadi, ``Robust view-invariant multiscale gait
+  recognition,'' \emph{Pattern Recognition}, vol.~48, no.~3, pp. 798 -- 811,
+  March 2015.
 
 \end{thebibliography}

@@ -1,0 +1,61 @@
+This is BibTeX, Version 0.99d (TeX Live 2017/Debian)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: gait_thesis.aux
+The style file: IEEEtran.bst
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Database file #1: buet_msc_thesis.bib
+Warning--I didn't find a database entry for "Goffredo"
+Warning--I didn't find a database entry for "Liu02"
+Warning--I didn't find a database entry for "table:comp_casia_b_cross_view"
+-- IEEEtran.bst version 1.14 (2015/08/26) by Michael Shell.
+-- http://www.michaelshell.org/tex/ieeetran/bibtex/
+-- See the "IEEEtran_bst_HOWTO.pdf" manual for usage information.
+Warning--empty booktitle in Song_17
+
+Done.
+You've used 46 entries,
+            4087 wiz_defined-function locations,
+            1147 strings with 16190 characters,
+and the built_in function-call counts, 44130 in all, are:
+= -- 3468
+> -- 1105
+< -- 459
++ -- 582
+- -- 170
+* -- 2134
+:= -- 6054
+add.period$ -- 113
+call.type$ -- 46
+change.case$ -- 46
+chr.to.int$ -- 1137
+cite$ -- 47
+duplicate$ -- 3047
+empty$ -- 3521
+format.name$ -- 216
+if$ -- 10461
+int.to.chr$ -- 0
+int.to.str$ -- 46
+missing$ -- 502
+newline$ -- 161
+num.names$ -- 46
+pop$ -- 1167
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 2
+skip$ -- 3360
+stack$ -- 0
+substring$ -- 2700
+swap$ -- 2687
+text.length$ -- 80
+text.prefix$ -- 0
+top$ -- 5
+type$ -- 46
+warning$ -- 1
+while$ -- 203
+width$ -- 48
+write$ -- 469
+(There were 4 warnings)

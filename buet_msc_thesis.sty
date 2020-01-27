@@ -5,21 +5,25 @@
 \RequirePackage{amsthm}
 \RequirePackage{amssymb}
 \RequirePackage{amsmath}
-\RequirePackage[a4paper, top=1.0in, bottom=1.0in, left=1.25in, right=1.0in]{geometry}
+\RequirePackage[a4paper, top=1.25in, bottom=1.0in, left=1.5in, right=1.0in]{geometry}
 \RequirePackage{times}
 \RequirePackage{cite}
 \RequirePackage{url}
 \RequirePackage{listings}
 \RequirePackage{multirow}
+\RequirePackage[automake]{glossaries}
 \RequirePackage[final, colorlinks, linkcolor=black, citecolor=blue, urlcolor=black]{hyperref}
 
 % Prevent math from being upcased
 % http://tex.stackexchange.com/questions/46525/preventing-makeuppercase-from-affecting-mathematics
 \RequirePackage{textcase}
-
+\makeglossaries
+  
 % Definition macros
-\def\cse{Institute of Information and Communication Technology}
+\def\iict{Institute of Information and Communication Technology}
 \def\buet{Bangladesh University of Engineering and Technology}
+\def\degree{MASTER OF SCIENCE}
+\def\subject{Information and Communication Technology}
 
 % sets spacing between paragraphs
 \parskip 2.5mm           
@@ -42,69 +46,95 @@
 
 % Read and store student names in DB
 \RequirePackage{datatool}
-\DTLloaddb[noheader]{ThesisStudents}{parameters/students.txt}
 \DTLloaddb[noheader]{Supervisor}{parameters/supervisor.txt}
+\DTLloaddb[noheader]{BOE}{parameters/boe.txt}
 
 % Thesis parameters
 \def\thesistitle{\input{parameters/thesistitle.txt}\unskip}
 \def\thesisdate{\input{parameters/thesisdate.txt}\unskip}
+\def\author{\input{parameters/author.txt}\unskip}
+\def\StudentID{\input{parameters/StudentID.txt}\unskip}
+
+
+\newglossaryentry{ann} {name={ANN}, description={Artificial Neural Network}}
+\newglossaryentry{bn} {name={BN}, description={Batch normalization}}
+\newglossaryentry{bigru} {name={BiGRU}, description={Bidirectional Gated Recurrent Unit}}
+\newglossaryentry{bilstm} {name={BiLSTM}, description={Bidirectional Long Short-Term Memory}}
+\newglossaryentry{ce}  {name={CE}, description={Cross-Entropy}}
+\newglossaryentry{cl}  {name={CL}, description={Center Loss}}
+\newglossaryentry{ccr} {name={CCR}, description={Correct Class Recognition}}
+\newglossaryentry{ccn} {name={CNN}, description={Convolutional Neural Network}}
+\newglossaryentry{dnn} {name={DNN}, description={Deep Neural Network}}
+\newglossaryentry{fc}  {name={FC}, description={Fully Connected}}
+\newglossaryentry{fps} {name={FPS}, description={Frames Per Second}}
+\newglossaryentry{gpu} {name={GPU}, description={Graphics Processing Unit}}
+\newglossaryentry{gru} {name={GRU}, description={Gated Recurrent Unit}}
+\newglossaryentry{lstm}{name={LSTM}, description={Long Short-Term Memory}}
+\newglossaryentry{mse} {name={MSE}, description={Mean Squared Error}}
+\newglossaryentry{rnn} {name={RNN}, description={Recurrent Neural Network}}
+\newglossaryentry{relu}{name={ReLU}, description={Rectified Linear Unit}}
+\newglossaryentry{sgd} {name={SGD}, description={Stochastic Gradient Descent}}
+
+
 
 % Thesis title page 
 \def\thesistitlepage{
   \thispagestyle{empty}
   \begin{center}
     \vspace*{\stretch{2}}
-    \textbf{{\Large\thesistitle}}
+    \textbf{\Large\textsc{\thesistitle}}
 
     \vspace*{\stretch{5}}
     {\large By}\\
-    \DTLforeach{ThesisStudents}{\StudentName=Column1,\StudentID=Column2}{\vspace*{\stretch{1}}\large \StudentName\\ \large \StudentID\\}
+    \vspace*{\stretch{1}}\large{\author}\\ 
+    \large \StudentID\\
     \vspace*{\stretch{3}}
-    {\large MASTER OF SCIENCE}\\
-    {\large IN INFORMATION AND COMMUNICATIN TECHNOLOGY}\\
+    
+    {\large \degree}\\
+    {\large IN \\ \MakeUppercase\subject}\\
     \vspace*{\stretch{4}}{\tiny.}\vspace*{\stretch{2}}
     \includegraphics[width=40mm]{figures/buetlogo}\\
-    \large \cse\\
+    \large \iict\\
     {\Large \buet}\\
     \medskip
     Dhaka, Bangladesh\\
+
     \bigskip
     \vspace*{\stretch{1}}
     \thesisdate
-  \end{center}}
+  \end{center}
+}
+
 
 
 % Thesis certification page
 \def\thesiscertificationpage{
-  \begin{center}
-    \textbf{{\Large CERTIFICATION}}
-  \end{center}
-  \addcontentsline{toc}{chapter}{\textbf{\normalsize{\emph{CERTIFICATION}}}}
-  \bigskip\bigskip
-  
-
+   \addcontentsline{toc}{chapter}{\textbf{Certification}}
+   
   This thesis titled, \textbf{\lq\lq\thesistitle\rq\rq}, submitted by
-  Md Mahedi Hasan, Roll No.: 1014312019, Session: 2019, has been accepted as
-  satisfactory in partial fulfillment of the requirement for the degree of MASTER OF
-  SCIENCE in Information and Communication Technology in \thesisdate.
-
-  \vspace*{5.0mm}
+  \author, Roll No.:\StudentID , Session: October 2014, has been accepted as satisfactory in partial fulfillment of the requirement for the degree of \degree\hphantom -in \subject\hphantom -on \thesisdate.
+  \vspace*{3.0mm}
   
   \begin{center}
   	\textbf{{\large BOARD OF EXAMINERS}}
   \end{center}
-  \vspace*{5.0mm}
-
-  \hspace*{10.0mm}\begin{minipage}[t]{0.9\textwidth}
-    \DTLforeach{Supervisor}{\SupervisorName=Column1,
-    						\SupervisorRole=Column2,
-    						\SupervisorDesignation=Column3,
-    			\SupervisorAddress=Column4}{\hspace*{10.0mm} Signature \\ \\
-    			\SupervisorName \hfill \SupervisorRole \par\SupervisorDesignation\par\SupervisorAddress\\\\\\}
+  
+  \hspace*{5.0mm}\begin{minipage}[t]{0.9\textwidth}
+    \DTLforeach{BOE}{\ExaminerName=Column1,
+    				 \ExaminerRole=Column2,
+    				 \ExaminerDesignation=Column3,
+    				 \ExaminerStatus=Column4,
+    			     \ExaminerAddress=Column5}
+    			{
+    					\rule{5cm}{.2mm}\\
+    					\ExaminerName \hfill \ExaminerRole \\\ExaminerDesignation \hfill \ExaminerStatus \\\ExaminerAddress\bigskip\\\\
+    			}
 
   \end{minipage}
+}
 
-  \vspace{\stretch{2}}}
+
+
 
 % Thesis candidates' declaration
 \def\thesiscandidatesdeclaration{
@@ -112,37 +142,30 @@
   \begin{center}
     \textbf{{\Large CANDIDATE'S DECLARATION}}
   \end{center}
-  \addcontentsline{toc}{chapter}{\textbf{\normalsize{\emph{CANDIDATE'S DECLARATION}}}}
+  \addcontentsline{toc}{chapter}{\textbf{Candidate's Declaration}}
   \vspace*{\stretch{1}}
     
-  This is to certify that the work presented in this thesis, titled,
-  ``\thesistitle'', is the outcome of the investigation and research
-  carried out by us under the supervision of
+  This is to certify that the work presented in this thesis entitled ``\thesistitle'', is the outcome research carried out by \author\hphantom -under the supervision of
   \DTLforeach{Supervisor}{\SupervisorName=Column1,\SupervisorDesignation=Column2}{\SupervisorName}.
 
   \bigskip
 
-  It is also declared that neither this thesis nor any part thereof
-  has been submitted anywhere else for the award of any degree,
-  diploma or other qualifications.
-
-
-  \DTLforeach{ThesisStudents}{\StudentName=Column1,\StudentID=Column2}{
+  It is also declared that neither this thesis nor any part thereof has been submitted anywhere else for the award of any degree, diploma or other qualifications.
+  
     \vspace*{25.0mm}
     \begin{minipage}[t]{0.4\textwidth}
       \hrule\medskip
-      \StudentName\par
+      \author\par
       \StudentID
-    \end{minipage}\par}
-  
+    \end{minipage}\par
+ 
   \vspace*{\stretch{2}}
-  \endgroup}
+  \endgroup
+}
 
 % Inclusion of lof and lot in toc
 \RequirePackage[nottoc,notbib]{tocbibind}
 \RequirePackage{tocloft}
-
-
 \RequirePackage{etoolbox}
 \newtoggle{suppress@lof}
 \newtoggle{suppress@lot}
@@ -164,9 +187,9 @@
   \iftoggle{suppress@lot}{\relax}{\cleardoublepage\listoftables}
 
   % List of algorithms, if not suppressed
-  \iftoggle{suppress@lo@}{\relax}{\cleardoublepage
-    \addcontentsline{toc}{chapter}{\listalgorithmname}
-    \listofalgorithms}
+  %\iftoggle{suppress@lo@}{\relax}{\cleardoublepage
+  %  \addcontentsline{toc}{chapter}{\listalgorithmname}
+  %  \listofalgorithms}
 }
 
 % Starting materials
@@ -175,19 +198,21 @@
 
   \cleardoublepage
   \pagenumbering{roman}
-  \thesiscandidatesdeclaration
-
-  \cleardoublepage
   \thesiscertificationpage
 
   \cleardoublepage
-  \input {acknowledgement.tex}
+  \thesiscandidatesdeclaration
+  
+  \cleardoublepage
+  \input{pages/abstract.tex}
+
+  \cleardoublepage
+  \input {pages/acknowledgement.tex}
 
   \cleardoublepage
   \listsandtoc
   
-  \cleardoublepage
-  \input{abstract.tex}
+  \input {pages/abbreviations.tex}
 }
 
 
@@ -200,6 +225,7 @@
 \fancyhead[L]{\slshape \rightmark}
 \fancyhead[R]{\textbf{\thepage}}
 
+
 % Starting materials
 \AtBeginDocument{\st@rtingm@teri@ls
   \cleardoublepage
@@ -210,37 +236,6 @@
 
 % For index creation
 \RequirePackage{imakeidx}
-
-% Versionn information at the end
-\RequirePackage[nofancy,notoday]{rcsinfo}
-\rcsInfo $Id: buet_msc_thesis.sty,v 1.2 2020/01/05 11:24:56 masroor Exp $
-\RequirePackage{datetime}
-
-\AtEndDocument{%
-  \clearpage
-  \pagestyle{plain}
-  
-  \begingroup
-  
-  \flushright
-
-  \vspace*{0.0mm}
-  \vfill\vfill\vfill\vfill\vfill
-  \sffamily
-
-  Generated using Undegraduate Thesis \LaTeX\xspace Template,
-  Version~\rcsInfoRevision. \cse, \buet, Dhaka, Bangladesh.
-
-  \bigskip
-
-  \settimeformat{ampmtime}
-
-  This thesis was generated on~\today\xspace at~\currenttime.
-
-  \vfill
-
-  \endgroup}
-
 
 
 \endinput

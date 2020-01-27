@@ -37,10 +37,10 @@ Since, CASIA A dataset contains only 20 subjects each of which have only four ga
 			Wang~\cite{Wang_03} &88.75 &87.50 &90.00 &88.75\\
 			
 			\noalign{\smallskip}
-			Goffredo~\cite{Goffredo} &100.0 &97.50 &91.00 &96.16\\ 
+			Goffredo~\cite{Goffredo_08} &100.0 &97.50 &91.00 &96.16\\ 
 			
 			\noalign{\smallskip}
-			Liu~\cite{Liu02} &85.00 &87.50 &95.00 &89.17\\ 
+			Liu~\cite{Liu_16} &85.00 &87.50 &95.00 &89.17\\ 
 			
 			\noalign{\smallskip}
 			Lima~\cite{Lima_19} &92.50 &97.50 &98.75 &96.25 \\
@@ -99,17 +99,22 @@ We divide CASIA-B dataset into two group where first group consists of 24 subjec
 Experimental results of single-view gait recognition on all the three probe set of CASIA B dataset without view variation is illustrated in Table~\ref{table:resutl_without_view}. We achieved higher average recognition rate $ 97.80\% $ and $ 82.82\% $ on the probe set of (\textit{ProbeBG}) and (\textit{ProbeCL}) respectively. This performance proves the robustness of our proposed method towards both carrying and clothing covariate conditions. We also achieved higher average class recognition rate \textit{99.41\%} on normal walking condition.
 
 \begin{table}[t]
-	\caption{Correct class recognition rate (CCR) of proposed method in all three probe sets of CASIA B dataset. Here, column represents a specific view of gallery and probe set.  It has been observed that the probe set of normal walking (\textit{ProbeNM}) achieves $ \textbf{99.41\%}$ average recognition rate while the ProbeBG and ProbeCL set achieve $ \textbf{97.80\%}$ and $\textbf{82.82\%}$ average recognition rates respectively. \label{table:resutl_without_view}}
-	{\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}ccccccccccccc}\hline
-			% 1st row		
-			Probe Type &${0^{\circ}}$	&${18^{\circ}}$ &${36^{\circ}}$	&${54^{\circ}}$	&${72^{\circ}}$	&${90^{\circ}}$	
-			&${108^{\circ}}$ &${126^{\circ}}$ &${144^{\circ}}$ &${162^{\circ}}$	&${180^{\circ}}$ & Mean \\
-			\hline
-			\textit{ProbeNM} &100  &100  &100  &100  &100  &98.39  &100  &100  &100  &98.39  &96.77  &\textbf{99.41} \\
-			\rule{0pt}{2ex}\textit{ProbeBG}	&100 &100 &100 &100 &98.39 &96.77 &96.77 &98.39 &98.39 &95.16 &91.93 &\textbf{97.80} \\
-			
-			\rule{0pt}{2ex}\textit{ProbeCL} &81.52 &82.11 &83.58 &85.48 &84.46 &83.72 &83.28 &84.16 &83.58 &80.65 &78.45 &\textbf{82.82} \\
-			\hline
+	\centering
+	\caption{Correct class recognition rate (\gls{ccr}) of proposed method in all three probe sets of CASIA B dataset. Here, column represents a specific view of gallery and probe set.  It has been observed that the probe set of normal walking (\textit{ProbeNM}) achieves $ \textbf{99.41\%}$ average recognition rate while the ProbeBG and ProbeCL set achieve $ \textbf{97.80\%}$ and $\textbf{82.82\%}$ average recognition rates respectively. \label{table:resutl_without_view}}
+	{\begin{tabular*}{22pc}{cccc}\hline
+	Gallery Angle  &\textit{ProbeNM}  &\textit{ProbeBG} &\textit{ProbeCL} \\\hline\noalign{\smallskip} 
+	${0^{\circ}}$	&100.0  &100.0  &81.52  \\\noalign{\smallskip}
+	${18^{\circ}}$  &100.0  &100.0  &82.11  \\\noalign{\smallskip}
+	${36^{\circ}}$	&100.0  &100.0  &83.58  \\\noalign{\smallskip}
+	${54^{\circ}}$	&100.0  &100.0  &85.48  \\\noalign{\smallskip}
+	${72^{\circ}}$	&100.0  &98.39 &84.46   \\\noalign{\smallskip}
+	${90^{\circ}}$	&98.39  &96.77  &83.72  \\\noalign{\smallskip} 
+	${108^{\circ}}$ &100.0  &96.77  &83.28  \\\noalign{\smallskip}
+	${126^{\circ}}$ &100.0  &98.39  &84.16  \\\noalign{\smallskip}
+	${144^{\circ}}$ &100.0  &98.39  &83.58  \\\noalign{\smallskip}
+	${162^{\circ}}$	&98.39  &95.16  &80.65 \\\noalign{\smallskip}
+	${180^{\circ}}$ &96.77  &91.93  &78.45  \\\noalign{\smallskip}
+	Mean &\textbf{99.41}  &\textbf{97.80}  &\textbf{82.82} \\\hline
 	\end{tabular*}}{}
 \end{table}
 
@@ -120,9 +125,10 @@ We compare our experimental results with other state-of-the-art methods such as 
 
 
 \begin{table}[t]
+	\centering
 	\caption{Comparison between the proposed method and other state-of-the-art gait recognition methods in CASIA B dataset without view variation. It has been observed that the proposed method outperforms other methods in all three probe set of CASIA B dataset. As the proposed method doesn't depend on any body point higher than knee, it shows the robustness towards these covariate factors. It also achieves higher average correct class recognition rate (CCR) $\textbf{93.34\%}$ by outperforming other methods at a significant margin. \label{table:comp_casia_b_without_view}}
 	
-	{\begin{tabular*}{20pc}{@{\extracolsep{\fill}}ccccc}\hline
+	{\begin{tabular*}{25pc}{ccccc}\hline
 			
 			Methods &\textit{ProbeNM} &\textit{ProbeBG} &\textit{ProbeCL} &Average\\
 			\hline
@@ -162,23 +168,28 @@ The performance of the proposed method on single-view gait recognition with view
 	\centering
 	\caption{The average recognition rates for all three probe sets of CASIA B dataset. Each row represents the average value of all eleven probe angles at a specific gallery angle ($ \theta_g $) in all three probe sets. \label{table:comp_casia_b_with_view}}
 	
-	{\begin{tabular*}{\textwidth}{ccccccccccccc}\hline
-			% 1st row		
-			Probe Type &${0^{\circ}}$	&${18^{\circ}}$ &${36^{\circ}}$	&${54^{\circ}}$	&${72^{\circ}}$	&${90^{\circ}}$	
-			&${108^{\circ}}$ &${126^{\circ}}$ &${144^{\circ}}$ &${162^{\circ}}$	&${180^{\circ}}$ & Mean \\
-			\hline
-			\textit{ProbeNM} &61.73 &63.64 &67.30 &68.33 &68.33 &66.42 &64.22 &62.02 &58.80 &56.45 &52.35 &\textbf{62.69} \\
-			\rule{0pt}{2ex}\textit{ProbeBG}	&45.01 &47.80 &48.97 &50.15 &50.44 &49.12 &48.39 &47.07 &47.51 &44.13 &40.91 &\textbf{47.23} \\
+	{\begin{tabular*}{22pc}{cccc}\hline
+			Gallery Angle &\textit{ProbeNM} &\textit{ProbeBG} &\textit{ProbeCL} \\\hline\noalign{\smallskip}
+			${0^{\circ}}$	&61.73  &45.01  &32.40 \\\noalign{\smallskip}
+			${18^{\circ}}$  &63.64  &47.80  &32.99 \\\noalign{\smallskip}
+			${36^{\circ}}$	&67.30  &48.97  &34.46 \\\noalign{\smallskip}
+			${54^{\circ}}$	&68.33  &50.15  &37.24 \\\noalign{\smallskip}
+			${72^{\circ}}$	&68.33  &50.44  &39.0  \\\noalign{\smallskip}
+			${90^{\circ}}$	&66.42  &49.12  &36.36  \\\noalign{\smallskip}
+			${108^{\circ}}$ &64.22  &48.39  &34.75  \\\noalign{\smallskip}
+			${126^{\circ}}$ &62.02  &47.07  &32.40  \\\noalign{\smallskip}
+			${144^{\circ}}$ &58.80  &47.51  &31.82  \\\noalign{\smallskip}
+			${162^{\circ}}$	&56.45  &44.13  &29.77  \\\noalign{\smallskip}
+			${180^{\circ}}$ &52.35  &40.91  &26.83  \\\noalign{\smallskip}
+			Mean &\textbf{62.69}  &\textbf{47.23} &\textbf{33.46} \\\hline
 			
-			\rule{0pt}{2ex}\textit{ProbeCL} &32.40 &32.99 &34.46 &37.24 &39.0 &36.36 &34.75 &32.40 &31.82 &29.77 &26.83 &\textbf{33.46} \\
-			\hline
 	\end{tabular*}}{}
 \end{table}
 
 
 
 \subsubsection{Comparison on Single-View Gait Recognition of CASIA B Dataset with State-of-the-art Methods with View Variation}
-To better illustrate the robustness to view variation of our gait recognition method, the proposed method has been compared to three other state-of-the-art methods such as GaitGANv2~\cite{Yu_19}, PoseGait~\cite{Liao_19}, Yu \textit{et al.}~\cite{Yu_17_space}.  It is observed from Figure~\ref{fig:comp_casia_b_with_view} and Table~\ref{table:comp_casia_b_with_view} comparison that proposed method outperforms other in covariate variation and achieves comparable performance in normal walking. 
+To better illustrate the robustness to view variation of our gait recognition method, the proposed method has been compared to three other state-of-the-art methods such as GaitGANv2~\cite{Yu_19}, PoseGait~\cite{Liao_19}, Yu \textit{et al.}~\cite{Yu_17_spae}.  It is observed from Figure~\ref{fig:comp_casia_b_with_view} and Table~\ref{table:comp_casia_b_with_view} comparison that proposed method outperforms other in covariate variation and achieves comparable performance in normal walking. 
 
 Since, to recognize gait, we consider features based on effective body joints, hence our method doesn't get affected by the variation in covariate conditions compared to other appearance-based method or other model-based methods which consider ineffective features to build their gait descriptor. That’s why our method is proven to be less sensitive to view change and performs better in carrying-bag and clothing condition. 
 
@@ -186,13 +197,13 @@ Since, to recognize gait, we consider features based on effective body joints, h
 	\centering
 	\caption{Comparison among different state-of-the-art methods for gait recognition with view variation in all three probe sets of CASIA B dataset.  Each row represents the average value of all the gallery view's average recognition rate. It has been seen that, similar to first experiment, the proposed method achieves higher performance in two different probe set (\textit{ProbeBG}, \textit{ProbeCL}) and comparable performance in normal walking with to other prevailing methods. \label{table:comp_casia_b_with_view}}
 		
-	{\begin{tabular*}{25pc}{cccc}\hline
+	{\begin{tabular*}{22pc}{cccc}\hline
 				
 				Methods &\textit{ProbeNM} &\textit{ProbeBG} &\textit{ProbeCL}\\
 				\hline
 				
 				\noalign{\smallskip}
-				Yu \textit{et al.}~\cite{Yu_17_space} &62.82 &40.38 &26.05 \\ 
+				Yu \textit{et al.}~\cite{Yu_17_spae} &62.82 &40.38 &26.05 \\ 
 				
 				
 				\noalign{\smallskip}
@@ -211,7 +222,7 @@ Since, to recognize gait, we consider features based on effective body joints, h
 	\centering
 	\includegraphics[width = 115mm]{figures/comp_casia_b_with_view.eps}
 	\caption{
-		Comparison with different state-of-the-art methods for gait recognition with view variation in all three probe set of CASIA B dataset. Here, the value reported for each algorithm is the average of all the gallery view's average CCR. Proposed method outperforms other state-of-the-art methods achieving $47.23\%$ and $33.46\%$ in two covariate conditions \textit{ProbeBG}, and \textit{ProbeCL} respectively.  
+		Comparison with different state-of-the-art methods for gait recognition with view variation in all three probe set of CASIA B dataset. Here, the value reported for each algorithm is the average of all the gallery view's average \gls{ccr}. Proposed method outperforms other state-of-the-art methods achieving $47.23\%$ and $33.46\%$ in two covariate conditions \textit{ProbeBG}, and \textit{ProbeCL} respectively.  
 	}
 	\label{fig:comp_casia_b_with_view}
 \end{figure}
@@ -230,25 +241,43 @@ Although, the proposed method contains only one model to handle any view angle v
 
 
 \begin{table}
-	\caption{Comparison of our proposed method with the previous best results of cross-view gait recognition at different probe angles of CASIA B dataset by CCR (\%). The network was trained according to experimental setup B to have the same setup with other methods. \label{table:comp_casia_b_cross_view}}
+	\centering
+	\caption{Comparison of our proposed method with the previous best results of cross-view gait recognition at different probe angles of CASIA B dataset by \gls{ccr}(\%). The network was trained according to experimental setup B to have the same setup with other methods. \label{table:comp_casia_b_cross_view}}
 	
-	{\begin{tabular*}{20pc}{ccccc ccccc ccccc}\hline  
-				
-	%Probe View &\multicolumn{2}{c}{$0^{\circ}$} &\multicolumn{4}{c}{$54^{\circ}$} &\multicolumn{4}{c}{$90^{\circ}$} &\multicolumn{4}{c}{$126^{\circ}$}
+	{\begin{tabular*}{29pc}{c|c|cccc}\hline  \rule{0pt}{2ex}
+	Probe View &Gallery View &CNN &CMCC &GEI-SVR  &\textbf{Proposed} \\ \hline\rule{0pt}{3ex}
 	
-
-	Gallery View &$18^{\circ}$ &$36^{\circ}$ &$18^{\circ}$ &$36^{\circ}$ &$72^{\circ}$ &$90^{\circ}$ &$54^{\circ}$ &$72^{\circ}$ &$108^{\circ}$ &$126^{\circ}$ &$90^{\circ}$ &$108^{\circ}$ &$144^{\circ}$ &$162^{\circ}$
-	\\ \hline\rule{0pt}{2ex}
-
-	CNN &95.0 &73.5 &\textbf{91.5} &98.5 &98.5 &\textbf{93.0} &-- &\textbf{99.5} &\textbf{99.5} &-- &\textbf{92.0} &\textbf{99.0} &97.0 &\textbf{83.0} \\ \hline\rule{0pt}{2ex}
+	% first gallery angle
+	\multirow{2}{*}{$0^{\circ}$} &$18^{\circ}$ &95.0 &85.0 &84.0 &\textbf{97.0} \\\rule{0pt}{2ex}
 	
-	CMCC &85.0 &47.0 &65.0 &97.0 &95.0 &63.0 &66.0 &96.0 &95.0 &68.0 &78.0 &98.0 &\textbf{98.0} &75.0 \\ \hline\rule{0pt}{2ex}
+					&$36^{\circ}$ &73.5 &47.0 &45.0 &\textbf{80.0} \\ \hline\rule{0pt}{3ex}
 	
-	GEI-SVR &84.0 &45.0 &64.0 &95.0 &93.0 &59.0 &63.0 &95.0 &95.0 &65.0 &78.0 &98.0 &\textbf{98.0} &74.0 \\ \hline\rule{0pt}{2ex}
 	
-	Proposed &\textbf{97.0} &\textbf{80.0} &83.0 &\textbf{100.0} &\textbf{100.0} &83.0 &\textbf{84.0} &96.0 &95.0 &\textbf{71.0} &76.0 &92.0 &96.0 &77.0
-	\\\hline 
+	% second gallery angle
+	\multirow{4}{*}{$54^{\circ}$} &$18^{\circ}$ &\textbf{91.5} &65.0 &64.0  &83.0 \\\rule{0pt}{2ex}
 	
+			&$36^{\circ}$ &98.5 &97.0 &95.0 &\textbf{100.0} \\\rule{0pt}{2ex}
+	
+			&$72^{\circ}$ &98.5 &95.0 &93.0 &\textbf{100.0} \\\rule{0pt}{2ex}
+	
+			&$90^{\circ}$ &\textbf{93.0} &63.0 &59.0 &83.0 \\\hline\rule{0pt}{3ex}
+	
+	
+	% third gallery angle
+	\multirow{4}{*}{$90^{\circ}$} &$54^{\circ}$ &-- &66.0 &63.0 &\textbf{84.0 }\\\rule{0pt}{2ex}
+	
+		&$72^{\circ}$ &\textbf{99.5} &96.0 &95.0 &96.0 \\ \rule{0pt}{2ex}
+	
+		&$108^{\circ}$ &\textbf{99.5} &95.0 &95.0 &95.0 \\ \rule{0pt}{2ex}
+	
+		&$126^{\circ}$ &-- &68.0 &65.0 &\textbf{71.0} \\\hline\rule{0pt}{3ex}
+	
+	
+	% four gallery angle
+	\multirow{4}{*}{$126^{\circ}$} &$90^{\circ}$ &\textbf{92.0} &78.0 &78.0 &76.0 \\\rule{0pt}{2ex}
+			&$108^{\circ}$ &\textbf{99.0} &98.0 &98.0 &92.0 \\\rule{0pt}{2ex}
+			&$144^{\circ}$ &97.0 &\textbf{98.0} &\textbf{98.0} &96.0 \\\rule{0pt}{2ex}
+			&$162^{\circ}$ &\textbf{83.0} &75.0 &74.0 &77.0 \\\hline
 	\end{tabular*}}{} 
 \end{table}
 
@@ -269,37 +298,37 @@ In multi-view gait recognition, multiple views of gallery gaits are combined to 
 	\caption{Comparison with other state-of-the-art methods on all three probe set of CASIA-B dataset in multi-view gait recognition. From the comparison, it is been observed that proposed two-stage network achieves higher average recognition rates in 8 of 11 different probe angles.\label{table:comp_multi_view}}
 	\setlength{\tabcolsep}{4pt}
 	\small
-	{\begin{tabular*}{\textwidth}{|c|c|cccccccccccccccc} \cline{1-13}\rule{0pt}{3ex}
+	{\begin{tabular*}{\textwidth}{c|c|cccccccccccccccc|} \cline{1-13}\rule{0pt}{3ex}
 		% header
 		&Methods &${0^{\circ}}$ &${18^{\circ}}$  &${36^{\circ}}$ &${54^{\circ}}$ &${72^{\circ}}$	&${90^{\circ}}$	&${108^{\circ}}$ &${126^{\circ}}$ &${144^{\circ}}$ &${162^{\circ}}$  &${180^{\circ}}$ \\\cline{1-13}\rule{0pt}{3ex}
 					
 		% first probe set
-		\multirow{4}{*}{\rotatebox{90}{Normal}} &Dupuis~\cite{Dupuis_13} &97.2 &99.6 &97.2 &96.3 &98.8 &98.4 &97.1 &97.6 &97.14 &93.0 &96.0 \\\cline{2-13}\rule{0pt}{3ex}
+		\multirow{4}{*}{\rotatebox{90}{Normal}} &Dupuis &97.2 &99.6 &97.2 &96.3 &98.8 &98.4 &97.1 &97.6 &97.14 &93.0 &96.0 \\\rule{0pt}{3ex}
 		
-		&VI-MGR~\cite{Choudhury_15} &100.0 &99.0 &100.0 &99.0 &100.0 &100.0 &99.0 &99.0 &100.0 &100.0 &99.0 \\ \cline{2-13}\rule{0pt}{3ex}
+		&VI-MGR &100.0 &99.0 &100.0 &99.0 &100.0 &100.0 &99.0 &99.0 &100.0 &100.0 &99.0 \\ \rule{0pt}{3ex}
 		
-		&Isaac~\cite{Isaac_17} &98.5 &99.0 &99.0 &97.0 &97.5 &96.0 &95.0 &97.5 &94.0 &93.9 &99.0 \\\cline{2-13}\rule{0pt}{3ex}
+		&Isaac &98.5 &99.0 &99.0 &97.0 &97.5 &96.0 &95.0 &97.5 &94.0 &93.9 &99.0 \\\rule{0pt}{3ex}
 		
 		&\textbf{Proposed} &100.0  &100.0  &100.0  &100.0  &100.0  &98.4  &100.0  &100.0  &100.0  &98.4  &96.8 \\\cline{1-13}\rule{0pt}{3ex}
 	
 	
 	
 		% second probe set
-		\multirow{4}{*}{\rotatebox{90}{Bag}} &Dupuis~\cite{Dupuis_13} &73.2 &74.1 &74.7 &76.3 &78.5 &75.8 &76.3 &76.7 &73.4 &73.2 &74.6 \\\cline{2-13}\rule{0pt}{3ex} 
+		\multirow{4}{*}{\rotatebox{90}{Bag}} &Dupuis &73.2 &74.1 &74.7 &76.3 &78.5 &75.8 &76.3 &76.7 &73.4 &73.2 &74.6 \\\rule{0pt}{3ex} 
 
-		&VI-MGR~\cite{Choudhury_15} &93.0 &89.0 &89.0 &90.0 &77.0 &80.0 &82.0 &84.0 &92.0 &93.0 &89.0 \\\cline{2-13}\rule{0pt}{3ex}
+		&VI-MGR &93.0 &89.0 &89.0 &90.0 &77.0 &80.0 &82.0 &84.0 &92.0 &93.0 &89.0 \\\rule{0pt}{3ex}
 
-		&Isaac~\cite{Isaac_17} &95.0 &98.5 &96.5 &96.0 &97.5 &93.5 &93.5 &94.0 &92.5 &91.3 &94.4 \\\cline{2-13}\rule{0pt}{3ex}
+		&Isaac &95.0 &98.5 &96.5 &96.0 &97.5 &93.5 &93.5 &94.0 &92.5 &91.3 &94.4 \\\rule{0pt}{3ex}
 
 		&\textbf{Proposed}  &100 &100 &100 &100 &98.39 &96.77 &96.77 &98.39 &98.39 &95.16 &91.93 \\\hline\rule{0pt}{3ex}
 
 
 		% third probe set
-		\multirow{4}{*}{\rotatebox{90}{Coat}} &Dupuis~\cite{Dupuis_13} &81.64 &87.39 &86.29 &84.34 &89.96 &91.86 &89.50 &85.04 &72.24 &78.40 &82.70\\\cline{2-13}\rule{0pt}{3ex}
+		\multirow{4}{*}{\rotatebox{90}{Coat}} &Dupuis &81.64 &87.39 &86.29 &84.34 &89.96 &91.86 &89.50 &85.04 &72.24 &78.40 &82.70\\\rule{0pt}{3ex}
 		
-		&VI-MGR~\cite{Choudhury_15} &67.0 &56.0 &70.0 &80.0 &71.0 &75.0 &77.0 &75.0 &65.0 &64.0 &66.0 \\\cline{2-13}\rule{0pt}{3ex}
+		&VI-MGR &67.0 &56.0 &70.0 &80.0 &71.0 &75.0 &77.0 &75.0 &65.0 &64.0 &66.0 \\\rule{0pt}{3ex}
 		
-		&Isaac~\cite{Isaac_17} &97.0 &99.5 &97.5 &94.0 &88.0 &90.5 &89.5 &94.5 &92.0 &91.3 &94.0 \\\cline{2-13}\rule{0pt}{3ex}
+		&Isaac &97.0 &99.5 &97.5 &94.0 &88.0 &90.5 &89.5 &94.5 &92.0 &91.3 &94.0 \\\rule{0pt}{3ex}
 		
 		&\textbf{Proposed} &81.52 &82.11 &83.58 &85.48 &84.46 &83.72 &83.28 &84.16 &83.58 &80.65 &78.45 \\\cline{1-13}
 \end{tabular*}}{} 
