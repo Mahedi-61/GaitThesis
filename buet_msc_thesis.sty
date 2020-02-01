@@ -2,6 +2,7 @@
 \RequirePackage{graphicx}
 \RequirePackage{algorithmic}
 \RequirePackage{algorithm}
+\RequirePackage{mathtools}
 \RequirePackage{amsthm}
 \RequirePackage{amssymb}
 \RequirePackage{amsmath}
@@ -11,7 +12,7 @@
 \RequirePackage{url}
 \RequirePackage{listings}
 \RequirePackage{multirow}
-\RequirePackage[automake]{glossaries}
+\RequirePackage[acronym]{glossaries}
 \RequirePackage[final, colorlinks, linkcolor=black, citecolor=blue, urlcolor=black]{hyperref}
 
 % Prevent math from being upcased
@@ -56,24 +57,25 @@
 \def\StudentID{\input{parameters/StudentID.txt}\unskip}
 
 
-\newglossaryentry{ann} {name={ANN}, description={Artificial Neural Network}}
-\newglossaryentry{bn} {name={BN}, description={Batch normalization}}
-\newglossaryentry{bigru} {name={BiGRU}, description={Bidirectional Gated Recurrent Unit}}
-\newglossaryentry{bilstm} {name={BiLSTM}, description={Bidirectional Long Short-Term Memory}}
-\newglossaryentry{ce}  {name={CE}, description={Cross-Entropy}}
-\newglossaryentry{cl}  {name={CL}, description={Center Loss}}
-\newglossaryentry{ccr} {name={CCR}, description={Correct Class Recognition}}
-\newglossaryentry{ccn} {name={CNN}, description={Convolutional Neural Network}}
-\newglossaryentry{dnn} {name={DNN}, description={Deep Neural Network}}
-\newglossaryentry{fc}  {name={FC}, description={Fully Connected}}
-\newglossaryentry{fps} {name={FPS}, description={Frames Per Second}}
-\newglossaryentry{gpu} {name={GPU}, description={Graphics Processing Unit}}
-\newglossaryentry{gru} {name={GRU}, description={Gated Recurrent Unit}}
-\newglossaryentry{lstm}{name={LSTM}, description={Long Short-Term Memory}}
-\newglossaryentry{mse} {name={MSE}, description={Mean Squared Error}}
-\newglossaryentry{rnn} {name={RNN}, description={Recurrent Neural Network}}
-\newglossaryentry{relu}{name={ReLU}, description={Rectified Linear Unit}}
-\newglossaryentry{sgd} {name={SGD}, description={Stochastic Gradient Descent}}
+\newglossaryentry{ann} {name = ANN, description=Artificial Neural Network}
+\newglossaryentry{brnn} {name=BRNN, description=Bidirectional Recurrent Neural Network}
+\newglossaryentry{bn} {name = BN, description = Batch normalization}
+\newglossaryentry{bigru} {name= BiGRU, description=Bidirectional Gated Recurrent Unit}
+\newglossaryentry{bilstm} {name=BLSTM, description=Bidirectional Long Short-Term Memory}
+\newglossaryentry{ce}  {name=CE, description=Cross-Entropy}
+\newglossaryentry{cl}  {name=CL, description=Center Loss}
+\newglossaryentry{ccr} {name=CCR, description=Correct Class Recognition}
+\newglossaryentry{ccn} {name=CNN, description=Convolutional Neural Network}
+\newglossaryentry{dnn} {name=DNN, description=Deep Neural Network}
+\newglossaryentry{fc}  {name=FC, description=Fully Connected}
+\newglossaryentry{fps} {name=FPS, description=Frames Per Second}
+\newglossaryentry{gpu} {name=GPU, description=Graphics Processing Unit}
+\newglossaryentry{gru} {name=GRU, description=Gated Recurrent Unit}
+\newglossaryentry{lstm}{name=LSTM, description=Long Short-Term Memory}
+\newglossaryentry{mse} {name=MSE, description=Mean Squared Error}
+\newglossaryentry{rnn} {name=RNN, description=Recurrent Neural Network}
+\newglossaryentry{relu}{name=ReLU, description=Rectified Linear Unit}
+\newglossaryentry{sgd} {name=SGD, description=Stochastic Gradient Descent}
 
 
 

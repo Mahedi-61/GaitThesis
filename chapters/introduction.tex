@@ -18,7 +18,7 @@ Gait based human identification in surveillance is a problem of recognizing indi
 
 
 \section{Objectives of the Thesis}
-The objective of this thesis is to design a Gait recognition system for human identification in a multi surveillance camera environment. To achieve this objective, we have identified the following specific aims.
+The objective of this thesis is to design a gait recognition system for human identification in a multi surveillance camera environment. To achieve this objective, we have identified the following specific aims.
 \begin{itemize}
 \item To design a novel low-dimensional gait feature descriptor based on the pose information of the people detected in the gait videos To design a mechanism to detect people in gait videos and determine their pose sequences. 
 \item To develop a robust pose based gait recognition algorithm using recurrent neural network (RNN), which will be invariant to factors like viewing angle, clothing, presence of bags, etc.
@@ -40,7 +40,7 @@ Thus, the key to our proposed method is to develop a pose-based recurrent neural
 For multi-view gait recognition, we also propose a two-stage network in which we first determine the walking direction, i.e. the viewpoint angle of the camera using a 3D convolutional network and later identify the subject using proposed \gls{rnn} based temporal network trained on that particular angle. Our proposed two-staged network is far simpler and efficient in terms of time and space while outperforming present state-of-the-art networks on multi-view gait recognition.
 
 
-\section{Contributions of the Thesis}
+\section{Contributions}
 The main contributions of our work are summarized as follows:
 \begin{itemize}
 \item We propose a novel \gls{rnn} network with \gls{gru} architecture and devise several strategies to effectively train the network for robust gait recognition. 
@@ -52,4 +52,15 @@ The main contributions of our work are summarized as follows:
 
 
 \section{Thesis Outline} 
-In the rest of this thesis, we present the details of our approach to human pose estimation. Chapter 2 reviews basic concepts used in neural networks, focused on their use in our models. It also provides a formal CNNs and RNNs definition, and presents equations for the CNN and RNN error gradients. Chapter 3 describes the CNN+RNN architectures, and intuition behind the hybrid models. It also presents learning strategies and computational complexity for these models. Chapter 4 gives the implementation details and hardware. Moreover, it presents the publicly available datasets, namely Patient MoCap and Human3.6M. It also shows our results on these datasets and discusses them. Chapter 5 provides a conclusion and presents possible future directions.
+In the rest of this thesis, we present the details of our approach to human identification based on robust gait recognition. Here
+\begin{itemize}
+\item \textbf{Chapter~\ref{ch:literature_review}} reviews the existing literature gait recognition and basic concepts of recurrent neural network, focused on their use in our models. 
+
+\item \textbf{Chapter~\ref{ch:methodology}} describes our proposed network along with the steps regarding features extraction, preprocessing and network architecture for both single-view and multi-view gait recognition.. It also presents learning strategies of these models. 
+
+\item \textbf{Chapter~\ref{ch:result_discussion} }gives the experimental evaluation of the proposed framework on publicly available datasets, namely CASIA A and CASIA B dataset. It also compare our results with other state-of-the gait recognition algorithms in different experimental setup on these datasets and discusses them. 
+
+\item \textbf{Chapter~\ref{ch:conclusion}} provides a conclusion and presents possible future directions.
+\end{itemize}
+
+
