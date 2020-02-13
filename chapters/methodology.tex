@@ -1,94 +1,104 @@
 \chapter{Methodology}\label{ch:methodology}
-In this chapter, we are going to discuss the proposed framework and its main components in detail. The proposed method is efficient and computationally inexpensive compared to other methods proposed in literature. The workflow of the proposed network is illustrated in Figure~\ref{fig:overview_proposed_method}.
-
-\begin{figure}
-	\centering
-	\includegraphics[width=0.8\textwidth]{figures/proposed_method.eps}
-	\caption [The overview of the proposed framework for gait recognition] 
-	{The overview of the proposed framework for gait recognition. 2D human poses were first extracted from raw video frames using improved OpenPose~\cite{Cao_19} algorithm. Four different types of spatio-temporal features were then extracted to form a 50-dimensional feature vector. Thereafter a pose sequence of timestep each having a length of 28 frame was formed to feed into a temporal network. The temporal network identified the subject by modeling the gait features. \label{fig:overview_proposed_method}
-	}	
-\end{figure}
+In this chapter, we are going to discuss the proposed framework and its main components in detail. The proposed method is efficient and computationally inexpensive compared to other methods proposed in literature. 
 
 
 %-------------------------------------------------------------------------
 \section{Deep Learning Basics}
+\subsection{Deep learning}
+Machine learning (\gls{ml}) is a field of AI that utilizes statistical techniques to learn hidden patterns from available data and make decisions on unseen records. The core task of a \gls{ml} algorithms is to first build a general model on the probability distribution of training examples, and then generalize its experience on unseen examples. The process of learning is highly dependent on the quality of data representation.
+
+Deep learning (\gls{dl}) is an advanced branch of the \gls{ml} field that aims to discover the complex representation out of simpler representations. Deep learning methods are typically based on artificial neural networks that consist of multiple hidden layers with nonlinear processing units. The word ‘deep’ refers to the multiple hidden layers that are used for transforming the data representation. Using the concept of feature learning, each hidden layer of neural networks maps its input data into a new representation. The succeeding layer tends to capture a higher level of abstraction from the less abstract concept in the preceding layer and the hierarchy of learned features in multiple levels are finally mapped to the output of the \gls{ml} task (e.g., classification and regression) in a unified framework.
+
+\gls{dl} architectures are divided into two broad categories: (1) Unsupervised learning approaches including Restricted Boltzmann Machines (RBM), Deep Autoencoders, and Generative Adversarial Networks (GAN), (2) Supervised learning approaches including deep neural networks (\gls{dnn}), Convolutional Neural Networks (\gls{cnn}), and Recurrent Neural Networks (\gls{rnn}).
+
+Some of the real-world applications of Deep Learning include image captioning, machine translation, text summarization, 3D-image reconstruction and text generation. This thesis seeks to contribute to this growing area of research by exploring the potential power of deep learning techniques in gait recognition. 
+
+
+
 \subsection{Recurrent Neural Network} 
 The Recurrent Neural Network (\gls{rnn}) is neural sequence model that achieves state of the art performance on important tasks that include language modeling~\cite{mikolov_12}, speech recognition~\cite{graves_13}, and machine translation~\cite{kal_13}.  
 
-It is well known that the brain is organized in functional areas and sub-areas that process the incoming signal in an incremental fashion. These areas of the brain are typically connected both in a \emph{feedforward}, i.e., towards
-neurons belonging to deeper (i.e., further away from the sensory input) layers, and in a \emph{feedback} fashion (i.e., to previous layers in the hierarchy). This is believed to help processing temporal data and allow for an iterative refinement of the computation.
-
-Similarly, ANNs are not constrained to process the input data in a feedforward way. Recurrent Neural Networks (\gls{rnn}s) implement feedback loops (see~\ref{fig:RNN_loop} \footnote{This and the following RNN figures, are taken or modified from the awesome introduction to RNNs and LSTMs by Chris Olah~\cite{colah_15}}) that propagate some information from one step to the next. It is customary to refer to these steps as time-steps, as RNNs are often considered in the context of a discretized time evolving domain, but nothing prevents from using RNNs with any kind of sequential data.
+It is well known that the areas of the brain are typically connected both in a \emph{feedforward}, and in a \emph{feedback} fashion. This is believed to help processing temporal data and allow for an iterative refinement of the computation. Similarly, Artificial Neural Networks (\gls{ann}s) are not constrained to process the input data in a feedforward way. Recurrent Neural Networks (\gls{rnn}s) implement feedback loops (see Figure~\ref{fig:RNN_loop}) that propagate some information from one step to the next. It is customary to refer these steps as time-steps, as \gls{rnn}s are often considered in the context of a discretized time evolving domain, but nothing prevents from using \gls{rnn}s with any kind of sequential data.
 
 \begin{figure}[t]
 	\centering
 	\includegraphics[width=0.15\textwidth]{figures/RNN_loop.pdf}
-	\caption{A Recurrent Neural Network (RNN).\label{fig:RNN_loop}}
+	\caption{A Recurrent Neural Network (RNN). [Image courtesy Chris Olah~\cite{colah_15}]\label{fig:RNN_loop}}
 \end{figure}
 
 \begin{figure}[t!]
 	\centering
 	\includegraphics[width=0.7\textwidth]{figures/RNN_unrolled.pdf}
-	\caption{A Recurrent Neural Network unrolled for $t$\% steps.\label{fig:RNN_unrolled}}
+	\caption{A Recurrent Neural Network unrolled for $t$\% steps. [Image courtesy Chris Olah~\cite{colah_15}]\label{fig:RNN_unrolled}}
 \end{figure}
 
-Suppose to model some sequential data $x_0, x_1, \dots , x_t, x_{t+1}, \dots$ such as an English sentence. At time $t$ it is possible to model the probability distribution over a dictionary of English words, conditioned on the words seen up that moment -- namely $x_0, x_1, \dots , x_{t-1}$. This can be used, for instance, in a smart keyboard application to suggest the next most probable words to the user or, in an automatic help desk, to generate a meaningful answer to a question.
-
-It might not be immediately obvious what it means in practice to put a loop in an ANN and how to backpropagate through it. To better comprehend how RNNs work it is useful to consider its behavior explicitly by \emph{unrolling} the RNN, as shown in~\ref{fig:RNN_unrolled}
+It might not be immediately obvious what it means in practice to put a loop in an ANN and how to backpropagate through it. To better comprehend how RNNs work it is useful to consider its behavior explicitly by \emph{unrolling} the RNN, as shown in Figure~\ref{fig:RNN_unrolled}
 
 An RNN applies the same model to each time step of the sequence or, equivalently, applies different models at each time step, which share their weights. This is similar to what CNNs do over space with convolutions, but is rather done over time with feedback connections.
 
-The activation of an RNN (see~\ref{fig:RNN_unrolled}) at time $t$ depends on the input at time $t$ as well as on the information coming from the previous step $t-1$. RNNs have a very simple internal structure, that usually amounts to applying some affine transformation to the input and to the previous output, and computing some non-linearity (typically a $tanh$) of their sum.
+Let's derive the forward propagation equations for the \gls{rnn} depicted in Figure~\ref{fig:RNN_unrolled}. Forward propagation begins with a specification of the initial state $ \textbf{h}^{(0)} $. Then, for each timestep from $ t $ we apply the following update equations:
 
-One of the key benefits of RNNs is their ability to make use of previous context.   However,  for standard RNN architectures, the range of context that can in practice be accessed is limited.  The problem is that the influence of a given input on the hidden layer,  and therefore on the network output, either decays or blows up exponentially as it cycles around the recurrent connections.  This is often referred to as the \textit{vanishing gradient problem}~\cite{Hochreiter_01}. 
+\begin{equation} \label{rnn_unroll}
+\begin{split}
+	\textbf{a}^{(t)} &= \textbf{b} + \textbf{W}\textbf{h}^{(t-1)} + \textbf{U}\textbf{x}^{(t)} \\
+	\textbf{h}^{(t)}&=\tanh(\textbf{a}^{(t)})\\
+	\textbf{o}^{(t)}&= \textbf{c} + \textbf{V}\textbf{h}^{(t)} \\
+	{\hat{\textbf{y}}}^{(t)} &= softmax(\textbf{o}^{(t)})
+\end{split}
+\end{equation}
+
+where the parameters are the bias vectors $ \textbf{b} $ and $ \textbf{c} $ along with the weight matrices $\textbf{U}$, $\textbf{V}$ and $\textbf{W}$, respectively, for input-to-hidden, hidden-to-output and hidden-to-hidden connections.
+
+The activation of an RNN (see Figure ~\ref{fig:RNN_unrolled}) at time $t$ depends on the input at time $t$ as well as on the information coming from the previous step $t-1$. RNNs have a very simple internal structure, that usually amounts to applying some affine transformation to the input and to the previous output, and computing some non-linearity (typically a $tanh$) of their sum.
 
 \begin{figure}[t]
 	\centering
-	\includegraphics[width=0.7\textwidth]{figures/RNN_internals.pdf}
-	\includegraphics[width=0.7\textwidth]{figures/LSTM_notation.pdf}
-	\caption{The internal structure of an RNN.\label{fig:RNN_internals}}
+	\includegraphics[width=0.9\textwidth]{figures/rnn_unrolling.eps}
+	\caption{The computational graph of a unrolled recurrent network that maps an input sequence of $ x $ values to a corresponding sequence of output $ o $ values \label{fig:RNN_unrolling}}
 \end{figure}
 
-To train it it suffices to unroll the computation graph and use the backpropagation algorithm to proceed from the most recent time step, backward in time. This algorithm is usually referred to as \emph{Backpropagation through time (BPTT)}.
+To train it suffices to unroll the computation graph and use the backpropagation algorithm to proceed from the most recent time step, backward in time. This algorithm is usually referred to as \emph{Backpropagation through time (\gls{bptt})}.
 
-The problem of BPTT is that it requires the application of the chain rule all the way from the current time step to $t = 0$ to propagate the gradients through time.  This results in a long chain of products that can easily go to
-infinity or become zero if the elements of the multiplication are greater or smaller than $1$ respectively. These two issues, i.e., going to infinity and becoming zero, are known in the literature as \emph{exploding gradient} and \emph{vanishing gradient} respectively, and have been studied extensively in the past, see e.g.,~\cite{Bengio_94}. The first one can be partially addressed by \emph{clipping the gradient} when it becomes too large, but the second is not easy to overcome and can make training these kind of models very hard if not impossible.
+The problem of \gls{bptt} is that it requires the application of the chain rule all the way from the current time step to $t = 0$ to propagate the gradients through time.  This results in a long chain of products that can easily go to
+infinity or become zero if the elements of the multiplication are greater or smaller than $1$ respectively. These two issues, i.e., going to infinity and becoming zero, are known in the literature as \emph{exploding gradient problem} and \emph{vanishing gradient problem}~\cite{Hochreiter_01} respectively, and have been studied extensively in the past, see e.g.,~\cite{Bengio_94}. The first one can be partially addressed by \emph{clipping the gradient} when it becomes too large, but the second is not easy to overcome and can make training these kind of models very hard if not impossible.
 
-\subsection{Long Short Term Memory}\label{sec:LSTM}
+
+
+\subsection{Long Short Term Memory}
 \begin{figure}[t]
 	\centering
 	\includegraphics[width=0.7\textwidth]{figures/LSTM.pdf}
-	\caption{A Long Short Term Memory (LSTM).\label{fig:LSTM}}
+	\caption{A Long Short Term Memory (LSTM). [Image courtesy Chris Olah~\cite{colah_15}]\label{fig:LSTM}}
 \end{figure}
 
-Long Short Term Memory (LSTM) networks (see~\ref{fig:LSTM}) have been proposed to solve (or at least alleviate) the problems of RNNs in modeling long term dependencies. LSTMs have been designed to have an internal memory, or~\emph{state}, that can be updated and consulted at each time step. As opposed to vanilla RNNs, this allows LSTMs to separate their output from the information they want to carry over to future steps.
+Long Short Term Memory (LSTM) networks (see Figure ~\ref{fig:LSTM}) have been proposed to solve (or at least alleviate) the problems of RNNs in modeling long term dependencies. LSTMs have been designed to have an internal memory, or~\emph{state}, that can be updated and consulted at each time step. As opposed to vanilla RNNs, this allows LSTMs to separate their output from the information they want to carry over to future steps.
 
 \begin{figure}[t]
 	\centering
 	\includegraphics[width=0.6\textwidth]{figures/LSTM_state.pdf}
-	\caption{The internal state of LSTMs.\label{fig:LSTM_state}}
+	\caption{The internal state of LSTMs. [Image courtesy Chris Olah~\cite{colah_15}]\label{fig:LSTM_state}}
 \end{figure}
 
-\ref{fig:LSTM_state} highlights the internal memory path. It can be seen how the internal memory of the previous time step $\mathbf{c}_{t-1}$ is carried over to the current time step, where it is updated through a multiplicative and an additive interaction and concurs to determine the current state of the memory $\mathbf{c}_t$. This is then, once again, propagated to the next time step.
+Figure \ref{fig:LSTM_state} highlights the internal memory path. It can be seen how the internal memory of the previous time step $\mathbf{c}_{t-1}$ is carried over to the current time step, where it is updated through a multiplicative and an additive interaction and concurs to determine the current state of the memory $\mathbf{c}_t$. This is then, once again, propagated to the next time step.
 
 
 \begin{figure}[p]
 	\centering
-	\includegraphics[width=0.5\textwidth]{figures/LSTM_forget_gate.pdf}
-	\caption{The LSTM forget gate.\label{fig:LSTM_forget_gate}}
+	\includegraphics[width=0.6\textwidth]{figures/LSTM_forget_gate.pdf}
+	\caption{The LSTM forget gate. [Image courtesy Chris Olah~\cite{colah_15}]\label{fig:LSTM_forget_gate}}
 \end{figure}
 \begin{figure}[p]
 	\centering
-	\includegraphics[width=0.5\textwidth]{figures/LSTM_input_gate.pdf}
-	\caption{The LSTM input gate.\label{fig:LSTM_input_gate}}
+	\includegraphics[width=0.6\textwidth]{figures/LSTM_input_gate.pdf}
+	\caption{The LSTM input gate. [Image courtesy Chris Olah~\cite{colah_15}]\label{fig:LSTM_input_gate}}
 \end{figure}
 \begin{figure}[p]
 	\centering
-	\includegraphics[width=0.5\textwidth]{figures/LSTM_output_gate.pdf}
-	\caption{The LSTM output gate.\label{fig:LSTM_output_gate}}
+	\includegraphics[width=0.6\textwidth]{figures/LSTM_output_gate.pdf}
+	\caption{The LSTM output gate.[Image courtesy Chris Olah~\cite{colah_15}]\label{fig:LSTM_output_gate}}
 \end{figure}
 
-LSTMs interact with memory through \emph{gates}, computational nodes that determine the behavior of the model. The \emph{forget~gate}~(\ref{fig:LSTM_forget_gate}) determines how much of the previous step's memory to forget or, equivalently, how much of the previous state to retain.  This is modeled through a sigmoid layer (depicted as $\sigma$) that takes the current input $\mathbf{x}_t$ and the output of the previous step $\mathbf{h}_{t-1}$ and produces an activation vector between $0$ and $1$
+LSTMs interact with memory through \emph{gates}, computational nodes that determine the behavior of the model. The \emph{forget~gate} (Figure~\ref{fig:LSTM_forget_gate}) determines how much of the previous step's memory to forget or, equivalently, how much of the previous state to retain.  This is modeled through a sigmoid layer (depicted as $\sigma$) that takes the current input $\mathbf{x}_t$ and the output of the previous step $\mathbf{h}_{t-1}$ and produces an activation vector between $0$ and $1$
 
 \begin{equation}\label{eq:LSTM_forget_gate}
 \mathbf{f}_t = \sigma\left(\mathbf{W}_f \cdot \mathbf{h}_{t-1} +
@@ -97,8 +107,8 @@ LSTMs interact with memory through \emph{gates}, computational nodes that determ
 
 this activation is multiplied by the previous state $\mathbf{c}_{t-1}$ and results in an intermediate memory state where some of the activations can be weaker than those in $\mathbf{c}_{t-1}$ and some others are potentially zeroed out.
 
-The forget gate allows the LSTM to discard information that is not relevant anymore. Symmetrically, LSTMs have a mechanism to add new information to the memory. This behavior is controlled by an \emph{input gate} (see
-\ref{fig:LSTM_input_gate}) that modulates the amount of the current input that is going to be stored in the memory. This operation is split over two computation paths: similarly to the forget gate, the input gate takes the current input $\mathbf{x}_t$ and the output of the previous step $\mathbf{h}_{t-1}$ and exploits a sigmoid layer to produce an activation vector between $0$ and $1$.  Simultaneously, a $tanh$ layer generates a state update $\mathbf{\tilde c}_t$ between $-1$ and $1$. This is governed by the equations
+The forget gate allows the LSTM to discard information that is not relevant anymore. Symmetrically, \gls{lstm}s have a mechanism to add new information to the memory. This behavior is controlled by an \emph{input gate} (see
+\ref{fig:LSTM_input_gate}) that modulates the amount of the current input that is going to be stored in the memory. This operation is split over two computation paths: similarly to the forget gate, the input gate takes the current input $\mathbf{x}_t$ and the output of the previous step $\mathbf{h}_{t-1}$ and exploits a sigmoid layer to produce an activation vector between $0$ and $1$. Simultaneously, a $tanh$ layer generates a state update $\mathbf{\tilde c}_t$ between $-1$ and $1$. This is governed by the following equations:
 
 \begin{equation}\label{eq:LSTM_input_gate}
 \begin{split}
@@ -117,7 +127,7 @@ The input gate modulates how much of this state update will be applied to the ol
 \mathbf{i}_t \circ \mathbf{\tilde c}_t.
 \end{equation}
 
-The last gate of LSTMs is the \emph{output~gate}~(\ref{fig:LSTM_output_gate}) $\mathbf{o}_t$ that, as the name reveals, manipulates the output of the LSTM at time $t$. The usual sigmoid layer determines the state of the output gate
+The last gate of \gls{lstm}s is the \emph{output~gate} (Figure~\ref{fig:LSTM_output_gate}) $\mathbf{o}_t$ that, as the name reveals, manipulates the output of the LSTM at time $t$. The usual sigmoid layer determines the state of the output gate
 
 \begin{equation}\label{eq:LSTM_output_gate}
 \begin{split}
@@ -127,9 +137,7 @@ The last gate of LSTMs is the \emph{output~gate}~(\ref{fig:LSTM_output_gate}) $\
 \end{split}
 \end{equation}
 
-and the memory resulting from the transformations due to the forget and input gates goes through a $tanh$ nonlinearity and is multiplied by the output gate to finally produce the output.
-
-Putting it all together, the equations that govern the behavior of an LSTM are
+and the memory resulting from the transformations due to the forget and input gates goes through a $tanh$ nonlinearity and is multiplied by the output gate to finally produce the output. Putting it all together, the equations that govern the behavior of an LSTM are
 
 \begin{equation}\label{eq:LSTM}
 \begin{split}
@@ -148,63 +156,15 @@ Putting it all together, the equations that govern the behavior of an LSTM are
 \end{equation}
 
 
-\subsubsection{LSTMs with peepholes}
-
-\cite{gers_00} suggests one variant of LSTMs where the gates also have information about the state of the LSTM. Note that, as illustrated in~\ref{fig:LSTM_peepholes}, the output gate peeps into $\mathbf{c}_t$, i.e., the state after the input and forget gate updates
-
-\begin{figure}
-	\centering
-	\includegraphics[width=0.6\textwidth]{figures/LSTM_peepholes.pdf}
-	\caption{LSTM with peepholes.\label{fig:LSTM_peepholes}}
-\end{figure}
-
-\begin{equation}\label{eq:LSTM_peepholes}
-\begin{split}
-\mathbf{i}_t &= \sigma\left(\mathbf{W}_i \cdot \mathbf{h}_{t-1} +
-\mathbf{W}_i \cdot \mathbf{x}_t +
-\mathbf{W}_{ic} \circ \mathbf{c}_{t-1} +
-\mathbf{b}_i \right),\\
-\mathbf{f}_t &= \sigma\left(\mathbf{W}_f \cdot \mathbf{h}_{t-1} +
-\mathbf{W}_f \cdot \mathbf{x}_t +
-\mathbf{W}_{fc} \circ \mathbf{c}_{t-1} +
-\mathbf{b}_f \right),\\
-\mathbf{\tilde c}_t &= tanh \left(\mathbf{W}_c \cdot \mathbf{h}_{t-1} +
-\mathbf{W}_c \cdot \mathbf{x}_t + \mathbf{b}_c \right),\\
-\mathbf{c}_t &= \mathbf{f}_t \circ \mathbf{c}_{t-1} + \mathbf{i}_t
-\circ \mathbf{\tilde c}_t,\\
-\mathbf{o}_t &= \sigma\left(\mathbf{W}_o \cdot \mathbf{h}_{t-1} +
-\mathbf{W}_o \cdot \mathbf{x}_t +
-\mathbf{W}_{oc} \circ \mathbf{c}_{t} +
-\mathbf{b}_o \right),\\
-\mathbf{h}_t &= \mathbf{o}_t \circ tanh \left(\mathbf{c}_t\right).
-\end{split}
-\end{equation}
-
-
-\subsubsection{LSTMs with coupled forget and input gates}\label{sec:LSTM_coupled}
-
-Another variant of LSTMs~\cite{Greff_15} replaces the input gate with $1 - \mathbf{f}_t$ (see~\ref{fig:LSTM_coupled}), so that the forget gate governs both behaviors. This boils down to forgetting only when a new input is going to be written. The modified state update equation is
-
-\begin{equation}\label{eq:LSTM_coupled}
-\mathbf{c}_t = \mathbf{f}_t \circ \mathbf{c}_{t-1} + (1 - \mathbf{f}_t)
-\circ \mathbf{\tilde c}_t.
-\end{equation}
-
-\begin{figure}
-	\centering
-	\includegraphics[width=0.6\textwidth]{figures/LSTM_coupled.pdf}
-	\caption{LSTM with coupled forget and input gate.\label{fig:LSTM_coupled}}
-\end{figure}
 
 
 \subsection{Gated Recurrent Unit (GRU)}\label{sec:GRU}
-
-In 2014 \cite{Cho_14} proposed a new kind of recurrent network called Gated Recurrent Unit (GRU) (see~\ref{fig:GRU}) with less gates than LSTMs and a different internal structure. Along the lines of \ref{sec:LSTM_coupled}, in GRUs the forget and input gates are coupled into an~\emph{update gate} $\mathbf{z}_t$.  The memory and output are also merged into a single state and the internal structure is modified to cope with these changes
+Authors in~\cite{Cho_14} proposed a new kind of recurrent network called Gated Recurrent Unit (GRU), as shown in Figure~\ref{fig:GRU}, with less gates than \gls{lstm}s and a different internal structure. In \gls{gru}s the forget and input gates are coupled into an~\emph{update gate} $\mathbf{z}_t$.  The memory and output are also merged into a single state and the internal structure is modified to cope with these changes
 
 \begin{figure}
 	\centering
 	\includegraphics[width=0.6\textwidth]{figures/GRU.pdf}
-	\caption{Gated Recurrent Units (GRUs).\label{fig:GRU}}
+	\caption{Gated Recurrent Units (GRUs). [Image courtesy Chris Olah~\cite{colah_15}]\label{fig:GRU}}
 \end{figure}
 
 \begin{equation}\label{eq:GRU}
@@ -222,38 +182,100 @@ In 2014 \cite{Cho_14} proposed a new kind of recurrent network called Gated Recu
 \end{split}
 \end{equation}
 
-The advantage of GRUs over LSTMs is the smaller number of gates that makes them less memory as well as computationally intense, which is often a critical aspect for ANNs. GRUs have been shown to perform as well as LSTMs in some settings.
+The advantage of \gls{gru}s over \gls{lstm}s is the smaller number of gates that makes them less memory as well as computationally intense, which is often a critical aspect for ANNs. \gls{gru}s have been shown to perform as well as \gls{lstm}s in some settings.
+
+
+\begin{figure}[t]
+	\centering
+	\includegraphics[width=0.9\textwidth]{figures/brnn.eps}
+	\caption{The architecture of a vanilla bidirectional recurrent neural network \label{fig:bidirectional_rnn}}
+\end{figure}
 
 \subsection{Bidirectional RNNs}
-Bidirectional recurrent neural networks (\gls{brnn}) connect two hidden layers running in opposite directions to a single output, allowing them to receive information from both past and future states. Here, the input sequence is fed in normal time order for one network, and in reverse time order for another. The outputs of the two networks are usually concatenated at each time step. So, this type of structure allows the networks to have both backward and forward information about the sequence at every time step. \gls{brnn} are especially useful when the context of the input is needed. For example, in handwriting recognition~\cite{Graves_08}, the performance can be enhanced by knowledge of the letters located before and after the current letter. 
-
-
+Bidirectional recurrent neural networks (\gls{brnn})~\cite{Schuster_97} connect two hidden layers running in opposite directions to a single output, allowing them to receive information from both past and future states. Here, the input sequence is fed in normal time order for one network, and in reverse time order for another. The outputs of the two networks are usually concatenated at each time step. So, this type of structure allows the networks to have both backward and forward information about the sequence at every time step. \gls{brnn} are especially useful when the context of the input is needed. For example, in handwriting recognition~\cite{Graves_08}, the performance can be enhanced by knowledge of the letters located before and after the current letter. 
 
 
 \subsubsection{Bidirectional Vanilla RNN}
+
+\subsubsection{Bidirectional GRU}
+\begin{figure}[t]
+	\centering
+	\includegraphics[width=0.7\textwidth]{figures/bigru.eps}
+	\caption{The architecture of a bidirectional gated recurrent neural network \label{fig:bidirectional_rnn}}
+\end{figure}
+
+\section{Human Pose Estimation}
+Human pose estimation, one of the core problems in computer vision, is the key component to enable machines to have an understand of people in images and videos. It refers to the process of inferring poses in an image or video. Essentially, it entails predicting the body parts or body joint positions of individuals in an image. It has been successfully employed in many real-world applications such as action recognition, animation, gaming, augmented reality, and robotics. 
+
+Despite various methods proposed in literature, it still remains an unsolved  problem due to the presence of some difficult challenges like variability of human visual appearance and lighting conditions, partial occlusions due to self articulation and layering of objects in the scene. 
+
+\subsection{Types of Pose Estimation} 
+Depending upon the output dimension requirement, the pose estimation algorithm can be categorized into 2D pose estimation and 3D pose estimation. In 2D pose estimation, the location of body joints are predicted in terms of pixel values of image frame. On the other hand, 3D pose estimation is predicting a three-dimensional spatial arrangement of all the body joints as its final output. Again, depending on the number of people being tracked, pose estimation can be classified into single-person and multi-person. Single-person pose estimation guarantees of only one person present in the frame, whereas in multi-person pose estimation, each image may contain an unknown number of people that can appear at any position or scale. Therefore, it needs to handle the additional problem of inter-person occlusion. 
+
+
+\subsection{Techniques for Pose Estimation} 
+There are two overarching approaches of pose estimation: a bottom-up approach, and a top-down approach.
+
+With a bottom-up approach, the model detects every instance of a particular keypoint in a given image and then attempts to assemble groups of keypoints into skeletons for distinct objects. In simpler terms, the algorithm first predicts all body joints present in the image. This is typically followed by the formulation of a graph, based on the body model, which connects joints belonging to the same human. Integer linear programming (ILP) or bipartite matching are two common methods of creating this graph.
+
+A top-down approach involves a segmentation step at the start. The network first uses an object detector to draw a box around each instance of an object, and then estimates the keypoints within each cropped region. 
+
+The simplest model possible for pose estimation use \gls{dnn}-based regressor to predict X, Y, and potentially Z coordinates for each keypoint location from an input image. In practice, however, this architecture does not produce accurate results without additional refinement. 
+
+A slightly more complicated approach employs a deep learning-based encoder-decoder architecture. In this type of approach, instead of estimating the keypoint coordinates directly, the encoder is fed into a decoder, which creates heatmaps representing the likelihood that a keypoint is found in a given region of an image. During post-processing, the exact coordinates of a keypoint are found by selecting heatmap locations with the highest keypoint likelihood. In the case of multi-pose estimation, a heatmap may contain multiple areas of high keypoint likelihood (e.g. multiple right hands in an image). 
+
+In top-down approach an object detection module is placed between the encoder and decoder which is used to crop regions of an image likely to contain an object. Keypoint heatmaps are then predicted individually for each box. Rather than having a single heatmap containing the likely location of all of the specific body part in an image, we get a series of bounding boxes that should only contain a single keypoint of each type. 
+
+So, top-down approach makes it easy to assign the keypoints to specific instances without a lot of post-processing. However, it suffers greatly when the person detector fails due to close proximity among people. Furthermore, their runtime is proportional to the number of people in the image. In contrast, bottom-up approaches show robustness to early commitment and have the potential to decouple runtime complexity from the number of people in the image.
+
+
+\subsection{Introduction to OpenPose Library} 
 \begin{figure}
 	\centering
-	\includegraphics[width=0.9\textwidth]{figures/brnn.eps}
-	\caption{Bidirectional RNNs \label{fig:bidirectional_rnn}}
+	\includegraphics[width=\textwidth]{figures/openpose_demo.eps}
+	\caption[Realtime multi-person 2D pose estimation using Openpose algorithm]
+	{Realtime multi-person 2D pose estimation using Openpose algorithm that is independent of the number of people in the image.[Image courtesy Cao et al.~\cite{Cao_19}] \label{fig:openpose_demo}}
 \end{figure}
-\subsubsection{Bidirectional GRU}
 
-\subsection{Human Pose Estimation}
-\subsubsection{Introduction to OpenPose Library} 
-\subsubsection{Architecture and Details}
+\begin{figure}
+	\centering
+	\includegraphics[width=\textwidth]{figures/openpose_bottom_up.eps}
+	\caption[An example of a bottom up approach]
+	{An example of a bottom up approach. [Image courtesy Cao et al.~\cite{Cao_19}] \label{fig:openpose_bottom_up}}
+\end{figure}
 
+In this work, we have employed OpenPose~\cite{Cao_19}, an open-source library, for realtime multi-person 2D pose detection, including body, foot, hand, and facial keypoints. This bottom-up approach achieves state-of-the-art accuracy in realtime performance. 
+
+The overall pipeline of the Openpose library is illustrated in Figure~\ref{fig:openpose_bottom_up}. An RGB image is fed as input to the library and it outputs the 2D locations of anatomical keypoints for each person in the image (Figure~\ref{fig:openpose_bottom_up}e). Firstly, a feed forward network predicts a set of 2D confidence maps \textbf{S} of body part locations (Figure ~\ref{fig:openpose_bottom_up}b) and a set of 2D vector fields \textbf{L} of part affinity fields (PAFs), which encode the degree of association between parts (Fig. ~\ref{fig:openpose_bottom_up}c). The set $\textbf{S} = (\textbf{S}_1,\textbf{S}_2,...,\textbf{S}_J)$ has $ J $ confidence maps, one per part, where $\textbf{S}_j \epsilon \mathbb {R}^{w\times h}$ . The set $\textbf{L}= (\textbf{L}_1,\textbf{L}_2,...,\textbf{L}_C)$ has C vector fields, one per limb, where $\textbf{L}_c \epsilon \mathbb {R}^{w\times h\times 2}$. Each image location in $\textbf{L}_c$ encodes a 2D vector. Finally, the confidence maps and the PAFs are parsed by greedy inference (Figure ~\ref{fig:openpose_bottom_up}d) to output the 2D keypoints for all people in the image.
+
+
+\begin{figure}
+	\centering
+	\includegraphics[width=\textwidth]{figures/openpose_architecture.eps}
+	\caption[Network architecture of the multi-stage CNN]
+	{Network architecture  of  the  multi-stage  CNN.  The  first  set of stages predicts PAFs $\textbf{L}^t$, while the last set predicts confidence  maps $ \textbf{S}^{t}$. [Image courtesy Cao et al.~\cite{Cao_19}] \label{fig:openpose_architecture}}
+\end{figure}
+\subsection{Network Architecture}
+Our architecture, shown in Figure~\ref{fig:openpose_architecture}, iteratively predicts affinity fields  that  encode  part-to-part  association,  shown  in  blue,and  detection  confidence  maps,  shown  in  beige. 
 
 
 %-------------------------------------------------------------------------
 \section{Extracting Spatio-Temporal Feature Vector}
-Many strategies have been taken to designed a lower dimensional spatio-temporal feature descriptor based on the 2D human poses estimated from the raw video frames using an improved OpenPose~\cite{Cao_19} algorithm. In this section, we elaborate the feature extraction procedure of our proposed method. 
+The workflow of the proposed network is illustrated in Figure~\ref{fig:overview_proposed_method}. Many strategies have been taken to designed a lower dimensional spatio-temporal feature descriptor based on the 2D human poses estimated from the raw video frames using an improved OpenPose~\cite{Cao_19} algorithm. In this section, we elaborate the feature extraction procedure of our proposed method. 
 
+\begin{figure}
+	\centering
+	\includegraphics[width=0.8\textwidth]{figures/proposed_method.eps}
+	\caption [The overview of the proposed framework for gait recognition] 
+	{The overview of the proposed framework for gait recognition. 2D human poses were first extracted from raw video frames using improved OpenPose~\cite{Cao_19} algorithm. Four different types of spatio-temporal features were then extracted to form a 50-dimensional feature vector. Thereafter a pose sequence of timestep each having a length of 28 frame was formed to feed into a temporal network. The temporal network identified the subject by modeling the gait features. \label{fig:overview_proposed_method}
+	}	
+\end{figure}
 
-\subsection{2D Body Joints Feature}
+-
+\subsection{2D Body Joint Features}
 As every joint of the human body does not have a significant role in gait pattern, they cannot improve gait recognition accuracy. Some joints perform even worse. So, among the 25 body joints estimated from OpenPose algorithm we searched out for those joints which have a rich and discriminative gait representation capacity. Cunado \textit{et al.}~\cite{Cunado_97} used the human leg-based model as they found that change of human leg contains the most important features for gait recognition.  In our study, we found that knee along with the joints located in the feet show more robustness than any other body joints because they do not alter while people are walking in cloths or carrying bags. For example, hip joints get wider in coat than normal condition. Again, in some gait videos, some subjects put their hands into their coat pocket, which they cannot do in normal walking. This situation significantly changes the joint coordinates. Furthermore, joints above hip joint do not have any significant impact on gait pattern. Hence, we do not consider hip or any other body joints above it.
 
 \begin{figure}
-	
 	\centering 
 	\includegraphics[width = 0.9\textwidth]{figures/extracted_features.eps}
 	\caption[Different feature extraction process of the proposed method]
@@ -369,7 +391,7 @@ We took several preprocessing steps to address the problem of missing data due t
 The above strategies are simpler which do not require any computation and proven to be effective in addressing the missing data problem.
 
 \subsection{Forming Feature Map}
-In this research, we designed a 50-dimensional spatio-temporal gait feature vector \textbf{p} from the raw 2D pose estimation of each frame.  Firstly, we split a gait video into 28 frame segments. Each 28 frame-segment formed a timestep which can be described by equations~\ref{equ:feature_preprocess}. Here, \textbf{p} is 50-dimension pose vector for each frame; \textit{\textbf{T}} is the feature matrix for each timestep; $ N $ is the total number of timestep sequence, and \textit{\textbf{V}} is the sequence of features for a gait video. 
+In this research, we designed a 50-dimensional spatio-temporal gait feature vector \textbf{p} from the raw 2D pose estimation of each frame.  Firstly, we split a gait video into 28 frame segments. Each $ 28 $ frame-segment formed a timestep which can be described by following equations. Here, \textbf{p} is 50-dimension pose vector for each frame; \textit{\textbf{T}} is the feature matrix for each timestep; $ N $ is the total number of timestep sequence, and \textit{\textbf{V}} is the sequence of features for a gait video. 
 
 \begin{equation}
 \label{equ:feature_preprocess}

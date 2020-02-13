@@ -3,68 +3,73 @@
 \contentsline {chapter}{\textbf {Abstract}}{iii}{DTLrowi.2.1}
 \contentsline {chapter}{\textbf {Acknowledgement}}{iv}{DTLrowi.2.1}
 \contentsline {chapter}{List of Figures}{viii}{section*.1}
-\contentsline {chapter}{List of Tables}{ix}{section*.2}
-\contentsline {chapter}{\textbf {List of Abbreviations}}{x}{chapter*.4}
+\contentsline {chapter}{List of Tables}{x}{section*.2}
+\contentsline {chapter}{\textbf {List of Abbreviations}}{xi}{chapter*.4}
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}
-\contentsline {section}{\numberline {1.1}Gait and Gait Recognition}{1}{section.1.1}
-\contentsline {section}{\numberline {1.2}Challenges in Gait Recognition}{2}{section.1.2}
-\contentsline {section}{\numberline {1.3}Problem Definition}{2}{section.1.3}
+\contentsline {section}{\numberline {1.1}Person re-identification}{1}{section.1.1}
+\contentsline {section}{\numberline {1.2}Gait Recognition}{1}{section.1.2}
+\contentsline {subsection}{\numberline {1.2.1}Context}{1}{subsection.1.2.1}
+\contentsline {subsection}{\numberline {1.2.2}Definition}{2}{subsection.1.2.2}
+\contentsline {subsection}{\numberline {1.2.3}Challenges}{3}{subsection.1.2.3}
+\contentsline {section}{\numberline {1.3}Problem Definition}{3}{section.1.3}
 \contentsline {section}{\numberline {1.4}Objectives of the Thesis}{3}{section.1.4}
-\contentsline {section}{\numberline {1.5}Overview of the Thesis}{3}{section.1.5}
-\contentsline {section}{\numberline {1.6}Contributions}{4}{section.1.6}
-\contentsline {section}{\numberline {1.7}Thesis Outline}{5}{section.1.7}
-\contentsline {chapter}{\numberline {2}Literature Review}{6}{chapter.2}
-\contentsline {section}{\numberline {2.1}Appearance-based Methods}{6}{section.2.1}
-\contentsline {section}{\numberline {2.2}Model-based Methods}{7}{section.2.2}
-\contentsline {section}{\numberline {2.3}Deep Learning for Gait Recognition}{7}{section.2.3}
-\contentsline {section}{\numberline {2.4}Pose-based Gait Recognition}{8}{section.2.4}
-\contentsline {chapter}{\numberline {3}Methodology}{10}{chapter.3}
-\contentsline {section}{\numberline {3.1}Deep Learning Basics}{10}{section.3.1}
-\contentsline {subsection}{\numberline {3.1.1}Recurrent Neural Network}{10}{subsection.3.1.1}
-\contentsline {subsection}{\numberline {3.1.2}Long Short Term Memory}{14}{subsection.3.1.2}
-\contentsline {subsubsection}{\numberline {3.1.2.1}LSTMs with peepholes}{17}{subsubsection.3.1.2.1}
-\contentsline {subsubsection}{\numberline {3.1.2.2}LSTMs with coupled forget and input gates}{17}{subsubsection.3.1.2.2}
-\contentsline {subsection}{\numberline {3.1.3}Gated Recurrent Unit (GRU)}{18}{subsection.3.1.3}
-\contentsline {subsection}{\numberline {3.1.4}Bidirectional RNNs}{19}{subsection.3.1.4}
-\contentsline {subsubsection}{\numberline {3.1.4.1}Bidirectional Vanilla RNN}{20}{subsubsection.3.1.4.1}
-\contentsline {subsubsection}{\numberline {3.1.4.2}Bidirectional GRU}{20}{subsubsection.3.1.4.2}
-\contentsline {subsection}{\numberline {3.1.5}Human Pose Estimation}{20}{subsection.3.1.5}
-\contentsline {subsubsection}{\numberline {3.1.5.1}Introduction to OpenPose Library}{20}{subsubsection.3.1.5.1}
-\contentsline {subsubsection}{\numberline {3.1.5.2}Architecture and Details}{20}{subsubsection.3.1.5.2}
-\contentsline {section}{\numberline {3.2}Extracting Spatio-Temporal Feature Vector}{20}{section.3.2}
-\contentsline {subsection}{\numberline {3.2.1}2D Body Joints Feature}{20}{subsection.3.2.1}
-\contentsline {subsection}{\numberline {3.2.2}Joint Angular Trajectory}{22}{subsection.3.2.2}
-\contentsline {subsection}{\numberline {3.2.3}Temporal Displacement}{23}{subsection.3.2.3}
-\contentsline {subsection}{\numberline {3.2.4}Body Part Length Features}{24}{subsection.3.2.4}
-\contentsline {subsection}{\numberline {3.2.5}Fusion of Features}{24}{subsection.3.2.5}
-\contentsline {section}{\numberline {3.3}Feature Preprocessing}{25}{section.3.3}
-\contentsline {subsection}{\numberline {3.3.1}Handling Missing Data}{25}{subsection.3.3.1}
-\contentsline {subsection}{\numberline {3.3.2}Forming Feature Map}{25}{subsection.3.3.2}
-\contentsline {subsection}{\numberline {3.3.3}Data Augmentation}{26}{subsection.3.3.3}
-\contentsline {section}{\numberline {3.4}Single-View Gait Recognition}{26}{section.3.4}
-\contentsline {subsection}{\numberline {3.4.1}Network Architecture}{27}{subsection.3.4.1}
-\contentsline {subsection}{\numberline {3.4.2}Training}{28}{subsection.3.4.2}
-\contentsline {subsection}{\numberline {3.4.3}Loss Functions}{28}{subsection.3.4.3}
-\contentsline {subsection}{\numberline {3.4.4}Post-processing}{29}{subsection.3.4.4}
-\contentsline {section}{\numberline {3.5}Multi-View Gait Recognition}{30}{section.3.5}
-\contentsline {subsection}{\numberline {3.5.1}Preprocessing}{31}{subsection.3.5.1}
-\contentsline {subsection}{\numberline {3.5.2}Network Architecture}{31}{subsection.3.5.2}
-\contentsline {subsection}{\numberline {3.5.3}Training}{32}{subsection.3.5.3}
-\contentsline {chapter}{\numberline {4}Results and Discussions}{34}{chapter.4}
-\contentsline {section}{\numberline {4.1}Dataset}{34}{section.4.1}
-\contentsline {section}{\numberline {4.2}Single-View Gait Recognition}{35}{section.4.2}
-\contentsline {subsection}{\numberline {4.2.1}Experimental Evaluation on CASIA-A dataset}{35}{subsection.4.2.1}
-\contentsline {subsection}{\numberline {4.2.2}Experimental Evaluation on CASIA-B Dataset}{36}{subsection.4.2.2}
-\contentsline {subsubsection}{\numberline {4.2.2.1}Experimental Setup}{36}{subsubsection.4.2.2.1}
-\contentsline {subsubsection}{\numberline {4.2.2.2}Results on Single-View Gait Recognition of CASIA B Dataset without View Variation}{38}{subsubsection.4.2.2.2}
-\contentsline {subsubsection}{\numberline {4.2.2.3}Comparison on Single-View Gait Recognition of CASIA B Dataset with State-of-the-art Methods without View Variation}{38}{subsubsection.4.2.2.3}
-\contentsline {subsubsection}{\numberline {4.2.2.4}Results on Single-View Gait Recognition of CASIA B Dataset with View Variation}{39}{subsubsection.4.2.2.4}
-\contentsline {subsubsection}{\numberline {4.2.2.5}Comparison on Single-View Gait Recognition of CASIA B Dataset with State-of-the-art Methods with View Variation}{39}{subsubsection.4.2.2.5}
-\contentsline {section}{\numberline {4.3}Cross-View Gait Recognition}{41}{section.4.3}
-\contentsline {subsection}{\numberline {4.3.1}Comparison with the State-of-the-art Methods of CASIA B Dataset on Cross-View Gait Recognition}{41}{subsection.4.3.1}
-\contentsline {section}{\numberline {4.4}Multi-View Gait Recognition}{42}{section.4.4}
-\contentsline {subsection}{\numberline {4.4.1}Comparison with the State-of-the-art Methods on Multi-View Gait Recognition}{43}{subsection.4.4.1}
-\contentsline {chapter}{\numberline {5}Conclusion}{45}{chapter.5}
-\contentsline {section}{\numberline {5.1}Summary of Our Work}{45}{section.5.1}
-\contentsline {section}{\numberline {5.2}Future Prospects of Our Work}{45}{section.5.2}
-\contentsline {chapter}{\textbf {Bibliography}}{46}{section.5.2}
+\contentsline {section}{\numberline {1.5}Overview of the Thesis}{4}{section.1.5}
+\contentsline {section}{\numberline {1.6}Contributions}{5}{section.1.6}
+\contentsline {section}{\numberline {1.7}Thesis Outline}{6}{section.1.7}
+\contentsline {chapter}{\numberline {2}Literature Review}{7}{chapter.2}
+\contentsline {section}{\numberline {2.1}Appearance-based Methods}{7}{section.2.1}
+\contentsline {section}{\numberline {2.2}Model-based Methods}{8}{section.2.2}
+\contentsline {section}{\numberline {2.3}Deep Learning for Gait Recognition}{9}{section.2.3}
+\contentsline {section}{\numberline {2.4}Pose Estimation}{9}{section.2.4}
+\contentsline {section}{\numberline {2.5}Pose-based Gait Recognition}{10}{section.2.5}
+\contentsline {chapter}{\numberline {3}Methodology}{11}{chapter.3}
+\contentsline {section}{\numberline {3.1}Deep Learning Basics}{11}{section.3.1}
+\contentsline {subsection}{\numberline {3.1.1}Deep learning}{11}{subsection.3.1.1}
+\contentsline {subsection}{\numberline {3.1.2}Recurrent Neural Network}{12}{subsection.3.1.2}
+\contentsline {subsection}{\numberline {3.1.3}Long Short Term Memory}{14}{subsection.3.1.3}
+\contentsline {subsection}{\numberline {3.1.4}Gated Recurrent Unit (GRU)}{18}{subsection.3.1.4}
+\contentsline {subsection}{\numberline {3.1.5}Bidirectional RNNs}{18}{subsection.3.1.5}
+\contentsline {subsubsection}{\numberline {3.1.5.1}Bidirectional Vanilla RNN}{19}{subsubsection.3.1.5.1}
+\contentsline {subsubsection}{\numberline {3.1.5.2}Bidirectional GRU}{19}{subsubsection.3.1.5.2}
+\contentsline {section}{\numberline {3.2}Human Pose Estimation}{19}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}Types of Pose Estimation}{20}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.2}Techniques for Pose Estimation}{21}{subsection.3.2.2}
+\contentsline {subsection}{\numberline {3.2.3}Introduction to OpenPose Library}{22}{subsection.3.2.3}
+\contentsline {subsection}{\numberline {3.2.4}Network Architecture}{23}{subsection.3.2.4}
+\contentsline {section}{\numberline {3.3}Extracting Spatio-Temporal Feature Vector}{23}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}2D Body Joint Features}{23}{subsection.3.3.1}
+\contentsline {subsection}{\numberline {3.3.2}Joint Angular Trajectory}{25}{subsection.3.3.2}
+\contentsline {subsection}{\numberline {3.3.3}Temporal Displacement}{27}{subsection.3.3.3}
+\contentsline {subsection}{\numberline {3.3.4}Body Part Length Features}{28}{subsection.3.3.4}
+\contentsline {subsection}{\numberline {3.3.5}Fusion of Features}{28}{subsection.3.3.5}
+\contentsline {section}{\numberline {3.4}Feature Preprocessing}{29}{section.3.4}
+\contentsline {subsection}{\numberline {3.4.1}Handling Missing Data}{29}{subsection.3.4.1}
+\contentsline {subsection}{\numberline {3.4.2}Forming Feature Map}{29}{subsection.3.4.2}
+\contentsline {subsection}{\numberline {3.4.3}Data Augmentation}{30}{subsection.3.4.3}
+\contentsline {section}{\numberline {3.5}Single-View Gait Recognition}{30}{section.3.5}
+\contentsline {subsection}{\numberline {3.5.1}Network Architecture}{31}{subsection.3.5.1}
+\contentsline {subsection}{\numberline {3.5.2}Training}{32}{subsection.3.5.2}
+\contentsline {subsection}{\numberline {3.5.3}Loss Functions}{32}{subsection.3.5.3}
+\contentsline {subsection}{\numberline {3.5.4}Post-processing}{33}{subsection.3.5.4}
+\contentsline {section}{\numberline {3.6}Multi-View Gait Recognition}{34}{section.3.6}
+\contentsline {subsection}{\numberline {3.6.1}Preprocessing}{35}{subsection.3.6.1}
+\contentsline {subsection}{\numberline {3.6.2}Network Architecture}{35}{subsection.3.6.2}
+\contentsline {subsection}{\numberline {3.6.3}Training}{36}{subsection.3.6.3}
+\contentsline {chapter}{\numberline {4}Results and Discussions}{38}{chapter.4}
+\contentsline {section}{\numberline {4.1}Dataset}{38}{section.4.1}
+\contentsline {section}{\numberline {4.2}Single-View Gait Recognition}{39}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Experimental Evaluation on CASIA-A dataset}{39}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}Experimental Evaluation on CASIA-B Dataset}{40}{subsection.4.2.2}
+\contentsline {subsubsection}{\numberline {4.2.2.1}Experimental Setup}{40}{subsubsection.4.2.2.1}
+\contentsline {subsubsection}{\numberline {4.2.2.2}Results on Single-View Gait Recognition of CASIA B Dataset without View Variation}{42}{subsubsection.4.2.2.2}
+\contentsline {subsubsection}{\numberline {4.2.2.3}Comparison on Single-View Gait Recognition of CASIA B Dataset with State-of-the-art Methods without View Variation}{42}{subsubsection.4.2.2.3}
+\contentsline {subsubsection}{\numberline {4.2.2.4}Results on Single-View Gait Recognition of CASIA B Dataset with View Variation}{43}{subsubsection.4.2.2.4}
+\contentsline {subsubsection}{\numberline {4.2.2.5}Comparison on Single-View Gait Recognition of CASIA B Dataset with State-of-the-art Methods with View Variation}{43}{subsubsection.4.2.2.5}
+\contentsline {section}{\numberline {4.3}Cross-View Gait Recognition}{45}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}Comparison with the State-of-the-art Methods of CASIA B Dataset on Cross-View Gait Recognition}{45}{subsection.4.3.1}
+\contentsline {section}{\numberline {4.4}Multi-View Gait Recognition}{46}{section.4.4}
+\contentsline {subsection}{\numberline {4.4.1}Comparison with the State-of-the-art Methods on Multi-View Gait Recognition}{47}{subsection.4.4.1}
+\contentsline {chapter}{\numberline {5}Conclusion}{49}{chapter.5}
+\contentsline {section}{\numberline {5.1}Summary of Our Work}{49}{section.5.1}
+\contentsline {section}{\numberline {5.2}Future Prospects of Our Work}{49}{section.5.2}
+\contentsline {chapter}{\textbf {Bibliography}}{50}{section.5.2}

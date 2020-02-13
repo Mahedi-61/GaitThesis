@@ -56,25 +56,27 @@
 \def\author{\input{parameters/author.txt}\unskip}
 \def\StudentID{\input{parameters/StudentID.txt}\unskip}
 
-
-\newglossaryentry{ann} {name = ANN, description=Artificial Neural Network}
-\newglossaryentry{brnn} {name=BRNN, description=Bidirectional Recurrent Neural Network}
-\newglossaryentry{bn} {name = BN, description = Batch normalization}
+\newglossaryentry{ai}{name=AI, description=Artificial Intelligence}
+\newglossaryentry{ann}{name=ANN, description=Artificial Neural Networks}
+\newglossaryentry{brnn}{name=BRNN, description=Bidirectional Recurrent Neural Network}
+\newglossaryentry{bptt}{name = BPTT, description = Backpropagation Through Time}
+\newglossaryentry{bn}  {name = BN, description = Batch Normalization}
 \newglossaryentry{bigru} {name= BiGRU, description=Bidirectional Gated Recurrent Unit}
 \newglossaryentry{bilstm} {name=BLSTM, description=Bidirectional Long Short-Term Memory}
-\newglossaryentry{ce}  {name=CE, description=Cross-Entropy}
-\newglossaryentry{cl}  {name=CL, description=Center Loss}
+\newglossaryentry{ce}  {name=CE,  description=Cross-Entropy}
+\newglossaryentry{cl}  {name=CL,  description=Center Loss}
 \newglossaryentry{ccr} {name=CCR, description=Correct Class Recognition}
-\newglossaryentry{ccn} {name=CNN, description=Convolutional Neural Network}
+\newglossaryentry{cnn} {name=CNN, description=Convolutional Neural Network}
+\newglossaryentry{dl}  {name=DL,  description=Deep Learning}
 \newglossaryentry{dnn} {name=DNN, description=Deep Neural Network}
-\newglossaryentry{fc}  {name=FC, description=Fully Connected}
-\newglossaryentry{fps} {name=FPS, description=Frames Per Second}
-\newglossaryentry{gpu} {name=GPU, description=Graphics Processing Unit}
+\newglossaryentry{fc}  {name=FC,  description=Fully Connected}
 \newglossaryentry{gru} {name=GRU, description=Gated Recurrent Unit}
-\newglossaryentry{lstm}{name=LSTM, description=Long Short-Term Memory}
+\newglossaryentry{lstm}{name=LSTM,description=Long Short-Term Memory}
 \newglossaryentry{mse} {name=MSE, description=Mean Squared Error}
-\newglossaryentry{rnn} {name=RNN, description=Recurrent Neural Network}
-\newglossaryentry{relu}{name=ReLU, description=Rectified Linear Unit}
+\newglossaryentry{ml}  {name=ML,  description=Machine Learning}
+\newglossaryentry{rnn} {name=RNN, description=Recurrent Neural Network} 
+\newglossaryentry{reid} {name=ReID, description=Person Re-identification}
+\newglossaryentry{relu}{name=ReLU,description=Rectified Linear Unit}
 \newglossaryentry{sgd} {name=SGD, description=Stochastic Gradient Descent}
 
 
@@ -147,7 +149,7 @@
   \addcontentsline{toc}{chapter}{\textbf{Candidate's Declaration}}
   \vspace*{\stretch{1}}
     
-  This is to certify that the work presented in this thesis entitled ``\thesistitle'', is the outcome research carried out by \author\hphantom -under the supervision of
+  This is to certify that the work presented in this thesis entitled ``\thesistitle'', is the outcome of the research carried out by \author\hphantom -under the supervision of
   \DTLforeach{Supervisor}{\SupervisorName=Column1,\SupervisorDesignation=Column2}{\SupervisorName}.
 
   \bigskip
@@ -209,7 +211,7 @@
   \input{pages/abstract.tex}
 
   \cleardoublepage
-  \input {pages/acknowledgement.tex}
+  \input{pages/acknowledgement.tex}
 
   \cleardoublepage
   \listsandtoc

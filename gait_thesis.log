@@ -1,0 +1,1984 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.7.14)  13 FEB 2020 10:09
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**gait_thesis.tex
+(./gait_thesis.tex
+LaTeX2e <2017-04-15>
+Babel <3.18> and hyphenation patterns for 30 language(s) loaded.
+(/usr/share/texlive/texmf-dist/tex/latex/base/report.cls
+Document Class: report 2014/09/29 v1.4h Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/latex/base/size12.clo
+File: size12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@chapter=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\c@figure=\count86
+\c@table=\count87
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(./buet_msc_thesis.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 99.
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen103
+\Gin@req@width=\dimen104
+)
+(/usr/share/texlive/texmf-dist/tex/latex/algorithms/algorithmic.sty
+Package: algorithmic 2009/08/24 v0.1 Document Style `algorithmic'
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+\c@ALC@unique=\count88
+\c@ALC@line=\count89
+\c@ALC@rem=\count90
+\c@ALC@depth=\count91
+\ALC@tlm=\skip43
+\algorithmicindent=\skip44
+)
+(/usr/share/texlive/texmf-dist/tex/latex/algorithms/algorithm.sty
+Package: algorithm 2009/08/24 v0.1 Document Style `algorithm' - floating enviro
+nment
+
+(/usr/share/texlive/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count92
+\float@exts=\toks15
+\float@box=\box26
+\@float@everytoks=\toks16
+\@floatcapt=\box27
+)
+\@float@every@algorithm=\toks17
+\c@algorithm=\count93
+)
+(/usr/share/texlive/texmf-dist/tex/latex/mathtools/mathtools.sty
+Package: mathtools 2018/01/08 v1.21 mathematical typesetting tools
+
+(/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count94
+\calc@Bcount=\count95
+\calc@Adimen=\dimen105
+\calc@Bdimen=\dimen106
+\calc@Askip=\skip45
+\calc@Bskip=\skip46
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count96
+\calc@Cskip=\skip47
+)
+(/usr/share/texlive/texmf-dist/tex/latex/mathtools/mhsetup.sty
+Package: mhsetup 2017/03/31 v1.3 programming setup (MH)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2017/09/02 v2.17a AMS math features
+\@mathmargin=\skip48
+
+For additional information on amsmath, use the `?' option.
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks18
+\ex@=\dimen107
+))
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen108
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count97
+LaTeX Info: Redefining \frac on input line 213.
+\uproot@=\count98
+\leftroot@=\count99
+LaTeX Info: Redefining \overline on input line 375.
+\classnum@=\count100
+\DOTSCASE@=\count101
+LaTeX Info: Redefining \ldots on input line 472.
+LaTeX Info: Redefining \dots on input line 475.
+LaTeX Info: Redefining \cdots on input line 596.
+\Mathstrutbox@=\box28
+\strutbox@=\box29
+\big@size=\dimen109
+LaTeX Font Info:    Redeclaring font encoding OML on input line 712.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
+\macc@depth=\count102
+\c@MaxMatrixCols=\count103
+\dotsspace@=\muskip10
+\c@parentequation=\count104
+\dspbrk@lvl=\count105
+\tag@help=\toks19
+\row@=\count106
+\column@=\count107
+\maxfields@=\count108
+\andhelp@=\toks20
+\eqnshift@=\dimen110
+\alignsep@=\dimen111
+\tagshift@=\dimen112
+\tagwidth@=\dimen113
+\totwidth@=\dimen114
+\lineht@=\dimen115
+\@envbody=\toks21
+\multlinegap=\skip49
+\multlinetaggap=\skip50
+\mathdisplay@stack=\toks22
+LaTeX Info: Redefining \[ on input line 2817.
+LaTeX Info: Redefining \] on input line 2818.
+)
+LaTeX Info: Thecontrolsequence`\('isalreadyrobust on input line 129.
+LaTeX Info: Thecontrolsequence`\)'isalreadyrobust on input line 129.
+LaTeX Info: Thecontrolsequence`\['isalreadyrobust on input line 129.
+LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 129.
+\g_MT_multlinerow_int=\count109
+\l_MT_multwidth_dim=\dimen116
+\origjot=\skip51
+\l_MT_shortvdotswithinadjustabove_dim=\dimen117
+\l_MT_shortvdotswithinadjustbelow_dim=\dimen118
+\l_MT_above_intertext_sep=\dimen119
+\l_MT_below_intertext_sep=\dimen120
+\l_MT_above_shortintertext_sep=\dimen121
+\l_MT_below_shortintertext_sep=\dimen122
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amscls/amsthm.sty
+Package: amsthm 2017/10/31 v2.20.4
+\thm@style=\toks23
+\thm@bodyfont=\toks24
+\thm@headfont=\toks25
+\thm@notefont=\toks26
+\thm@headpunct=\toks27
+\thm@preskip=\skip52
+\thm@postskip=\skip53
+\thm@headsep=\skip54
+\dth@everypar=\toks28
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+(/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2010/09/12 v5.6 Page Geometry
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
+)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifvtex.sty
+Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+)
+(/usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+\Gm@cnth=\count110
+\Gm@cntv=\count111
+\c@Gm@tempcnt=\count112
+\Gm@bindingoffset=\dimen123
+\Gm@wd@mp=\dimen124
+\Gm@odd@mp=\dimen125
+\Gm@even@mp=\dimen126
+\Gm@layoutwidth=\dimen127
+\Gm@layoutheight=\dimen128
+\Gm@layouthoffset=\dimen129
+\Gm@layoutvoffset=\dimen130
+\Gm@dimlist=\toks29
+)
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/times.sty
+Package: times 2005/04/12 PSNFSS-v9.2a (SPQR) 
+)
+(/usr/share/texlive/texmf-dist/tex/latex/cite/cite.sty
+LaTeX Info: Redefining \cite on input line 302.
+LaTeX Info: Redefining \nocite on input line 332.
+Package: cite 2015/02/27  v 5.5
+)
+(/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip11
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count113
+\lst@gtempboxa=\box30
+\lst@token=\toks30
+\lst@length=\count114
+\lst@currlwidth=\dimen131
+\lst@column=\count115
+\lst@pos=\count116
+\lst@lostspace=\dimen132
+\lst@width=\dimen133
+\lst@newlines=\count117
+\lst@lineno=\count118
+\lst@maxwidth=\dimen134
+
+(/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
+\c@lstnumber=\count119
+\lst@skipnumbers=\count120
+\lst@framebox=\box31
+)
+(/usr/share/texlive/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2015/06/04 1.6 listings configuration
+))
+Package: listings 2015/06/04 1.6 (Carsten Heinz)
+
+(/usr/share/texlive/texmf-dist/tex/latex/multirow/multirow.sty
+Package: multirow 2016/11/25 v2.2 Span multiple rows of a table
+\multirow@colwidth=\skip55
+\multirow@cntb=\count121
+\multirow@dima=\skip56
+\bigstrutjot=\dimen135
+)
+(/usr/share/texlive/texmf-dist/tex/latex/glossaries/base/glossaries.sty
+Package: glossaries 2017/11/14 v4.35 (NLCT)
+
+(/usr/share/texlive/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
+
+(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+\XKV@toks=\toks31
+\XKV@tempa@toks=\toks32
+)
+\XKV@depth=\count122
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+))
+(/usr/share/texlive/texmf-dist/tex/latex/mfirstuc/mfirstuc.sty
+Package: mfirstuc 2017/11/14 v2.06 (NLCT)
+
+(/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2018/02/11 v2.5e e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count123
+)
+\@glsmfirst=\toks33
+\@glsmrest=\toks34
+)
+(/usr/share/texlive/texmf-dist/tex/latex/textcase/textcase.sty
+Package: textcase 2004/10/07 v0.07 Text only upper/lower case changing (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/xfor/xfor.sty
+Package: xfor 2009/02/05 v1.05 (NLCT)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/datatool/datatool-base.sty
+Package: datatool-base 2017/11/12 v2.29 (NLCT)
+
+(/usr/share/texlive/texmf-dist/tex/latex/substr/substr.sty
+Package: substr 2009/10/20 v1.2 Handle substrings
+\c@su@anzahl=\count124
+)
+(/usr/share/texlive/texmf-dist/tex/latex/datatool/datatool-fp.sty
+Package: datatool-fp 2017/11/12 v2.29 (NLCT)
+
+(/usr/share/texlive/texmf-dist/tex/latex/fp/fp.sty
+Package: fp 1995/04/02
+
+`Fixed Point Package', Version 0.8, April 2, 1995 (C) Michael Mehlich
+(/usr/share/texlive/texmf-dist/tex/latex/fp/defpattern.sty
+Package: defpattern 1994/10/12
+\actioncount=\count125
+)
+(/usr/share/texlive/texmf-dist/tex/latex/fp/fp-basic.sty
+Package: fp-basic 1996/05/13
+\FP@xs=\count126
+\FP@xia=\count127
+\FP@xib=\count128
+\FP@xfa=\count129
+\FP@xfb=\count130
+\FP@rega=\count131
+\FP@regb=\count132
+\FP@regs=\count133
+\FP@times=\count134
+)
+(/usr/share/texlive/texmf-dist/tex/latex/fp/fp-addons.sty
+Package: fp-addons 1995/03/15
+)
+(/usr/share/texlive/texmf-dist/tex/latex/fp/fp-snap.sty
+Package: fp-snap 1995/04/05
+)
+(/usr/share/texlive/texmf-dist/tex/latex/fp/fp-exp.sty
+Package: fp-exp 1995/04/03
+)
+(/usr/share/texlive/texmf-dist/tex/latex/fp/fp-trigo.sty
+Package: fp-trigo 1995/04/14
+)
+(/usr/share/texlive/texmf-dist/tex/latex/fp/fp-pas.sty
+Package: fp-pas 1994/08/29
+)
+(/usr/share/texlive/texmf-dist/tex/latex/fp/fp-random.sty
+Package: fp-random 1995/02/23
+\FPseed=\count135
+)
+(/usr/share/texlive/texmf-dist/tex/latex/fp/fp-eqn.sty
+Package: fp-eqn 1995/04/03
+)
+(/usr/share/texlive/texmf-dist/tex/latex/fp/fp-upn.sty
+Package: fp-upn 1996/10/21
+)
+(/usr/share/texlive/texmf-dist/tex/latex/fp/fp-eval.sty
+Package: fp-eval 1995/04/03
+)))
+\@dtl@toks=\toks35
+\@dtl@tmpcount=\count136
+\dtl@tmplength=\skip57
+\dtl@sortresult=\count137
+\@dtl@numgrpsepcount=\count138
+\@dtl@datatype=\count139
+\dtl@codeA=\count140
+\dtl@codeB=\count141
+\@dtl@foreach@level=\count142
+)
+(/usr/share/texlive/texmf-dist/tex/latex/glossaries/base/glossaries-compatible-
+307.sty
+Package: glossaries-compatible-307 2017/11/14 v4.35 (NLCT)
+)
+\gls@level=\count143
+\@gls@tmpb=\toks36
+\gls@tmplen=\skip58
+\glskeylisttok=\toks37
+\glslabeltok=\toks38
+\glsshorttok=\toks39
+\glslongtok=\toks40
+
+(/usr/share/texlive/texmf-dist/tex/latex/glossaries/styles/glossary-hypernav.st
+y
+Package: glossary-hypernav 2017/11/14 v4.35 (NLCT)
+) (/usr/share/texlive/texmf-dist/tex/latex/glossaries/styles/glossary-list.sty
+Package: glossary-list 2017/11/14 v4.35 (NLCT)
+\glslistdottedwidth=\skip59
+) (/usr/share/texlive/texmf-dist/tex/latex/glossaries/styles/glossary-long.sty
+Package: glossary-long 2017/11/14 v4.35 (NLCT)
+
+(/usr/share/texlive/texmf-dist/tex/latex/tools/longtable.sty
+Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)
+\LTleft=\skip60
+\LTright=\skip61
+\LTpre=\skip62
+\LTpost=\skip63
+\LTchunksize=\count144
+\LTcapwidth=\dimen136
+\LT@head=\box32
+\LT@firsthead=\box33
+\LT@foot=\box34
+\LT@lastfoot=\box35
+\LT@cols=\count145
+\LT@rows=\count146
+\c@LT@tables=\count147
+\c@LT@chunks=\count148
+\LT@p@ftn=\toks41
+)
+\glsdescwidth=\skip64
+\glspagelistwidth=\skip65
+)
+(/usr/share/texlive/texmf-dist/tex/latex/glossaries/styles/glossary-super.sty
+Package: glossary-super 2017/11/14 v4.35 (NLCT)
+
+(/usr/share/texlive/texmf-dist/tex/latex/supertabular/supertabular.sty
+Package: supertabular 2004/02/20 v4.1e the supertabular environment
+\c@tracingst=\count149
+\ST@wd=\dimen137
+\ST@rightskip=\skip66
+\ST@leftskip=\skip67
+\ST@parfillskip=\skip68
+\ST@pageleft=\dimen138
+\ST@headht=\dimen139
+\ST@tailht=\dimen140
+\ST@pagesofar=\dimen141
+\ST@pboxht=\dimen142
+\ST@lineht=\dimen143
+\ST@stretchht=\dimen144
+\ST@prevht=\dimen145
+\ST@toadd=\dimen146
+\ST@dimen=\dimen147
+\ST@pbox=\box36
+))
+(/usr/share/texlive/texmf-dist/tex/latex/glossaries/styles/glossary-tree.sty
+Package: glossary-tree 2017/11/14 v4.35 (NLCT)
+\glstreeindent=\skip69
+))
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2018/02/06 v6.86b Hypertext links for LaTeX
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+Package: hobsub-hyperref 2016/05/16 v1.14 Bundle oberdiek, subset hyperref (HO)
+
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+Package: hobsub-generic 2016/05/16 v1.14 Bundle oberdiek, subset generic (HO)
+Package: hobsub 2016/05/16 v1.14 Construct package bundles (HO)
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+Package hobsub Info: Skipping package `ifvtex' (already loaded).
+Package: intcalc 2016/05/16 v1.2 Expandable calculations with integers (HO)
+Package hobsub Info: Skipping package `ifpdf' (already loaded).
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+Package: pdftexcmds 2018/01/21 v0.26 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+Package: pdfescape 2016/05/16 v1.14 Implements pdfTeX's escape features (HO)
+Package: bigintcalc 2016/05/16 v1.4 Expandable calculations on big integers (HO
+)
+Package: bitset 2016/05/16 v1.2 Handle bit-vector datatype (HO)
+Package: uniquecounter 2016/05/16 v1.3 Provide unlimited unique counter (HO)
+)
+Package hobsub Info: Skipping package `hobsub' (already loaded).
+Package: letltxmacro 2016/05/16 v1.5 Let assignment for LaTeX macros (HO)
+Package: hopatch 2016/05/16 v1.3 Wrapper for package hooks (HO)
+Package: xcolor-patch 2016/05/16 xcolor patch
+Package: atveryend 2016/05/16 v1.9 Hooks at the very end of document (HO)
+Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
+Package: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
+Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/auxhook.sty
+Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+)
+\@linkdim=\dimen148
+\Hy@linkcounter=\count150
+\Hy@pagecounter=\count151
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2018/02/06 v6.86b Hyperref: PDFDocEncoding definition (HO)
+)
+\Hy@SavedSpaceFactor=\count152
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/hyperref.cfg
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+)
+Package hyperref Info: Option `final' set `true' on input line 4383.
+Package hyperref Info: Option `colorlinks' set `true' on input line 4383.
+Package hyperref Info: Hyper figures OFF on input line 4509.
+Package hyperref Info: Link nesting OFF on input line 4514.
+Package hyperref Info: Hyper index ON on input line 4517.
+Package hyperref Info: Plain pages OFF on input line 4524.
+Package hyperref Info: Backreferencing OFF on input line 4529.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4762.
+\c@Hy@tempcnt=\count153
+LaTeX Info: Redefining \url on input line 5115.
+\XeTeXLinkMargin=\dimen149
+\Fld@menulength=\count154
+\Field@Width=\dimen150
+\Fld@charsize=\dimen151
+Package hyperref Info: Hyper figures OFF on input line 6369.
+Package hyperref Info: Link nesting OFF on input line 6374.
+Package hyperref Info: Hyper index ON on input line 6377.
+Package hyperref Info: backreferencing OFF on input line 6384.
+Package hyperref Info: Link coloring ON on input line 6387.
+Package hyperref Info: Link coloring with OCG OFF on input line 6394.
+Package hyperref Info: PDF/A mode OFF on input line 6399.
+LaTeX Info: Redefining \ref on input line 6439.
+LaTeX Info: Redefining \pageref on input line 6443.
+\Hy@abspage=\count155
+\c@Item=\count156
+\c@Hfootnote=\count157
+)
+Package hyperref Info: Driver (autodetected): hpdftex.
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2018/02/06 v6.86b Hyperref driver for pdfTeX
+\Fld@listcount=\count158
+\c@bookmark@seq@number=\count159
+
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
+Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+82.
+)
+\Hy@SectionHShift=\skip70
+)
+\glswrite=\write3
+\glo@main@file=\write4
+\openout4 = `gait_thesis.glo'.
+
+Package glossaries Info: Writing glossary file gait_thesis.glo on input line 21
+.
+\glo@acronym@file=\write5
+\openout5 = `gait_thesis.acn'.
+
+Package glossaries Info: Writing glossary file gait_thesis.acn on input line 21
+.
+
+(/usr/share/texlive/texmf-dist/tex/latex/cleveref/cleveref.sty
+Package: cleveref 2018/02/08 v0.21.1 Intelligent cross-referencing
+Package cleveref Info: `hyperref' support loaded on input line 2301.
+LaTeX Info: Redefining \cref on input line 2301.
+LaTeX Info: Redefining \Cref on input line 2301.
+LaTeX Info: Redefining \crefrange on input line 2301.
+LaTeX Info: Redefining \Crefrange on input line 2301.
+LaTeX Info: Redefining \cpageref on input line 2301.
+LaTeX Info: Redefining \Cpageref on input line 2301.
+LaTeX Info: Redefining \cpagerefrange on input line 2301.
+LaTeX Info: Redefining \Cpagerefrange on input line 2301.
+LaTeX Info: Redefining \labelcref on input line 2301.
+LaTeX Info: Redefining \labelcpageref on input line 2301.
+Package cleveref Info: `amsthm' support loaded on input line 2957.
+Package cleveref Info: `listings' support loaded on input line 3062.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2016/02/21 v3.3-144 Customizing captions (AR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2016/05/22 v1.7-166 caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 67.
+\captionmargin=\dimen152
+\captionmargin@=\dimen153
+\captionwidth=\dimen154
+\caption@tempdima=\dimen155
+\caption@indent=\dimen156
+\caption@parindent=\dimen157
+\caption@hangindent=\dimen158
+)
+\c@ContinuedFloat=\count160
+Package caption Info: float package is loaded.
+Package caption Info: hyperref package is loaded.
+Package caption Info: listings package is loaded.
+Package caption Info: longtable package is loaded.
+
+(/usr/share/texlive/texmf-dist/tex/latex/caption/ltcaption.sty
+Package: ltcaption 2013/06/09 v1.4-94 longtable captions (AR)
+)
+Package caption Info: supertabular package is loaded.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/setspace/setspace.sty
+Package: setspace 2011/12/19 v6.7a set line spacing
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/xspace.sty
+Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/datatool/datatool.sty
+Package: datatool 2017/11/12 v2.29 (NLCT)
+\dtlcolumnnum=\count161
+\dtlrownum=\count162
+\@dtl@before=\toks42
+\@dtl@after=\toks43
+\@dtl@colhead=\toks44
+\dtlcurrentrow=\toks45
+\dtlbeforerow=\toks46
+\dtlafterrow=\toks47
+\dtlforeachlevel=\count163
+\c@DTLrowi=\count164
+\c@DTLrowii=\count165
+\c@DTLrowiii=\count166
+\c@DTLrow=\count167
+\dtl@rowi=\count168
+\dtl@rowii=\count169
+\dtl@rowiii=\count170
+\@dtl@curi=\toks48
+\@dtl@previ=\toks49
+\@dtl@nexti=\toks50
+\@dtl@curii=\toks51
+\@dtl@previi=\toks52
+\@dtl@nextii=\toks53
+\@dtl@curiii=\toks54
+\@dtl@previii=\toks55
+\@dtl@nextiii=\toks56
+\@dtl@elements=\count171
+\@dtl@list=\toks57
+\@dtl@rowa=\toks58
+\@dtl@rowb=\toks59
+\@dtl@toksA=\toks60
+\@dtl@toksB=\toks61
+\@dtl@write=\write6
+\@dtl@read=\read1
+\dtl@entrycr=\count172
+\dtl@omitlines=\count173
+)
+\dtldb@Supervisor=\toks62
+\dtlkeys@Supervisor=\toks63
+\dtlrows@Supervisor=\count174
+\dtlcols@Supervisor=\count175
+\dtldb@BOE=\toks64
+\dtlkeys@BOE=\toks65
+\dtlrows@BOE=\count176
+\dtlcols@BOE=\count177
+
+(/usr/share/texlive/texmf-dist/tex/latex/tocbibind/tocbibind.sty
+Package: tocbibind 2010/10/13 v1.5k extra ToC listings
+Package tocbibind Info: The document has chapter divisions on input line 50.
+
+
+Package tocbibind Note: Using chapter style headings, unless overridden.
+
+) (/usr/share/texlive/texmf-dist/tex/latex/tocloft/tocloft.sty
+Package: tocloft 2017/08/31 v2.3i parameterised ToC, etc., typesetting
+Package tocloft Info: The document has chapter divisions on input line 51.
+\cftparskip=\skip71
+\cftbeforetoctitleskip=\skip72
+\cftaftertoctitleskip=\skip73
+\cftbeforepartskip=\skip74
+\cftpartnumwidth=\skip75
+\cftpartindent=\skip76
+\cftbeforechapskip=\skip77
+\cftchapindent=\skip78
+\cftchapnumwidth=\skip79
+\cftbeforesecskip=\skip80
+\cftsecindent=\skip81
+\cftsecnumwidth=\skip82
+\cftbeforesubsecskip=\skip83
+\cftsubsecindent=\skip84
+\cftsubsecnumwidth=\skip85
+\cftbeforesubsubsecskip=\skip86
+\cftsubsubsecindent=\skip87
+\cftsubsubsecnumwidth=\skip88
+\cftbeforeparaskip=\skip89
+\cftparaindent=\skip90
+\cftparanumwidth=\skip91
+\cftbeforesubparaskip=\skip92
+\cftsubparaindent=\skip93
+\cftsubparanumwidth=\skip94
+\cftbeforeloftitleskip=\skip95
+\cftafterloftitleskip=\skip96
+\cftbeforefigskip=\skip97
+\cftfigindent=\skip98
+\cftfignumwidth=\skip99
+\c@lofdepth=\count178
+\c@lotdepth=\count179
+\cftbeforelottitleskip=\skip100
+\cftafterlottitleskip=\skip101
+\cftbeforetabskip=\skip102
+\cfttabindent=\skip103
+\cfttabnumwidth=\skip104
+)
+(/usr/share/texlive/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+Package: fancyhdr 2017/06/30 v3.9a Extensive control of page headers and footer
+s
+\f@nch@headwidth=\skip105
+\f@nch@O@elh=\skip106
+\f@nch@O@erh=\skip107
+\f@nch@O@olh=\skip108
+\f@nch@O@orh=\skip109
+\f@nch@O@elf=\skip110
+\f@nch@O@erf=\skip111
+\f@nch@O@olf=\skip112
+\f@nch@O@orf=\skip113
+)
+(/usr/share/texlive/texmf-dist/tex/latex/imakeidx/imakeidx.sty
+Package: imakeidx 2016/10/15 v1.3e Package for typesetting indices in a synchro
+nous mode
+
+(/usr/share/texlive/texmf-dist/tex/latex/tools/multicol.sty
+Package: multicol 2017/04/11 v1.8q multicolumn formatting (FMi)
+\c@tracingmulticols=\count180
+\mult@box=\box37
+\multicol@leftmargin=\dimen159
+\c@unbalance=\count181
+\c@collectmore=\count182
+\doublecol@number=\count183
+\multicoltolerance=\count184
+\multicolpretolerance=\count185
+\full@width=\dimen160
+\page@free=\dimen161
+\premulticols=\dimen162
+\postmulticols=\dimen163
+\multicolsep=\skip114
+\multicolbaselineskip=\skip115
+\partial@page=\box38
+\last@line=\box39
+\maxbalancingoverflow=\dimen164
+\mult@rightbox=\box40
+\mult@grightbox=\box41
+\mult@gfirstbox=\box42
+\mult@firstbox=\box43
+\@tempa=\box44
+\@tempa=\box45
+\@tempa=\box46
+\@tempa=\box47
+\@tempa=\box48
+\@tempa=\box49
+\@tempa=\box50
+\@tempa=\box51
+\@tempa=\box52
+\@tempa=\box53
+\@tempa=\box54
+\@tempa=\box55
+\@tempa=\box56
+\@tempa=\box57
+\@tempa=\box58
+\@tempa=\box59
+\@tempa=\box60
+\c@columnbadness=\count186
+\c@finalcolumnbadness=\count187
+\last@try=\dimen165
+\multicolovershoot=\dimen166
+\multicolundershoot=\dimen167
+\mult@nat@firstbox=\box61
+\colbreak@box=\box62
+\mc@col@check@num=\count188
+)))
+\gait_thesis@idxfile=\write7
+\openout7 = `gait_thesis.idx'.
+
+
+Writing index file gait_thesis.idx
+(./gait_thesis.aux
+
+LaTeX Warning: Label `fig:bidirectional_rnn' multiply defined.
+
+
+LaTeX Warning: Label `fig:bidirectional_rnn@cref' multiply defined.
+
+)
+\openout1 = `gait_thesis.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 16.
+ (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ptm.fd
+File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
+)
+(/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count189
+\scratchdimen=\dimen168
+\scratchbox=\box63
+\nofMPsegments=\count190
+\nofMParguments=\count191
+\everyMPshowfont=\toks66
+\MPscratchCnt=\count192
+\MPscratchDim=\dimen169
+\MPnumerator=\count193
+\makeMPintoPDFobject=\count194
+\everyMPtoPDFconversion=\toks67
+) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+)
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+38.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(108.405pt, 416.83289pt, 72.26999pt)
+* v-part:(T,H,B)=(90.3375pt, 682.43936pt, 72.26999pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=416.83289pt
+* \textheight=682.43936pt
+* \oddsidemargin=36.13501pt
+* \evensidemargin=36.13501pt
+* \topmargin=-18.9325pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=44.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+\c@lstlisting=\count195
+\AtBeginShipoutBox=\box64
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/color.sty
+Package: color 2016/07/10 v1.1e Standard LaTeX Color (DPC)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package color Info: Driver file: pdftex.def on input line 147.
+)
+Package hyperref Info: Link coloring ON on input line 16.
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
+)
+\c@section@level=\count196
+)
+LaTeX Info: Redefining \ref on input line 16.
+LaTeX Info: Redefining \pageref on input line 16.
+LaTeX Info: Redefining \nameref on input line 16.
+
+(./gait_thesis.out) (./gait_thesis.out)
+\@outlinefile=\write8
+\openout8 = `gait_thesis.out'.
+
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 16.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <17.28> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 16.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/sc' in size <17.28> not available
+(Font)              Font shape `OT1/ptm/b/sc' tried instead on input line 16.
+ (./parameters/thesistitle.txt)
+(./parameters/author.txt) (./parameters/StudentID.txt)
+<figures/buetlogo.png, id=275, 456.20438pt x 457.10776pt>
+File: figures/buetlogo.png Graphic file (type png)
+<use figures/buetlogo.png>
+Package pdftex.def Info: figures/buetlogo.png  used on input line 16.
+(pdftex.def)             Requested size: 113.81102pt x 114.03253pt.
+
+(./parameters/thesisdate.txt) [1
+
+\openout3 = `gait_thesis.ist'.
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./figures/buetlogo.png>] (
+./parameters/thesistitle.txt)
+(./parameters/author.txt) (./parameters/StudentID.txt)
+(./parameters/thesisdate.txt)
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 16.
+
+Underfull \hbox (badness 10000) in paragraph at lines 16--16
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 16--16
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 16--16
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 16--16
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 16--16
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 16--16
+
+ []
+
+[1
+
+] (./parameters/thesistitle.txt) (./parameters/author.txt)
+(./parameters/author.txt) (./parameters/StudentID.txt) [2
+
+]
+(./pages/abstract.tex
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 5.
+) [3
+
+] (./pages/acknowledgement.tex
+(./parameters/thesisdate.txt) (./parameters/author.txt)) [4
+
+]
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <24.88> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 16.
+ (./gait_thesis.toc
+LaTeX Font Info:    Try loading font information for U+msa on input line 1.
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 1.
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+) [5
+
+]
+Overfull \hbox (14.21541pt too wide) in paragraph at lines 69--69
+ [][] [][][]\OT1/ptm/m/n/12 Comparison with the State-of-the-art Meth-ods of CA
+-SIA B Dataset 
+ []
+
+[6])
+\tf@toc=\write9
+\openout9 = `gait_thesis.toc'.
+
+ [7] (./gait_thesis.lof [8
+
+])
+\tf@lof=\write10
+\openout10 = `gait_thesis.lof'.
+
+ [9] (./gait_thesis.lot
+Overfull \hbox (4.26407pt too wide) in paragraph at lines 12--12
+ [][] [][][]\OT1/ptm/m/n/12 The av-er-age recog-ni-tion rates for all three pro
+be sets of CA-SIA B dataset. 
+ []
+
+)
+\tf@lot=\write11
+\openout11 = `gait_thesis.lot'.
+
+ (./pages/abbreviations.tex (./gait_thesis.gls [10
+
+])) [11
+
+
+]
+(./chapters/introduction.tex
+Chapter 1.
+Package epstopdf Info: Source file: <figures/person_reid.eps>
+(epstopdf)                    date: 2020-02-10 01:00:04
+(epstopdf)                    size: 188651 bytes
+(epstopdf)             Output file: <figures/person_reid-eps-converted-to.pdf>
+(epstopdf)                    date: 2020-02-10 01:10:53
+(epstopdf)                    size: 180216 bytes
+(epstopdf)             Command: <repstopdf --outfile=figures/person_reid-eps-co
+nverted-to.pdf figures/person_reid.eps>
+(epstopdf)             \includegraphics on input line 9.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex (file ./figures/person_reid-eps-converted-to.pdf): PDF
+ inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<figures/person_reid-eps-converted-to.pdf, id=517, 1000.73875pt x 651.43375pt>
+File: figures/person_reid-eps-converted-to.pdf Graphic file (type pdf)
+<use figures/person_reid-eps-converted-to.pdf>
+Package pdftex.def Info: figures/person_reid-eps-converted-to.pdf  used on inpu
+t line 9.
+(pdftex.def)             Requested size: 291.78174pt x 189.93477pt.
+Missing character: There is no â in font ptmr7t!
+Missing character: There is no € in font ptmr7t!
+Missing character: There is no ™ in font ptmr7t!
+pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.18 
+      [1
+
+
+]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[2 <./figures/person_reid-eps-converted-to.pdf>]
+LaTeX Font Info:    Try loading font information for OMS+ptm on input line 37.
+
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/omsptm.fd
+File: omsptm.fd 
+)
+LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 37.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[3]
+Overfull \hbox (4.44734pt too wide) in paragraph at lines 46--47
+\OT1/ptm/m/n/12 Modern deep learning-based al-go-rithms have re-cently gained i
+n-creas-ing pop-u-lar-ity while
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[4]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[5]) (./chapters/literature_review.tex
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[6]
+Chapter 2.
+[7
+
+]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[8]
+Overfull \hbox (7.83084pt too wide) in paragraph at lines 38--39
+\OT1/ptm/m/n/12 bottom-up method achieved state-of-the-art per-for-mance on mul
+-ti-ple bench-mark datasets. 
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[9]) (./chapters/methodology.tex
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[10]
+Chapter 3.
+Missing character: There is no â in font ptmr7t!
+Missing character: There is no € in font ptmr7t!
+Missing character: There is no ˜ in font ptmr7t!
+Missing character: There is no â in font ptmr7t!
+Missing character: There is no € in font ptmr7t!
+Missing character: There is no ™ in font ptmr7t!
+[11
+
+]
+<figures/RNN_loop.pdf, id=648, 165.47397pt x 256.91707pt>
+File: figures/RNN_loop.pdf Graphic file (type pdf)
+<use figures/RNN_loop.pdf>
+Package pdftex.def Info: figures/RNN_loop.pdf  used on input line 25.
+(pdftex.def)             Requested size: 62.52238pt x 97.07281pt.
+<figures/RNN_unrolled.pdf, id=651, 977.80885pt x 257.01477pt>
+File: figures/RNN_unrolled.pdf Graphic file (type pdf)
+<use figures/RNN_unrolled.pdf>
+Package pdftex.def Info: figures/RNN_unrolled.pdf  used on input line 31.
+(pdftex.def)             Requested size: 291.78174pt x 76.69324pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[12 <./figures/RNN_loop.pdf>]
+Package epstopdf Info: Source file: <figures/rnn_unrolling.eps>
+(epstopdf)                    date: 2020-02-02 12:58:16
+(epstopdf)                    size: 873554 bytes
+(epstopdf)             Output file: <figures/rnn_unrolling-eps-converted-to.pdf
+>
+(epstopdf)                    date: 2020-02-02 13:00:27
+(epstopdf)                    size: 894360 bytes
+(epstopdf)             Command: <repstopdf --outfile=figures/rnn_unrolling-eps-
+converted-to.pdf figures/rnn_unrolling.eps>
+(epstopdf)             \includegraphics on input line 56.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex (file ./figures/rnn_unrolling-eps-converted-to.pdf): P
+DF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<figures/rnn_unrolling-eps-converted-to.pdf, id=666, 1423.3175pt x 1138.2525pt>
+
+File: figures/rnn_unrolling-eps-converted-to.pdf Graphic file (type pdf)
+<use figures/rnn_unrolling-eps-converted-to.pdf>
+Package pdftex.def Info: figures/rnn_unrolling-eps-converted-to.pdf  used on in
+put line 56.
+(pdftex.def)             Requested size: 375.14705pt x 300.00285pt.
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[13 <./figures/RNN_unrolled.pdf>]
+<figures/LSTM.pdf, id=680, 807.76419pt x 303.03935pt>
+File: figures/LSTM.pdf Graphic file (type pdf)
+<use figures/LSTM.pdf>
+Package pdftex.def Info: figures/LSTM.pdf  used on input line 70.
+(pdftex.def)             Requested size: 291.78174pt x 109.46399pt.
+<figures/LSTM_state.pdf, id=684, 302.12875pt x 198.7425pt>
+File: figures/LSTM_state.pdf Graphic file (type pdf)
+<use figures/LSTM_state.pdf>
+Package pdftex.def Info: figures/LSTM_state.pdf  used on input line 78.
+(pdftex.def)             Requested size: 250.10226pt x 164.51953pt.
+<figures/LSTM_forget_gate.pdf, id=688, 302.12875pt x 199.74625pt>
+File: figures/LSTM_forget_gate.pdf Graphic file (type pdf)
+<use figures/LSTM_forget_gate.pdf>
+Package pdftex.def Info: figures/LSTM_forget_gate.pdf  used on input line 87.
+(pdftex.def)             Requested size: 250.10226pt x 165.35045pt.
+<figures/LSTM_input_gate.pdf, id=691, 302.12875pt x 198.7425pt>
+File: figures/LSTM_input_gate.pdf Graphic file (type pdf)
+<use figures/LSTM_input_gate.pdf>
+Package pdftex.def Info: figures/LSTM_input_gate.pdf  used on input line 92.
+(pdftex.def)             Requested size: 250.10226pt x 164.51953pt.
+<figures/LSTM_output_gate.pdf, id=694, 302.12875pt x 198.7425pt>
+File: figures/LSTM_output_gate.pdf Graphic file (type pdf)
+<use figures/LSTM_output_gate.pdf>
+Package pdftex.def Info: figures/LSTM_output_gate.pdf  used on input line 97.
+(pdftex.def)             Requested size: 250.10226pt x 164.51953pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[14 <./figures/rnn_unrolling-eps-converted-to.pdf>]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[15 <./figures/LSTM.pdf> <./figures/LSTM_state.pdf>]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[16 <./figures/LSTM_forget_gate.pdf> <./figures/LSTM_input_gate.pdf> <./figures
+/LSTM_output_gate.pdf>]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[17]
+<figures/GRU.pdf, id=776, 283.13052pt x 195.92268pt>
+File: figures/GRU.pdf Graphic file (type pdf)
+<use figures/GRU.pdf>
+Package pdftex.def Info: figures/GRU.pdf  used on input line 166.
+(pdftex.def)             Requested size: 250.10226pt x 173.07016pt.
+Package epstopdf Info: Source file: <figures/brnn.eps>
+(epstopdf)                    date: 2020-02-01 21:51:22
+(epstopdf)                    size: 1192698 bytes
+(epstopdf)             Output file: <figures/brnn-eps-converted-to.pdf>
+(epstopdf)                    date: 2020-02-01 21:55:19
+(epstopdf)                    size: 1221430 bytes
+(epstopdf)             Command: <repstopdf --outfile=figures/brnn-eps-converted
+-to.pdf figures/brnn.eps>
+(epstopdf)             \includegraphics on input line 190.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex (file ./figures/brnn-eps-converted-to.pdf): PDF inclus
+ion: found PDF version <1.7>, but at most version <1.5> allowed
+<figures/brnn-eps-converted-to.pdf, id=779, 1423.3175pt x 1138.2525pt>
+File: figures/brnn-eps-converted-to.pdf Graphic file (type pdf)
+<use figures/brnn-eps-converted-to.pdf>
+Package pdftex.def Info: figures/brnn-eps-converted-to.pdf  used on input line 
+190.
+(pdftex.def)             Requested size: 375.14705pt x 300.00285pt.
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[18 <./figures/GRU.pdf>]
+Package epstopdf Info: Source file: <figures/bigru.eps>
+(epstopdf)                    date: 2020-02-02 15:10:19
+(epstopdf)                    size: 755211 bytes
+(epstopdf)             Output file: <figures/bigru-eps-converted-to.pdf>
+(epstopdf)                    date: 2020-02-02 15:11:11
+(epstopdf)                    size: 753784 bytes
+(epstopdf)             Command: <repstopdf --outfile=figures/bigru-eps-converte
+d-to.pdf figures/bigru.eps>
+(epstopdf)             \includegraphics on input line 203.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex (file ./figures/bigru-eps-converted-to.pdf): PDF inclu
+sion: found PDF version <1.7>, but at most version <1.5> allowed
+<figures/bigru-eps-converted-to.pdf, id=791, 1082.0425pt x 996.72375pt>
+File: figures/bigru-eps-converted-to.pdf Graphic file (type pdf)
+<use figures/bigru-eps-converted-to.pdf>
+Package pdftex.def Info: figures/bigru-eps-converted-to.pdf  used on input line
+ 203.
+(pdftex.def)             Requested size: 291.78174pt x 268.76921pt.
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[19 <./figures/brnn-eps-converted-to.pdf>]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[20 <./figures/bigru-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <figures/openpose_demo.eps>
+(epstopdf)                    date: 2020-02-06 19:06:22
+(epstopdf)                    size: 3356573 bytes
+(epstopdf)             Output file: <figures/openpose_demo-eps-converted-to.pdf
+>
+(epstopdf)                    date: 2020-02-06 19:07:38
+(epstopdf)                    size: 411565 bytes
+(epstopdf)             Command: <repstopdf --outfile=figures/openpose_demo-eps-
+converted-to.pdf figures/openpose_demo.eps>
+(epstopdf)             \includegraphics on input line 235.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex (file ./figures/openpose_demo-eps-converted-to.pdf): P
+DF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<figures/openpose_demo-eps-converted-to.pdf, id=810, 1123.19624pt x 393.47pt>
+File: figures/openpose_demo-eps-converted-to.pdf Graphic file (type pdf)
+<use figures/openpose_demo-eps-converted-to.pdf>
+Package pdftex.def Info: figures/openpose_demo-eps-converted-to.pdf  used on in
+put line 235.
+(pdftex.def)             Requested size: 416.83289pt x 146.0199pt.
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[21]
+Package epstopdf Info: Source file: <figures/openpose_bottom_up.eps>
+(epstopdf)                    date: 2020-02-06 18:31:49
+(epstopdf)                    size: 1109805 bytes
+(epstopdf)             Output file: <figures/openpose_bottom_up-eps-converted-t
+o.pdf>
+(epstopdf)                    date: 2020-02-06 18:32:26
+(epstopdf)                    size: 206088 bytes
+(epstopdf)             Command: <repstopdf --outfile=figures/openpose_bottom_up
+-eps-converted-to.pdf figures/openpose_bottom_up.eps>
+(epstopdf)             \includegraphics on input line 242.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex (file ./figures/openpose_bottom_up-eps-converted-to.pd
+f): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<figures/openpose_bottom_up-eps-converted-to.pdf, id=817, 1257.69875pt x 364.36
+125pt>
+File: figures/openpose_bottom_up-eps-converted-to.pdf Graphic file (type pdf)
+<use figures/openpose_bottom_up-eps-converted-to.pdf>
+Package pdftex.def Info: figures/openpose_bottom_up-eps-converted-to.pdf  used 
+on input line 242.
+(pdftex.def)             Requested size: 416.83289pt x 120.75662pt.
+Package epstopdf Info: Source file: <figures/openpose_architecture.eps>
+(epstopdf)                    date: 2020-02-06 18:54:57
+(epstopdf)                    size: 157903 bytes
+(epstopdf)             Output file: <figures/openpose_architecture-eps-converte
+d-to.pdf>
+(epstopdf)                    date: 2020-02-06 18:57:25
+(epstopdf)                    size: 127081 bytes
+(epstopdf)             Command: <repstopdf --outfile=figures/openpose_architect
+ure-eps-converted-to.pdf figures/openpose_architecture.eps>
+(epstopdf)             \includegraphics on input line 254.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex (file ./figures/openpose_architecture-eps-converted-to
+.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowe
+d
+<figures/openpose_architecture-eps-converted-to.pdf, id=826, 1124.2pt x 358.338
+75pt>
+File: figures/openpose_architecture-eps-converted-to.pdf Graphic file (type pdf
+)
+<use figures/openpose_architecture-eps-converted-to.pdf>
+Package pdftex.def Info: figures/openpose_architecture-eps-converted-to.pdf  us
+ed on input line 254.
+(pdftex.def)             Requested size: 416.83289pt x 132.86212pt.
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[22 <./figures/openpose_demo-eps-converted-to.pdf> <./figures/openpose_bottom_u
+p-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <figures/proposed_method.eps>
+(epstopdf)                    date: 2020-01-14 04:57:05
+(epstopdf)                    size: 520014 bytes
+(epstopdf)             Output file: <figures/proposed_method-eps-converted-to.p
+df>
+(epstopdf)                    date: 2020-01-14 04:57:38
+(epstopdf)                    size: 103699 bytes
+(epstopdf)             Command: <repstopdf --outfile=figures/proposed_method-ep
+s-converted-to.pdf figures/proposed_method.eps>
+(epstopdf)             \includegraphics on input line 268.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex (file ./figures/proposed_method-eps-converted-to.pdf):
+ PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<figures/proposed_method-eps-converted-to.pdf, id=848, 294.09875pt x 502.87875p
+t>
+File: figures/proposed_method-eps-converted-to.pdf Graphic file (type pdf)
+<use figures/proposed_method-eps-converted-to.pdf>
+Package pdftex.def Info: figures/proposed_method-eps-converted-to.pdf  used on 
+input line 268.
+(pdftex.def)             Requested size: 333.46758pt x 570.20306pt.
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[23 <./figures/openpose_architecture-eps-converted-to.pdf>]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[24 <./figures/proposed_method-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <figures/extracted_features.eps>
+(epstopdf)                    date: 2020-01-13 22:01:34
+(epstopdf)                    size: 2573354 bytes
+(epstopdf)             Output file: <figures/extracted_features-eps-converted-t
+o.pdf>
+(epstopdf)                    date: 2020-01-14 07:27:30
+(epstopdf)                    size: 2368782 bytes
+(epstopdf)             Command: <repstopdf --outfile=figures/extracted_features
+-eps-converted-to.pdf figures/extracted_features.eps>
+(epstopdf)             \includegraphics on input line 280.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex (file ./figures/extracted_features-eps-converted-to.pd
+f): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<figures/extracted_features-eps-converted-to.pdf, id=894, 1423.3175pt x 1707.37
+875pt>
+File: figures/extracted_features-eps-converted-to.pdf Graphic file (type pdf)
+<use figures/extracted_features-eps-converted-to.pdf>
+Package pdftex.def Info: figures/extracted_features-eps-converted-to.pdf  used 
+on input line 280.
+(pdftex.def)             Requested size: 375.14705pt x 450.00429pt.
+
+Overfull \hbox (2.12021pt too wide) in paragraph at lines 286--287
+[]\OT1/ptm/m/n/12 Consequently, in our work, as shown in Fig-ure [][]3.16[][](a
+) we se-lected 6 body joints (RKnee,
+ []
+
+
+LaTeX Warning: Reference `equ:normalization_raw_join' on page 25 undefined on i
+nput line 292.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[25]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[26 <./figures/extracted_features-eps-converted-to.pdf>]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[27]
+Package epstopdf Info: Source file: <figures/pose_estimation.eps>
+(epstopdf)                    date: 2020-01-13 22:05:15
+(epstopdf)                    size: 328578 bytes
+(epstopdf)             Output file: <figures/pose_estimation-eps-converted-to.p
+df>
+(epstopdf)                    date: 2020-01-14 07:09:56
+(epstopdf)                    size: 65167 bytes
+(epstopdf)             Command: <repstopdf --outfile=figures/pose_estimation-ep
+s-converted-to.pdf figures/pose_estimation.eps>
+(epstopdf)             \includegraphics on input line 373.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex (file ./figures/pose_estimation-eps-converted-to.pdf):
+ PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<figures/pose_estimation-eps-converted-to.pdf, id=934, 665.48625pt x 248.93pt>
+File: figures/pose_estimation-eps-converted-to.pdf Graphic file (type pdf)
+<use figures/pose_estimation-eps-converted-to.pdf>
+Package pdftex.def Info: figures/pose_estimation-eps-converted-to.pdf  used on 
+input line 373.
+(pdftex.def)             Requested size: 375.14705pt x 140.32664pt.
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[28 <./figures/pose_estimation-eps-converted-to.pdf>]
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <12> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 394.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[29]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[30]
+Package epstopdf Info: Source file: <figures/rnn_network.eps>
+(epstopdf)                    date: 2020-01-13 22:00:39
+(epstopdf)                    size: 379737 bytes
+(epstopdf)             Output file: <figures/rnn_network-eps-converted-to.pdf>
+(epstopdf)                    date: 2020-01-14 04:44:53
+(epstopdf)                    size: 164229 bytes
+(epstopdf)             Command: <repstopdf --outfile=figures/rnn_network-eps-co
+nverted-to.pdf figures/rnn_network.eps>
+(epstopdf)             \includegraphics on input line 428.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex (file ./figures/rnn_network-eps-converted-to.pdf): PDF
+ inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<figures/rnn_network-eps-converted-to.pdf, id=965, 351.3125pt x 195.73125pt>
+File: figures/rnn_network-eps-converted-to.pdf Graphic file (type pdf)
+<use figures/rnn_network-eps-converted-to.pdf>
+Package pdftex.def Info: figures/rnn_network-eps-converted-to.pdf  used on inpu
+t line 428.
+(pdftex.def)             Requested size: 333.46758pt x 185.80324pt.
+
+Overfull \hbox (19.57928pt too wide) in paragraph at lines 436--437
+\OT1/ptm/m/n/12 Short-Term Mem-ory ([]BLSTM) [[][]39[][]] and Bidi-rec-tional G
+ated Re-cur-rent Units ([]Bi-GRU) [[][]33[][]].
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[31 <./figures/rnn_network-eps-converted-to.pdf>]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[32]
+Package epstopdf Info: Source file: <figures/output_prediction.eps>
+(epstopdf)                    date: 2020-01-13 21:57:28
+(epstopdf)                    size: 71707 bytes
+(epstopdf)             Output file: <figures/output_prediction-eps-converted-to
+.pdf>
+(epstopdf)                    date: 2020-01-14 12:42:43
+(epstopdf)                    size: 26218 bytes
+(epstopdf)             Command: <repstopdf --outfile=figures/output_prediction-
+eps-converted-to.pdf figures/output_prediction.eps>
+(epstopdf)             \includegraphics on input line 482.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex (file ./figures/output_prediction-eps-converted-to.pdf
+): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<figures/output_prediction-eps-converted-to.pdf, id=1001, 348.30125pt x 263.986
+25pt>
+File: figures/output_prediction-eps-converted-to.pdf Graphic file (type pdf)
+<use figures/output_prediction-eps-converted-to.pdf>
+Package pdftex.def Info: figures/output_prediction-eps-converted-to.pdf  used o
+n input line 482.
+(pdftex.def)             Requested size: 291.78174pt x 221.15883pt.
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[33]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[34 <./figures/output_prediction-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <figures/multi_view_gait_recognition.eps>
+(epstopdf)                    date: 2018-12-30 23:43:11
+(epstopdf)                    size: 480159 bytes
+(epstopdf)             Output file: <figures/multi_view_gait_recognition-eps-co
+nverted-to.pdf>
+(epstopdf)                    date: 2020-01-14 12:42:43
+(epstopdf)                    size: 255601 bytes
+(epstopdf)             Command: <repstopdf --outfile=figures/multi_view_gait_re
+cognition-eps-converted-to.pdf figures/multi_view_gait_recognition.eps>
+(epstopdf)             \includegraphics on input line 525.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex (file ./figures/multi_view_gait_recognition-eps-conver
+ted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> 
+allowed
+<figures/multi_view_gait_recognition-eps-converted-to.pdf, id=1023, 526.96875pt
+ x 188.705pt>
+File: figures/multi_view_gait_recognition-eps-converted-to.pdf Graphic file (ty
+pe pdf)
+<use figures/multi_view_gait_recognition-eps-converted-to.pdf>
+Package pdftex.def Info: figures/multi_view_gait_recognition-eps-converted-to.p
+df  used on input line 525.
+(pdftex.def)             Requested size: 416.83289pt x 149.27399pt.
+
+LaTeX Warning: Citation `Karpathy_14' on page 35 undefined on input line 533.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[35 <./figures/multi_view_gait_recognition-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <figures/3D_CNN.eps>
+(epstopdf)                    date: 2018-12-26 19:01:54
+(epstopdf)                    size: 45837 bytes
+(epstopdf)             Output file: <figures/3D_CNN-eps-converted-to.pdf>
+(epstopdf)                    date: 2020-01-16 00:30:57
+(epstopdf)                    size: 19093 bytes
+(epstopdf)             Command: <repstopdf --outfile=figures/3D_CNN-eps-convert
+ed-to.pdf figures/3D_CNN.eps>
+(epstopdf)             \includegraphics on input line 538.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex (file ./figures/3D_CNN-eps-converted-to.pdf): PDF incl
+usion: found PDF version <1.7>, but at most version <1.5> allowed
+<figures/3D_CNN-eps-converted-to.pdf, id=1045, 465.74pt x 32.12pt>
+File: figures/3D_CNN-eps-converted-to.pdf Graphic file (type pdf)
+<use figures/3D_CNN-eps-converted-to.pdf>
+Package pdftex.def Info: figures/3D_CNN-eps-converted-to.pdf  used on input lin
+e 538.
+(pdftex.def)             Requested size: 416.83289pt x 28.74794pt.
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[36 <./figures/3D_CNN-eps-converted-to.pdf>]) (./chapters/result_discussion.tex
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[37]
+Chapter 4.
+[38
+
+]
+Package epstopdf Info: Source file: <figures/casia_dataset.eps>
+(epstopdf)                    date: 2019-01-13 10:56:10
+(epstopdf)                    size: 1812315 bytes
+(epstopdf)             Output file: <figures/casia_dataset-eps-converted-to.pdf
+>
+(epstopdf)                    date: 2020-01-19 10:34:53
+(epstopdf)                    size: 268202 bytes
+(epstopdf)             Command: <repstopdf --outfile=figures/casia_dataset-eps-
+converted-to.pdf figures/casia_dataset.eps>
+(epstopdf)             \includegraphics on input line 16.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex (file ./figures/casia_dataset-eps-converted-to.pdf): P
+DF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<figures/casia_dataset-eps-converted-to.pdf, id=1079, 904.37875pt x 733.74126pt
+>
+File: figures/casia_dataset-eps-converted-to.pdf Graphic file (type pdf)
+<use figures/casia_dataset-eps-converted-to.pdf>
+Package pdftex.def Info: figures/casia_dataset-eps-converted-to.pdf  used on in
+put line 16.
+(pdftex.def)             Requested size: 291.78174pt x 236.7277pt.
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[39 <./figures/casia_dataset-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <figures/casia_a_result.eps>
+(epstopdf)                    date: 2020-01-13 22:05:43
+(epstopdf)                    size: 107818 bytes
+(epstopdf)             Output file: <figures/casia_a_result-eps-converted-to.pd
+f>
+(epstopdf)                    date: 2020-01-19 10:33:58
+(epstopdf)                    size: 32044 bytes
+(epstopdf)             Command: <repstopdf --outfile=figures/casia_a_result-eps
+-converted-to.pdf figures/casia_a_result.eps>
+(epstopdf)             \includegraphics on input line 61.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex (file ./figures/casia_a_result-eps-converted-to.pdf): 
+PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<figures/casia_a_result-eps-converted-to.pdf, id=1104, 482.80376pt x 315.1775pt
+>
+File: figures/casia_a_result-eps-converted-to.pdf Graphic file (type pdf)
+<use figures/casia_a_result-eps-converted-to.pdf>
+Package pdftex.def Info: figures/casia_a_result-eps-converted-to.pdf  used on i
+nput line 61.
+(pdftex.def)             Requested size: 333.46758pt x 217.69873pt.
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[40]
+Overfull \vbox (15.29997pt too high) detected at line 95
+ []
+
+
+Underfull \hbox (badness 10000) in alignment at lines 84--97
+[][][][][][][][]
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[41 <./figures/casia_a_result-eps-converted-to.pdf>]
+Underfull \hbox (badness 10000) in alignment at lines 109--123
+[][][][]
+ []
+
+
+Overfull \hbox (7.11409pt too wide) in alignment at lines 137--156
+[][][][][]
+ []
+
+Package epstopdf Info: Source file: <figures/comp_casia_b_without_view.eps>
+(epstopdf)                    date: 2020-01-13 22:15:50
+(epstopdf)                    size: 94043 bytes
+(epstopdf)             Output file: <figures/comp_casia_b_without_view-eps-conv
+erted-to.pdf>
+(epstopdf)                    date: 2020-01-19 10:37:55
+(epstopdf)                    size: 29617 bytes
+(epstopdf)             Command: <repstopdf --outfile=figures/comp_casia_b_witho
+ut_view-eps-converted-to.pdf figures/comp_casia_b_without_view.eps>
+(epstopdf)             \includegraphics on input line 161.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex (file ./figures/comp_casia_b_without_view-eps-converte
+d-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> al
+lowed
+<figures/comp_casia_b_without_view-eps-converted-to.pdf, id=1142, 484.81125pt x
+ 319.1925pt>
+File: figures/comp_casia_b_without_view-eps-converted-to.pdf Graphic file (type
+ pdf)
+<use figures/comp_casia_b_without_view-eps-converted-to.pdf>
+Package pdftex.def Info: figures/comp_casia_b_without_view-eps-converted-to.pdf
+  used on input line 161.
+(pdftex.def)             Requested size: 333.46758pt x 219.56119pt.
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[42]
+Underfull \hbox (badness 10000) in alignment at lines 175--190
+[][][][]
+ []
+
+Missing character: There is no â in font ptmr7t!
+Missing character: There is no € in font ptmr7t!
+Missing character: There is no ™ in font ptmr7t!
+
+Underfull \hbox (badness 10000) in alignment at lines 205--223
+[][][][]
+ []
+
+Package epstopdf Info: Source file: <figures/comp_casia_b_with_view.eps>
+(epstopdf)                    date: 2020-01-14 02:57:41
+(epstopdf)                    size: 84451 bytes
+(epstopdf)             Output file: <figures/comp_casia_b_with_view-eps-convert
+ed-to.pdf>
+(epstopdf)                    date: 2020-01-19 10:37:55
+(epstopdf)                    size: 30021 bytes
+(epstopdf)             Command: <repstopdf --outfile=figures/comp_casia_b_with_
+view-eps-converted-to.pdf figures/comp_casia_b_with_view.eps>
+(epstopdf)             \includegraphics on input line 228.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex (file ./figures/comp_casia_b_with_view-eps-converted-t
+o.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allow
+ed
+<figures/comp_casia_b_with_view-eps-converted-to.pdf, id=1160, 464.73625pt x 27
+6.03125pt>
+File: figures/comp_casia_b_with_view-eps-converted-to.pdf Graphic file (type pd
+f)
+<use figures/comp_casia_b_with_view-eps-converted-to.pdf>
+Package pdftex.def Info: figures/comp_casia_b_with_view-eps-converted-to.pdf  u
+sed on input line 228.
+(pdftex.def)             Requested size: 333.46758pt x 198.06844pt.
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[43]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[44 <./figures/comp_casia_b_without_view-eps-converted-to.pdf> <./figures/comp_
+casia_b_with_view-eps-converted-to.pdf>]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[45]
+
+LaTeX Warning: Citation `table:comp_casia_b_cross_view' on page 46 undefined on
+ input line 245.
+
+
+Overfull \hbox (2.04945pt too wide) in alignment at lines 253--287
+[][][][][][]
+ []
+
+
+Overfull \hbox (1.20421pt too wide) in alignment at lines 304--337
+[][][][][][][][][][][][][]
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[46]
+Underfull \hbox (badness 10000) in alignment at lines 351--355
+[][][][][][][][][][][][]
+ []
+
+
+Overfull \hbox (3.16711pt too wide) in paragraph at lines 351--356
+ [][] 
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[47]
+Package epstopdf Info: Source file: <figures/comp_casia_b_multi_view.eps>
+(epstopdf)                    date: 2019-01-14 01:11:38
+(epstopdf)                    size: 130475 bytes
+(epstopdf)             Output file: <figures/comp_casia_b_multi_view-eps-conver
+ted-to.pdf>
+(epstopdf)                    date: 2020-01-19 10:37:56
+(epstopdf)                    size: 32032 bytes
+(epstopdf)             Command: <repstopdf --outfile=figures/comp_casia_b_multi
+_view-eps-converted-to.pdf figures/comp_casia_b_multi_view.eps>
+(epstopdf)             \includegraphics on input line 362.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex (file ./figures/comp_casia_b_multi_view-eps-converted-
+to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allo
+wed
+<figures/comp_casia_b_multi_view-eps-converted-to.pdf, id=1220, 471.7625pt x 34
+7.2975pt>
+File: figures/comp_casia_b_multi_view-eps-converted-to.pdf Graphic file (type p
+df)
+<use figures/comp_casia_b_multi_view-eps-converted-to.pdf>
+Package pdftex.def Info: figures/comp_casia_b_multi_view-eps-converted-to.pdf  
+used on input line 362.
+(pdftex.def)             Requested size: 375.14705pt x 276.17438pt.
+) (./chapters/conclusion.tex
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[48 <./figures/comp_casia_b_multi_view-eps-converted-to.pdf>]
+Chapter 5.
+) (./pages/bibliography.tex [49
+
+] (./gait_thesis.bbl [50
+
+
+]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[51]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[52]
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¡ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ± in font ptmr7t!
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[53]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[54]))
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[55]
+runsystem(makeindex gait_thesis.idx)...executed safely (allowed).
+
+ (./gait_thesis.ind)
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 50.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 50.
+ (./gait_thesis.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 50.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 50.
+Package rerunfilecheck Info: File `gait_thesis.out' has not changed.
+(rerunfilecheck)             Checksum: 4FE36412BB47FE0A6BFB95C0AEA15348;4766.
+
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 17904 strings out of 494333
+ 286501 string characters out of 6168093
+ 451859 words of memory out of 5000000
+ 20716 multiletter control sequences out of 15000+600000
+ 37738 words of font info for 80 fonts, out of 8000000 for 9000
+ 309 hyphenation exceptions out of 8191
+ 60i,23n,94p,2209b,537s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
+e/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmmib10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
+nts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/
+cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pf
+b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/
+share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/
+texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive
+/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/share/texlive/
+texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/font
+s/type1/urw/times/utmbi8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/ti
+mes/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
+</usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on gait_thesis.pdf (67 pages, 7893946 bytes).
+PDF statistics:
+ 1385 PDF objects out of 1440 (max. 8388607)
+ 1156 compressed objects within 12 object streams
+ 260 named destinations out of 1000 (max. 500000)
+ 685 words of extra memory for PDF output out of 10000 (max. 10000000)
+

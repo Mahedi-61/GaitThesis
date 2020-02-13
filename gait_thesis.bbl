@@ -21,6 +21,36 @@
 \providecommand{\BIBdecl}{\relax}
 \BIBdecl
 
+\bibitem{colah_15}
+C.~Olah, ``Understanding lstm networks,'' 2015.
+
+\bibitem{Boyd_05}
+J.~E.~Boyd and J.~J.~Little, ``Biometric gait recognition,'' in \emph{Bometrics
+  School 2003, LNCS 3161}.\hskip 1em plus 0.5em minus 0.4em\relax
+  Springer-Verlag Berlin Heidelberg, 2005, pp. 19--42.
+
+\bibitem{karpathy_14}
+A.~Karpathy, G.~Toderici, S.~Shetty, T.~Leung, and R.~Sukthankar, ``Large-scale
+  video classification with convolutional neural networks,'' in \emph{IEEE
+  Conf. on Computer Vision and Pattern Recognition}.\hskip 1em plus 0.5em minus
+  0.4em\relax Columbus, OH, USA, 2014, pp. 1725--1732.
+
+\bibitem{Cao_19}
+Z.~Cao, G.~Hidalgo~Martinez, T.~Simon, S.-E. Wei, and Y.~Sheikh, ``Openpose:
+  realtime multi-person 2d pose estimation using part affinity fields,''
+  \emph{IEEE Trans. on Pattern Anal. Mach. Intell.}, July 2019.
+
+\bibitem{Song_17}
+S.~Song, C.~Lan, J.~Xing, W.~Zeng, and J.~Liu, ``An end-to-end spatio-temporal
+  attention model for human action recognition from skeleton data,'' vol.~1,
+  no.~2, 2017, pp. 4263 -- 4270.
+
+\bibitem{Du_15}
+Y.~Du, W.~Wang, and L.~Wang, ``Hierarchical recurrent neural network for
+  skeleton based action recognition,'' in \emph{IEEE Conf. on Computer Vision
+  and Pattern Recognition}.\hskip 1em plus 0.5em minus 0.4em\relax Boston, MA,
+  USA, 2015, pp. 1110 --1118.
+
 \bibitem{Yu_06}
 S.~Yu, D.~Tan, and T.~Tan, ``A framework for evaluating the effect of view
   angle, clothing and carrying condition on gait recognition,'' in \emph{18th
@@ -113,10 +143,11 @@ S.~Yu, R.~Liao, W.~An, H.~Chen, E.~B. Garcia, and a.~Huang, Y, ``Gaitganv2:
   Invariant gait feature extraction using generative adversarial networks,''
   \emph{Pattern Recognition}, vol.~87, no.~11, pp. 179 -- 189, March 2019.
 
-\bibitem{Cao_19}
-Z.~Cao, G.~Hidalgo~Martinez, T.~Simon, S.-E. Wei, and Y.~Sheikh, ``Openpose:
-  realtime multi-person 2d pose estimation using part affinity fields,''
-  \emph{IEEE Trans. on Pattern Anal. Mach. Intell.}, July 2019.
+\bibitem{Wei_16}
+S.-E. Wei, V.~Ramakrishna, T.~Kanade, and Y.~Sheikh, ``Convolutional pose
+  machines,'' in \emph{IEEE Conf. on Computer Vision and Pattern
+  Recognition}.\hskip 1em plus 0.5em minus 0.4em\relax Las Vegas, NV, USA,
+  2016.
 
 \bibitem{Liao_17}
 R.~Liao, C.~Cao, E.~B. Garcia, S.~Yu, and Y.~Huang, ``Pose-based
@@ -128,17 +159,6 @@ R.~Liao, C.~Cao, E.~B. Garcia, S.~Yu, and Y.~Huang, ``Pose-based
 R.~Liao, S.~Yu, W.~An, H.~Chen, and Y.~Huang, ``A model-based gait recognition
   method with body pose and human prior knowledge,'' \emph{Pattern
   Recognition}, February 2019.
-
-\bibitem{Song_17}
-S.~Song, C.~Lan, J.~Xing, W.~Zeng, and J.~Liu, ``An end-to-end spatio-temporal
-  attention model for human action recognition from skeleton data,'' vol.~1,
-  no.~2, 2017, pp. 4263 -- 4270.
-
-\bibitem{Du_15}
-Y.~Du, W.~Wang, and L.~Wang, ``Hierarchical recurrent neural network for
-  skeleton based action recognition,'' in \emph{IEEE Conf. on Computer Vision
-  and Pattern Recognition}.\hskip 1em plus 0.5em minus 0.4em\relax Boston, MA,
-  USA, 2015, pp. 1110 --1118.
 
 \bibitem{mikolov_12}
 T.~Mikolov, ``Statistical language models based on neural networks,'' \emph{Ph.
@@ -152,9 +172,6 @@ A.~Graves, ``Generating sequences with recurrent neural networks,'' \emph{arXiv
 N.~Kalchbrenner and p.~Blunsom, ``Recurrent continuous translation models,'' in
   \emph{EMNLP}, 2013.
 
-\bibitem{colah_15}
-C.~Olah, ``Understanding lstm networks,'' 2015.
-
 \bibitem{Hochreiter_01}
 S.~Hochreiter, Y.~Bengio, P.~Frasconi, and J.~Schmidhuber, \emph{Gradient flow
   in recurrent nets: the difficulty of learning long-term dependencies}.\hskip
@@ -165,20 +182,16 @@ Y.~Bengio, P.~Simard, and P.~Frasconi, ``Learning long-term dependencies with
   gradient descent is difficult,'' \emph{IEEE Transactions on Neural Networks},
   vol.~5, no.~2, pp. 157--166, 1994.
 
-\bibitem{gers_00}
-F.~A. Gers and J.~Schmidhuber, ``Recurrent nets that time and count,'' in
-  \emph{International Joint Conference on Neural Networks}, 2000, pp. 189--194.
-
-\bibitem{Greff_15}
-K.~Greff, R.~K. Srivastava, J.~Koutník, B.~R. Steunebrink, and J.~Schmidhuber,
-  ``{LSTM}: a search space odyssey,'' \emph{arXiv preprint arXiv:1503.04069},
-  2015.
-
 \bibitem{Cho_14}
 K.~Cho, B.~van Merri\"enboer, D.~Bahdanau, and Y.~Bengio, ``On the properties
   of neural machine translation: {E}ncoder--{D}ecoder approaches,'' in
   \emph{Eighth Workshop on Syntax, Semantics and Structure in Statistical
   Translation}, 2014.
+
+\bibitem{Schuster_97}
+M.~Schuster and K.~K. Paliwal, ``Bidirectional recurrent neural networks,''
+  \emph{IEEE Trans. on Signal Proces.}, vol.~45, no.~11, pp. 2673 -- 2681,
+  1997.
 
 \bibitem{Graves_08}
 A.~Graves, M.~Liwicki, H.~Bunke, J.~Schmidhuber, and S.~Fernández,
@@ -202,11 +215,6 @@ R.~Araujo, G.~Graña, and V.~Andersson, ``Towards skeleton biometric
   identification using the microsoft kinect sensor,'' in \emph{ACM Symposium on
   Applied Computing}.\hskip 1em plus 0.5em minus 0.4em\relax Coimbra, Portugal,
   2013, pp. 21--26.
-
-\bibitem{Schuster_97}
-M.~Schuster and K.~K. Paliwal, ``Bidirectional recurrent neural networks,''
-  \emph{IEEE Trans. on Signal Proces.}, vol.~45, no.~11, pp. 2673 -- 2681,
-  1997.
 
 \bibitem{Ioffe_15}
 S.~Ioffe and C.~Szegedy, ``Batch normalization: Accelerating deep network
@@ -238,12 +246,6 @@ D.~Tran, L.~Bourdev, R.~Fergus, L.~Torresani, and M.~Paluri, ``Learning
   spatiotemporal features with 3d convolutional networks,'' in \emph{IEEE Int.
   Conf. on Computer Vision}.\hskip 1em plus 0.5em minus 0.4em\relax Santiago,
   Chile, 2015, pp. 4489--4497.
-
-\bibitem{Karpathy_14}
-A.~Karpathy, G.~Toderici, S.~Shetty, T.~Leung, R.~Sukthankar, and L.~Fei-Fei,
-  ``Large-scale video classification with convolutional neural networks,'' in
-  \emph{IEEE Conf. on Computer Vision and Pattern Recognition}.\hskip 1em plus
-  0.5em minus 0.4em\relax Columbus, USA, 2014, pp. 1725 -- 1732.
 
 \bibitem{Hofmann_14}
 M.~Hofmann, J.~Geiger, S.~Bachmann, B.~Schuller, and G.~Rigoll, ``The tum gait
