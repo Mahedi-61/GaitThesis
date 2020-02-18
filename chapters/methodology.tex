@@ -5,38 +5,40 @@ In this chapter, we are going to discuss the proposed framework and its main com
 %-------------------------------------------------------------------------
 \section{Deep Learning Basics}
 \subsection{Deep learning}
-Machine learning (\gls{ml}) is a field of AI that utilizes statistical techniques to learn hidden patterns from available data and make decisions on unseen records. The core task of a \gls{ml} algorithms is to first build a general model on the probability distribution of training examples, and then generalize its experience on unseen examples. The process of learning is highly dependent on the quality of data representation.
+Machine Learning (\gls{ml}) is a field of \gls{ai} that utilizes statistical techniques to learn hidden patterns from available data and make decisions on unseen records. The core task of a \gls{ml} algorithms is to first build a general model based on the probability distribution of training examples, and then generalize its experience on unseen examples. The process of learning is highly dependent on the quality of data representation.
 
-Deep learning (\gls{dl}) is an advanced branch of the \gls{ml} field that aims to discover the complex representation out of simpler representations. Deep learning methods are typically based on artificial neural networks that consist of multiple hidden layers with nonlinear processing units. The word ‘deep’ refers to the multiple hidden layers that are used for transforming the data representation. Using the concept of feature learning, each hidden layer of neural networks maps its input data into a new representation. The succeeding layer tends to capture a higher level of abstraction from the less abstract concept in the preceding layer and the hierarchy of learned features in multiple levels are finally mapped to the output of the \gls{ml} task (e.g., classification and regression) in a unified framework.
+Deep Learning (\gls{dl}) is an advanced branch of the \gls{ml} field that aims to discover the complex representation out of simpler representations. \gls{dl} methods are typically based on artificial neural networks that consist of multiple hidden layers with nonlinear processing units. The word 'deep' refers to the multiple hidden layers that are used for transforming the data representation. Using the concept of feature learning, each hidden layer of neural networks maps its input data into a new representation. The succeeding layer tends to capture a higher level of abstraction from the less abstract concept in the preceding layer and the hierarchy of learned features in multiple levels are finally mapped to the output of the \gls{ml} task (e.g., classification and regression) in an unified framework.
 
-\gls{dl} architectures are divided into two broad categories: (1) Unsupervised learning approaches including Restricted Boltzmann Machines (RBM), Deep Autoencoders, and Generative Adversarial Networks (GAN), (2) Supervised learning approaches including deep neural networks (\gls{dnn}), Convolutional Neural Networks (\gls{cnn}), and Recurrent Neural Networks (\gls{rnn}).
+Although, deep neural networks automatically extract rich and high level features which is needed for feature engineering, one of the most time-consuming parts of machine learning practice, increasing the depth does not necessarily improve their performance. Firstly, because they easily suffer from the over-fitting problem, which means the model does not generalize well to test cases. Secondly, because they are more difficult to train and more training data is needed for convergence. To alleviate this problem special types of \gls{dnn}, e.g., convolutional neural network and recurrent neural networks are introduced.
 
-Some of the real-world applications of Deep Learning include image captioning, machine translation, text summarization, 3D-image reconstruction and text generation. This thesis seeks to contribute to this growing area of research by exploring the potential power of deep learning techniques in gait recognition. 
+\gls{dl} architectures are divided into two broad categories: (1) Unsupervised learning approaches including restricted boltzmann machines (RBMs), deep autoencoders, and generative adversarial networks (GANs), (2) Supervised learning approaches including deep neural networks (\gls{dnn}s), convolutional neural networks (\gls{cnn}s), and recurrent neural networks (\gls{rnn}s).
 
+Some of the real-world applications of Deep Learning include image captioning~\cite{Mao_15}, machine translation~\cite{kal_13}, text summarization, 3D-image reconstruction and speech recognition~\cite{graves_13}. This thesis seeks to contribute to this growing area of research by exploring the potential power of deep learning techniques in gait recognition. 
 
-
-\subsection{Recurrent Neural Network} 
-The Recurrent Neural Network (\gls{rnn}) is neural sequence model that achieves state of the art performance on important tasks that include language modeling~\cite{mikolov_12}, speech recognition~\cite{graves_13}, and machine translation~\cite{kal_13}.  
-
-It is well known that the areas of the brain are typically connected both in a \emph{feedforward}, and in a \emph{feedback} fashion. This is believed to help processing temporal data and allow for an iterative refinement of the computation. Similarly, Artificial Neural Networks (\gls{ann}s) are not constrained to process the input data in a feedforward way. Recurrent Neural Networks (\gls{rnn}s) implement feedback loops (see Figure~\ref{fig:RNN_loop}) that propagate some information from one step to the next. It is customary to refer these steps as time-steps, as \gls{rnn}s are often considered in the context of a discretized time evolving domain, but nothing prevents from using \gls{rnn}s with any kind of sequential data.
 
 \begin{figure}[t]
 	\centering
-	\includegraphics[width=0.15\textwidth]{figures/RNN_loop.pdf}
-	\caption{A Recurrent Neural Network (RNN). [Image courtesy Chris Olah~\cite{colah_15}]\label{fig:RNN_loop}}
+	\includegraphics[width=0.9\textwidth]{figures/RNN_unrolled.pdf}
+	\caption[A typical rolled representation of a recurrent neural network]
+	{(a) A typical rolled representation of a recurrent neural network. (b) Unrolled recurrent neural network for $t$\% time-steps. [Image courtesy Chris Olah~\cite{colah_15}]\label{fig:RNN_unrolled}}
 \end{figure}
 
-\begin{figure}[t!]
-	\centering
-	\includegraphics[width=0.7\textwidth]{figures/RNN_unrolled.pdf}
-	\caption{A Recurrent Neural Network unrolled for $t$\% steps. [Image courtesy Chris Olah~\cite{colah_15}]\label{fig:RNN_unrolled}}
-\end{figure}
+\subsection{Recurrent Neural Networks} 
+The recurrent neural network (\gls{rnn}s) is neural sequence model that achieves state-of-the-art performance on important tasks in different domains that include language modeling~\cite{mikolov_12}, speech recognition~\cite{graves_13}, and machine translation~\cite{kal_13}.  
 
-It might not be immediately obvious what it means in practice to put a loop in an ANN and how to backpropagate through it. To better comprehend how RNNs work it is useful to consider its behavior explicitly by \emph{unrolling} the RNN, as shown in Figure~\ref{fig:RNN_unrolled}
+It is worth mentioning that the areas of the brain are typically connected both in a \emph{feedforward}, and in a \emph{feedback} fashion. This is believed to help processing temporal data and allow for an iterative refinement of the computation. Similarly, artificial neural networks (\gls{ann}s) are not constrained to process the input data in a feedforward way. Recurrent neural networks implement feedback loops (see Figure~\ref{fig:RNN_unrolled}(a)) that propagate some information from one time-step to the next. 
+
+It might not be immediately obvious what it means in practice to put a loop in an \gls{ann} and how to backpropagate through it. To better comprehend how RNNs work it is useful to consider its behavior explicitly by \emph{unrolling} the RNN, as shown in Figure~\ref{fig:RNN_unrolled}(b).
 
 An RNN applies the same model to each time step of the sequence or, equivalently, applies different models at each time step, which share their weights. This is similar to what CNNs do over space with convolutions, but is rather done over time with feedback connections.
 
-Let's derive the forward propagation equations for the \gls{rnn} depicted in Figure~\ref{fig:RNN_unrolled}. Forward propagation begins with a specification of the initial state $ \textbf{h}^{(0)} $. Then, for each timestep from $ t $ we apply the following update equations:
+\begin{figure}
+	\centering
+	\includegraphics[width=0.9\textwidth]{figures/rnn_unrolling.eps}
+	\caption{The computational graph of a unrolled recurrent network that maps an input sequence of $ x $ values to a corresponding sequence of output $ o $ values \label{fig:RNN_unrolling}}
+\end{figure}
+
+The forward propagation equations for the \gls{rnn} depicted in Figure~\ref{fig:RNN_unrolling}. Forward propagation begins with a specification of the initial state $ \textbf{h}^{(0)} $. Then, for each timestep from $ t $ we apply the following update equations:
 
 \begin{equation} \label{rnn_unroll}
 \begin{split}
@@ -47,36 +49,32 @@ Let's derive the forward propagation equations for the \gls{rnn} depicted in Fig
 \end{split}
 \end{equation}
 
-where the parameters are the bias vectors $ \textbf{b} $ and $ \textbf{c} $ along with the weight matrices $\textbf{U}$, $\textbf{V}$ and $\textbf{W}$, respectively, for input-to-hidden, hidden-to-output and hidden-to-hidden connections.
+Here, the parameters are the bias vectors $ \textbf{b} $ and $ \textbf{c} $ along with the weight matrices $\textbf{U}$, $\textbf{V}$ and $\textbf{W}$, respectively, for input-to-hidden, hidden-to-output and hidden-to-hidden connections.
 
-The activation of an RNN (see Figure ~\ref{fig:RNN_unrolled}) at time $t$ depends on the input at time $t$ as well as on the information coming from the previous step $t-1$. RNNs have a very simple internal structure, that usually amounts to applying some affine transformation to the input and to the previous output, and computing some non-linearity (typically a $tanh$) of their sum.
+The activation of an RNN (see Figure ~\ref{fig:RNN_unrolling}) at time $t$ depends on the input at time $t$ as well as on the information coming from the previous step $t-1$. \gls{rnn}s have a very simple internal structure, that usually amounts to applying some affine transformation to the input and to the previous output, and computing some non-linearity (typically a $tanh$) of their sum.
 
-\begin{figure}[t]
-	\centering
-	\includegraphics[width=0.9\textwidth]{figures/rnn_unrolling.eps}
-	\caption{The computational graph of a unrolled recurrent network that maps an input sequence of $ x $ values to a corresponding sequence of output $ o $ values \label{fig:RNN_unrolling}}
-\end{figure}
 
 To train it suffices to unroll the computation graph and use the backpropagation algorithm to proceed from the most recent time step, backward in time. This algorithm is usually referred to as \emph{Backpropagation through time (\gls{bptt})}.
 
-The problem of \gls{bptt} is that it requires the application of the chain rule all the way from the current time step to $t = 0$ to propagate the gradients through time.  This results in a long chain of products that can easily go to
-infinity or become zero if the elements of the multiplication are greater or smaller than $1$ respectively. These two issues, i.e., going to infinity and becoming zero, are known in the literature as \emph{exploding gradient problem} and \emph{vanishing gradient problem}~\cite{Hochreiter_01} respectively, and have been studied extensively in the past, see e.g.,~\cite{Bengio_94}. The first one can be partially addressed by \emph{clipping the gradient} when it becomes too large, but the second is not easy to overcome and can make training these kind of models very hard if not impossible.
+The problem of \gls{bptt} is that it requires the application of the chain rule all the way from the current time step to $t = 0$ to propagate the gradients through time.  This results in a long chain of products that can easily go to infinity or become zero if the elements of the multiplication are greater or smaller than $1$ respectively. These two issues, i.e., going to infinity and becoming zero, are known in the literature as \emph{exploding gradient problem} and \emph{vanishing gradient problem}~\cite{Hochreiter_01} respectively, and have been studied extensively in the past, see e.g.,~\cite{Bengio_94}. The first one can be partially addressed by \emph{clipping the gradient} when it becomes too large, but the second is not easy to overcome and can make training these kind of models very hard if not impossible.
 
 
 
-\subsection{Long Short Term Memory}
+\subsection{Long Short-Term Memory}
 \begin{figure}[t]
 	\centering
 	\includegraphics[width=0.7\textwidth]{figures/LSTM.pdf}
-	\caption{A Long Short Term Memory (LSTM). [Image courtesy Chris Olah~\cite{colah_15}]\label{fig:LSTM}}
+	\caption[A Long Short Term Memory (LSTM)]
+	{A Long Short Term Memory (LSTM). [Image courtesy Chris Olah~\cite{colah_15}]\label{fig:LSTM}}
 \end{figure}
 
-Long Short Term Memory (LSTM) networks (see Figure ~\ref{fig:LSTM}) have been proposed to solve (or at least alleviate) the problems of RNNs in modeling long term dependencies. LSTMs have been designed to have an internal memory, or~\emph{state}, that can be updated and consulted at each time step. As opposed to vanilla RNNs, this allows LSTMs to separate their output from the information they want to carry over to future steps.
+Long Short-Term Memory (LSTM) networks (see Figure ~\ref{fig:LSTM}) have been proposed to solve (or at least alleviate) the problems of RNNs in modeling long term dependencies. LSTMs have been designed to have an internal memory, or~\emph{state}, that can be updated and consulted at each time step. As opposed to vanilla RNNs, this allows LSTMs to separate their output from the information they want to carry over to future steps.
 
 \begin{figure}[t]
 	\centering
 	\includegraphics[width=0.6\textwidth]{figures/LSTM_state.pdf}
-	\caption{The internal state of LSTMs. [Image courtesy Chris Olah~\cite{colah_15}]\label{fig:LSTM_state}}
+	\caption[The internal state of LSTMs]
+	{The internal state of LSTMs. [Image courtesy Chris Olah~\cite{colah_15}]\label{fig:LSTM_state}}
 \end{figure}
 
 Figure \ref{fig:LSTM_state} highlights the internal memory path. It can be seen how the internal memory of the previous time step $\mathbf{c}_{t-1}$ is carried over to the current time step, where it is updated through a multiplicative and an additive interaction and concurs to determine the current state of the memory $\mathbf{c}_t$. This is then, once again, propagated to the next time step.
@@ -85,17 +83,20 @@ Figure \ref{fig:LSTM_state} highlights the internal memory path. It can be seen 
 \begin{figure}[p]
 	\centering
 	\includegraphics[width=0.6\textwidth]{figures/LSTM_forget_gate.pdf}
-	\caption{The LSTM forget gate. [Image courtesy Chris Olah~\cite{colah_15}]\label{fig:LSTM_forget_gate}}
+	\caption[The LSTM forget gate]
+	{The LSTM forget gate. [Image courtesy Chris Olah~\cite{colah_15}]\label{fig:LSTM_forget_gate}}
 \end{figure}
 \begin{figure}[p]
 	\centering
 	\includegraphics[width=0.6\textwidth]{figures/LSTM_input_gate.pdf}
-	\caption{The LSTM input gate. [Image courtesy Chris Olah~\cite{colah_15}]\label{fig:LSTM_input_gate}}
+	\caption[The LSTM input gate]
+	{The LSTM input gate. [Image courtesy Chris Olah~\cite{colah_15}]\label{fig:LSTM_input_gate}}
 \end{figure}
 \begin{figure}[p]
 	\centering
 	\includegraphics[width=0.6\textwidth]{figures/LSTM_output_gate.pdf}
-	\caption{The LSTM output gate.[Image courtesy Chris Olah~\cite{colah_15}]\label{fig:LSTM_output_gate}}
+	\caption[The LSTM output gate]
+	{The LSTM output gate.[Image courtesy Chris Olah~\cite{colah_15}]\label{fig:LSTM_output_gate}}
 \end{figure}
 
 LSTMs interact with memory through \emph{gates}, computational nodes that determine the behavior of the model. The \emph{forget~gate} (Figure~\ref{fig:LSTM_forget_gate}) determines how much of the previous step's memory to forget or, equivalently, how much of the previous state to retain.  This is modeled through a sigmoid layer (depicted as $\sigma$) that takes the current input $\mathbf{x}_t$ and the output of the previous step $\mathbf{h}_{t-1}$ and produces an activation vector between $0$ and $1$
@@ -156,16 +157,15 @@ and the memory resulting from the transformations due to the forget and input ga
 \end{equation}
 
 
-
-
-\subsection{Gated Recurrent Unit (GRU)}\label{sec:GRU}
-Authors in~\cite{Cho_14} proposed a new kind of recurrent network called Gated Recurrent Unit (GRU), as shown in Figure~\ref{fig:GRU}, with less gates than \gls{lstm}s and a different internal structure. In \gls{gru}s the forget and input gates are coupled into an~\emph{update gate} $\mathbf{z}_t$.  The memory and output are also merged into a single state and the internal structure is modified to cope with these changes
-
 \begin{figure}
 	\centering
 	\includegraphics[width=0.6\textwidth]{figures/GRU.pdf}
-	\caption{Gated Recurrent Units (GRUs). [Image courtesy Chris Olah~\cite{colah_15}]\label{fig:GRU}}
+	\caption[Gated Recurrent Units (GRUs)]
+	{Gated Recurrent Units (GRUs). [Image courtesy Chris Olah~\cite{colah_15}]\label{fig:GRU}}
 \end{figure}
+
+\subsection{Gated Recurrent Unit}\label{sec:GRU}
+Authors in~\cite{Cho_14} proposed a new kind of recurrent network called Gated Recurrent Unit (GRU), as shown in Figure~\ref{fig:GRU}, with less gates than \gls{lstm}s and a different internal structure. In \gls{gru}s the forget and input gates are coupled into an~\emph{update gate} $\mathbf{z}_t$.  The memory and output are also merged into a single state and the internal structure is modified to cope with these changes
 
 \begin{equation}\label{eq:GRU}
 \begin{split}
@@ -182,8 +182,7 @@ Authors in~\cite{Cho_14} proposed a new kind of recurrent network called Gated R
 \end{split}
 \end{equation}
 
-The advantage of \gls{gru}s over \gls{lstm}s is the smaller number of gates that makes them less memory as well as computationally intense, which is often a critical aspect for ANNs. \gls{gru}s have been shown to perform as well as \gls{lstm}s in some settings.
-
+The advantage of \gls{gru}s over \gls{lstm}s is the smaller number of gates that makes them less memory as well as computationally intense, which is often a critical aspect for \gls{ann}s.Therefore, GRU involves less computation compared with LSTM while keeping similar performance and improving the efficiency of the original RNNs. Moreover, \gls{gru} has shown better classification performance on smaller datasets~\cite{Chung_14}.
 
 \begin{figure}[t]
 	\centering
@@ -192,17 +191,19 @@ The advantage of \gls{gru}s over \gls{lstm}s is the smaller number of gates that
 \end{figure}
 
 \subsection{Bidirectional RNNs}
-Bidirectional recurrent neural networks (\gls{brnn})~\cite{Schuster_97} connect two hidden layers running in opposite directions to a single output, allowing them to receive information from both past and future states. Here, the input sequence is fed in normal time order for one network, and in reverse time order for another. The outputs of the two networks are usually concatenated at each time step. So, this type of structure allows the networks to have both backward and forward information about the sequence at every time step. \gls{brnn} are especially useful when the context of the input is needed. For example, in handwriting recognition~\cite{Graves_08}, the performance can be enhanced by knowledge of the letters located before and after the current letter. 
+Bidirectional recurrent neural networks (\gls{brnn})~\cite{Schuster_97} connect two hidden layers running in opposite directions to a single output, allowing them to receive information from both past and future states. Here, the input sequence is fed in normal time order for one network, and in reverse time order for another. The outputs of the two networks are usually concatenated at each time step. So, this type of structure allows the networks to have both backward and forward information about the sequence at every time step. \gls{brnn} are especially useful when the context of the input is needed. For example, in handwriting recognition~\cite{Graves_08}, the performance can be enhanced by knowledge of the letters located before and after the current letter. Figure~\ref{fig:bidirectional_rnn} illustrates a vanilla architecture of a bidirectional \gls{rnn}s.
 
-
-\subsubsection{Bidirectional Vanilla RNN}
 
 \subsubsection{Bidirectional GRU}
+In a  bidirectional GRU (\gls{bigru}) consists of 2 vanilla unidirectional \gls{gru}s stacked side by side, but the second GRU reads the input sequence from the opposite direction. Figure~\ref{fig:bidirectional_gru} illustrates the basic architecture of a Bidirectional GRU. 
 \begin{figure}[t]
 	\centering
 	\includegraphics[width=0.7\textwidth]{figures/bigru.eps}
-	\caption{The architecture of a bidirectional gated recurrent neural network \label{fig:bidirectional_rnn}}
+	\caption{The architecture of a bidirectional gated recurrent neural network \label{fig:bidirectional_gru}}
 \end{figure}
+
+
+
 
 \section{Human Pose Estimation}
 Human pose estimation, one of the core problems in computer vision, is the key component to enable machines to have an understand of people in images and videos. It refers to the process of inferring poses in an image or video. Essentially, it entails predicting the body parts or body joint positions of individuals in an image. It has been successfully employed in many real-world applications such as action recognition, animation, gaming, augmented reality, and robotics. 
@@ -246,8 +247,7 @@ So, top-down approach makes it easy to assign the keypoints to specific instance
 
 In this work, we have employed OpenPose~\cite{Cao_19}, an open-source library, for realtime multi-person 2D pose detection, including body, foot, hand, and facial keypoints. This bottom-up approach achieves state-of-the-art accuracy in realtime performance. 
 
-The overall pipeline of the Openpose library is illustrated in Figure~\ref{fig:openpose_bottom_up}. An RGB image is fed as input to the library and it outputs the 2D locations of anatomical keypoints for each person in the image (Figure~\ref{fig:openpose_bottom_up}e). Firstly, a feed forward network predicts a set of 2D confidence maps \textbf{S} of body part locations (Figure ~\ref{fig:openpose_bottom_up}b) and a set of 2D vector fields \textbf{L} of part affinity fields (PAFs), which encode the degree of association between parts (Fig. ~\ref{fig:openpose_bottom_up}c). The set $\textbf{S} = (\textbf{S}_1,\textbf{S}_2,...,\textbf{S}_J)$ has $ J $ confidence maps, one per part, where $\textbf{S}_j \epsilon \mathbb {R}^{w\times h}$ . The set $\textbf{L}= (\textbf{L}_1,\textbf{L}_2,...,\textbf{L}_C)$ has C vector fields, one per limb, where $\textbf{L}_c \epsilon \mathbb {R}^{w\times h\times 2}$. Each image location in $\textbf{L}_c$ encodes a 2D vector. Finally, the confidence maps and the PAFs are parsed by greedy inference (Figure ~\ref{fig:openpose_bottom_up}d) to output the 2D keypoints for all people in the image.
-
+The overall pipeline of the Openpose library is illustrated in Figure~\ref{fig:openpose_bottom_up}. An RGB image is fed as input to the library and it outputs the 2D locations of anatomical keypoints for each person in the image (Figure~\ref{fig:openpose_bottom_up}e). Firstly, a feed forward network predicts a set of 2D confidence maps \textbf{S} of body part locations (Figure ~\ref{fig:openpose_bottom_up}b) and a set of 2D vector fields \textbf{L} of part affinity fields (PAFs), which encode the degree of association between parts (Fig. ~\ref{fig:openpose_bottom_up}c). The set $\textbf{S} = (\textbf{S}_1,\textbf{S}_2,...,\textbf{S}_J)$ has $ J $ confidence maps, one per part, where $\textbf{S}_j \epsilon \mathbb {R}^{w\times h}$ . The set $\textbf{L}= (\textbf{L}_1,\textbf{L}_2,...,\textbf{L}_C)$ has C vector fields, one per limb, where $\textbf{L}_c \epsilon \mathbb {R}^{w\times h\times 2}$. Each image location in $\textbf{L}_c$ encodes a 2D vector. Finally, the confidence maps and the PAFs are parsed by greedy inference (Figure ~\ref{fig:openpose_bottom_up}d) to output the 2D keypoints for all people in the image. The network architecture of OpenPose algorithm, shown in Figure~\ref{fig:openpose_architecture}, iteratively predicts affinity fields  that  encode part-to-part association, shown in blue, and detection confidence  maps, shown in beige. 
 
 \begin{figure}
 	\centering
@@ -255,8 +255,8 @@ The overall pipeline of the Openpose library is illustrated in Figure~\ref{fig:o
 	\caption[Network architecture of the multi-stage CNN]
 	{Network architecture  of  the  multi-stage  CNN.  The  first  set of stages predicts PAFs $\textbf{L}^t$, while the last set predicts confidence  maps $ \textbf{S}^{t}$. [Image courtesy Cao et al.~\cite{Cao_19}] \label{fig:openpose_architecture}}
 \end{figure}
-\subsection{Network Architecture}
-Our architecture, shown in Figure~\ref{fig:openpose_architecture}, iteratively predicts affinity fields  that  encode  part-to-part  association,  shown  in  blue,and  detection  confidence  maps,  shown  in  beige. 
+
+
 
 
 %-------------------------------------------------------------------------
@@ -289,7 +289,7 @@ Consequently, in our work, as shown in Figure~\ref{fig:extracted_features}(a) we
   \textbf {f}_{pose}= [x_1, y_1, x_2, y_2, \ldots\ldots, x_6, y_6]^T
 \end{equation}
 
-It is necessary to normalize the pose sequence data with regard to the subject position in frame, size, or speed of walking to get improved performance. In different gait datasets, as people walk through the fixed camera, the size of the subject's body alters due to change in the distance between the subject and the camera changes. In our study, to find the origin of the coordinate system ($J_c$) for each subject, we considered right, left, and middle of the hip joints and calculated the average of them. Again, to normalize the bodies of different subjects to a fixed size, we took $ h $, the euclidean distance from hip to neck joint, as unit length. Equation~\ref{equ:normalization_raw_join} shows the normalization procedure of the raw 2D joints.
+It is necessary to normalize the pose sequence data with regard to the subject position in frame, size, or speed of walking to get improved performance. In different gait datasets, as people walk through the fixed camera, the size of the subject's body alters due to change in the distance between the subject and the camera changes. In our study, to find the origin of the coordinate system ($J_c$) for each subject, we considered right, left, and middle of the hip joints and calculated the average of them. Again, to normalize the bodies of different subjects to a fixed size, we took $ h $, the euclidean distance from hip to neck joint, as unit length. Following equation shows the normalization procedure of the raw 2D joints.
 
 \begin{equation} \label{equ:normalization_raw_joint}
 \begin{split}
@@ -370,7 +370,7 @@ In this study, we found that feature level fusion has produced better recognitio
 
 \begin{figure}
 	\centering 
-	\includegraphics[width = 0.9\textwidth]{figures/pose_estimation.eps}
+	\includegraphics[width = \textwidth]{figures/pose_estimation.eps}
 	\caption[Examples of 2D human pose estimation from RGB images of CASIA dataset]
 	{Examples of 2D human pose estimation by~\cite{Cao_19} from RGB images of CASIA dataset (left ones). Detected 25 human body joints with description are shown. (right ones) \label{fig:pose_estimation}
 	}
@@ -389,6 +389,14 @@ We took several preprocessing steps to address the problem of missing data due t
 \end{itemize}
 
 The above strategies are simpler which do not require any computation and proven to be effective in addressing the missing data problem.
+
+\begin{algorithm}
+	\caption{Missing data treatment algorithm}
+	\label{alg1}
+	\begin{algorithmic}
+		\input{algorithms/missing_data.alg}
+	\end{algorithmic}
+\end{algorithm}
 
 \subsection{Forming Feature Map}
 In this research, we designed a 50-dimensional spatio-temporal gait feature vector \textbf{p} from the raw 2D pose estimation of each frame.  Firstly, we split a gait video into 28 frame segments. Each $ 28 $ frame-segment formed a timestep which can be described by following equations. Here, \textbf{p} is 50-dimension pose vector for each frame; \textit{\textbf{T}} is the feature matrix for each timestep; $ N $ is the total number of timestep sequence, and \textit{\textbf{V}} is the sequence of features for a gait video. 
@@ -425,7 +433,7 @@ In this section, we will present the details of the architecture and training pr
 \subsection{Network Architecture}
 \begin{figure}
 	\centering 
-	\includegraphics[width = 0.8\textwidth]{figures/rnn_network.eps}
+	\includegraphics[width = \textwidth]{figures/rnn_network.eps}
 	
 	\caption[Proposed RNN architecture for robust gait recognition]
 	{Proposed \gls{rnn} architecture for robust gait recognition. It consists of two \gls{bigru}~\cite{Schuster_97} layers each of which consists of $ 80 $ \gls{gru} cells with one batch normalization and one output softmax layer. The network was fed with a 50-dimensional spatio-temporal feature vector obtained from 2D pose estimation. Input layer was followed by a batch normalization layer~\cite{Ioffe_15}. The output of the recurrent layers was also batch normalized to standardize the activations and finally fed into an output softmax layer. For the output layer, the number of the output neuron equals to the number of subjects. \label{fig:rnn_network}
@@ -435,32 +443,13 @@ In this section, we will present the details of the architecture and training pr
 
 In this research, we experimented with different \gls{rnn} architectures such as Gated Recurrent Units (\gls{gru}s),  Long Short-Term Memory Units (\gls{lstm}s), Bidirectional Long Short-Term Memory (\gls{bilstm})~\cite{Graves_05} and Bidirectional Gated Recurrent Units (\gls{bigru})~\cite{Schuster_97}. Firstly, we designed the proposed network employing all these architectures with one recurrent layer and then, searched for optimum recurrent unit size between 50 to 150. Thereafter, we increased the capacity of the network by adding the second and third layers of hidden units. Finally, we found that, among different RNN architectures, 2-layer BiGRU with 80 hidden units performs best. 
 
+Among different RNN cells, we chose \gls{gru} for our architecture as it achieve high performance and require a reduced number of parameters while still retaining long-term temporal information.
+
 After input and the second recurrent layer, we placed a batch normalization (\gls{bn})~\cite{Ioffe_15} layer. At last, a fully connected layer with softmax activation was used to predict the subject classes. Figure~\ref{fig:rnn_network} illustrates the architecture of the proposed network. 
 
 
-\subsection{Training}
-The training of \gls{rnn}s allows us to learn the parameters from the sequence. We have employed Adam~\cite{Kingma_15} optimization algorithm with $\beta_1 = 0.9, \beta_2 = 0.999$, which is known to work very well for training recurrent neural networks. We tried several learning rates in our experiment and found out that the best initial learning rate is $(1$x$10^{-3})$. We also reduced the learning rate by a factor when it hit a plateau. Reducing the learning rate will allow the optimizer to get rid of the plateaus in the loss surface. Table~\ref{table:summary_tn} summarizes all the hyperparameters setting of our network.
-
-\begin{table}
-	\centering
-	\caption{Training summary of our proposed temporal network. \label{table:summary_tn}}
-	\begin{tabular*}{32pc}{@{\extracolsep{\fill}}ll@{}}
-			\hline \noalign{\vspace{3pt}}
-			\textbf{Hyperparameter} &\qquad \textbf{Value} \\ [3pt] \hline\noalign{\vspace{3pt}}
-			Optimizer     			&\qquad Adam~\cite{Kingma_15} \\[3pt]
-			Objective function  	&\qquad Fusion of softmax and center loss \\[3pt]
-			Epochs        			&\qquad $ 450 $ \\ [3pt]
-			Initial learning rate	&\qquad $5 \times 10^{-3}$  \\[3pt]
-			Mini-batch size			&\qquad $ 256 $ \\
-			\hline
-	\end{tabular*}
-\end{table}
-
-The proposed network was trained with a batch size of $ 256 $ for $ 450 $ epochs. Our network showed some overfitting mostly due to the high learning capacity of the network over data. This overfitting problem has been addressed by adding a batch normalization layer. We also tried to add dropout layer during training, but that did not help to reduce the overfitting problem. Moreover, it degraded gait recognition performance. Hence, we skip it.
-
-
 \subsection{Loss Functions}
-In this work, we found that due to the influence of various covariate factors, intraclass distance related to one subject is sometime more significant than interclass distance. Now, if we only use the \textit{cross-entropy loss} (\gls{ce}) as our objective function, the resulting learned features may contain large intraclass variations. Therefore, to effectively reduce the intraclass distance, we used \textit{center loss} (\gls{cl}), introduced by Wen \textit{et al.}~\cite{Wen_16} for face recognition task. As the training progresses, the center loss learns a center for features of each class and the distances between the features and their corresponding class centers are minimized simultaneously. However, using only center loss may lead the learned features and centers close to zeros due to the very small value of the center loss. Hence, with the fusion of softmax loss ($L_s$) and center loss ($L_c$), we can achieve discriminative feature learning by increasing interclass dispersion and compacting intraclass distance as much as possible.
+In this work, we found that due to the influence of various covariate factors, intraclass distance related to one subject is sometime more significant than interclass distance. Now, if we only use the \textit{cross-entropy loss} as our objective function, the resulting learned features may contain large intraclass variations. Therefore, to effectively reduce the intraclass distance, we used \textit{center loss}, introduced by Wen \textit{et al.}~\cite{Wen_16} for face recognition task. As the training progresses, the center loss learns a center for features of each class and the distances between the features and their corresponding class centers are minimized simultaneously. However, using only center loss may lead the learned features and centers close to zeros due to the very small value of the center loss. Hence, with the fusion of softmax loss ($L_s$) and center loss ($L_c$), we can achieve discriminative feature learning by increasing interclass dispersion and compacting intraclass distance as much as possible.
 
 
 \begin{equation} \label{equ:loss_functions}
@@ -510,6 +499,31 @@ s &= {\arg\max}_{i\in(1, 2, ...,n)}{\sum_{t=1}^{N}s_i^N}
 Here, $ N $ is the total number of timesteps in which a gait is split and $ s $ is the final predicted class.  
 
 
+\subsection{Training and Implementation Details}
+The training of \gls{rnn}s allows us to learn the parameters from the sequence. We have employed Adam~\cite{Kingma_15} optimization algorithm with $\beta_1 = 0.9, \beta_2 = 0.999$, which is known to work very well for training recurrent neural networks. We tried several learning rates in our experiment and found out that the best initial learning rate is $(5$x$10^{-3})$. We also reduced the learning rate by a factor when it hit a plateau. Reducing the learning rate will allow the optimizer to get rid of the plateaus in the loss surface. Table~\ref{table:summary_tn} summarizes all the hyperparameters setting of our network.
+
+\begin{table}
+	\centering
+	\caption{Training summary of our proposed temporal network. \label{table:summary_tn}}
+	\begin{tabular*}{32pc}{@{\extracolsep{\fill}}ll@{}}
+		\hline \noalign{\vspace{3pt}}
+		\textbf{Hyperparameter} &\qquad \textbf{Value} \\ [3pt] \hline\noalign{\vspace{3pt}}
+		Optimizer     			&\qquad Adam~\cite{Kingma_15} \\[3pt]
+		Objective function  	&\qquad Fusion of softmax and center loss \\[3pt]
+		Epochs        			&\qquad $ 450 $ \\ [3pt]
+		Initial learning rate	&\qquad $5 \times 10^{-3}$  \\[3pt]
+		Mini-batch size			&\qquad $ 256 $ \\
+		\hline
+	\end{tabular*}
+\end{table}
+
+The proposed network was trained with a batch size of $ 256 $ for $ 450 $ epochs. Our network showed some overfitting mostly due to the high learning capacity of the network over data. This overfitting problem has been addressed by adding a batch normalization layer. We also tried to add dropout layer during training, but that did not help to reduce the overfitting problem. Moreover, it degraded gait recognition performance. Hence, we skip it.
+
+For the model computations, we entirely relied on GPU programming. In particular, our implementation is based on Keras~\cite{keras}, a GPU-capable deep-learning library written in Python. All the experiments were performed on a server machine with 56 cores, 512 GB RAM and a Nvidia Tesla K40 with 12 GB memory running on Ubuntu server 18.04 LTS. Input video and image sequences are processed using Python and OpenCV library~\cite{opencv}.
+
+
+
+
 
 %-------------------------------------------------------------------------
 \section{Multi-View Gait Recognition}
@@ -530,7 +544,7 @@ Firstly, to localize human walking in gait videos, we used YOLOv3, a state-of-th
 \end{figure}
 
 \subsection{Network Architecture}
-Identifying walking direction from gait video is somewhat similar to action recognition problem in computer vision. Recently, in action recognition, researcher have started to exploit 3D features in video using 3D-CNN model which extracts features from both spatial and temporal dimensions by performing 3D convolutions. Tran et.al.~\cite{Tran_15} proposed a 3D convolutional neural network, also known as C3D, which has been widely used for applications like video classification, action recognition, etc. This network has been trained on one of the largest video classification benchmark datasets Sports-1M~\cite{Karpathy_14}. The dataset contains 1.1 million sports videos, where each video belongs to one of the 487 sports categories. 
+Identifying walking direction from gait video is somewhat similar to action recognition problem in computer vision. Recently, in action recognition, researcher have started to exploit 3D features in video using 3D-CNN model which extracts features from both spatial and temporal dimensions by performing 3D convolutions. Tran et.al.~\cite{Tran_15} proposed a 3D convolutional neural network, also known as C3D, which has been widely used for applications like video classification, action recognition, etc. This network has been trained on one of the largest video classification benchmark datasets Sports-1M~\cite{karpathy_14}. The dataset contains 1.1 million sports videos, where each video belongs to one of the 487 sports categories. 
 
 The proposed method for our gait angle identification is illustrated in Fig.~\ref{fig:multi_view_gait_recognition}. The input of the network was a clip of 16 consecutive frame which was preprocessed and resized to $112\times112$ to feed into a a 3D-CNN network. We used {\textit {majority voting scheme}} to process the output to predict the view angle similar to section~\ref{subsec_post_process}, i.e. the angle that receives the highest number of votes over all clips are referred as predicted angle of the video.
 

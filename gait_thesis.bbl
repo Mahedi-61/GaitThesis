@@ -21,13 +21,15 @@
 \providecommand{\BIBdecl}{\relax}
 \BIBdecl
 
-\bibitem{colah_15}
-C.~Olah, ``Understanding lstm networks,'' 2015.
-
 \bibitem{Boyd_05}
 J.~E.~Boyd and J.~J.~Little, ``Biometric gait recognition,'' in \emph{Bometrics
   School 2003, LNCS 3161}.\hskip 1em plus 0.5em minus 0.4em\relax
   Springer-Verlag Berlin Heidelberg, 2005, pp. 19--42.
+
+\bibitem{Lee_14}
+T.~K.~M. Lee, M.~Belkhatir, and S.~Sanei, ``A comprehensive review of past and
+  present vision-based techniques for gait recognition,'' \emph{Multimedia
+  Tools and Applications}, no.~3, p. 2833–2869, October 2014.
 
 \bibitem{karpathy_14}
 A.~Karpathy, G.~Toderici, S.~Shetty, T.~Leung, and R.~Sukthankar, ``Large-scale
@@ -50,6 +52,11 @@ Y.~Du, W.~Wang, and L.~Wang, ``Hierarchical recurrent neural network for
   skeleton based action recognition,'' in \emph{IEEE Conf. on Computer Vision
   and Pattern Recognition}.\hskip 1em plus 0.5em minus 0.4em\relax Boston, MA,
   USA, 2015, pp. 1110 --1118.
+
+\bibitem{Mao_15}
+J.~Mao, W.~Xu, Y.~Yang, J.~Wang, Z.~Huang, and \textit{et al.}, ``Deep
+  captioning with multimodal recurrent neural networks (m-rnn),'' in
+  \emph{International Conference on Learning Representations}, 2015.
 
 \bibitem{Yu_06}
 S.~Yu, D.~Tan, and T.~Tan, ``A framework for evaluating the effect of view
@@ -76,6 +83,11 @@ K.~Bashir, T.~Xiang, and S.~Gong, ``Gait recognition using gait entropy
 T.~H.~W. Lam, K.~H. Cheung, and J.~N.~K. Liu, ``Gait flow image: A
   silhouette-based gait representation for human identification,''
   \emph{Pattern Recognition}, vol.~44, no.~4, pp. 973 -- 987, April 2011.
+
+\bibitem{Wang_12}
+C.~Wang, J.~Zhang, L.~Wang, J.~Pu, and X.~Yuan, ``Human identification using
+  temporal information preserving gait template,'' \emph{IEEE Trans Pattern
+  Anal Mach Intell.}, vol.~11, no.~34, pp. 2164--2176, November 2012.
 
 \bibitem{Huang_12}
 X.~Huang and N.~V. Boulgouris, ``Gait recognition with shifted energy image and
@@ -143,11 +155,22 @@ S.~Yu, R.~Liao, W.~An, H.~Chen, E.~B. Garcia, and a.~Huang, Y, ``Gaitganv2:
   Invariant gait feature extraction using generative adversarial networks,''
   \emph{Pattern Recognition}, vol.~87, no.~11, pp. 179 -- 189, March 2019.
 
+\bibitem{Castro_17}
+F.~M. Castro, M.~J. Marin-Jimenez, N.~Guil, and N.~Perez de~la Blanca,
+  ``Automatic learning of gait signatures for people identification,'' in
+  \emph{International Work-Conference on Artificial Neural Networks}, 2017, pp.
+  257--270.
+
 \bibitem{Wei_16}
 S.-E. Wei, V.~Ramakrishna, T.~Kanade, and Y.~Sheikh, ``Convolutional pose
   machines,'' in \emph{IEEE Conf. on Computer Vision and Pattern
   Recognition}.\hskip 1em plus 0.5em minus 0.4em\relax Las Vegas, NV, USA,
   2016.
+
+\bibitem{Cai_16}
+Y.~Cai and X.~Tan, ``Weakly supervised human body detection under arbitrary
+  poses,'' in \emph{2016 IEEE International Conference on Image Processing
+  (ICIP)}.\hskip 1em plus 0.5em minus 0.4em\relax Phoenix, AZ, USA, 2016.
 
 \bibitem{Liao_17}
 R.~Liao, C.~Cao, E.~B. Garcia, S.~Yu, and Y.~Huang, ``Pose-based
@@ -158,19 +181,22 @@ R.~Liao, C.~Cao, E.~B. Garcia, S.~Yu, and Y.~Huang, ``Pose-based
 \bibitem{Liao_19}
 R.~Liao, S.~Yu, W.~An, H.~Chen, and Y.~Huang, ``A model-based gait recognition
   method with body pose and human prior knowledge,'' \emph{Pattern
-  Recognition}, February 2019.
+  Recognition}, February 2020.
 
-\bibitem{mikolov_12}
-T.~Mikolov, ``Statistical language models based on neural networks,'' \emph{Ph.
-  D. thesis, Brno University of Technology}, 2012.
+\bibitem{kal_13}
+N.~Kalchbrenner and p.~Blunsom, ``Recurrent continuous translation models,'' in
+  \emph{EMNLP}, 2013.
 
 \bibitem{graves_13}
 A.~Graves, ``Generating sequences with recurrent neural networks,'' \emph{arXiv
   preprint arXiv:1308.0850}, 2013.
 
-\bibitem{kal_13}
-N.~Kalchbrenner and p.~Blunsom, ``Recurrent continuous translation models,'' in
-  \emph{EMNLP}, 2013.
+\bibitem{colah_15}
+C.~Olah, ``Understanding lstm networks,'' 2015.
+
+\bibitem{mikolov_12}
+T.~Mikolov, ``Statistical language models based on neural networks,'' \emph{Ph.
+  D. thesis, Brno University of Technology}, 2012.
 
 \bibitem{Hochreiter_01}
 S.~Hochreiter, Y.~Bengio, P.~Frasconi, and J.~Schmidhuber, \emph{Gradient flow
@@ -183,10 +209,16 @@ Y.~Bengio, P.~Simard, and P.~Frasconi, ``Learning long-term dependencies with
   vol.~5, no.~2, pp. 157--166, 1994.
 
 \bibitem{Cho_14}
-K.~Cho, B.~van Merri\"enboer, D.~Bahdanau, and Y.~Bengio, ``On the properties
-  of neural machine translation: {E}ncoder--{D}ecoder approaches,'' in
-  \emph{Eighth Workshop on Syntax, Semantics and Structure in Statistical
-  Translation}, 2014.
+K.~Cho, B.~van Merri\"enboer, C.~Gulcehre, D.~Bahdanau, F.~Bougares, and
+  \textit{et al.}, ``Learning phrase representations using rnn
+  encoder–decoder for statistical machine translation,'' in \emph{Conference
+  on Empirical Methods in Natural Language Processing (EMNLP)}.\hskip 1em plus
+  0.5em minus 0.4em\relax Doha, Qatar, 2014, pp. 1724--1734.
+
+\bibitem{Chung_14}
+J.~Chung, C.~Gulcehre, K.~Cho, and Y.~Bengio, ``Empirical evaluation of gated
+  recurrent neural networks on sequence modeling,'' in \emph{NIPS 2014 Workshop
+  on Deep Learning, December}, December 2014.
 
 \bibitem{Schuster_97}
 M.~Schuster and K.~K. Paliwal, ``Bidirectional recurrent neural networks,''
@@ -227,15 +259,27 @@ A.~Graves and J.~Schmidhuber, ``Framewise phoneme classification with
   bidirectional lstm and other neural network architectures,'' \emph{Neural
   Networks}, vol.~18, no. 5-6, pp. 602--610, 2005.
 
+\bibitem{Wen_16}
+Y.~Wen, K.~Zhang, Z.~Li, and Y.~Qiao, ``A discriminative feature learning
+  approach for deep face recognition,'' in \emph{European Conf. on Computer
+  Vision}, 2016, pp. 499 -- 515.
+
 \bibitem{Kingma_15}
 D.~P. Kingma and J.~Ba, ``Adam: A method for stochastic optimization,'' in
   \emph{3rd Int. Conf. on Learning Representations}.\hskip 1em plus 0.5em minus
   0.4em\relax San, Diego, 2015.
 
-\bibitem{Wen_16}
-Y.~Wen, K.~Zhang, Z.~Li, and Y.~Qiao, ``A discriminative feature learning
-  approach for deep face recognition,'' in \emph{European Conf. on Computer
-  Vision}, 2016, pp. 499 -- 515.
+\bibitem{keras}
+\BIBentryALTinterwordspacing
+F.~Chollet. (2015) Keras. [Online]. Available:
+  \url{https://github.com/keras-team/keras/}
+\BIBentrySTDinterwordspacing
+
+\bibitem{opencv}
+\BIBentryALTinterwordspacing
+OpenCV. (2015) Open source computer vision library. [Online]. Available:
+  \url{https://github.com/opencv/opencv}
+\BIBentrySTDinterwordspacing
 
 \bibitem{Redmon_18}
 J.~Redmon and A.~Farhadi, ``Yolov3: An incremental improvement,'' \emph{arXiv
