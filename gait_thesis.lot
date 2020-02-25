@@ -1,17 +1,17 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {3.1}{\ignorespaces List of selected joint-angle trajectories with corresponding body joint set in order to form gait angular feature vector. \relax }}{29}{table.caption.21}
-\contentsline {table}{\numberline {3.2}{\ignorespaces Training summary of our proposed temporal network. \relax }}{37}{table.caption.25}
-\contentsline {table}{\numberline {3.3}{\ignorespaces Training summary of our proposed 3D-CNN network. \relax }}{39}{table.caption.28}
+\contentsline {table}{\numberline {3.1}{\ignorespaces List of selected joint-angle trajectories with corresponding body joints set in order to form a joint angular feature vector. \relax }}{35}{table.caption.23}
+\contentsline {table}{\numberline {3.2}{\ignorespaces Training summary of our proposed temporal network. \relax }}{43}{table.caption.27}
+\contentsline {table}{\numberline {3.3}{\ignorespaces Training summary of our proposed 3D-CNN network. \relax }}{45}{table.caption.29}
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {4.1}{\ignorespaces Comparison among different state-of-the-art gait recognition methods without view variation in all three view angles of CASIA A dataset}}{43}{table.caption.30}
-\contentsline {table}{\numberline {4.2}{\ignorespaces Experimental setup for the CASIA B dataset}}{44}{table.caption.32}
-\contentsline {table}{\numberline {4.3}{\ignorespaces Correct class recognition rate (CCR) of proposed method in all three probe sets of CASIA B dataset}}{45}{table.caption.33}
-\contentsline {table}{\numberline {4.4}{\ignorespaces Comparison between the proposed method and other state-of-the-art gait recognition methods in CASIA B dataset without view variation}}{46}{table.caption.34}
-\contentsline {table}{\numberline {4.5}{\ignorespaces The average recognition rates for all three probe sets of CASIA B dataset. Each row represents the average value of all eleven probe angles at a specific gallery angle ($ \theta _g $) in all three probe sets. \relax }}{48}{table.caption.36}
-\contentsline {table}{\numberline {4.6}{\ignorespaces Comparison among different state-of-the-art methods for gait recognition with view variation in all three probe sets of CASIA B dataset}}{48}{table.caption.37}
-\contentsline {table}{\numberline {4.7}{\ignorespaces Comparison of our proposed method with the previous best results of cross-view gait recognition }}{49}{table.caption.39}
-\contentsline {table}{\numberline {4.8}{\ignorespaces Comparison with other state-of-the-art methods on all three probe set of CASIA-B dataset in multi-view gait recognition}}{50}{table.caption.40}
-\contentsline {table}{\numberline {4.9}{\ignorespaces Correct walking direction identification rate (\%) of proposed 3D-CNN network on all three probe set of CASIA-B dataset}}{50}{table.caption.41}
+\contentsline {table}{\numberline {4.1}{\ignorespaces Comparison among different state-of-the-art gait recognition methods without view variation in all three view angles of CASIA A dataset}}{50}{table.caption.34}
+\contentsline {table}{\numberline {4.2}{\ignorespaces Experimental setup for the CASIA B dataset}}{51}{table.caption.35}
+\contentsline {table}{\numberline {4.3}{\ignorespaces Correct class recognition rate (CCR) of the proposed method in all three probe sets of CASIA B dataset}}{52}{table.caption.36}
+\contentsline {table}{\numberline {4.4}{\ignorespaces Comparison between the proposed method and other state-of-the-art gait recognition methods in CASIA B dataset without view variation}}{53}{table.caption.37}
+\contentsline {table}{\numberline {4.5}{\ignorespaces The average recognition rates for all three probe sets of CASIA B dataset. Each row represents the average value of all eleven probe angles at a specific gallery angle ($ \theta _g $) in all three probe sets. \relax }}{55}{table.caption.39}
+\contentsline {table}{\numberline {4.6}{\ignorespaces Comparison among different state-of-the-art methods for gait recognition with view variation in all three probe sets of CASIA B dataset}}{55}{table.caption.40}
+\contentsline {table}{\numberline {4.7}{\ignorespaces Comparison of our proposed method with the previous best results of cross-view gait recognition }}{56}{table.caption.42}
+\contentsline {table}{\numberline {4.8}{\ignorespaces View angle identification rate (\%) of the proposed 3D-CNN network on CASIA B dataset}}{56}{table.caption.43}
+\contentsline {table}{\numberline {4.9}{\ignorespaces Comparison with other state-of-the-art methods on all three probe set of CASIA B dataset in multi-view gait recognition}}{57}{table.caption.44}
 \addvspace {10\p@ }

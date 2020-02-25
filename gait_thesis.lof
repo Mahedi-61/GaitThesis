@@ -1,31 +1,34 @@
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {1.1}{\ignorespaces A basic topology of person re-identification in a multi-camera network environment}}{2}{figure.caption.5}
+\contentsline {figure}{\numberline {1.2}{\ignorespaces A basic topology of person re-identification in a multi-camera network environment}}{3}{figure.caption.6}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces A typical rolled representation of a recurrent neural network}}{14}{figure.caption.6}
-\contentsline {figure}{\numberline {3.2}{\ignorespaces The computational graph of a unrolled recurrent network that maps an input sequence of $ x $ values to a corresponding sequence of output $ o $ values \relax }}{15}{figure.caption.7}
-\contentsline {figure}{\numberline {3.3}{\ignorespaces A Long Short Term Memory (LSTM)}}{17}{figure.caption.8}
-\contentsline {figure}{\numberline {3.4}{\ignorespaces The internal state of LSTMs}}{17}{figure.caption.9}
-\contentsline {figure}{\numberline {3.5}{\ignorespaces The LSTM forget gate}}{18}{figure.caption.10}
-\contentsline {figure}{\numberline {3.6}{\ignorespaces The LSTM input gate}}{18}{figure.caption.11}
-\contentsline {figure}{\numberline {3.7}{\ignorespaces The LSTM output gate}}{18}{figure.caption.12}
-\contentsline {figure}{\numberline {3.8}{\ignorespaces Gated Recurrent Units (GRUs)}}{20}{figure.caption.13}
-\contentsline {figure}{\numberline {3.9}{\ignorespaces The architecture of a vanilla bidirectional recurrent neural network \relax }}{21}{figure.caption.14}
-\contentsline {figure}{\numberline {3.10}{\ignorespaces The architecture of a bidirectional gated recurrent neural network \relax }}{22}{figure.caption.15}
-\contentsline {figure}{\numberline {3.11}{\ignorespaces Realtime multi-person 2D pose estimation using Openpose algorithm}}{24}{figure.caption.16}
-\contentsline {figure}{\numberline {3.12}{\ignorespaces An example of a bottom up approach}}{24}{figure.caption.17}
-\contentsline {figure}{\numberline {3.13}{\ignorespaces Network architecture of the multi-stage CNN}}{25}{figure.caption.18}
-\contentsline {figure}{\numberline {3.14}{\ignorespaces The overview of the proposed framework for gait recognition}}{26}{figure.caption.19}
-\contentsline {figure}{\numberline {3.15}{\ignorespaces Different feature extraction process of the proposed method}}{28}{figure.caption.20}
-\contentsline {figure}{\numberline {3.16}{\ignorespaces Examples of 2D human pose estimation from RGB images of CASIA dataset}}{31}{figure.caption.22}
-\contentsline {figure}{\numberline {3.17}{\ignorespaces Proposed RNN architecture for robust gait recognition}}{34}{figure.caption.23}
-\contentsline {figure}{\numberline {3.18}{\ignorespaces Output prediction scheme of our proposed temporal network}}{36}{figure.caption.24}
-\contentsline {figure}{\numberline {3.19}{\ignorespaces Overview of our proposed multi-view gait recognition network scheme}}{38}{figure.caption.26}
-\contentsline {figure}{\numberline {3.20}{\ignorespaces Proposed 3D-CNN for video angle identification}}{39}{figure.caption.27}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Computing output activation of a convolutional layer}}{17}{figure.caption.7}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces A typical rolled representation of a recurrent neural network}}{18}{figure.caption.8}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces The computational graph of a unrolled recurrent network that maps an input sequence of $ x $ values to a corresponding sequence of output $ o $ values \relax }}{19}{figure.caption.9}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces A Long Short Term Memory (LSTM)}}{21}{figure.caption.10}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces The internal state of LSTMs}}{21}{figure.caption.11}
+\contentsline {figure}{\numberline {3.6}{\ignorespaces The LSTM forget gate}}{22}{figure.caption.12}
+\contentsline {figure}{\numberline {3.7}{\ignorespaces The LSTM input gate}}{22}{figure.caption.13}
+\contentsline {figure}{\numberline {3.8}{\ignorespaces The LSTM output gate}}{22}{figure.caption.14}
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Gated Recurrent Units (GRUs)}}{24}{figure.caption.15}
+\contentsline {figure}{\numberline {3.10}{\ignorespaces The architecture of a vanilla bidirectional recurrent neural network \relax }}{25}{figure.caption.16}
+\contentsline {figure}{\numberline {3.11}{\ignorespaces The architecture of a bidirectional gated recurrent neural network \relax }}{26}{figure.caption.17}
+\contentsline {figure}{\numberline {3.12}{\ignorespaces Realtime multi-person 2D pose estimation using OpenPose algorithm}}{29}{figure.caption.18}
+\contentsline {figure}{\numberline {3.13}{\ignorespaces An example of a bottom up approach}}{30}{figure.caption.19}
+\contentsline {figure}{\numberline {3.14}{\ignorespaces Network architecture of the multi-stage CNN}}{30}{figure.caption.20}
+\contentsline {figure}{\numberline {3.15}{\ignorespaces The overview of the proposed framework for gait recognition}}{32}{figure.caption.21}
+\contentsline {figure}{\numberline {3.16}{\ignorespaces Scheme for the four different types of feature extraction process of the proposed method}}{33}{figure.caption.22}
+\contentsline {figure}{\numberline {3.17}{\ignorespaces Examples of 2D human pose estimation from RGB images of CASIA dataset}}{37}{figure.caption.24}
+\contentsline {figure}{\numberline {3.18}{\ignorespaces Proposed network architecture for robust gait recognition}}{40}{figure.caption.25}
+\contentsline {figure}{\numberline {3.19}{\ignorespaces Output prediction scheme of our proposed network}}{42}{figure.caption.26}
+\contentsline {figure}{\numberline {3.20}{\ignorespaces Overview of our proposed view angle identification network scheme}}{44}{figure.caption.28}
+\contentsline {figure}{\numberline {3.21}{\ignorespaces Proposed 3D-CNN for video angle identification}}{45}{figure.caption.30}
+\contentsline {figure}{\numberline {3.22}{\ignorespaces Poposed two-stage network for multi-view gait recognition.}}{46}{figure.caption.31}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Sample video frames of CASIA A and CASIA B dataset}}{42}{figure.caption.29}
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Comparison in CCR at different view angles among proposed method with other prevailing gait recognition methods proposed in literature on CASIA A dataset}}{44}{figure.caption.31}
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Correct class recognition rates (\%) of the proposed method with other state-of-the-art methods on all three probe set of CASIA-B dataset without view variation}}{47}{figure.caption.35}
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Comparison with different state-of-the-art methods for gait recognition with view variation in all three probe set of CASIA B dataset}}{47}{figure.caption.38}
-\contentsline {figure}{\numberline {4.5}{\ignorespaces Average recognition rates(\%) of the proposed method compared to the other state-of-the-art methods in multi-view gait recognition}}{51}{figure.caption.42}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Sample video frames of CASIA A and CASIA B dataset}}{48}{figure.caption.32}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Comparison in CCR among proposed method with other prevailing gait recognition methods at different view angles on CASIA A dataset}}{49}{figure.caption.33}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Correct class recognition rates (\%) of the proposed method with other state-of-the-art methods on all three probe set of CASIA B dataset without view variation}}{54}{figure.caption.38}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Comparison with different state-of-the-art algorithms for gait recognition with view variation in all three probe set of CASIA B dataset}}{54}{figure.caption.41}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Comparison on average recognition rates (\%) between the proposed method with other state-of-the-art methods in multi-view gait recognition}}{58}{figure.caption.45}
 \addvspace {10\p@ }

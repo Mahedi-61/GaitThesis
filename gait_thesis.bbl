@@ -26,6 +26,22 @@ J.~E.~Boyd and J.~J.~Little, ``Biometric gait recognition,'' in \emph{Bometrics
   School 2003, LNCS 3161}.\hskip 1em plus 0.5em minus 0.4em\relax
   Springer-Verlag Berlin Heidelberg, 2005, pp. 19--42.
 
+\bibitem{Benabdelkader_02}
+C.~Benabdelkader, R.~Cutler, and L.~S.~Davis, ``Person identification using
+  automatic height and stride estimation,'' in \emph{Object recognition
+  supported by user interaction for service robots}.\hskip 1em plus 0.5em minus
+  0.4em\relax Quebec City, Quebec, Canada, 2002, pp. 377--380.
+
+\bibitem{Michele_17}
+M.~Pistacchi, M.~Gioulis, F.~Sanson, E.~D. Giovannini, G.~Filippi, and et~al.,
+  ``Gait analysis and clinical correlations in early parkinson’s disease,''
+  \emph{Functional Neurology}, vol.~32, no.~1, pp. 28 -- 34, January 2017.
+
+\bibitem{Juen_14}
+J.~Juen, Q.~Cheng, V.~Prieto-Centurion, J.~A.~Krishnan, and B.~Schatz, ``Health
+  monitors for chronic disease by gait analysis with mobile phones,''
+  \emph{Telemed J E Health}, vol.~20, no.~11, pp. 1035-- 1041, November 2014.
+
 \bibitem{Lee_14}
 T.~K.~M. Lee, M.~Belkhatir, and S.~Sanei, ``A comprehensive review of past and
   present vision-based techniques for gait recognition,'' \emph{Multimedia
@@ -69,6 +85,12 @@ I.~Rida, N.~Almaadeed, and S.~Almaadeed, ``Robust gait recognition: a
   comprehensive survey,'' \emph{IET Biometrics}, vol.~8, no.~1, pp. 14 -- 28,
   January 2019.
 
+\bibitem{Liu_04}
+Z.~Liu and S.~Sarkar, ``Simplest representation yet for gait recognition:
+  averaged silhouette,'' in \emph{17th International Conference on pattern
+  Recognition}.\hskip 1em plus 0.5em minus 0.4em\relax Cambridge, UK, 2004, pp.
+  211 -- 214.
+
 \bibitem{Han_06}
 J.~Han and B.~Bhanu, ``Individual recognition using gait energy image,''
   \emph{IEEE Trans. on Pattern Anal. Mach. Intell.}, vol.~28, no.~2, pp.
@@ -94,31 +116,44 @@ X.~Huang and N.~V. Boulgouris, ``Gait recognition with shifted energy image and
   structural feature extraction,'' \emph{IEEE Trans. Image Process.}, vol.~21,
   no.~4, pp. 2256 -- 2268, April 2012.
 
-\bibitem{Chao_19}
-H.~Chao, Y.~He, J.~Zhang, and J.~Feng, ``Gaitset: regarding gait as a set for
-  cross-view gait recognition,'' in \emph{The Thirty-Third AAAI Conference on
-  Artificial Intelligence}.\hskip 1em plus 0.5em minus 0.4em\relax July, 2019,
-  pp. 973 -- 987.
+\bibitem{Sarkar_05}
+S.~Sarkar, P.~J. Phillips, Z.~Liu, I.~R. Vega, P.~Grother, and K.~Bowyer, ``The
+  humanid gait challenge problem: Data sets, performance, and analysis,''
+  \emph{IEEE Trans. on Pattern Anal. Mach. Intell.}, vol.~27, no.~2, pp.
+  162--177, February 2005.
 
 \bibitem{Yam_04}
 C.~Yam, M.~S. Nixon, and J.~N. Carter, ``Automated person recognition by
   walking and running via model-based approaches,'' \emph{Pattern Recognition},
   vol.~37, no.~5, pp. 1057 -- 1072, May 2004.
 
-\bibitem{Ariyanto_11}
-G.~Ariyanto and M.~S. Nixon, ``Model-based 3d gait biometrics,'' in \emph{Int.
-  Joint Conf. on Biometrics}.\hskip 1em plus 0.5em minus 0.4em\relax Washington
-  DC, USA, 2011, pp. 1 -- 7.
+\bibitem{Gu_10}
+J.~Gu, X.~Ding, S.~Wang, and Y.~Wu, ``Action and gait recognition from
+  recovered 3-d human joints,'' \emph{IEEE Transactions on Systems, Man, and
+  Cybernetics, Part B: Cybernetics}, vol.~40, no.~4, pp. 1021--1033, 2010.
 
-\bibitem{Tafazzoli_10}
-F.~Tafazzoli and R.~Safabakhsh, ``Model-based human gait recognition using leg
-  and arm movements,'' \emph{Engineering Appl. of Art. Intell.}, vol.~23,
-  no.~8, pp. 1237 -- 1246, December 2010.
+\bibitem{Wagg_04}
+D.~K. Wagg and M.~S. Nixon, ``On automated model-based extraction and analysis
+  of gait,'' in \emph{6th IEEE International Conference on Automatic Face and
+  Gesture Recognition}.\hskip 1em plus 0.5em minus 0.4em\relax Seoul, South
+  Korea, 2004, pp. 11 -- 16.
 
-\bibitem{Feng_16}
-Y.~Feng, Y.~Li, and J.~Luo, ``Learning effective gait features using lstm,'' in
-  \emph{23rd Int. Conf. on Pattern Recognition}.\hskip 1em plus 0.5em minus
-  0.4em\relax Cancun, Mexico, 2016, pp. 325--330.
+\bibitem{Pavlovic_99}
+V.~Pavlovic, J.~M. Rehg, T.-J. Cham, and K.~P. Murphy, ``A dynamic bayesian
+  network approach to figure tracking using learned dynamic models,'' in
+  \emph{Seventh IEEE International Conference on Computer Vision}.\hskip 1em
+  plus 0.5em minus 0.4em\relax Kerkyra, Greece, 1999, pp. 94 -- 101.
+
+\bibitem{Isard_98}
+M.~Isard and B.~A, ``Condensation-conditional density propagation for visual
+  tracking,'' \emph{International Journal of Computer Vision}, vol.~29, no.~1,
+  pp. 5 -- 28, 1998.
+
+\bibitem{Shutler_04}
+J.~D. Shutler, M.~G. Grant, M.~S. Nixon, and C.~J. N, ``On a large
+  sequence-based human gait database,'' in \emph{Applications and Science in
+  Soft Computing}.\hskip 1em plus 0.5em minus 0.4em\relax Springer, Berlin,
+  Heidelberg, 2004, pp. 339 -- 346.
 
 \bibitem{Wu_17}
 Z.~Wu, Y.~Huang, L.~Wang, X.~Wang, and T.~Tan, ``A comprehensive study on
@@ -155,12 +190,6 @@ S.~Yu, R.~Liao, W.~An, H.~Chen, E.~B. Garcia, and a.~Huang, Y, ``Gaitganv2:
   Invariant gait feature extraction using generative adversarial networks,''
   \emph{Pattern Recognition}, vol.~87, no.~11, pp. 179 -- 189, March 2019.
 
-\bibitem{Castro_17}
-F.~M. Castro, M.~J. Marin-Jimenez, N.~Guil, and N.~Perez de~la Blanca,
-  ``Automatic learning of gait signatures for people identification,'' in
-  \emph{International Work-Conference on Artificial Neural Networks}, 2017, pp.
-  257--270.
-
 \bibitem{Wei_16}
 S.-E. Wei, V.~Ramakrishna, T.~Kanade, and Y.~Sheikh, ``Convolutional pose
   machines,'' in \emph{IEEE Conf. on Computer Vision and Pattern
@@ -171,6 +200,11 @@ S.-E. Wei, V.~Ramakrishna, T.~Kanade, and Y.~Sheikh, ``Convolutional pose
 Y.~Cai and X.~Tan, ``Weakly supervised human body detection under arbitrary
   poses,'' in \emph{2016 IEEE International Conference on Image Processing
   (ICIP)}.\hskip 1em plus 0.5em minus 0.4em\relax Phoenix, AZ, USA, 2016.
+
+\bibitem{Feng_16}
+Y.~Feng, Y.~Li, and J.~Luo, ``Learning effective gait features using lstm,'' in
+  \emph{23rd Int. Conf. on Pattern Recognition}.\hskip 1em plus 0.5em minus
+  0.4em\relax Cancun, Mexico, 2016, pp. 325--330.
 
 \bibitem{Liao_17}
 R.~Liao, C.~Cao, E.~B. Garcia, S.~Yu, and Y.~Huang, ``Pose-based
@@ -183,6 +217,11 @@ R.~Liao, S.~Yu, W.~An, H.~Chen, and Y.~Huang, ``A model-based gait recognition
   method with body pose and human prior knowledge,'' \emph{Pattern
   Recognition}, February 2020.
 
+\bibitem{Krizhevsky_12}
+A.~Krizhevsky, I.~Sutskever, and G.~E. Hinton, ``Imagenet classification with
+  deep convolutional neural networks,'' \emph{Advances in neural information
+  processing systems}, 2012.
+
 \bibitem{kal_13}
 N.~Kalchbrenner and p.~Blunsom, ``Recurrent continuous translation models,'' in
   \emph{EMNLP}, 2013.
@@ -191,6 +230,17 @@ N.~Kalchbrenner and p.~Blunsom, ``Recurrent continuous translation models,'' in
 A.~Graves, ``Generating sequences with recurrent neural networks,'' \emph{arXiv
   preprint arXiv:1308.0850}, 2013.
 
+\bibitem{Tran_15}
+D.~Tran, L.~Bourdev, R.~Fergus, L.~Torresani, and M.~Paluri, ``Learning
+  spatiotemporal features with 3d convolutional networks,'' in \emph{IEEE Int.
+  Conf. on Computer Vision}.\hskip 1em plus 0.5em minus 0.4em\relax Santiago,
+  Chile, 2015, pp. 4489--4497.
+
+\bibitem{Hubel_68}
+D.~H. Hubel and T.~N. Wiesel, ``Receptive fields and functional architecture of
+  monkey striate cortex,'' \emph{The journal of Physiology}, vol. 195, no.~1,
+  pp. 215--243, May 1968.
+
 \bibitem{colah_15}
 C.~Olah, ``Understanding lstm networks,'' 2015.
 
@@ -198,15 +248,15 @@ C.~Olah, ``Understanding lstm networks,'' 2015.
 T.~Mikolov, ``Statistical language models based on neural networks,'' \emph{Ph.
   D. thesis, Brno University of Technology}, 2012.
 
-\bibitem{Hochreiter_01}
-S.~Hochreiter, Y.~Bengio, P.~Frasconi, and J.~Schmidhuber, \emph{Gradient flow
-  in recurrent nets: the difficulty of learning long-term dependencies}.\hskip
-  1em plus 0.5em minus 0.4em\relax IEEE Press, 2001.
-
 \bibitem{Bengio_94}
 Y.~Bengio, P.~Simard, and P.~Frasconi, ``Learning long-term dependencies with
   gradient descent is difficult,'' \emph{IEEE Transactions on Neural Networks},
   vol.~5, no.~2, pp. 157--166, 1994.
+
+\bibitem{Hochreiter_01}
+S.~Hochreiter, Y.~Bengio, P.~Frasconi, and J.~Schmidhuber, \emph{Gradient flow
+  in recurrent nets: the difficulty of learning long-term dependencies}.\hskip
+  1em plus 0.5em minus 0.4em\relax IEEE Press, 2001.
 
 \bibitem{Cho_14}
 K.~Cho, B.~van Merri\"enboer, C.~Gulcehre, D.~Bahdanau, F.~Bougares, and
@@ -230,6 +280,18 @@ A.~Graves, M.~Liwicki, H.~Bunke, J.~Schmidhuber, and S.~Fernández,
   ``Unconstrained on-line handwriting recognition with recurrent neural
   networks,'' in \emph{Advances in neural information processing systems},
   2008, pp. 577--584.
+
+\bibitem{Marchand_16}
+E.~Marchand, H.~Uchiyama, and F.~Spindler, ``Pose estimation for augmented
+  reality: A hands-on survey,'' \emph{IEEE Transactions on Visualization and
+  Computer Graphics}, vol.~22, no.~12, pp. 2633 -- 2651, December 2016.
+
+\bibitem{Ke_10}
+S.-R. Ke, L.~Zhu, J.-N. Hwang, H.-I. Pai, K.-M. Lan, and C.-P. Liao,
+  ``Real-time 3d human pose estimation from monocular view with applications to
+  event detection and video gaming,'' in \emph{7th IEEE International
+  Conference on Advanced Video and Signal Based Surveillance}.\hskip 1em plus
+  0.5em minus 0.4em\relax Boston, MA, USA, 2010, pp. 489--496.
 
 \bibitem{Cunado_97}
 D.~Cunado, M.~S. Nixon, and J.~N. Carter, ``Using gait as a biometric, via
@@ -285,12 +347,6 @@ OpenCV. (2015) Open source computer vision library. [Online]. Available:
 J.~Redmon and A.~Farhadi, ``Yolov3: An incremental improvement,'' \emph{arXiv
   preprint arXiv:1804.02767}, 2018.
 
-\bibitem{Tran_15}
-D.~Tran, L.~Bourdev, R.~Fergus, L.~Torresani, and M.~Paluri, ``Learning
-  spatiotemporal features with 3d convolutional networks,'' in \emph{IEEE Int.
-  Conf. on Computer Vision}.\hskip 1em plus 0.5em minus 0.4em\relax Santiago,
-  Chile, 2015, pp. 4489--4497.
-
 \bibitem{Hofmann_14}
 M.~Hofmann, J.~Geiger, S.~Bachmann, B.~Schuller, and G.~Rigoll, ``The tum gait
   from audio, image and depth (gaid) database: Multimodal recognition of
@@ -303,11 +359,9 @@ T.~Noriko, Y.~Makihara, D.~Muramatsu, T.~Echigo, and Y.~Yagi, ``Multi-view
   gait recognition,'' \emph{IPSJ Trans. on Computer Vision and Applications},
   vol.~10, no.~1, p.~4, February 2018.
 
-\bibitem{Sarkar_05}
-S.~Sarkar, P.~J. Phillips, Z.~Liu, I.~R. Vega, P.~Grother, and K.~Bowyer, ``The
-  humanid gait challenge problem: Data sets, performance, and analysis,''
-  \emph{IEEE Trans. on Pattern Anal. Mach. Intell.}, vol.~27, no.~2, pp.
-  162--177, February 2005.
+\bibitem{Gross_01}
+R.~Gross and J.~Shi, ``The cmu motion of body (mobo) database,'' Pittsburgh,
+  PA, June 2001.
 
 \bibitem{Wang_03}
 L.~Wang, T.~Tieniu, W.~Hu, and H.~Ning, ``Automatic gait recognition based on

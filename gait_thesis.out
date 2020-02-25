@@ -1,0 +1,71 @@
+\BOOKMARK [0][-]{Doc-Start}{Certification}{}% 1
+\BOOKMARK [0][-]{DTLrowi.1.5}{Candidate's Declaration}{}% 2
+\BOOKMARK [0][-]{DTLrowi.2.1}{Abstract}{}% 3
+\BOOKMARK [0][-]{DTLrowi.2.1}{Acknowledgement}{}% 4
+\BOOKMARK [0][-]{section*.1}{List of Figures}{}% 5
+\BOOKMARK [0][-]{section*.2}{List of Tables}{}% 6
+\BOOKMARK [0][-]{chapter*.4}{List of Abbreviations}{}% 7
+\BOOKMARK [0][-]{chapter.1}{Introduction}{}% 8
+\BOOKMARK [1][-]{section.1.1}{Person re-identification}{chapter.1}% 9
+\BOOKMARK [1][-]{section.1.2}{Gait Recognition}{chapter.1}% 10
+\BOOKMARK [2][-]{subsection.1.2.1}{Definition}{section.1.2}% 11
+\BOOKMARK [2][-]{subsection.1.2.2}{Advantages}{section.1.2}% 12
+\BOOKMARK [2][-]{subsection.1.2.3}{Challenges}{section.1.2}% 13
+\BOOKMARK [1][-]{section.1.3}{Problem Definition}{chapter.1}% 14
+\BOOKMARK [1][-]{section.1.4}{Objectives of the Thesis}{chapter.1}% 15
+\BOOKMARK [1][-]{section.1.5}{Overview of the Thesis}{chapter.1}% 16
+\BOOKMARK [1][-]{section.1.6}{Contributions}{chapter.1}% 17
+\BOOKMARK [1][-]{section.1.7}{Thesis Outline}{chapter.1}% 18
+\BOOKMARK [0][-]{chapter.2}{Literature Review}{}% 19
+\BOOKMARK [1][-]{section.2.1}{Appearance-based Methods}{chapter.2}% 20
+\BOOKMARK [1][-]{section.2.2}{Model-based Methods}{chapter.2}% 21
+\BOOKMARK [1][-]{section.2.3}{Deep Learning for Gait Recognition}{chapter.2}% 22
+\BOOKMARK [1][-]{section.2.4}{Pose Estimation}{chapter.2}% 23
+\BOOKMARK [1][-]{section.2.5}{Pose-based Gait Recognition}{chapter.2}% 24
+\BOOKMARK [0][-]{chapter.3}{Methodology}{}% 25
+\BOOKMARK [1][-]{section.3.1}{Deep Learning Basics}{chapter.3}% 26
+\BOOKMARK [2][-]{subsection.3.1.1}{Deep learning}{section.3.1}% 27
+\BOOKMARK [2][-]{subsection.3.1.2}{Convolutional Neural Networks}{section.3.1}% 28
+\BOOKMARK [2][-]{subsection.3.1.3}{Recurrent Neural Networks}{section.3.1}% 29
+\BOOKMARK [2][-]{subsection.3.1.4}{Long Short-Term Memory}{section.3.1}% 30
+\BOOKMARK [2][-]{subsection.3.1.5}{Gated Recurrent Unit}{section.3.1}% 31
+\BOOKMARK [2][-]{subsection.3.1.6}{Bidirectional RNNs}{section.3.1}% 32
+\BOOKMARK [2][-]{subsection.3.1.7}{Regularization for Deep Learning}{section.3.1}% 33
+\BOOKMARK [1][-]{section.3.2}{Human Pose Estimation}{chapter.3}% 34
+\BOOKMARK [2][-]{subsection.3.2.1}{Types of Pose Estimation}{section.3.2}% 35
+\BOOKMARK [2][-]{subsection.3.2.2}{Techniques for Pose Estimation}{section.3.2}% 36
+\BOOKMARK [2][-]{subsection.3.2.3}{Introduction to OpenPose Library}{section.3.2}% 37
+\BOOKMARK [1][-]{section.3.3}{Extracting Spatio-Temporal Feature Vector}{chapter.3}% 38
+\BOOKMARK [2][-]{subsection.3.3.1}{2D Body Joint Features}{section.3.3}% 39
+\BOOKMARK [2][-]{subsection.3.3.2}{Joint Angular Trajectory}{section.3.3}% 40
+\BOOKMARK [2][-]{subsection.3.3.3}{Temporal Displacement}{section.3.3}% 41
+\BOOKMARK [2][-]{subsection.3.3.4}{Body Part Length Features}{section.3.3}% 42
+\BOOKMARK [2][-]{subsection.3.3.5}{Fusion of Features}{section.3.3}% 43
+\BOOKMARK [1][-]{section.3.4}{Feature Preprocessing}{chapter.3}% 44
+\BOOKMARK [2][-]{subsection.3.4.1}{Handling Missing Joint Information}{section.3.4}% 45
+\BOOKMARK [2][-]{subsection.3.4.2}{Forming Feature Map}{section.3.4}% 46
+\BOOKMARK [2][-]{subsection.3.4.3}{Data Augmentation}{section.3.4}% 47
+\BOOKMARK [1][-]{section.3.5}{Single-View Gait Recognition}{chapter.3}% 48
+\BOOKMARK [2][-]{subsection.3.5.1}{Network Architecture}{section.3.5}% 49
+\BOOKMARK [2][-]{subsection.3.5.2}{Loss Function}{section.3.5}% 50
+\BOOKMARK [2][-]{subsection.3.5.3}{Post-processing}{section.3.5}% 51
+\BOOKMARK [2][-]{subsection.3.5.4}{Training and Implementation Details}{section.3.5}% 52
+\BOOKMARK [1][-]{section.3.6}{Multi-View Gait Recognition}{chapter.3}% 53
+\BOOKMARK [2][-]{subsection.3.6.1}{Preprocessing}{section.3.6}% 54
+\BOOKMARK [2][-]{subsection.3.6.2}{3D Convolution for Video Classification}{section.3.6}% 55
+\BOOKMARK [2][-]{subsection.3.6.3}{Network for View Angle Identification}{section.3.6}% 56
+\BOOKMARK [2][-]{subsection.3.6.4}{Two-Stage Network for Multi-View Gait Recognition}{section.3.6}% 57
+\BOOKMARK [2][-]{subsection.3.6.5}{Training Details}{section.3.6}% 58
+\BOOKMARK [0][-]{chapter.4}{Experimental Results}{}% 59
+\BOOKMARK [1][-]{section.4.1}{Dataset}{chapter.4}% 60
+\BOOKMARK [1][-]{section.4.2}{Single-View Gait Recognition}{chapter.4}% 61
+\BOOKMARK [2][-]{subsection.4.2.1}{Experimental Evaluation on CASIA A dataset}{section.4.2}% 62
+\BOOKMARK [2][-]{subsection.4.2.2}{Experimental Evaluation on CASIA B Dataset}{section.4.2}% 63
+\BOOKMARK [1][-]{section.4.3}{Cross-View Gait Recognition}{chapter.4}% 64
+\BOOKMARK [2][-]{subsection.4.3.1}{Comparison with the State-of-the-art Methods of CASIA B Dataset on Cross-View Gait Recognition}{section.4.3}% 65
+\BOOKMARK [1][-]{section.4.4}{Multi-View Gait Recognition}{chapter.4}% 66
+\BOOKMARK [2][-]{subsection.4.4.1}{Comparison with the State-of-the-art Methods on Multi-View Gait Recognition}{section.4.4}% 67
+\BOOKMARK [0][-]{chapter.5}{Conclusion}{}% 68
+\BOOKMARK [1][-]{section.5.1}{Summary of Our Work}{chapter.5}% 69
+\BOOKMARK [1][-]{section.5.2}{Future Prospects of Our Work}{chapter.5}% 70
+\BOOKMARK [0][-]{section.5.2}{Bibliography}{}% 71
