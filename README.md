@@ -1,11 +1,8 @@
 ## View Invariant Gait Recognition
 ==================================
 
-M.Sc. thesis, Md Mahedi Hasan, Defended on September 15, 2020. 
+M.Sc. thesis, Md Mahedi Hasan, Defended on September 15, 2020. <br />
 Supervisor: <a href="https://hossenmustafa.buet.ac.bd/">Dr. Hossen Asiful Mustafa</a> 
-
-
->   _a LaTeX thesis template for M.Sc students at IICT, BUET_
 
 ## Quick start
 
@@ -14,7 +11,7 @@ Supervisor: <a href="https://hossenmustafa.buet.ac.bd/">Dr. Hossen Asiful Mustaf
 3. Add your figures in [`figures`](./figures).
 4. Add abstract, and acknowledgement [`pages`](./pages)
 5. Change your thesis information here  [`parametes`](./parameters)
-6. You can design your theis format in [`buet_msc_thesis.sty`](./buet_msc_thesis.sty)
+6. You can design your thesis format in [`buet_msc_thesis.sty`](./buet_msc_thesis.sty)
 7. Add your references here [`buet_msc_thesis.bib`](./buet_msc_thesis.bib)
 7. Build the `PDF` by running the following in the command line:
 
