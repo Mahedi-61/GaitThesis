@@ -1,15 +1,36 @@
-\chapter{Conclusion}\label{ch:conclusion}
+\chapter{Conclusions}\label{ch:conclusion}
 
-\section{Summary of Our Work}
-In this thesis, a novel feature extraction techniques were proposed from 2D human pose estimation to find the effective and discriminative gait features for robust gait recognition. We also present a novel RNN architecture which is much more simple, efficient and computationally inexpensive compared to the existing architectures proposed in literature. We considered human pose information as gait features for our network because it not only has rich gait representation capacity but also shows robustness toward the variation of carrying and clothing condition. Experimental results on challenging CASIA A and CASIA B gait dataset clearly depicts that the method proposed in this thesis outperforms the existing state-of-the-art methods in literature.
+\section{Conclusions}
+In this thesis, a novel feature extraction technique has been proposed from 2D human pose estimation to find the effective and discriminative gait features for robust gait recognition. We also presented a novel RNN architecture which is much simpler and computationally inexpensive compared to the existing architectures proposed in the literature. The resulting model, thus, is very fast to train yet powerful enough to learn the robust gait representation in a low-dimensional feature domain. We also propose a two-stage network for multi-view gait recognition in which we first identify the walking direction using a 3D convolutional network and then performs subject recognition using a temporal network trained on that view angle.
+
+Again, we considered human pose information to extract gait feature for our network because it not only has rich gait representation capacity but also shows robustness toward the variation of carrying and clothing condition. We also employed several effective strategies in addressing the missing joint information in pose information due to occlusion or left-right body part mixing.
+
+The effectiveness of our proposed method has been demonstrated through extensive experiments on two public benchmark datasets: the CASIA A and CASIA B gait dataset. Our method achieved state-of-the-art performance on these two challenging gait datasets in both single-view and cross-view gait recognition. Besides that our method is far simpler and efficient in terms of time and space compared to other methods proposed in the literature. Again, in multi-view gait recognition, our method outperforms other architecture at a significant margin. 
 
 
 \section{Future Prospects of Our Work}
-In future, we will employ more accurate pose estimation algorithm that can improve the recognition rate greatly especially in a large view variation. Thus, it will further boost our performance and lead us to achieve state-of-the-performance in cross-view gait recognition. Using a larger dataset containing thousands of subject will help us to develop a more stable network suitable for practical applications like real-time surveillance. 
+The limitations of the proposed solution have indicated the following areas as recommendations for future work:
+
+\begin{itemize}
+\item In this work, our algorithm suffers badly especially in cross-view gait recognition for the poor performance of pose estimation algorithms. We often got errors while modeling the pose sequence for the missing joint information in pose information due to occlusion or left-right body part mixing. So, in the future, we will employ a more accurate pose estimation algorithm that can improve the recognition rate greatly especially in a large view variation. Thus, it will further boost our performance and lead us to achieve state-of-the-performance in cross-view gait recognition.
+
+\item In this research, we have employed 2D human body skeleton information to extract discriminative gait features for improved gait recognition as it is invariant to the change in clothing and carrying conditions. Conversely, in the future, we will employ 3D skeleton information as it is inherently robust to view variation and can be predicted accurately from one single RGB image.
+
+\item We, in this work, introduce a novel 50-dimensional discriminative gait feature vector that outperformed other state-of-the-art algorithms in single-view gait recognition. However, it doesn't outperform other algorithms in cross-view setup some of these spatio-temporal extracted features aren't view-invariant. So, in the future, we will devise a technique that can efficiently and progressively translate the pose coordinates from any arbitrary view to a more common canonical view without losing any temporal information.
+
+\item Again, in this research, we introduce a two-stage network for multi-view gait recognition in which we first identify the walking direction using a 3D convolutional network and then performs subject recognition using a RNN-based classifier. In the future, as an improvement, we will employ a single uniform model that doesn't require any prior estimation of the view angle or other type of covariate variations to perform gait recognition in any view setup.
+
+\item  Using a larger dataset containing thousands of subjects will help us to develop a more stable network suitable for practical applications like real-time surveillance. 
+\end{itemize}
 
 
+\section{Publications Resulting From The Thesis}
+\textbf{Journal Articles}
 
+\begin{itemize}
+\item Md Mahedi Hasan, and Hossen Mustafa: \lq\lq Multi-level Features Fusion for Robust Pose-based Gait Recognition
+using RNN,\rq\rq~International Journal of Computer Science and Information Security, Pittsburgh, PA,
+USA, Volume 18 No. 1, Jan 2020.
 
-
-
-
+\item Md Mahedi Hasan, and Hossen Mustafa: \lq\lq Learning View-Invariant Features using Stacked Autoencoder for Skeleton-Based Gait Recognition,\rq\rq~\textit{IET Computer Vision} (under review).
+\end{itemize}

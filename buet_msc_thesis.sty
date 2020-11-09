@@ -67,7 +67,7 @@
 \newglossaryentry{cnn} {name=CNN, description=Convolutional Neural Network}
 \newglossaryentry{dl}  {name=DL,  description=Deep Learning}
 \newglossaryentry{dnn} {name=DNN, description=Deep Neural Network}
-\newglossaryentry{fc}  {name=FC,  description=Fully Connected}
+\newglossaryentry{hmm}  {name=HMM,  description=Hidden Markov Model}
 \newglossaryentry{gru} {name=GRU, description=Gated Recurrent Unit}
 \newglossaryentry{lstm}{name=LSTM,description=Long Short-Term Memory}
 \newglossaryentry{mse} {name=MSE, description=Mean Squared Error}
@@ -87,7 +87,7 @@
     \textbf{\Large\textsc{\thesistitle}}
 
     \vspace*{\stretch{5}}
-    {\large By}\\
+    {\large by}\\
     \vspace*{\stretch{1}}\large{\author}\\ 
     \large \StudentID\\
     \vspace*{\stretch{3}}
@@ -114,11 +114,11 @@
    \addcontentsline{toc}{chapter}{\textbf{Certification}}
    
   This thesis titled, \textbf{\lq\lq\thesistitle\rq\rq}, submitted by
-  \author, Roll No.:\StudentID , Session: October 2014, has been accepted as satisfactory in partial fulfillment of the requirement for the degree of \degree\hphantom -in \subject\hphantom -on \thesisdate.
-  \vspace*{3.0mm}
+  \author, Roll No.: \StudentID , Session: October 2014, has been accepted as satisfactory in partial fulfillment of the requirement for the degree of Master of Science in \subject\hphantom -on 15$^{th}$ \thesisdate.
+  \vspace*{8.0mm}
   
   \begin{center}
-  	\textbf{{\large BOARD OF EXAMINERS}}
+  	\textbf{{\large BOARD OF EXAMINERS}}\vspace*{10.0mm}
   \end{center}
   
   \hspace*{5.0mm}\begin{minipage}[t]{0.9\textwidth}
@@ -128,10 +128,9 @@
     				 \ExaminerStatus=Column4,
     			     \ExaminerAddress=Column5}
     			{
-    					\rule{5cm}{.2mm}\\
-    					\ExaminerName \hfill \ExaminerRole \\\ExaminerDesignation \hfill \ExaminerStatus \\\ExaminerAddress\bigskip\\\\
+    					\rule{5cm}{.3mm}\\
+    					\ExaminerName \hfill \ExaminerRole \\\ExaminerDesignation \hfill \ExaminerStatus \\\ExaminerAddress\bigskip\\\\\\
     			}
-
   \end{minipage}
 }
 
@@ -142,19 +141,25 @@
 \def\thesiscandidatesdeclaration{
   \begingroup
   \begin{center}
-    \textbf{{\Large CANDIDATE'S DECLARATION}}
+    \textbf{{\Large\Large  Candidate's Declaration}}
   \end{center}
   \addcontentsline{toc}{chapter}{\textbf{Candidate's Declaration}}
   \vspace*{\stretch{1}}
     
-  This is to certify that the work presented in this thesis entitled ``\thesistitle'', is the outcome of the research carried out by \author\hphantom -under the supervision of
-  \DTLforeach{Supervisor}{\SupervisorName=Column1,\SupervisorDesignation=Column2}{\SupervisorName}.
+  This is to certify that the work presented in this thesis entitled, ``\thesistitle'', is the outcome of the research carried out by \author\hphantom -under the supervision of
+  \DTLforeach{Supervisor}{\SupervisorName=Column1,\SupervisorDesignation=Column2}{\SupervisorName}, Assistant Professor, Institute of Information and Communication Technology (IICT), Bangladesh University of Engineering and Technology (BUET), Dhaka-1000, Bangladesh.
 
   \bigskip
 
-  It is also declared that neither this thesis nor any part thereof has been submitted anywhere else for the award of any degree, diploma or other qualifications.
+  It is also declared that neither this thesis nor any part thereof has been submitted anywhere else for the award of any degree, diploma, or other qualifications.
   
-    \vspace*{25.0mm}
+  \bigskip
+  \bigskip
+  \bigskip
+  Signature of the Candidate \\
+  \bigskip \\
+  \bigskip \\
+  
     \begin{minipage}[t]{0.4\textwidth}
       \hrule\medskip
       \author\par
@@ -164,6 +169,24 @@
   \vspace*{\stretch{2}}
   \endgroup
 }
+
+
+
+% Thesis Dedication page
+\def\thesisdedication{
+	\begingroup
+	\begin{center}
+		\textbf{{\Large\Large Dedication}}
+	\end{center}
+	\addcontentsline{toc}{chapter}{\textbf{Dedication}}
+	\vspace*{\stretch{2}}
+	
+	I would like to dedicate this thesis to Almighty God, Allah SWT, for giving me the opportunity, determination, and strength to do this research. I would also like to dedicate this work to my beloved parents for their love and endless support.
+	\vspace*{\stretch{5}}
+	\endgroup
+}
+
+
 
 % Inclusion of lof and lot in toc
 \RequirePackage[nottoc,notbib]{tocbibind}
@@ -194,6 +217,41 @@
   %  \listofalgorithms}
 }
 
+\def\thesisab{
+	\begin{center}
+		%\textbf{{\Large LIST OF ABBREVIATIONS}}\\[20pt] 
+		\singlespacing
+		\printglossary[title={List of Abbreviations}]
+	\end{center}
+	\addcontentsline{toc}{chapter}{\textbf{List of Abbreviations}}
+}
+
+
+
+% Thesis Dedication page
+\def\thesisacknowledgement{
+	\begingroup
+	\begin{center}
+		\textbf{{\Large Acknowledgement}}\\[60pt]
+	\end{center}
+	\addcontentsline{toc}{chapter}{\textbf{Acknowledgement}}
+	\input{pages/acknowledgement.tex}
+
+	\endgroup
+}
+
+\def\thesisabstract{
+	\begingroup
+	\begin{center}
+		\textbf{{\Large Abstract}}\\[60pt]
+	\end{center}
+	\addcontentsline{toc}{chapter}{\textbf{Abstract}}
+		\input{pages/abstract.tex}
+	
+	\endgroup
+}
+
+
 % Starting materials
 \def\st@rtingm@teri@ls{
   \thesistitlepage
@@ -204,17 +262,22 @@
 
   \cleardoublepage
   \thesiscandidatesdeclaration
-  
-  \cleardoublepage
-  \input{pages/abstract.tex}
+
 
   \cleardoublepage
-  \input{pages/acknowledgement.tex}
+  \thesisdedication
+
 
   \cleardoublepage
   \listsandtoc
   
-  \input {pages/abbreviations.tex}
+  \thesisab
+  
+  \cleardoublepage
+  \thesisacknowledgement
+  
+  \cleardoublepage
+  \thesisabstract
 }
 
 

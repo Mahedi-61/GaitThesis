@@ -1,1 +1,1 @@
-View Invariant Gait Recognition For Person Re-Identification in a Multi Surveillance Camera Environment
+View Invariant Gait Recognition for Person Re-Identification in a Multi Surveillance Camera Environment

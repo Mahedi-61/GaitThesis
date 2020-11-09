@@ -13,8 +13,8 @@
 
 
 \FOR{5 \textit{to} 6}
-		\IF{i-th landmark is missing for all frames}
-			\STATE replace i-th joint information with the vertical specular joint
+		\IF{$i^{th}$ joint is missing for all frames}
+			\STATE replace $i^{th}$  joint information with the vertical specular joint
 		\ELSE
 			\STATE replace with a position [0.0, 0.0]
 		\ENDIF

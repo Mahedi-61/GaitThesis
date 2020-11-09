@@ -1,5 +1,6 @@
 \chapter{Experimental Results}\label{ch:experimental_result}
-In this chapter, we are going to evaluate our proposed method at different experimental setup on multiple benchmark datasets. In Section~\ref{sec:datasets}, we have explained different state-of-the-art gait recognition datasets that we used to train and evaluate our proposed method. As to estimate pose, RGB video frames are required, hence, we couldn't evaluate our method to those datasets which only consists of silhouette sequences.  In Section~\ref{sec:single_view} and Section~\ref{sec:cross_view} we have presented the experimental results of our proposed method on single-view and cross-view gait recognition respectively. The performance of our method in multi-view gait recognition is discussed in Section~\ref{sec:multi_view}.
+In this chapter, we are going to evaluate our proposed method at different experimental setup on multiple benchmark datasets. In Section~\ref{sec:datasets}, we will explain different state-of-the-art gait recognition datasets that was used to train and evaluate our proposed method. As to estimate pose, RGB video frames are required, hence, we couldn't evaluate our method to those datasets which only consists of silhouette sequences.  In Section~\ref{sec:single_view} and Section~\ref{sec:cross_view} we are going to present the experimental results of our proposed method on single-view and cross-view gait recognition respectively. The performance of our method in multi-view gait recognition is discussed in Section~\ref{sec:multi_view}.
+
 
 %-------------------------------------------------------------------------
 \section{Dataset} \label{sec:datasets}
@@ -7,50 +8,48 @@ The success of deep learning-based algorithms greatly depends on the vast amount
 
 \begin{figure}
 	\centering
-	\includegraphics[width = 0.7\textwidth]{figures/casia_dataset.eps}
+	\includegraphics[width = 0.8\textwidth]{figures/casia_dataset.eps}
 	\caption [Sample video frames of CASIA A and CASIA B dataset]
-	{Sample video frames of CASIA A and CASIA B dataset. In top, some of the sample images from CASIA A dataset are shown where the subjects are walking along the straight line in $ 3 $ different view angles, and in bottom, CASIA B dataset is shown with its $ 11 $ view angles.
+	{Sample video frames of CASIA A and CASIA B dataset
 	}
 	\label{fig:casia_dataset}
 \end{figure} 
 
 \begin{itemize}
-	\item \textbf{USF HumanID gait dataset}~\cite{Sarkar_05}: there are $ 122 $ subjects walking outside on two different surfaces of an elliptical path under two different time, view angle, clothing, shoes, and carrying conditions. However, every subject was not filmed under all conditions.
+	\item \textbf{USF HumanID gait dataset}~\cite{Sarkar_05}: There are $122$ subjects walking outside on two different surfaces of an elliptical path under two different time, view angle, clothing, shoes, and carrying conditions. However, every subject was not filmed under all conditions.
 	
-	\item \textbf{TUM GAID dataset}~\cite{Hofmann_14}: Another large dataset for gait recognition which consists of $ 305 $ subjects where each subject has $ 10 $ gait videos. As, all of the videos were recorded from the side view angle, this dataset is not suitable for evaluating the performance on multi-view gait recognition.
+	\item \textbf{TUM GAID dataset}~\cite{Hofmann_14}: Another large dataset for gait recognition. It consists of $ 305 $ subjects where each subject has $ 10 $ gait videos. As, all of the videos were recorded from the side view angle, this dataset is not suitable for evaluating the performance on multi-view gait recognition.
 	
 	\item \textbf{CMU MoBo dataset}~\cite{Gross_01}: This dataset has $25$ subjects with six views and four walking styles. The main drawback of this database is that all the data is from an indoor environment (collected from a treadmill). Six cameras are positioned to cover the complete field-of-view of the walking person on the treadmill.
 	
-	\item \textbf{SOTON database}~\cite{Shutler_04}: It contains two types of datasets – a large dataset with more than 100 subjects and a small dataset with only 10 subjects. The large dataset has two viewpoints (frontal and oblique) and contains subjects in both outdoor and indoor environments and on a treadmill. The small database is used to explore gait recognition under covariates such as views, shoes, clothing, carriage, and walking speed.
+	\item \textbf{SOTON database}~\cite{Shutler_04}: It contains two types of datasets: a large dataset with more than 100 subjects and a small dataset with only 10 subjects. The large dataset has two viewpoints (frontal and oblique) and contains subjects in both outdoor and indoor environments and on a treadmill. The small database is generally used to explore gait recognition under covariates such as views, shoes, clothing, carriage, and walking speed.
 	
-	\item \textbf{OU-ISIR multi-view large population dataset (OU-MVLP)}~\cite{Noriko_18}: The largest dataset available for gait recognition. It contains $ 10,307 $ subjects from $ 14 $ view angles ranging from ${{0}^{\circ}-{90}^{\circ}}$, and ${{180}^{\circ}-{270}^{\circ}}$. Only two sequences are provided, one for the gallery and the other for the probe. But, this dataset is only formatted as a set of silhouette sequence which makes it completely different from our approach.
+	\item \textbf{OU-ISIR multi-view large population dataset (OU-MVLP)}~\cite{Noriko_18}: The largest dataset available for gait recognition. It contains $ 10,307 $ subjects from $ 14 $ view angles ranging from ${{0}^{\circ}-{90}^{\circ}}$, and ${{180}^{\circ}-{270}^{\circ}}$. Only two sequences are provided, one for the gallery and the other for the probe. But, this dataset is only formatted as a set of silhouette sequences which makes it completely different from our approach.
 	
-	\item \textbf{CASIA (CASIA A and CASIA B) dataset}~\cite{Yu_06}: one of the largest datasets for multi-view gait recognition. CASIA A dataset contains total $ 20 $ subjects walking in an outdoor environment where CASIA B dataset contains total $ 124 $ subjects walking in an indoor environment. In CASIA A gait dataset, each subject walks along a straight line in 3 different view angles: lateral (${0^{\circ}}$), oblique (${45^{\circ}}$), and frontal (${90^{\circ}}$). For each view angle all subjects have total four gait sequences out of which two of them have same walking direction while the other two have opposite direction. 
+	\item \textbf{CASIA (CASIA A and CASIA B) dataset}~\cite{Yu_06}: One of the largest datasets for multi-view gait recognition. CASIA A dataset contains a total of $ 20 $ subjects walking in an outdoor environment where CASIA B dataset contains a total of $ 124 $ subjects walking in an indoor environment. In CASIA A gait dataset, each subject walks along a straight line in 3 different view angles: lateral (${0^{\circ}}$), oblique (${45^{\circ}}$), and frontal (${90^{\circ}}$). For each view angle, all subjects have a total of four gait sequences out of which two of them have the same walking direction while the other two have opposite directions. 
 	
-	In CASIA B dataset, there are 10 walking sequences for each subject: 6 sequences for normal walking ('nm'), 2 sequences for walking in coat ('cl') and 2 sequences for walking with bag ('bg') on shoulder. Therefore, this dataset separately considered three variations in people walking namely normal, clothing, and carrying condition. Also, each walking sequence were captured from 11 view angles ranging from ${0^{\circ}}$ to ${180^{\circ}}$. Figure~\ref{fig:casia_dataset} illustrates some of the sample video frames of CASIA A and CASIA B datasets.
+	In the CASIA B dataset, there are 10 walking sequences for each subject: 6 sequences for normal walking (\lq nm\rq), 2 sequences for walking in a coat (\lq cl\rq), and 2 sequences for walking with a bag (\lq bg\rq) on the shoulder. Therefore, this dataset separately considered three variations in people walking namely normal, clothing, and carrying condition. Also, each walking sequence was captured from 11 view angles ranging from ${0^{\circ}}$ to ${180^{\circ}}$. Figure~\ref{fig:casia_dataset} illustrates some of the sample video frames of CASIA A and CASIA B datasets.
 \end{itemize}
 
-
-
-\begin{figure}
-	\centering
-	\includegraphics[width = 0.8\textwidth]{figures/casia_a_result.eps}
-	\caption [Comparison in CCR among proposed method with other prevailing gait recognition methods at different view angles on CASIA A dataset]
-	{Comparison in CCR among proposed method with other prevailing gait recognition methods at different view angles on CASIA A dataset. Our method achieves $ \textbf{100\% }$ CCR on all of the view angles which showed the efficacy of the proposed method. \label{fig:casia_a_result}
-	}
-	
-\end{figure}
 
 %-------------------------------------------------------------------------
 \section{Single-View Gait Recognition} \label{sec:single_view}
 \subsection{Experimental Evaluation on CASIA A dataset}
-Since, CASIA A dataset contains only $ 20 $ subjects where every subject has only four gait sequences in three different view angles, we trained a model for each of the view angle with $ 20 $ output neurons in the final softmax layer of our proposed network. To evaluate the performance of our proposed method on CASIA A dataset, we employed leave-one-out cross validation rule, i.e., one sequence was set for testing and the remainder was set for training the network. We compare our results with five other prevailing state-of-the-art gait recognition methods including Wang~\cite{Wang_03}, Goffredo~\cite{Goffredo_08}, Liu~\cite{Liu_16}, Lima~\cite{Lima_19}, and Kusakunniran~\cite{Kusakunniran_09} (see Figure~\ref{fig:casia_a_result}). Table~\ref{table:casia_a_result} illustrates the comparison where it is seen that the proposed method have achieved higher average correct class recognition rates (\gls{ccr}) of $100.0\%$ compared to other methods in literature.
+Since CASIA A dataset contains only $ 20 $ subjects where each subject has only four gait sequences in three different view angles, we trained a model for each of the view angle with $ 20 $ output neurons in the final softmax layer of our proposed network. To evaluate the performance of our proposed method on the CASIA A dataset, we employed leave-one-out cross-validation rule, i.e., one sequence was set for testing and the remainder was set for training the network. We compared our results with five other prevailing state-of-the-art gait recognition methods including Wang~\cite{Wang_03}, Goffredo~\cite{Goffredo_08}, Liu~\cite{Liu_16}, Lima~\cite{Lima_19}, and Kusakunniran~\cite{Kusakunniran_09}. Figure~\ref{fig:casia_a_result} and Table~\ref{table:casia_a_result} illustrate the comparison where it is seen that the proposed method has achieved a higher average correct class recognition rates (\gls{ccr}) of $100.0\%$ compared to other methods in the literature.
 
+\begin{figure}[t]
+	\centering
+	\includegraphics[width = 0.8\textwidth]{figures/casia_a_result.eps}
+	\caption [Comparison in CCR among proposed method with other prevailing gait recognition methods at different view angles on CASIA A dataset]
+	{Comparison in CCR among proposed method with other prevailing gait recognition methods at different view angles on CASIA A dataset. \label{fig:casia_a_result}
+	}
+	
+\end{figure}
 
 \begin{table}
 	\centering
-	\caption [Comparison among different state-of-the-art gait recognition methods without view variation in all three view angles of CASIA A dataset]
-	{Comparison among different state-of-the-art gait recognition methods without view variation in all three view angles of CASIA A dataset. It has been observed that the proposed method achieves the highest average recognition rate, i.e., \textbf{100.0\%} on all three angles and outperforms other state-of-the-art methods by a large margin. \label{table:casia_a_result}}
+	\caption [Comparison among different gait recognition methods without view variation in all three view angles of CASIA A dataset]
+	{Comparison among different gait recognition methods without view variation in all three view angles of CASIA A dataset. \label{table:casia_a_result}}
 	{\begin{tabular*}{30pc}{@{\extracolsep{\fill}}ccccc}\hline
 			
 			Methods &${0^{\circ}}$ &${45^{\circ}}$   &${90^{\circ}}$  &Mean\\
@@ -79,16 +78,16 @@ Since, CASIA A dataset contains only $ 20 $ subjects where every subject has onl
 
 \subsection{Experimental Evaluation on CASIA B Dataset}
 \subsubsection{Experimental Setup}
-We designed two experimental setups (A, B), as demonstrated in Table~\ref{table:caisab_setup}, for evaluating the performance in CASIA B dataset. Experimental setup A was for evaluating the performance of our proposed method in single-view gait recognition. To investigate the robustness of view variation, comparison results of the proposed method against other state-of-the-art methods in different view variations have been reported. Experiment setup B was designed for evaluating the cross-view recognition performance. 
+We designed two experimental setups (A, B), as demonstrated in Table~\ref{table:caisab_setup}, for evaluating the performance on the CASIA B dataset. The dataset was divided into two different setups to organize two different types of experiments. The evaluation set is further divided into a gallery set and a probe set. Experimental setup A was for evaluating the performance of our proposed method in single-view gait recognition. To investigate the robustness of view variation, comparison results of the proposed method against other state-of-the-art methods in different view variations have been reported. Experiment setup B was designed for evaluating the cross-view recognition performance. 
 
-For setup A,  we divided the dataset into two groups where the first group consists of 62 subjects which is used to train the network. The second group contains rest of the subjects for evaluating the performance of the network. For experimental setup B, the ratio between the train and evaluation set was 24 to 100. In the evaluation set for both setup, 4 normal walking sequences of each subject are put into gallery set and rest 6 walking sequences consist three probe set (\textit{ProbeNM}, \textit{ProbeBG}, \textit{ProbeCL}). \textit{ProbeNM} consists of 2 other normal walking sequences where \textit{ProbeBG} and \textit{ProbeCL} consist of two sequences of carrying bag and wearing coat respectively.
+For setup A,  we divided the dataset into two groups where the first group consists of 62 subjects which were used to train the network. The second group contains rest of the subjects for evaluating the performance of the network. For experimental setup B, the ratio between the train and the evaluation set was 24 to 100. In the evaluation set for both setup, 4 normal walking sequences of each subject are put into the gallery set, and the rest 6 walking sequences consist of three probe sets (\textit{ProbeNM}, \textit{ProbeBG}, \textit{ProbeCL}). \textit{ProbeNM} consists of 2 other normal walking sequences where \textit{ProbeBG} and \textit{ProbeCL} consist of two sequences of carrying bag and wearing coat respectively.
 
-\begin{table}[t]
+\begin{table}
 	\centering
 	\caption[Experimental setup for the CASIA B dataset]
-	{Experimental setup for the CASIA B dataset. The dataset was divided into two different setups to organize two different types of experiment. The evaluation set is further divided into a gallery set and a probe set. Gallery set consists of the first 4 normal walking sequences of each subject and the probe set contains rest of the walking sequences.  \label{table:caisab_setup}}
-	
-	{\begin{tabular*}{\textwidth}{cccccccc}\hline \noalign{\smallskip}
+	{Experimental setup for the CASIA B dataset. \label{table:caisab_setup}}
+	\small
+	{\begin{tabular*}{0.9\textwidth}{cccccccc}\hline \noalign{\smallskip}
 		\multirow{2}{*}{\textbf{Setup}} &\multicolumn{2}{c}{\textbf{Training set}} &\multicolumn{2}{c}{\textbf{Evaluation set}} & \multicolumn{2}{c}{\textbf{Sequences}}\\ \cline{2-7} \noalign{\smallskip}
 
 		&ID &Total &ID &Total &Gallery &Probe\\ \hline \noalign{\smallskip}
@@ -106,12 +105,12 @@ For setup A,  we divided the dataset into two groups where the first group consi
 
 
 \subsubsection{Results on Single-View Gait Recognition of CASIA B Dataset without View Variation}
-Experimental result of single-view gait recognition on all the three probe set of CASIA B dataset without view variation is illustrated on Table~\ref{table:resutl_without_view}. We achieved higher average recognition rate $ \textbf{97.80\%} $ and $\textbf{82.82\%} $ on the probe set of (\textit{ProbeBG}) and (\textit{ProbeCL}) respectively. This performance proves the robustness of the proposed method toward both carrying and clothing covariate conditions. We also achieved higher average class recognition rate $\textbf{99.41\%}$ on normal walking condition.
+Experimental result of single-view gait recognition on all the three probe sest of CASIA B dataset without view variation is illustrated on Table~\ref{table:resutl_without_view}. We achieved higher average recognition rate $ \textbf{97.80\%} $ and $\textbf{82.82\%} $ on the probe sets of (\textit{ProbeBG}) and (\textit{ProbeCL}) respectively. This performance proves the robustness of the proposed method toward both carrying and clothing covariate conditions. We also achieved higher average class recognition rate $\textbf{99.41\%}$ on normal walking condition.
 
 \begin{table}[t]
 	\centering
 	\caption [Correct class recognition rate (CCR) of the proposed method in all three probe sets of CASIA B dataset]
-	{Correct class recognition rate (\gls{ccr}) of the proposed method in all three probe sets of CASIA B dataset. Here, each column represents a specific view of the gallery and probe set. It has been observed that the probe set of normal walking sequence (\textit{ProbeNM}) achieves $ \textbf{99.41\%}$ average recognition rate while the ProbeBG and ProbeCL set achieve $ \textbf{97.80\%}$ and $\textbf{82.82\%}$ average recognition rates respectively. \label{table:resutl_without_view}}
+	{Correct class recognition rate (\gls{ccr}) of the proposed method in all three probe sets of CASIA B dataset. \label{table:resutl_without_view}}
 	
 	{\begin{tabular*}{22pc}{cccc}\hline
 	Gallery Angle  &\textit{ProbeNM}  &\textit{ProbeBG} &\textit{ProbeCL} \\\hline\noalign{\smallskip} 
@@ -133,13 +132,13 @@ Experimental result of single-view gait recognition on all the three probe set o
 
 
 \subsubsection{Comparison on Single-View Gait Recognition of CASIA B Dataset with State-of-the-art Methods without View Variation}
-We compare our experimental results with other state-of-the-art methods such as GaitGANv2~\cite{Yu_19}, PTSN~\cite{Liao_17}, PoseGait~\cite{Liao_19}, and Yu \textit{et al.}~\cite{Yu_17_spae} as shown in Figure~\ref{fig:comp_casia_b_without_view}. The experimental setup for all these methods were set A (see Table~\ref{table:caisab_setup}). Table~\ref{table:comp_casia_b_without_view} reports that CCR of the proposed method outperforms all other methods in all three covariate conditions of CASIA B dataset. Our method achieved average \gls{ccr} of \textbf{93.34\%} with improvement of approximately \textbf{10\%} from PTSN~\cite{Liao_17}.
+We compare our experimental results with other state-of-the-art methods such as GaitGANv2~\cite{Yu_19}, PTSN~\cite{Liao_17}, PoseGait~\cite{Liao_19}, and Yu \textit{et al.}~\cite{Yu_17_spae} as shown in Figure~\ref{fig:comp_casia_b_without_view}. The experimental setup for all these methods were set A (see Table~\ref{table:caisab_setup}). Table~\ref{table:comp_casia_b_without_view} reports that CCR of the proposed method outperforms all other methods in all three covariate conditions of the CASIA B dataset. Our method achieved the average \gls{ccr} of \textbf{93.34\%} with an improvement of approximately \textbf{10\%} from PTSN~\cite{Liao_17}.
 
 
 \begin{table}[t]
 	\centering
 	\caption [Comparison between the proposed method and other state-of-the-art gait recognition methods in CASIA B dataset without view variation]
-	{Comparison between the proposed method and other state-of-the-art gait recognition methods in CASIA B dataset without view variation. It has been observed that the proposed method outperforms other methods at a significant margin in all three probe set of CASIA B dataset by achieving higher average \gls{ccr} of $\textbf{93.34\%}$. As our feature descriptors are discriminative and have robustness toward variation in people's appearance and shape, it shows improved performance in normal as well as covariate conditions.\label{table:comp_casia_b_without_view}}
+	{Comparison between the proposed method and other state-of-the-art gait recognition methods in CASIA B dataset without view variation. \label{table:comp_casia_b_without_view}}
 	
 	{\begin{tabular*}{25pc}{ccccc}\hline
 			
@@ -166,19 +165,19 @@ We compare our experimental results with other state-of-the-art methods such as 
 \begin{figure}
 	\centering
 	\includegraphics[width = 0.8\textwidth]{figures/comp_casia_b_without_view.eps}
-	\caption [Correct class recognition rates (\%) of the proposed method with other state-of-the-art methods on all three probe set of CASIA B dataset without view variation] 
-	{Correct class recognition rates (\%) of the proposed method with other state-of-the-art methods on all three probe set of CASIA B dataset without view variation. Proposed method demonstrates better performance compared to other by achieving $89.64\%$ and $96.45\%$ in two covariate conditions \textit{ProbeCL}, and \textit{ProbeBG} of CASIA B dataset respectively. The result proves the robustness of the proposed temporal network against carrying and clothing conditions variation.  \label{fig:comp_casia_b_without_view}
+	\caption [Correct class recognition rates (\%) of the proposed method with other state-of-the-art methods on all three probe sets of CASIA B dataset without view variation] 
+	{Correct class recognition rates (\%) of the proposed method with other state-of-the-art methods on all three probe sets of CASIA B dataset without view variation.  \label{fig:comp_casia_b_without_view}
 	}
 \end{figure}
 
 
 \subsubsection{Results on Single-View Gait Recognition of CASIA B Dataset with View Variation}
-The performance of the proposed method on single-view gait recognition with view variation is demonstrated on Table~\ref{table:result_casia_b_with_view}. Here, for a specific gallery ($ \theta_g $) angle the average CCR (\%) of all eleven probe angles has been reported; our method achieved average CCR of $62.69\%$, $47.23\%$, and $33.46\%$ for \textit{ProbeNM}, \textit{ProbeBG}, and \textit{ProbeCL} respectively.
+The performance of the proposed method on single-view gait recognition with view variation is demonstrated in Table~\ref{table:result_casia_b_with_view}. Here, for a specific gallery ($ \theta_g $) angle the average CCR (\%) of all eleven probe angles has been reported; our method achieved the average CCR of $62.69\%$, $47.23\%$, and $33.46\%$ for \textit{ProbeNM}, \textit{ProbeBG}, and \textit{ProbeCL} respectively.
 
 
 \begin{table}[t]
 	\centering
-	\caption{The average recognition rates for all three probe sets of CASIA B dataset. Each row represents the average value of all eleven probe angles at a specific gallery angle ($ \theta_g $) in all three probe sets. \label{table:result_casia_b_with_view}}
+	\caption{The average recognition rates for all three probe sets of CASIA B dataset. \label{table:result_casia_b_with_view}}
 	{\begin{tabular*}{22pc}{cccc}\hline
 			Gallery Angle &\textit{ProbeNM} &\textit{ProbeBG} &\textit{ProbeCL} \\\hline\noalign{\smallskip}
 			${0^{\circ}}$	&61.73  &45.01  &32.40 \\\noalign{\smallskip}
@@ -200,14 +199,14 @@ The performance of the proposed method on single-view gait recognition with view
 
 
 \subsubsection{Comparison on Single-View Gait Recognition of CASIA B Dataset with State-of-the-art Methods with View Variation}
-To better illustrate the robustness of our gait recognition method to view variation, the proposed method has been compared to three other state-of-the-art methods such as GaitGANv2~\cite{Yu_19}, PoseGait~\cite{Liao_19}, and Yu \textit{et al.}~\cite{Yu_17_spae}.  It has been observed from the Figure~\ref{fig:comp_casia_b_with_view} and Table~\ref{table:comp_casia_b_with_view} that the proposed method outperforms other in two covariate condition and achieves comparable performance in normal walking. 
+To better illustrate the robustness of our gait recognition method to view variation, the proposed method has been compared to three other state-of-the-art methods such as GaitGANv2~\cite{Yu_19}, PoseGait~\cite{Liao_19}, and Yu \textit{et al.}~\cite{Yu_17_spae}.  It has been observed from Figure~\ref{fig:comp_casia_b_with_view} and Table~\ref{table:comp_casia_b_with_view} that the proposed method outperforms others in two covariate condition and achieves comparable performance in normal walking. 
 
-Since, to recognize gait, we consider features based on the effective body joints, our method does not get affected by the variation in covariate conditions compared to other appearance-based method or model-based methods which consider ineffective features to build their gait descriptors. That's why our method is proven to be less sensitive to view angle variation and performs better in carrying bag and clothing condition. 
+Since, to recognize gait, we consider features based on the effective body joints, our method does not get affected by the variation in covariate conditions compared to other appearance-based method or model-based methods which consider ineffective features to build their gait descriptors. That's why our method is proven to be less sensitive to view angle variation and performs better in carrying bag and clothing conditions. 
 
 \begin{table}
 	\centering
 	\caption [Comparison among different state-of-the-art methods for gait recognition with view variation in all three probe sets of CASIA B dataset]
-	{Comparison among different state-of-the-art methods for gait recognition with view variation in all three probe sets of CASIA B dataset. Here, each row represents the average value of all the gallery view's average recognition rate. It has been seen that, similar to first experiment, the proposed method achieves higher performance in two different probe set (\textit{ProbeBG}, \textit{ProbeCL}) and comparable performance in normal walking with other prevailing methods. \label{table:comp_casia_b_with_view}}
+	{Comparison among different state-of-the-art methods for gait recognition with view variation in all three probe sets of CASIA B dataset. \label{table:comp_casia_b_with_view}}
 		
 	{\begin{tabular*}{22pc}{cccc}\hline
 				
@@ -233,27 +232,72 @@ Since, to recognize gait, we consider features based on the effective body joint
 \begin{figure}
 	\centering
 	\includegraphics[width = 0.8\textwidth]{figures/comp_casia_b_with_view.eps}
-	\caption [Comparison with different state-of-the-art algorithms for gait recognition with view variation in all three probe set of CASIA B dataset]
-	{Comparison with different state-of-the-art algorithms for gait recognition with view variation in all three probe set of CASIA B dataset. Here, the value reported for each algorithm is the average of all of the gallery view's average \gls{ccr}. From the comparison, it is seen that our method outperforms other state-of-the-art methods by achieving $47.23\%$ and $33.46\%$ averaged accuracy in two covariate conditions \textit{ProbeBG}, and \textit{ProbeCL} respectively.   \label{fig:comp_casia_b_with_view}
+	\caption [Comparison with different gait algorithms with view variation in all three probe sets of CASIA B dataset.]
+	{Comparison with different gait algorithms with view variation in all three probe sets of CASIA B dataset.  \label{fig:comp_casia_b_with_view}
 	}
 	
 \end{figure}
 
 
+\subsection{Experiments on the Proposed RNN Architecture} \label{sec:exp_proposed_rnn_arch}
+In this research, we conducted several experiments to evaluate and compare the performance of different RNN architectures in the proposed stacked autoencoder. The comparison was done based on the average CCR (\%) of the CASIA B dataset while considering the view variation. Again, it is very important to find the appropriate dimensions of the hidden layer through experimental analysis as it directly related to the effectiveness of data compression. Therefore, if the number of hidden layer dimensions is too few or too many, it can not effectively encode the gait pattern. 
+
+In our experiment, we employed several RNN architectures such as LSTM, BiLSTM~\cite{Graves_05}, GRU~\cite{Chung_14}, and BiGRU~\cite{Schuster_97} with the latent space dimensions ranging from 50 up to 100 to develop our proposed autoencoder. We, then, compared the average CCR among them to find out the best architecture. Table~\ref{table:exp_proposed_rnn_architecture} shows the comparison in average CCR among different types of RNN architectures with a different number of hidden layer dimensions.
+
+\begin{table}[t]
+	\centering
+	\caption [Average CCR of the CASIA B dataset with view variation recorded by altering the number of dimensions in the hidden layer and the architectures of RNN in the proposed autoencoder] {Average CCR of the CASIA B dataset with view variation recorded by altering the number of dimensions in the hidden layer and the architectures of RNN in the proposed autoencoder.} \label{table:exp_proposed_rnn_architecture}
+	{\begin{tabular*}{28pc}{cc cccc}\hline  \rule{0pt}{2ex}
+			Architectures &Dimension &&ProbeNM &ProbeBG &ProbeCL \\ \hline\rule{0pt}{3ex}
+			
+			% first gallery angle
+			\multirow{4}{*}{LSTM} &50 &&59.15 &46.11 &30.79 \\\rule{0pt}{8px}
+			&60 &&61.13 &45.93 &32.71 \\\rule{0pt}{2ex}
+			&70 &&61.12 &45.95 &32.31 \\\rule{0pt}{2ex}
+			& 80 && 62.11 & 46.47 & 33.33 \\\rule{0pt}{2ex}
+			&90 &&61.53 &46.98 &32.16 \\\rule{0pt}{2ex}
+			&100 &&60.01 &45.12 &32.50 \\\hline
+			
+			
+			% second gallery angle
+			\multirow{4}{*}{BiLSTM} &50 &&60.15 &46.17 &30.99 \\\rule{0pt}{8px}
+			&60 &&61.73 &46.03 &32.81 \\\rule{0pt}{2ex}
+			&70 &&61.12 &47.05 &32.41 \\\rule{0pt}{2ex}
+			& 80 && 62.19 & 46.72 & 33.36 \\\rule{0pt}{2ex}
+			&90 &&61.53 &47.08 &32.96 \\\rule{0pt}{2ex}
+			&100 &&62.11 &45.92 &32.50 \\\hline
+			
+			% first gallery angle
+			\multirow{4}{*}{GRU} &50 &&58.09 &44.90 &30.82 \\\rule{0pt}{5px}
+			&60 &&61.23 &45.02 &32.16 \\\rule{0pt}{2ex}
+			&70 &&62.61 &45.36 &32.47 \\\rule{0pt}{2ex}
+			&80 &&62.86 &46.14 &32.71 \\\rule{0pt}{2ex}
+			&90 &&62.16 &45.84 &32.71 \\\rule{0pt}{2ex}
+			&100 &&60.04 &44.39 &33.49 \\\hline\rule{0pt}{2ex}
+			
+			
+			% first gallery angle
+			\multirow{4}{*}{BiGRU} &50 &&59.75 &45.87 &30.92 \\\rule{0pt}{8px}
+			&60 &&61.81 &46.13 &32.31 \\\rule{0pt}{2ex}
+			&70 &&61.17 &47.00 &32.43 \\\rule{0pt}{2ex}
+			&\textbf{80} &&\textbf{62.69} &\textbf{47.23} &\textbf{33.46} \\\rule{0pt}{2ex}
+			&90 &&61.63 &47.18 &33.06 \\\rule{0pt}{2ex}
+			&100 &&62.03 &46.92 &33.50 \\\hline
+	\end{tabular*}}{} 
+\end{table}
 
 
 %---------------------------------------------------------------------------------------------- 
 \section{Cross-View Gait Recognition} \label{sec:cross_view}
-The gait recognition scheme in which gallery and probe set are getting matched from two different views is commonly known as cross-view gait recognition. In this section we are going evaluate the performance of our proposed method on cross-view gait recognition. 
+The gait recognition scheme in which gallery and probe set are getting matched from two different views is commonly known as cross-view gait recognition. In this section we are going evaluate the performance of our proposed method on cross-view gait recognition. Here, the network was trained according to experimental setup B to have the same setup with other methods.
  
-
 
 \begin{table}
 	\centering
 	\caption[Comparison of our proposed method with the previous best results of cross-view gait recognition ]
-	{Comparison of our proposed method with the previous best results of cross-view gait recognition at different probe angles of CASIA B dataset by \gls{ccr}(\%). The network was trained according to experimental setup B to have the same setup with other methods. \label{table:comp_casia_b_cross_view}}
+	{Comparison of our proposed method with the previous best results of cross-view gait recognition at different probe angles of CASIA B dataset by \gls{ccr}(\%).  \label{table:comp_casia_b_cross_view}}
 	
-	{\begin{tabular*}{29pc}{c|c|cccc}\hline  \rule{0pt}{2ex}
+	{\begin{tabular*}{29pc}{cccccc}\hline  \rule{0pt}{2ex}
 	Probe View &Gallery View &CNN &CMCC &GEI-SVR  &\textbf{Proposed} \\ \hline\rule{0pt}{3ex}
 	
 	% first gallery angle
@@ -291,24 +335,23 @@ The gait recognition scheme in which gallery and probe set are getting matched f
 \end{table}
 
 \subsection{Comparison with the State-of-the-art Methods of CASIA B Dataset on Cross-View Gait Recognition}
-To show the effectiveness of our proposed method in cross-view gait recognition, we make the comparison between the proposed method and three other state-of-the-art methods including CNN~\cite{Wu_17}, CMCC~\cite{Kusakunniran_14}, and GEI-SVR~\cite{Kusakunniran_10} with the same experimental setup. The probe angles were selected $0^{\circ}, 54^{\circ}, 90^{\circ}$, and $126^{\circ}$ for comparison. 
+To show the effectiveness of our proposed method in cross-view gait recognition, we make a comparison between the proposed method and three other state-of-the-art methods including CNN~\cite{Wu_17}, CMCC~\cite{Kusakunniran_14}, and GEI-SVR~\cite{Kusakunniran_10} with the same experimental setup. The probe angles were selected $0^{\circ}, 54^{\circ}, 90^{\circ}$, and $126^{\circ}$ for the comparison. 
 
-Although the proposed method contains only one model to handle any view angle variation, it achieves comparable performance with other prevailing state-of-the-art methods proposed in literature which were specially designed and trained for cross-view gait recognition. From Table~\ref{table:comp_casia_b_cross_view}, it is seen that CNN~\cite{Wu_17} achieves the highest recognition rates when the view variation is large due to the use of supervised information of all gallery angles during training.
+Although the proposed method contains only one model to handle any view angle variation, it achieves comparable performance with other prevailing state-of-the-art methods proposed in the literature which were specially designed and trained for cross-view gait recognition. From Table~\ref{table:comp_casia_b_cross_view}, it is seen that CNN~\cite{Wu_17} achieves the highest recognition rates when the view variation is large due to the use of supervised information of all gallery angles during training.
 
 The comparison in Table~\ref{table:comp_casia_b_cross_view} also illustrates that the proposed method performs better when the view variation is small. The reason for not achieving better performance at large view variation is because it was trained with only one view angle of the gallery. 
 
 
-
 %---------------------------------------------------------------------------------------------- 
 \section{Multi-View Gait Recognition} \label{sec:multi_view}
-In multi-view gait recognition, multiple views of gallery gaits are combined to recognize an unknown gait view. For multi-view gait recognition, we initially identify the walking direction of a gait video using a 3D-CNN network. 
+In multi-view gait recognition, multiple views of gallery gaits are combined to recognize an unknown gait. For multi-view gait recognition, we initially identify the walking direction of a gait video using a 3D-CNN network. 
 
-In our experiment, we evaluated the proposed 3D-CNN network with all three probe sets of CASIA B dataset and have achieved \textbf{100\%} identification accuracy. The experimental results proved the fact that our 3D-CNN is efficient in classifying the view angle from gait videos. Table~\ref{table:result_wd_identification} illustrates our test result. 
+In our experiment, we evaluated the proposed 3D-CNN network with all three probe sets of the CASIA B dataset and have achieved \textbf{100\%} identification accuracy. The experimental results proved the fact that our 3D-CNN is efficient in classifying the view angle from gait videos. Table~\ref{table:result_wd_identification} illustrates our test result. 
 
 \begin{table}[t]
 	\centering
 	\caption[View angle identification rate (\%) of the proposed 3D-CNN network on CASIA B dataset]
-	{View angle identification rate (\%) of the proposed 3D-CNN network on CASIA B dataset. The proposed view angle network successfully achieved \textbf{100\%} identification accuracy in all 11 view angles of all three probe sets in CASIA B dataset. \label{table:result_wd_identification}}
+	{View angle identification rate (\%) of the proposed 3D-CNN network on CASIA B dataset.  \label{table:result_wd_identification}}
 	
 	{\begin{tabular*}{35pc}{cccc cccc cccc}\hline \noalign{\smallskip}
 			View angle &${0^{\circ}}$	&${18^{\circ}}$  &${36^{\circ}}$ &${54^{\circ}}$	&${72^{\circ}}$	&${90^{\circ}}$	&${108^{\circ}}$ &${126^{\circ}}$ &${144^{\circ}}$ &${162^{\circ}}$  &${180^{\circ}}$ \\\hline \noalign{\smallskip}
@@ -320,8 +363,8 @@ In our experiment, we evaluated the proposed 3D-CNN network with all three probe
 
 \begin{table}
 	\centering
-	\caption [Comparison with other state-of-the-art methods on all three probe set of CASIA B dataset in multi-view gait recognition]
-	{Comparison with other state-of-the-art methods on all three probe set of CASIA B dataset in multi-view gait recognition. From the comparison, it is been observed that proposed two-stage network achieves higher average recognition rates in 8 of 11 different probe angles.\label{table:comp_multi_view}}
+	\caption [Comparison with other state-of-the-art methods on all probe sets of CASIA B dataset in multi-view gait recognition]
+	{Comparison with other state-of-the-art methods on all probe sets of CASIA B dataset in multi-view gait recognition. \label{table:comp_multi_view}}
 	\setlength{\tabcolsep}{3.5pt}
 	\small
 	{\begin{tabular*}{\textwidth}{|c|c|cccc cccc ccc|} \cline{1-13}\rule{0pt}{3ex}
@@ -360,17 +403,19 @@ In our experiment, we evaluated the proposed 3D-CNN network with all three probe
 \end{tabular*}}{} 
 \end{table}
 
-
-%------------------------------------------------------------------------- 
-\subsection{Comparison with the State-of-the-art Methods on Multi-View Gait Recognition}
-To evaluate the performance of our proposed two-stage network, we compare it with the recent state-of-the-art multi-view gait recognition methods such as Dupuis~\textit{et al.}~\cite{Dupuis_13}, Isaac~\textit{et al.}~\cite{Isaac_17}, and VI-MGR~\cite{Choudhury_15} on all three probe set of CASIA B dataset. The comparison, as illustrated in Table~\ref{table:comp_multi_view} and Figure~\ref{fig:comp_casia_b_multi_view}, shows that the proposed method exceeds the previous best in result all three probe set by a significant margin. It outperforms other in total $ \textbf{8} $ of $ 11 $ view angles.
-
 \begin{figure}
 	\centering
 	\includegraphics[width= 0.9\textwidth]{figures/comp_casia_b_multi_view.eps}
-	\caption [Comparison on average recognition rates (\%) between the proposed method with other state-of-the-art methods in multi-view gait recognition]{
-		Comparison on average recognition rates (\%) between the proposed method with other state-of-the-art methods in multi-view gait recognition. Our method achieves higher average recognition accuracy on \textbf{8 } of total 11 view angles of CASIA B dataset. \label{fig:comp_casia_b_multi_view}
+	\caption [Comparison on average recognition rates (\%) with other state-of-the-art methods in multi-view gait recognition]{
+		Comparison on average recognition rates (\%) with other state-of-the-art methods in multi-view gait recognition.  \label{fig:comp_casia_b_multi_view}
 	}
-
 \end{figure}
+
+
+
+%------------------------------------------------------------------------- 
+\subsection{Comparison with the State-of-the-art Methods on Multi-View Gait Recognition}
+To evaluate the performance of our proposed two-stage network, we compare it with the recent state-of-the-art multi-view gait recognition methods such as Dupuis~\textit{et al.}~\cite{Dupuis_13}, Isaac~\textit{et al.}~\cite{Isaac_17}, and VI-MGR~\cite{Choudhury_15} on all three probe sets of CASIA B dataset. The comparison, as illustrated in Table~\ref{table:comp_multi_view} and Figure~\ref{fig:comp_casia_b_multi_view}, shows that the proposed method exceeds the previous best in result all three probe sets by a significant margin. It outperforms other on \textbf{8 } of total 11 view angles of the CASIA B dataset. 
+
+
 
