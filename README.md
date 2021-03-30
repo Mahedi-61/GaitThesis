@@ -23,7 +23,8 @@ Supervisor: <a href="https://hossenmustafa.buet.ac.bd/">Dr. Hossen Asiful Mustaf
 
 ### Notes
 #### Creating Glossaries</b><br/>
-<b> Linux Machine: </b>``` makeglossaries thesis_book ```
+<b> Linux Machine: </b>``` makeglossaries thesis_book ``` 
+<br/>
 <b> Windows Machine: (TexStudio) </b><br/>
 1. Go to Option >> Configure TexStudio >> Build
 2. Write this Commend     ``` txs:///compile | txs:///makeglossaries | txs:///bibtex8 | txs:///compile | txs:///view ```
