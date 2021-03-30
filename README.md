@@ -21,6 +21,14 @@ Supervisor: <a href="https://hossenmustafa.buet.ac.bd/">Dr. Hossen Asiful Mustaf
 
 8. Open `thesis_book.pdf`.
 
+## Notes
+<b>Creating Glossaries</b><br/>
+In Windows Machine: <br/>
+1. Go to Option >> Configure TexStudio >> Build
+2. Write this Commend     ``` txs:///compile | txs:///makeglossaries | txs:///bibtex8 | txs:///compile | txs:///view ```
+<img src="./appendix/img/nlp.gif" width="300" height="250" />  
+3. Run using Tools>>User>>User 0
+<img src="./appendix/img/acoustic.gif" width="350" height="400" /> 
 
 
 ### Reference
