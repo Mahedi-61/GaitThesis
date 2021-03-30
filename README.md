@@ -22,14 +22,14 @@ Supervisor: <a href="https://hossenmustafa.buet.ac.bd/">Dr. Hossen Asiful Mustaf
 8. Open `thesis_book.pdf`.
 
 ### Notes
-<b>Creating Glossaries</b><br/>
-#### Linux Machine: ``` makeglossaries thesis_book ```
-#### Windows Machine: (TexStudio) <br/>
+#### Creating Glossaries</b><br/>
+<b> Linux Machine: </b>``` makeglossaries thesis_book ```
+<b> Windows Machine: (TexStudio) </b><br/>
 1. Go to Option >> Configure TexStudio >> Build
 2. Write this Commend     ``` txs:///compile | txs:///makeglossaries | txs:///bibtex8 | txs:///compile | txs:///view ```
-<img src="./imgs/texstudio1.png" width="600" height="400" />  
+<img src="./imgs/texstudio1.png" width="700" height="400" />  
 3. Run using Tools>>User>>User 0
-<img src="./imgs/texstudio2.png" width="600" height="400" /> 
+<img src="./imgs/texstudio2.png" width="700" height="400" /> 
 
 
 ## Reference
