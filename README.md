@@ -21,18 +21,18 @@ Supervisor: <a href="https://hossenmustafa.buet.ac.bd/">Dr. Hossen Asiful Mustaf
 
 8. Open `thesis_book.pdf`.
 
-## Notes
+### Notes
 <b>Creating Glossaries</b><br/>
-# Linux Machine: ``` makeglossaries thesis_book ```
-# Windows Machine: (TexStudio) <br/>
+#### Linux Machine: ``` makeglossaries thesis_book ```
+#### Windows Machine: (TexStudio) <br/>
 1. Go to Option >> Configure TexStudio >> Build
 2. Write this Commend     ``` txs:///compile | txs:///makeglossaries | txs:///bibtex8 | txs:///compile | txs:///view ```
-<img src="./imgs/texstudio1.png" width="450" height="400" />  
+<img src="./imgs/texstudio1.png" width="600" height="400" />  
 3. Run using Tools>>User>>User 0
-<img src="./imgs/texstudio2.png" width="450" height="400" /> 
+<img src="./imgs/texstudio2.png" width="600" height="400" /> 
 
 
-### Reference
+## Reference
 Please cite using the following BibTex entry:
 ```
 @phdthesis{chen2018neural,
@@ -44,10 +44,10 @@ Please cite using the following BibTex entry:
 }
 ```
 
-### Acknowledgement
+## Acknowledgement
 
 This thesis is built on top of [sauravdhr's thesis template](https://github.com/sauravdhr/qPMS-Sigma).
 
-### Contact
+## Contact
 
 If you have any comments or questions about the thesis, please use pull requests or email <mahedi0803@gmail.com>.
